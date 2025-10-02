@@ -1,9 +1,9 @@
-name: Update and Clean Forex Calendar Data
+name: Update and Optimize Forex Calendar Data
 
 on:
   schedule:
     - cron: '0 */2 * * *'  # Aktualizuj co 2 godziny
-  workflow_dispatch:        # Ręczne uruchomienie
+  workflow_dispatch:
     inputs:
       reason:
         description: 'Reason for manual run'
@@ -21,122 +21,207 @@ jobs:
         uses: actions/checkout@v4
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
-          ref: ${{ github.head_ref }}
 
       - name: Setup Python
         uses: actions/setup-python@v4
         with:
           python-version: '3.9'
 
-      - name: Update and Clean Forex Data
+      - name: Download and Optimize Forex Data
         run: |
-          # Pobierz surowe dane
-          echo "Downloading raw data from Forex Factory..."
-          curl -s -L "https://nfs.faireconomy.media/ff_calendar_thisweek.csv" -o forex_data_raw.csv
-          
-          # Sprawdź czy pobieranie się powiodło
-          if [ ! -s forex_data_raw.csv ]; then
-            echo "ERROR: Failed to download data"
-            exit 1
-          fi
-
-          echo "Cleaning CSV data with Python..."
+          echo "Downloading and optimizing data for MQL5..."
           python3 << 'EOF'
           import csv
-          import os
+          import requests
+          from datetime import datetime
+          import re
 
-          input_file = 'forex_data_raw.csv'
-          output_file = 'forex_data.csv'
-
-          # Sprawdź czy plik wejściowy istnieje
-          if not os.path.exists(input_file):
-              print(f"ERROR: Input file {input_file} does not exist")
+          # Pobierz dane
+          url = "https://nfs.faireconomy.media/ff_calendar_thisweek.csv"
+          response = requests.get(url)
+          
+          if response.status_code != 200:
+              print("ERROR: Failed to download data")
               exit(1)
 
-          with open(input_file, 'r', encoding='utf-8', newline='') as f_in:
-              reader = csv.reader(f_in)
-              rows = list(reader)
+          # Przeczytaj dane
+          csv_data = response.text.splitlines()
+          reader = csv.reader(csv_data)
+          rows = list(reader)
 
           if len(rows) <= 1:
-              print("ERROR: Input file is empty or has only header")
+              print("ERROR: No data received")
               exit(1)
 
-          # Przetwórz dane
-          with open(output_file, 'w', encoding='utf-8', newline='') as f_out:
-              writer = csv.writer(f_out)
-              
-              # Write new header
-              writer.writerow(['Title', 'Country', 'Date', 'Time', 'Impact', 'Forecast', 'Previous'])
-              
-              # Process data rows
-              for row in rows[1:]:  # Skip header
-                  if len(row) >= 8:
-                      # Clean each field - remove carriage returns and extra spaces
-                      cleaned_row = []
-                      for field in row[:7]:  # Take first 7 columns
-                          if field:
-                              # Remove \r, \n and extra spaces
-                              cleaned_field = field.replace('\r', ' ').replace('\n', ' ').strip()
-                              cleaned_row.append(cleaned_field)
-                          else:
-                              cleaned_row.append('')
-                      
-                      # Ensure we have exactly 7 fields
-                      while len(cleaned_row) < 7:
-                          cleaned_row.append('')
-                          
-                      writer.writerow(cleaned_row)
+          # Przygotuj zoptymalizowany plik
+          optimized_rows = []
+          seen_events = set()  # Do śledzenia duplikatów
+          
+          # Nagłówek z dodatkowymi polami dla MQL5
+          optimized_rows.append([
+              'Title', 'Country', 'Date', 'Time', 'Time24h', 'Impact', 
+              'Forecast', 'Previous', 'HasForecast', 'HasPrevious', 'Importance'
+          ])
 
-          print(f"SUCCESS: Processed {len(rows)-1} rows")
+          # Mapowanie Impact na wartości numeryczne dla MQL5
+          impact_to_importance = {
+              'High': 3,
+              'Medium': 2, 
+              'Low': 1,
+              'Holiday': 0
+          }
+
+          def convert_time_to_24h(time_str):
+              """Konwertuj czas AM/PM na format 24-godzinny"""
+              if not time_str or time_str == '':
+                  return ''
+              
+              # Usuń spacje i zamień na małe litery
+              time_str = time_str.lower().replace(' ', '')
+              
+              # Rozdziel czas i AM/PM
+              match = re.match(r'(\d+):?(\d+)?(am|pm)', time_str)
+              if not match:
+                  return time_str
+                  
+              hour = int(match.group(1))
+              minute = match.group(2) if match.group(2) else '00'
+              period = match.group(3)
+              
+              # Konwersja na 24h
+              if period == 'pm' and hour != 12:
+                  hour += 12
+              elif period == 'am' and hour == 12:
+                  hour = 0
+                  
+              return f"{hour:02d}:{minute}"
+
+          def is_duplicate_event(row):
+              """Sprawdź czy wydarzenie jest duplikatem"""
+              key = (row[0], row[1], row[2], row[3])  # Title, Country, Date, Time
+              if key in seen_events:
+                  return True
+              seen_events.add(key)
+              return False
+
+          # Przetwórz wiersze danych
+          for row in rows[1:]:  # Pomijaj nagłówek
+              if len(row) < 8:
+                  continue
+                  
+              # Sprawdź duplikaty
+              if is_duplicate_event(row):
+                  continue
+                  
+              title, country, date, time, impact, forecast, previous = row[:7]
+              
+              # Konwertuj czas na format 24h
+              time24h = convert_time_to_24h(time)
+              
+              # Ustaw domyślne wartości dla pustych pól
+              forecast = forecast if forecast else 'N/A'
+              previous = previous if previous else 'N/A'
+              
+              # Flagi czy ma forecast/previous
+              has_forecast = '1' if forecast and forecast != 'N/A' else '0'
+              has_previous = '1' if previous and previous != 'N/A' else '0'
+              
+              # Wartość numeryczna dla impact
+              importance = str(impact_to_importance.get(impact, 0))
+              
+              optimized_rows.append([
+                  title, country, date, time, time24h, impact,
+                  forecast, previous, has_forecast, has_previous, importance
+              ])
+
+          # Zapisz zoptymalizowany plik
+          with open('forex_data_optimized.csv', 'w', newline='', encoding='utf-8') as f:
+              writer = csv.writer(f)
+              writer.writerows(optimized_rows)
+
+          print(f"SUCCESS: Optimized {len(optimized_rows)-1} events for MQL5")
+          
+          # Statystyki
+          high_impact = sum(1 for row in optimized_rows if row[5] == 'High')
+          medium_impact = sum(1 for row in optimized_rows if row[5] == 'Medium')
+          with_forecast = sum(1 for row in optimized_rows[1:] if row[8] == '1')
+          
+          print(f"Statistics: High impact: {high_impact}, Medium: {medium_impact}, With forecast: {with_forecast}")
           EOF
 
-          # Sprawdź wyniki
-          echo "Processing completed. Checking files..."
-          if [ -f forex_data.csv ]; then
-            raw_count=$(wc -l < forex_data_raw.csv | tr -d ' ')
-            cleaned_count=$(wc -l < forex_data.csv | tr -d ' ')
-            echo "✅ Raw data lines: $raw_count"
-            echo "✅ Cleaned data lines: $cleaned_count"
-            echo "✅ Reduction: $((raw_count - cleaned_count)) lines (header adjustment)"
-            
-            # Pokaż przykładowe dane
-            echo "Sample of cleaned data:"
-            head -3 forex_data.csv
-          else
-            echo "❌ ERROR: Cleaned file was not created"
-            exit 1
-          fi
+      - name: Create simplified version for EA
+        run: |
+          echo "Creating simplified CSV for EA..."
+          python3 << 'EOF'
+          import csv
+
+          # Stwórz uproszczoną wersję tylko z najważniejszymi kolumnami
+          with open('forex_data_optimized.csv', 'r', encoding='utf-8') as f:
+              reader = csv.reader(f)
+              rows = list(reader)
+
+          # Uproszczony plik - tylko kolumny potrzebne do szybkiego parsowania w MQL5
+          simplified_rows = []
+          simplified_rows.append(['Title', 'Country', 'Date', 'Time24h', 'Importance', 'Forecast', 'Previous'])
+
+          for row in rows[1:]:
+              simplified_rows.append([
+                  row[0],  # Title
+                  row[1],  # Country
+                  row[2],  # Date
+                  row[4],  # Time24h
+                  row[10], # Importance (numeryczna)
+                  row[6],  # Forecast
+                  row[7]   # Previous
+              ])
+
+          with open('forex_data_simple.csv', 'w', newline='', encoding='utf-8') as f:
+              writer = csv.writer(f)
+              writer.writerows(simplified_rows)
+
+          print(f"Created simplified version with {len(simplified_rows)-1} events")
+          EOF
+
+      - name: Verify and display results
+        run: |
+          echo "=== OPTIMIZED CSV (for analysis) ==="
+          wc -l forex_data_optimized.csv
+          echo "First 3 lines:"
+          head -3 forex_data_optimized.csv
+          
+          echo ""
+          echo "=== SIMPLE CSV (for MQL5 EA) ==="
+          wc -l forex_data_simple.csv
+          echo "First 5 lines:"
+          head -5 forex_data_simple.csv
+          
+          echo ""
+          echo "=== STATISTICS ==="
+          python3 << 'EOF'
+          import csv
+          with open('forex_data_simple.csv', 'r', encoding='utf-8') as f:
+              reader = csv.reader(f)
+              rows = list(reader)
+              
+          total = len(rows) - 1
+          high_impact = sum(1 for row in rows[1:] if row[4] == '3')
+          with_data = sum(1 for row in rows[1:] if row[5] != 'N/A' and row[6] != 'N/A')
+          
+          print(f"Total events: {total}")
+          print(f"High importance (3): {high_impact}")
+          print(f"Events with forecast data: {with_data}")
+          EOF
 
       - name: Commit and push changes
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
           
-          # Sprawdź czy są zmiany
-          git add forex_data_raw.csv forex_data.csv
+          git add forex_data_optimized.csv forex_data_simple.csv
           if git diff --staged --quiet; then
             echo "No changes to commit"
           else
-            git commit -m "🤖 Auto-update forex calendar data [$(date +%Y-%m-%d %H:%M)]"
+            git commit -m "🤖 Optimized forex data for MQL5 [$(date +%Y-%m-%d)]"
             git push
-            echo "Changes committed and pushed successfully"
-          fi
-
-      - name: Create status summary
-        run: |
-          if [ -f forex_data.csv ]; then
-            EVENT_COUNT=$(( $(wc -l < forex_data.csv) - 1 ))
-            echo "📊 **Workflow Summary**" >> $GITHUB_STEP_SUMMARY
-            echo "✅ **Status**: Success" >> $GITHUB_STEP_SUMMARY
-            echo "📅 **Events Processed**: $EVENT_COUNT" >> $GITHUB_STEP_SUMMARY
-            echo "🕒 **Last Updated**: $(date -u)" >> $GITHUB_STEP_SUMMARY
-            echo "" >> $GITHUB_STEP_SUMMARY
-            echo "**Sample Events:**" >> $GITHUB_STEP_SUMMARY
-            echo '```csv' >> $GITHUB_STEP_SUMMARY
-            head -5 forex_data.csv >> $GITHUB_STEP_SUMMARY
-            echo '```' >> $GITHUB_STEP_SUMMARY
-          else
-            echo "❌ **Workflow Summary**" >> $GITHUB_STEP_SUMMARY
-            echo "**Status**: Failed" >> $GITHUB_STEP_SUMMARY
-            echo "**Error**: Cleaned file was not created" >> $GITHUB_STEP_SUMMARY
+            echo "✅ Optimized data committed"
           fi
