@@ -14,62 +14,54 @@ jobs:
         with:
           token: ${{ secrets.PAT }}
 
-      - name: Setup PHP
-        uses: shivammathur/setup-php@v2
-        with:
-          php-version: '8.1'
-
       - name: Update and Filter Forex Data
         run: |
           # Pobierz surowe dane
-          curl -s "https://nfs.faireconomy.media/ff_calendar_thisweek.csv" -o forex_data.csv
+          echo "Downloading raw data..."
+          curl -s "https://nfs.faireconomy.media/ff_calendar_thisweek.csv" -o forex_data_raw.csv
           
-          # Uruchom skrypt filtrowania PHP
-          php -r "
-          <?php
-          function filterAndCleanData(\$inputFile, \$outputFile) {
-              if (!file_exists(\$inputFile)) return false;
+          # Utwórz przefiltrowany plik CSV z nowymi nagłówkami
+          echo "Creating filtered CSV..."
+          {
+            # Nagłówki dla MT5 (bez URL)
+            echo "Title,Country,Date,Time,Impact,Forecast,Previous"
+            
+            # Pomijamy pierwszą linię (nagłówki) i filtrujemy dane
+            tail -n +2 forex_data_raw.csv | while IFS= read -r line; do
+              # Podziel linię na pola
+              IFS=',' read -r -a fields <<< "$line"
               
-              \$input = fopen(\$inputFile, 'r');
-              \$output = fopen(\$outputFile, 'w');
-              if (!\$input || !\$output) return false;
-              
-              fputcsv(\$output, ['Title', 'Country', 'Date', 'Time', 'Impact', 'Forecast', 'Previous']);
-              
-              \$firstLine = true;
-              while ((\$data = fgetcsv(\$input)) !== FALSE) {
-                  if (\$firstLine) { \$firstLine = false; continue; }
-                  if (count(\$data) < 8) continue;
-                  
-                  \$impact = \$data[4];
-                  \$forecast = \$data[5];
-                  \$previous = \$data[6];
-                  
-                  // Filtruj: pomiń Low impact z pustymi danymi
-                  if (\$impact === 'Low' && empty(\$forecast) && empty(\$previous)) {
-                      continue;
-                  }
-                  
-                  fputcsv(\$output, [\$data[0], \$data[1], \$data[2], \$data[3], \$impact, \$forecast, \$previous]);
-              }
-              
-              fclose(\$input);
-              fclose(\$output);
-              return true;
-          }
-          
-          filterAndCleanData('forex_data.csv', 'forex_data_filtered.csv');
-          echo 'Data filtered successfully.\n';
-          ?>
-          "
+              # Sprawdź czy mamy wystarczającą liczbę pól
+              if [ ${#fields[@]} -ge 8 ]; then
+                title="${fields[0]}"
+                country="${fields[1]}"
+                date="${fields[2]}"
+                time="${fields[3]}"
+                impact="${fields[4]}"
+                forecast="${fields[5]}"
+                previous="${fields[6]}"
+                
+                # Filtruj: pomiń Low impact z pustymi danymi
+                if [ "$impact" = "Low" ] && [ -z "$forecast" ] && [ -z "$previous" ]; then
+                  continue
+                fi
+                
+                # Zapisz przefiltrowane dane
+                echo "$title,$country,$date,$time,$impact,$forecast,$previous"
+              fi
+            done
+          } > forex_data_filtered.csv
           
           # Sprawdź rozmiary plików
-          echo "Raw data lines: $(($(wc -l < forex_data.csv)-1))"
-          echo "Filtered data lines: $(($(wc -l < forex_data_filtered.csv)-1))"
+          raw_lines=$(($(wc -l < forex_data_raw.csv)-1))
+          filtered_lines=$(($(wc -l < forex_data_filtered.csv)-1))
+          echo "Raw data lines: $raw_lines"
+          echo "Filtered data lines: $filtered_lines"
+          echo "Reduction: $((raw_lines - filtered_lines)) events removed"
 
       - name: Commit and push if changed
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
-          git add forex_data.csv forex_data_filtered.csv
+          git add forex_data_raw.csv forex_data_filtered.csv
           git diff --quiet && git diff --staged --quiet || (git commit -m "Auto-update filtered forex calendar data [$(date +%Y-%m-%d)]" && git push)
