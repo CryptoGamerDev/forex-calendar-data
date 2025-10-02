@@ -3,7 +3,7 @@
 header('Content-Type: text/plain; charset=utf-8');
 header('Access-Control-Allow-Origin: *');
 
-$cleaned_filename = 'forex_data.csv';
+$cleaned_filename = 'forex_data_cleaned.csv';
 
 function cleanAndCreateCSV() {
     $raw_data = file_get_contents('https://nfs.faireconomy.media/ff_calendar_thisweek.csv');
@@ -16,7 +16,7 @@ function cleanAndCreateCSV() {
     
     // Użyj bardziej zaawansowanego przetwarzania CSV
     $raw_lines = explode("\n", trim($raw_data));
-    $output = fopen('forex_data.csv', 'w');
+    $output = fopen('forex_data_cleaned.csv', 'w');
     
     // Nagłówek
     fputcsv($output, ['Title', 'Country', 'Date', 'Time', 'Impact', 'Forecast', 'Previous']);
