@@ -11,10 +11,12 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v3
+        with:
+          token: ${{ secrets.PAT }}
 
       - name: Update Forex Data
         run: |
-          curl -s "https://nfs.faireconomy.media/ff_calendar_thisweek.csv" > forex_data.csv
+          curl -s "https://nfs.faireconomy.media/ff_calendar_thisweek.csv" -o forex_data.csv
           
       - name: Commit and push if changed
         run: |
