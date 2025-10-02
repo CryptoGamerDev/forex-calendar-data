@@ -1,9 +1,9 @@
 <?php
-// update_calendar.php - Aktualizuje i filtruje dane dla MT5
+// update_calendar.php - Aktualizuje i czyści dane dla MT5 (BEZ FILTROWANIA ILOŚCI)
 header('Content-Type: text/plain; charset=utf-8');
 header('Access-Control-Allow-Origin: *');
 
-function updateAndFilterForexData() {
+function updateAndCleanForexData() {
     $csv_url = "https://nfs.faireconomy.media/ff_calendar_thisweek.csv";
     $raw_data = file_get_contents($csv_url);
     
@@ -14,13 +14,12 @@ function updateAndFilterForexData() {
     // Zapisz surowe dane
     file_put_contents('forex_data_raw.csv', $raw_data);
     
-    // Przetwórz przez filtr
-    $raw_lines = explode("\n", $raw_data);
-    $filtered_content = "Title,Country,Date,Time,Impact,Forecast,Previous\n";
+    // Przetwórz przez czyszczenie - ZACHOWAJ WSZYSTKIE WIERSZE
+    $raw_lines = explode("\n", trim($raw_data));
+    $cleaned_content = "Title,Country,Date,Time,Impact,Forecast,Previous\n";
     
     $first_line = true;
-    $raw_count = 0;
-    $filtered_count = 0;
+    $event_count = 0;
     
     foreach ($raw_lines as $line) {
         if ($first_line) {
@@ -28,33 +27,23 @@ function updateAndFilterForexData() {
             continue;
         }
         
-        $raw_count++;
-        $fields = str_getcsv($line);
-        if (count($fields) >= 8) {
-            $impact = $fields[4];
-            $forecast = $fields[5];
-            $previous = $fields[6];
-            
-            // Filtruj: pomiń Low impact z pustymi danymi
-            if ($impact === 'Low' && empty($forecast) && empty($previous)) {
-                continue;
+        if (!empty(trim($line))) {
+            $fields = str_getcsv($line);
+            if (count($fields) >= 8) {
+                $event_count++;
+                // Przepisz tylko pierwsze 7 kolumn (bez URL)
+                $cleaned_content .= implode(',', array_slice($fields, 0, 7)) . "\n";
             }
-            
-            $filtered_count++;
-            $filtered_content .= implode(',', [
-                $fields[0], $fields[1], $fields[2], $fields[3], 
-                $impact, $forecast, $previous
-            ]) . "\n";
         }
     }
     
-    file_put_contents('forex_data_filtered.csv', $filtered_content);
+    file_put_contents('forex_data_cleaned.csv', $cleaned_content);
     
-    return "SUCCESS: Data updated and filtered at " . date('Y-m-d H:i:s') . 
-           " ($raw_count -> $filtered_count events)";
+    return "SUCCESS: Data updated and cleaned at " . date('Y-m-d H:i:s') . 
+           " ($event_count events, URL column removed)";
 }
 
-// Aktualizuj i filtruj dane
-$result = updateAndFilterForexData();
+// Aktualizuj i czyść dane
+$result = updateAndCleanForexData();
 echo $result;
 ?>
