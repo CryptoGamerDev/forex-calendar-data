@@ -1,0 +1,24 @@
+name: Update Forex Calendar Data
+
+on:
+  schedule:
+    - cron: '0 */2 * * *'  # Aktualizuj co 2 godziny
+  workflow_dispatch:        # Ręczne uruchomienie
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Update Forex Data
+        run: |
+          curl -s "https://nfs.faireconomy.media/ff_calendar_thisweek.csv" > forex_data.csv
+          
+      - name: Commit and push if changed
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add forex_data.csv
+          git diff --quiet && git diff --staged --quiet || (git commit -m "Auto-update forex calendar data [$(date +%Y-%m-%d)]" && git push)
