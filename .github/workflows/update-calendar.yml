@@ -1,222 +1,89 @@
-name: Update and Optimize Forex Calendar Data
+//+------------------------------------------------------------------+
+//| Economic Calendar Loader (Optimized).mq5                        |
+//+------------------------------------------------------------------+
+input string CalendarURL = "https://raw.githubusercontent.com/TwojaNazwa/Repo/main/forex_data_simple.csv";
 
-on:
-  schedule:
-    - cron: '0 */2 * * *'  # Aktualizuj co 2 godziny
-  workflow_dispatch:
-    inputs:
-      reason:
-        description: 'Reason for manual run'
-        required: false
-        default: 'Manual trigger'
+struct EconomicEvent
+{
+    string title;
+    string country;
+    datetime eventTime;
+    int importance;
+    double forecast;
+    double previous;
+};
 
-permissions:
-  contents: write
+EconomicEvent events[];
 
-jobs:
-  update:
-    runs-on: ubuntu-latest
-    steps:
-      - name: Checkout repository
-        uses: actions/checkout@v4
-        with:
-          token: ${{ secrets.GITHUB_TOKEN }}
+//+------------------------------------------------------------------+
+//| Parsowanie zoptymalizowanego CSV                               |
+//+------------------------------------------------------------------+
+bool LoadOptimizedCalendar()
+{
+    string file_path = TerminalInfoString(TERMINAL_DATA_PATH) + "\\MQL5\\Files\\economic_calendar.csv";
+    int file_handle = FileOpen("economic_calendar.csv", FILE_READ|FILE_CSV|FILE_ANSI, ',');
+    
+    if(file_handle == INVALID_HANDLE)
+        return false;
+    
+    // Pomijaj nagłówek
+    FileReadString(file_handle);
+    
+    int event_count = 0;
+    while(!FileIsEnding(file_handle))
+    {
+        string data = FileReadString(file_handle);
+        string fields[];
+        int fields_count = StringSplit(data, ',', fields);
+        
+        if(fields_count >= 7)
+        {
+            ArrayResize(events, event_count + 1);
+            
+            events[event_count].title = fields[0];
+            events[event_count].country = fields[1];
+            
+            // Łatwe parsowanie daty i czasu
+            string datetime_str = fields[2] + " " + fields[3];
+            events[event_count].eventTime = StringToTime(datetime_str);
+            
+            // Bezpośrednie konwersje
+            events[event_count].importance = (int)StringToInteger(fields[4]);
+            events[event_count].forecast = StringToDouble(fields[5]);
+            events[event_count].previous = StringToDouble(fields[6]);
+            
+            event_count++;
+        }
+    }
+    
+    FileClose(file_handle);
+    
+    Print("Loaded ", event_count, " economic events");
+    return event_count > 0;
+}
 
-      - name: Setup Python
-        uses: actions/setup-python@v4
-        with:
-          python-version: '3.9'
-
-      - name: Download raw data using curl (proven method)
-        run: |
-          echo "Downloading raw data using reliable curl method..."
-          # Używamy sprawdzonej metody z curl która działała
-          curl -s -L "https://nfs.faireconomy.media/ff_calendar_thisweek.csv" -o forex_data_raw.csv
-          
-          # Sprawdź czy plik został pobrany poprawnie
-          if [ ! -s forex_data_raw.csv ]; then
-            echo "ERROR: Failed to download data or file is empty"
-            exit 1
-          fi
-          
-          echo "✅ Successfully downloaded raw data. Lines: $(wc -l < forex_data_raw.csv)"
-
-      - name: Optimize data with Python
-        run: |
-          echo "Optimizing data for MQL5..."
-          python3 << 'EOF'
-          import csv
-          import re
-
-          # Wczytaj surowe dane pobrane przez curl
-          try:
-              with open('forex_data_raw.csv', 'r', encoding='utf-8') as f:
-                  reader = csv.reader(f)
-                  rows = list(reader)
-          except Exception as e:
-              print(f"ERROR: Failed to read raw data: {e}")
-              exit(1)
-
-          if len(rows) <= 1:
-              print("ERROR: No data in raw file")
-              exit(1)
-
-          print(f"Processing {len(rows)-1} raw events...")
-
-          # Przygotuj zoptymalizowany plik
-          optimized_rows = []
-          seen_events = set()
-          
-          # Nagłówek dla zoptymalizowanego pliku
-          optimized_rows.append([
-              'Title', 'Country', 'Date', 'Time', 'Time24h', 'Impact', 
-              'Forecast', 'Previous', 'HasForecast', 'HasPrevious', 'Importance'
-          ])
-
-          # Mapowanie Impact na wartości numeryczne
-          impact_to_importance = {
-              'High': 3,
-              'Medium': 2, 
-              'Low': 1,
-              'Holiday': 0
-          }
-
-          def convert_time_to_24h(time_str):
-              """Konwertuj czas AM/PM na format 24-godzinny"""
-              if not time_str or time_str.strip() == '':
-                  return ''
-              
-              time_str = time_str.lower().strip()
-              
-              # Rozdziel czas i AM/PM
-              match = re.match(r'(\d+):?(\d+)?\s*(am|pm)', time_str)
-              if not match:
-                  return time_str  # Zwróć oryginał jeśli nie pasuje do formatu
-                  
-              hour = int(match.group(1))
-              minute = match.group(2) if match.group(2) else '00'
-              period = match.group(3)
-              
-              # Konwersja na 24h
-              if period == 'pm' and hour != 12:
-                  hour += 12
-              elif period == 'am' and hour == 12:
-                  hour = 0
-                  
-              return f"{hour:02d}:{minute}"
-
-          # Przetwórz wiersze danych
-          processed_count = 0
-          for row in rows[1:]:  # Pomijaj nagłówek
-              if len(row) < 8:
-                  continue
-                  
-              title, country, date, time, impact, forecast, previous = row[:7]
-              
-              # Sprawdź duplikaty - używajmy klucza z datą i czasem
-              event_key = f"{title}_{country}_{date}_{time}"
-              if event_key in seen_events:
-                  continue
-              seen_events.add(event_key)
-              
-              # Konwertuj czas na format 24h
-              time24h = convert_time_to_24h(time)
-              
-              # Ustaw domyślne wartości dla pustych pól
-              forecast = forecast if forecast and forecast.strip() != '' else 'N/A'
-              previous = previous if previous and previous.strip() != '' else 'N/A'
-              
-              # Flagi czy ma forecast/previous
-              has_forecast = '1' if forecast != 'N/A' else '0'
-              has_previous = '1' if previous != 'N/A' else '0'
-              
-              # Wartość numeryczna dla impact
-              importance = str(impact_to_importance.get(impact, 0))
-              
-              optimized_rows.append([
-                  title, country, date, time, time24h, impact,
-                  forecast, previous, has_forecast, has_previous, importance
-              ])
-              processed_count += 1
-
-          # Zapisz zoptymalizowany plik
-          try:
-              with open('forex_data_optimized.csv', 'w', newline='', encoding='utf-8') as f:
-                  writer = csv.writer(f)
-                  writer.writerows(optimized_rows)
-          except Exception as e:
-              print(f"ERROR: Failed to write optimized file: {e}")
-              exit(1)
-
-          print(f"✅ SUCCESS: Optimized {processed_count} events for MQL5")
-          
-          # Statystyki
-          high_impact = sum(1 for row in optimized_rows[1:] if row[5] == 'High')
-          medium_impact = sum(1 for row in optimized_rows[1:] if row[5] == 'Medium')
-          with_forecast = sum(1 for row in optimized_rows[1:] if row[8] == '1')
-          
-          print(f"📊 Statistics: High impact: {high_impact}, Medium: {medium_impact}, With forecast: {with_forecast}")
-          EOF
-
-      - name: Create simplified version for EA
-        run: |
-          echo "Creating simplified CSV for EA..."
-          python3 << 'EOF'
-          import csv
-
-          # Stwórz uproszczoną wersję tylko z najważniejszymi kolumnami
-          try:
-              with open('forex_data_optimized.csv', 'r', encoding='utf-8') as f:
-                  reader = csv.reader(f)
-                  rows = list(reader)
-
-              # Uproszczony plik - tylko kolumny potrzebne do szybkiego parsowania w MQL5
-              simplified_rows = []
-              simplified_rows.append(['Title', 'Country', 'Date', 'Time24h', 'Importance', 'Forecast', 'Previous'])
-
-              for row in rows[1:]:
-                  if len(row) >= 11:
-                      simplified_rows.append([
-                          row[0],  # Title
-                          row[1],  # Country
-                          row[2],  # Date
-                          row[4],  # Time24h
-                          row[10], # Importance (numeryczna)
-                          row[6],  # Forecast
-                          row[7]   # Previous
-                      ])
-
-              with open('forex_data_simple.csv', 'w', newline='', encoding='utf-8') as f:
-                  writer = csv.writer(f)
-                  writer.writerows(simplified_rows)
-
-              print(f"✅ Created simplified version with {len(simplified_rows)-1} events")
-          except Exception as e:
-              print(f"❌ Error creating simplified version: {e}")
-              exit(1)
-          EOF
-
-      - name: Verify and display results
-        run: |
-          echo "=== VERIFICATION ==="
-          echo "📁 Raw data lines: $(wc -l < forex_data_raw.csv)"
-          echo "🔄 Optimized data lines: $(wc -l < forex_data_optimized.csv)" 
-          echo "⚡ Simple data lines: $(wc -l < forex_data_simple.csv)"
-          
-          echo ""
-          echo "=== SAMPLE OF SIMPLE CSV (for EA) ==="
-          head -3 forex_data_simple.csv
-
-      - name: Commit and push changes
-        run: |
-          git config --local user.email "github-actions[bot]@users.noreply.github.com"
-          git config --local user.name "github-actions[bot]"
-          
-          git add forex_data_optimized.csv forex_data_simple.csv forex_data_raw.csv
-          if git diff --staged --quiet; then
-            echo "No changes to commit"
-          else
-            git commit -m "🤖 Auto-update: Optimized forex data for MQL5 [$(date +%Y-%m-%d)]"
-            git push
-            echo "✅ Changes committed successfully"
-          fi
+//+------------------------------------------------------------------+
+//| Przykład użycia - znajdź nadchodzące ważne wydarzenia          |
+//+------------------------------------------------------------------+
+void CheckUpcomingEvents()
+{
+    datetime now = TimeCurrent();
+    datetime next24h = now + 86400;
+    
+    for(int i = 0; i < ArraySize(events); i++)
+    {
+        if(events[i].importance >= 2 && 
+           events[i].eventTime > now && 
+           events[i].eventTime <= next24h)
+        {
+            string message = StringFormat("HIGH IMPACT: %s at %s (Forecast: %.1f, Previous: %.1f)",
+                events[i].title,
+                TimeToString(events[i].eventTime),
+                events[i].forecast,
+                events[i].previous);
+            
+            Print(message);
+            // Tutaj możesz dodać logikę tradingową
+        }
+    }
+}
