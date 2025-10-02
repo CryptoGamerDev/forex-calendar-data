@@ -2,7 +2,7 @@ name: Update and Optimize Forex Calendar Data
 
 on:
   schedule:
-    - cron: '0 */2 * * *'  # Aktualizuj co 2 godziny
+    - cron: '0 */1 * * *'  # Aktualizuj co 1 godziny
   workflow_dispatch:
     inputs:
       reason:
