@@ -1,10 +1,9 @@
 <?php
-// update_calendar.php - Aktualizuje i optymalizuje dane Forex dla MT5 (sprawdzona metoda)
+// update_calendar.php - Aktualizuje i optymalizuje dane Forex dla MT5 (zgodnie z workflow)
 header('Content-Type: text/plain; charset=utf-8');
-header('Access-Control-Allow-Origin: *');
+header('Access-Control-Allow-Origin: '*');
 
 function downloadWithCurl($url) {
-    // Używamy curl jako fallback - bardziej niezawodne
     $ch = curl_init();
     curl_setopt($ch, CURLOPT_URL, $url);
     curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
@@ -21,6 +20,76 @@ function downloadWithCurl($url) {
     }
     
     return false;
+}
+
+function convert_time_to_24h($time_str) {
+    if (empty($time_str)) return '00:00';
+    
+    $time_str = strtolower(trim($time_str));
+    if (!preg_match('/(\d+):?(\d+)?\s*(am|pm)/', $time_str, $matches)) {
+        return $time_str;
+    }
+    
+    $hour = (int)$matches[1];
+    $minute = isset($matches[2]) ? $matches[2] : '00';
+    $period = $matches[3];
+    
+    if ($period == 'pm' && $hour != 12) {
+        $hour += 12;
+    } elseif ($period == 'am' && $hour == 12) {
+        $hour = 0;
+    }
+    
+    return sprintf("%02d:%s", $hour, $minute);
+}
+
+function convert_date_format($date_str) {
+    try {
+        if ($date_str && strpos($date_str, '-') !== false) {
+            $parts = explode('-', $date_str);
+            if (count($parts) === 3) {
+                $month = $parts[0];
+                $day = $parts[1];
+                $year = $parts[2];
+                return $year . '.' . $month . '.' . $day;
+            }
+        }
+    } catch (Exception $e) {
+        // Ignore and return original
+    }
+    return $date_str;
+}
+
+function clean_forecast_value($value) {
+    if (empty($value) || trim($value) === '') {
+        return '0';
+    }
+    
+    $value = trim($value);
+    
+    // Usuń znaki specjalne jak |
+    if (strpos($value, '|') !== false) {
+        $value = explode('|', $value)[0];
+    }
+    
+    // Zamień procenty na liczby (usuwając %)
+    if (strpos($value, '%') !== false) {
+        $value = str_replace('%', '', $value);
+    }
+    
+    // Zamień litery na liczby (K=1000, M=1000000, B=1000000000)
+    if (strpos($value, 'K') !== false) {
+        $value = strval(floatval(str_replace('K', '', $value)) * 1000);
+    } elseif (strpos($value, 'M') !== false) {
+        $value = strval(floatval(str_replace('M', '', $value)) * 1000000);
+    } elseif (strpos($value, 'B') !== false) {
+        $value = strval(floatval(str_replace('B', '', $value)) * 1000000000);
+    }
+    
+    // Usuń przecinki z liczb
+    $value = str_replace(',', '', $value);
+    
+    return $value;
 }
 
 function downloadAndOptimizeData() {
@@ -53,35 +122,13 @@ function downloadAndOptimizeData() {
         'Holiday' => 0
     ];
     
-    // Nagłówki dla zoptymalizowanego pliku
+    // Nagłówki dla zoptymalizowanego pliku (pełnego)
     $optimized_rows[] = ['Title', 'Country', 'Date', 'Time', 'Time24h', 'Impact', 'Forecast', 'Previous', 'HasForecast', 'HasPrevious', 'Importance'];
     
     // Nagłówki dla uproszczonego pliku
     $simple_rows[] = ['Title', 'Country', 'Date', 'Time24h', 'Importance', 'Forecast', 'Previous'];
     
     $seen_events = [];
-    
-    // Funkcja do konwersji czasu na 24h
-    function convertTimeTo24h($time_str) {
-        if (empty($time_str)) return '';
-        
-        $time_str = strtolower(trim($time_str));
-        if (!preg_match('/(\d+):?(\d+)?\s*(am|pm)/', $time_str, $matches)) {
-            return $time_str;
-        }
-        
-        $hour = (int)$matches[1];
-        $minute = isset($matches[2]) ? $matches[2] : '00';
-        $period = $matches[3];
-        
-        if ($period == 'pm' && $hour != 12) {
-            $hour += 12;
-        } elseif ($period == 'am' && $hour == 12) {
-            $hour = 0;
-        }
-        
-        return sprintf("%02d:%s", $hour, $minute);
-    }
     
     // Przetwarzanie wierszy
     $first_line = true;
@@ -106,39 +153,43 @@ function downloadAndOptimizeData() {
         if (isset($seen_events[$key])) continue;
         $seen_events[$key] = true;
         
-        // Konwertuj czas
-        $time24h = convertTimeTo24h($time);
+        // Konwertuj czas i datę
+        $time24h = convert_time_to_24h($time);
+        $date_mql5 = convert_date_format($date);
         
-        // Ustaw domyślne wartości
-        $forecast = (empty($forecast) || trim($forecast) === '') ? 'N/A' : trim($forecast);
-        $previous = (empty($previous) || trim($previous) === '') ? 'N/A' : trim($previous);
+        // Oczyść wartości forecast/previous
+        $forecast_clean = clean_forecast_value($forecast);
+        $previous_clean = clean_forecast_value($previous);
         
-        $has_forecast = $forecast !== 'N/A' ? '1' : '0';
-        $has_previous = $previous !== 'N/A' ? '1' : '0';
+        // Wartość numeryczna dla impact
         $importance = (string)($impact_to_importance[$impact] ?? 0);
         
-        // Dodaj do zoptymalizowanego pliku
+        // Flagi czy ma forecast/previous (w oparciu o oryginalne wartości, nie wyczyszczone)
+        $has_forecast = (empty($forecast) || trim($forecast) === '') ? '0' : '1';
+        $has_previous = (empty($previous) || trim($previous) === '') ? '0' : '1';
+        
+        // Dodaj do zoptymalizowanego pliku (pełnego)
         $optimized_rows[] = [
             $title, $country, $date, $time, $time24h, $impact,
             $forecast, $previous, $has_forecast, $has_previous, $importance
         ];
         
-        // Dodaj do uproszczonego pliku
+        // Dodaj do uproszczonego pliku (dla MQL5)
         $simple_rows[] = [
-            $title, $country, $date, $time24h, $importance, $forecast, $previous
+            $title, $country, $date_mql5, $time24h, $importance, $forecast_clean, $previous_clean
         ];
         
         $processed_count++;
     }
     
-    // Zapisz zoptymalizowany plik
+    // Zapisz zoptymalizowany plik (pełny)
     $optimized_file = fopen('forex_data_optimized.csv', 'w');
     foreach ($optimized_rows as $row) {
         fputcsv($optimized_file, $row);
     }
     fclose($optimized_file);
     
-    // Zapisz uproszczony plik
+    // Zapisz uproszczony plik (dla MQL5)
     $simple_file = fopen('forex_data_simple.csv', 'w');
     foreach ($simple_rows as $row) {
         fputcsv($simple_file, $row);
@@ -155,7 +206,7 @@ $result = downloadAndOptimizeData();
 if (is_numeric($result)) {
     $optimized_count = $result;
     
-    // Pobierz statystyki
+    // Pobierz statystyki z pliku uproszczonego
     $simple_content = file('forex_data_simple.csv');
     $simple_count = count($simple_content) - 1;
     
@@ -166,7 +217,7 @@ if (is_numeric($result)) {
         $fields = str_getcsv(trim($simple_content[$i]));
         if (count($fields) >= 5) {
             if ($fields[4] == '3') $high_impact++;
-            if ($fields[5] != 'N/A' && $fields[6] != 'N/A') $with_data++;
+            if ($fields[5] != '0' && $fields[6] != '0') $with_data++;
         }
     }
     
@@ -190,8 +241,8 @@ if (file_exists('forex_data_simple.csv')) {
     echo "📁 Simple file: {$file_size} bytes, {$line_count} lines\n";
     
     // Pokaż przykładowe dane
-    echo "🔍 Sample data:\n";
-    $sample_lines = array_slice(file('forex_data_simple.csv'), 0, 3);
+    echo "🔍 Sample data (first 3 events):\n";
+    $sample_lines = array_slice(file('forex_data_simple.csv'), 1, 3); // Pomijamy nagłówek, bierzemy 3 wiersze
     foreach ($sample_lines as $line) {
         echo "   " . trim($line) . "\n";
     }
