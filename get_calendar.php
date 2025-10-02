@@ -1,73 +1,52 @@
 <?php
-// get_calendar.php - Zwraca PRZEFILTROWANE dane w formacie dla MQL5
+// get_calendar.php - Zwraca przefiltrowane dane w formacie dla MQL5
 header('Content-Type: text/plain; charset=utf-8');
 header('Access-Control-Allow-Origin: *');
 
-$filename = 'forex_data.csv';
 $filtered_filename = 'forex_data_filtered.csv';
 
-function filterAndCleanData($inputFile, $outputFile) {
-    if (!file_exists($inputFile)) {
-        return false;
-    }
+// Jeśli przefiltrowany plik nie istnieje, utwórz go
+if (!file_exists($filtered_filename)) {
+    // Pobierz surowe dane
+    $raw_data = file_get_contents('https://nfs.faireconomy.media/ff_calendar_thisweek.csv');
+    file_put_contents('forex_data_raw.csv', $raw_data);
     
-    $input = fopen($inputFile, 'r');
-    $output = fopen($outputFile, 'w');
+    // Proste filtrowanie w PHP
+    $raw_lines = explode("\n", $raw_data);
+    $filtered_content = "Title,Country,Date,Time,Impact,Forecast,Previous\n";
     
-    if (!$input || !$output) {
-        return false;
-    }
-    
-    // Nagłówki dla MT5 (bez URL)
-    fputcsv($output, ['Title', 'Country', 'Date', 'Time', 'Impact', 'Forecast', 'Previous']);
-    
-    $firstLine = true;
-    while (($data = fgetcsv($input)) !== FALSE) {
-        if ($firstLine) {
-            $firstLine = false;
-            continue; // Pomijamy oryginalne nagłówki
+    $first_line = true;
+    foreach ($raw_lines as $line) {
+        if ($first_line) {
+            $first_line = false;
+            continue; // Pomijamy nagłówki
         }
         
-        // Sprawdź czy mamy wystarczającą liczbę kolumn
-        if (count($data) < 8) continue;
-        
-        $title = $data[0];
-        $country = $data[1];
-        $date = $data[2];
-        $time = $data[3];
-        $impact = $data[4];
-        $forecast = $data[5];
-        $previous = $data[6];
-        
-        // FILTROWANIE - zachowuj tylko ważne wydarzenia:
-        // 1. Usuń wydarzenia z Impact = Low i pustymi Forecast/Previous
-        if ($impact === 'Low' && empty($forecast) && empty($previous)) {
-            continue;
-        }
-        
-        // 2. Usuń duplikaty mówców w krótkich odstępach (opcjonalnie)
-        // 3. Zachowaj wszystkie z High/Medium impact
-        if ($impact === 'High' || $impact === 'Medium' || !empty($forecast) || !empty($previous)) {
-            fputcsv($output, [$title, $country, $date, $time, $impact, $forecast, $previous]);
+        $fields = str_getcsv($line);
+        if (count($fields) >= 8) {
+            $impact = $fields[4];
+            $forecast = $fields[5];
+            $previous = $fields[6];
+            
+            // Filtruj: pomiń Low impact z pustymi danymi
+            if ($impact === 'Low' && empty($forecast) && empty($previous)) {
+                continue;
+            }
+            
+            // Zapisz tylko 7 kolumn
+            $filtered_content .= implode(',', [
+                $fields[0], // Title
+                $fields[1], // Country
+                $fields[2], // Date
+                $fields[3], // Time
+                $impact,
+                $forecast,
+                $previous
+            ]) . "\n";
         }
     }
     
-    fclose($input);
-    fclose($output);
-    return true;
-}
-
-// Jeśli przefiltrowany plik nie istnieje lub jest starszy niż 1 godzina
-if (!file_exists($filtered_filename) || 
-    (filemtime($filtered_filename) < time() - 3600)) {
-    
-    // Jeśli główny plik nie istnieje, pobierz go
-    if (!file_exists($filename)) {
-        file_put_contents($filename, file_get_contents('https://nfs.faireconomy.media/ff_calendar_thisweek.csv'));
-    }
-    
-    // Filtruj i czyść dane
-    filterAndCleanData($filename, $filtered_filename);
+    file_put_contents($filtered_filename, $filtered_content);
 }
 
 // Zwróć przefiltrowane dane
