@@ -1,12 +1,12 @@
 <?php
 // get_calendar_optimized.php - Zwraca pełne zoptymalizowane dane
 header('Content-Type: text/plain; charset=utf-8');
-header('Access-Control-Allow-Origin: *');
+header('Access-Control-Allow-Origin: '*');
 
 $optimized_filename = 'forex_data_optimized.csv';
 
 // Sprawdź czy plik istnieje i jest aktualny
-if (!file_exists($optimized_filename) || (time() - filemtime($optimized_filename) > 7200)) {
+if (!file_exists($optimized_filename) || (time() - filemtime($optimized_filename) > 14400)) {
     // Plik nie istnieje lub jest stary - utwórz go
     include 'update_calendar.php';
     exit;
