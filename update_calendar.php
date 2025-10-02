@@ -1,9 +1,9 @@
 <?php
-// update_calendar.php - Automatycznie aktualizuje dane z Forex Factory
+// update_calendar.php - Aktualizuje i filtruje dane dla MT5
 header('Content-Type: text/plain; charset=utf-8');
 header('Access-Control-Allow-Origin: *');
 
-function updateForexData() {
+function updateAndFilterForexData() {
     $csv_url = "https://nfs.faireconomy.media/ff_calendar_thisweek.csv";
     $data = file_get_contents($csv_url);
     
@@ -11,12 +11,24 @@ function updateForexData() {
         return "ERROR: Could not fetch data from Forex Factory";
     }
     
-    // Zapisujemy dane do pliku
+    // Zapisz surowe dane
     file_put_contents('forex_data.csv', $data);
-    return "SUCCESS: Data updated at " . date('Y-m-d H:i:s');
+    
+    // Przetwórz przez filtr
+    include 'get_calendar.php'; // Wykorzystamy funkcję filtrującą
+    
+    if (filterAndCleanData('forex_data.csv', 'forex_data_filtered.csv')) {
+        $filteredCount = count(file('forex_data_filtered.csv')) - 1; // minus nagłówek
+        $rawCount = count(file('forex_data.csv')) - 1;
+        
+        return "SUCCESS: Data updated and filtered at " . date('Y-m-d H:i:s') . 
+               " ($rawCount -> $filteredCount events)";
+    } else {
+        return "ERROR: Failed to filter data";
+    }
 }
 
-// Aktualizuj dane
-$result = updateForexData();
+// Aktualizuj i filtruj dane
+$result = updateAndFilterForexData();
 echo $result;
 ?>
