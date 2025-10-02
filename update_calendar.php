@@ -37,7 +37,7 @@ function updateAndCleanForexData() {
         }
     }
     
-    file_put_contents('forex_data_cleaned.csv', $cleaned_content);
+    file_put_contents('forex_data.csv', $cleaned_content);
     
     return "SUCCESS: Data updated and cleaned at " . date('Y-m-d H:i:s') . 
            " ($event_count events, URL column removed)";
