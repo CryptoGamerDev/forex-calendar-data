@@ -46,7 +46,7 @@ jobs:
           import os
 
           input_file = 'forex_data_raw.csv'
-          output_file = 'forex_data_cleaned.csv'
+          output_file = 'forex_data.csv'
 
           # Sprawdź czy plik wejściowy istnieje
           if not os.path.exists(input_file):
@@ -92,16 +92,16 @@ jobs:
 
           # Sprawdź wyniki
           echo "Processing completed. Checking files..."
-          if [ -f forex_data_cleaned.csv ]; then
+          if [ -f forex_data.csv ]; then
             raw_count=$(wc -l < forex_data_raw.csv | tr -d ' ')
-            cleaned_count=$(wc -l < forex_data_cleaned.csv | tr -d ' ')
+            cleaned_count=$(wc -l < forex_data.csv | tr -d ' ')
             echo "✅ Raw data lines: $raw_count"
             echo "✅ Cleaned data lines: $cleaned_count"
             echo "✅ Reduction: $((raw_count - cleaned_count)) lines (header adjustment)"
             
             # Pokaż przykładowe dane
             echo "Sample of cleaned data:"
-            head -3 forex_data_cleaned.csv
+            head -3 forex_data.csv
           else
             echo "❌ ERROR: Cleaned file was not created"
             exit 1
@@ -113,7 +113,7 @@ jobs:
           git config --local user.name "github-actions[bot]"
           
           # Sprawdź czy są zmiany
-          git add forex_data_raw.csv forex_data_cleaned.csv
+          git add forex_data_raw.csv forex_data.csv
           if git diff --staged --quiet; then
             echo "No changes to commit"
           else
@@ -124,8 +124,8 @@ jobs:
 
       - name: Create status summary
         run: |
-          if [ -f forex_data_cleaned.csv ]; then
-            EVENT_COUNT=$(( $(wc -l < forex_data_cleaned.csv) - 1 ))
+          if [ -f forex_data.csv ]; then
+            EVENT_COUNT=$(( $(wc -l < forex_data.csv) - 1 ))
             echo "📊 **Workflow Summary**" >> $GITHUB_STEP_SUMMARY
             echo "✅ **Status**: Success" >> $GITHUB_STEP_SUMMARY
             echo "📅 **Events Processed**: $EVENT_COUNT" >> $GITHUB_STEP_SUMMARY
@@ -133,7 +133,7 @@ jobs:
             echo "" >> $GITHUB_STEP_SUMMARY
             echo "**Sample Events:**" >> $GITHUB_STEP_SUMMARY
             echo '```csv' >> $GITHUB_STEP_SUMMARY
-            head -5 forex_data_cleaned.csv >> $GITHUB_STEP_SUMMARY
+            head -5 forex_data.csv >> $GITHUB_STEP_SUMMARY
             echo '```' >> $GITHUB_STEP_SUMMARY
           else
             echo "❌ **Workflow Summary**" >> $GITHUB_STEP_SUMMARY
