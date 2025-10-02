@@ -14,7 +14,7 @@ function cleanAndCreateCSV() {
     
     // Użyj bardziej zaawansowanego przetwarzania CSV
     $raw_lines = explode("\n", trim($raw_data));
-    $output = fopen('forex_data_cleaned.csv', 'w');
+    $output = fopen('forex_data.csv', 'w');
     
     // Nagłówek
     fputcsv($output, ['Title', 'Country', 'Date', 'Time', 'Impact', 'Forecast', 'Previous']);
@@ -76,10 +76,10 @@ function updateAndCleanForexData() {
     
     if ($processed_count !== false) {
         $raw_count = count(file('forex_data_raw.csv')) - 1; // minus nagłówek
-        $cleaned_count = count(file('forex_data_cleaned.csv')) - 1; // minus nagłówek
+        $cleaned_count = count(file('forex_data.csv')) - 1; // minus nagłówek
         
         // Sprawdź czy plik wyjściowy jest poprawny
-        $cleaned_content = file_get_contents('forex_data_cleaned.csv');
+        $cleaned_content = file_get_contents('forex_data.csv');
         $has_carriage_returns = (strpos($cleaned_content, "\r") !== false);
         
         $status_message = "SUCCESS: Data updated and cleaned at " . date('Y-m-d H:i:s') . 
@@ -106,13 +106,13 @@ echo "\n\n--- Diagnostic Info ---\n";
 echo "Server Time: " . date('Y-m-d H:i:s') . "\n";
 echo "PHP Version: " . PHP_VERSION . "\n";
 
-if (file_exists('forex_data_cleaned.csv')) {
-    $file_size = filesize('forex_data_cleaned.csv');
-    $line_count = count(file('forex_data_cleaned.csv'));
+if (file_exists('forex_data.csv')) {
+    $file_size = filesize('forex_data.csv');
+    $line_count = count(file('forex_data.csv'));
     echo "Cleaned File: " . $file_size . " bytes, " . $line_count . " lines\n";
     
     // Pokaż pierwsze 3 linie dla weryfikacji
-    $lines = file('forex_data_cleaned.csv');
+    $lines = file('forex_data.csv');
     echo "First 3 lines:\n";
     for ($i = 0; $i < min(3, count($lines)); $i++) {
         echo ($i + 1) . ": " . trim($lines[$i]) . "\n";
