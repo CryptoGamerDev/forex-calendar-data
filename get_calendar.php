@@ -3,7 +3,7 @@
 header('Content-Type: text/plain; charset=utf-8');
 header('Access-Control-Allow-Origin: *');
 
-$cleaned_filename = 'forex_data_cleaned.csv';
+$cleaned_filename = 'forex_data.csv';
 
 // Jeśli oczyszczony plik nie istnieje, utwórz go
 if (!file_exists($cleaned_filename)) {
