@@ -43,7 +43,7 @@ jobs:
                 printf "%s\n" "${fields[6]}"
               fi
             done
-          } > forex_data.csv
+          } > forex_data_cleaned.csv
           
           # Alternatywnie: użyj Python do naprawy CSV (bardziej niezawodne)
           echo "Alternative cleaning with Python..."
@@ -68,17 +68,17 @@ with open('forex_data_raw.csv', 'r', newline='', encoding='utf-8') as f_in:
           "
           
           # Użyj pliku utworzonego przez Python (bardziej niezawodny)
-          mv forex_data_cleaned_python.csv forex_data.csv
+          mv forex_data_cleaned_python.csv forex_data_cleaned.csv
           
           # Sprawdź rozmiary plików
           raw_lines=$(wc -l < forex_data_raw.csv)
-          cleaned_lines=$(wc -l < forex_data.csv)
+          cleaned_lines=$(wc -l < forex_data_cleaned.csv)
           echo "Raw data lines: $raw_lines"
           echo "Cleaned data lines: $cleaned_lines"
           
           # Sprawdź czy są jakieś problematyczne znaki
           echo "Checking for problematic characters..."
-          if grep -q $'\r' forex_data.csv; then
+          if grep -q $'\r' forex_data_cleaned.csv; then
             echo "WARNING: Still found carriage returns in cleaned file"
           else
             echo "SUCCESS: No carriage returns found in cleaned file"
@@ -88,5 +88,5 @@ with open('forex_data_raw.csv', 'r', newline='', encoding='utf-8') as f_in:
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
-          git add forex_data_raw.csv forex_data.csv
+          git add forex_data_raw.csv forex_data_cleaned.csv
           git diff --quiet && git diff --staged --quiet || (git commit -m "Auto-update cleaned forex calendar data [$(date +%Y-%m-%d)]" && git push)
