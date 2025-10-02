@@ -1,4 +1,4 @@
-name: Update and Filter Forex Calendar Data
+name: Update and Clean Forex Calendar Data
 
 on:
   schedule:
@@ -14,54 +14,41 @@ jobs:
         with:
           token: ${{ secrets.PAT }}
 
-      - name: Update and Filter Forex Data
+      - name: Update and Clean Forex Data
         run: |
           # Pobierz surowe dane
           echo "Downloading raw data..."
           curl -s "https://nfs.faireconomy.media/ff_calendar_thisweek.csv" -o forex_data_raw.csv
           
-          # Utwórz przefiltrowany plik CSV z nowymi nagłówkami
-          echo "Creating filtered CSV..."
+          # Utwórz OCZYSZCZONY plik CSV z nowymi nagłówkami (BEZ FILTROWANIA ILOŚCI)
+          echo "Creating cleaned CSV..."
           {
             # Nagłówki dla MT5 (bez URL)
             echo "Title,Country,Date,Time,Impact,Forecast,Previous"
             
-            # Pomijamy pierwszą linię (nagłówki) i filtrujemy dane
+            # Przepisz WSZYSTKIE dane, pomijając tylko kolumnę URL
             tail -n +2 forex_data_raw.csv | while IFS= read -r line; do
-              # Podziel linię na pola
-              IFS=',' read -r -a fields <<< "$line"
+              # Zastąp przecinki wewnątrz pól, aby uniknąć problemów z podziałem
+              clean_line=$(echo "$line" | sed 's/","/@%@%/g' | sed 's/,/ /g' | sed 's/@%@%/,/g')
               
-              # Sprawdź czy mamy wystarczającą liczbę pól
-              if [ ${#fields[@]} -ge 8 ]; then
-                title="${fields[0]}"
-                country="${fields[1]}"
-                date="${fields[2]}"
-                time="${fields[3]}"
-                impact="${fields[4]}"
-                forecast="${fields[5]}"
-                previous="${fields[6]}"
-                
-                # Filtruj: pomiń Low impact z pustymi danymi
-                if [ "$impact" = "Low" ] && [ -z "$forecast" ] && [ -z "$previous" ]; then
-                  continue
-                fi
-                
-                # Zapisz przefiltrowane dane
-                echo "$title,$country,$date,$time,$impact,$forecast,$previous"
-              fi
+              # Użyj przecinka jako separatora i przepisz tylko pierwsze 7 pól
+              echo "$clean_line" | awk -F',' '{for(i=1;i<=7;i++) printf "%s%s", $i, (i<7 ? "," : "\n")}'
             done
-          } > forex_data_filtered.csv
+          } > forex_data_cleaned.csv
           
           # Sprawdź rozmiary plików
-          raw_lines=$(($(wc -l < forex_data_raw.csv)-1))
-          filtered_lines=$(($(wc -l < forex_data_filtered.csv)-1))
+          raw_lines=$(wc -l < forex_data_raw.csv)
+          cleaned_lines=$(wc -l < forex_data_cleaned.csv)
           echo "Raw data lines: $raw_lines"
-          echo "Filtered data lines: $filtered_lines"
-          echo "Reduction: $((raw_lines - filtered_lines)) events removed"
+          echo "Cleaned data lines: $cleaned_lines"
+          
+          # Sprawdź zawartość
+          echo "First few lines of cleaned file:"
+          head -5 forex_data_cleaned.csv
 
       - name: Commit and push if changed
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
-          git add forex_data_raw.csv forex_data_filtered.csv
-          git diff --quiet && git diff --staged --quiet || (git commit -m "Auto-update filtered forex calendar data [$(date +%Y-%m-%d)]" && git push)
+          git add forex_data_raw.csv forex_data_cleaned.csv
+          git diff --quiet && git diff --staged --quiet || (git commit -m "Auto-update cleaned forex calendar data [$(date +%Y-%m-%d)]" && git push)
