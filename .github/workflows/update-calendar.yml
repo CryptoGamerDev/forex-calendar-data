@@ -4,89 +4,139 @@ on:
   schedule:
     - cron: '0 */2 * * *'  # Aktualizuj co 2 godziny
   workflow_dispatch:        # Ręczne uruchomienie
+    inputs:
+      reason:
+        description: 'Reason for manual run'
+        required: false
+        default: 'Manual trigger'
+
+permissions:
+  contents: write
 
 jobs:
   update:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
         with:
-          token: ${{ secrets.PAT }}
+          token: ${{ secrets.GITHUB_TOKEN }}
+          ref: ${{ github.head_ref }}
+
+      - name: Setup Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.9'
 
       - name: Update and Clean Forex Data
         run: |
           # Pobierz surowe dane
-          echo "Downloading raw data..."
-          curl -s "https://nfs.faireconomy.media/ff_calendar_thisweek.csv" -o forex_data_raw.csv
+          echo "Downloading raw data from Forex Factory..."
+          curl -s -L "https://nfs.faireconomy.media/ff_calendar_thisweek.csv" -o forex_data_raw.csv
           
-          # Napraw znaki nowej linii i utwórz poprawny CSV
-          echo "Cleaning and fixing CSV format..."
-          {
-            # Nagłówki dla MT5
-            echo "Title,Country,Date,Time,Impact,Forecast,Previous"
-            
-            # Przepisz dane, usuwając problematyczne znaki i kolumnę URL
-            tail -n +2 forex_data_raw.csv | while IFS= read -r line || [ -n "$line" ]; do
-              # Usuń znaki \r i zastąp przecinki wewnątrz pól tymczasowym separatorem
-              clean_line=$(echo "$line" | sed 's/\r//g' | sed 's/","/###TEMP###/g' | sed 's/,/ /g' | sed 's/###TEMP###/,/g')
-              
-              # Podziel na pola i wypisz tylko pierwsze 7
-              IFS=',' read -r -a fields <<< "$clean_line"
-              if [ ${#fields[@]} -ge 7 ]; then
-                printf "%s," "${fields[0]}"
-                printf "%s," "${fields[1]}"
-                printf "%s," "${fields[2]}"
-                printf "%s," "${fields[3]}"
-                printf "%s," "${fields[4]}"
-                printf "%s," "${fields[5]}"
-                printf "%s\n" "${fields[6]}"
-              fi
-            done
-          } > forex_data_cleaned.csv
-          
-          # Alternatywnie: użyj Python do naprawy CSV (bardziej niezawodne)
-          echo "Alternative cleaning with Python..."
-          python3 -c "
-import csv
-
-with open('forex_data_raw.csv', 'r', newline='', encoding='utf-8') as f_in:
-    with open('forex_data_cleaned_python.csv', 'w', newline='', encoding='utf-8') as f_out:
-        reader = csv.reader(f_in)
-        writer = csv.writer(f_out)
-        
-        # Write header
-        writer.writerow(['Title', 'Country', 'Date', 'Time', 'Impact', 'Forecast', 'Previous'])
-        
-        # Skip original header and process rows
-        next(reader, None)
-        for row in reader:
-            if len(row) >= 8:
-                # Take only first 7 columns, remove any carriage returns
-                cleaned_row = [field.replace('\r', '').replace('\n', ' ') for field in row[:7]]
-                writer.writerow(cleaned_row)
-          "
-          
-          # Użyj pliku utworzonego przez Python (bardziej niezawodny)
-          mv forex_data_cleaned_python.csv forex_data_cleaned.csv
-          
-          # Sprawdź rozmiary plików
-          raw_lines=$(wc -l < forex_data_raw.csv)
-          cleaned_lines=$(wc -l < forex_data_cleaned.csv)
-          echo "Raw data lines: $raw_lines"
-          echo "Cleaned data lines: $cleaned_lines"
-          
-          # Sprawdź czy są jakieś problematyczne znaki
-          echo "Checking for problematic characters..."
-          if grep -q $'\r' forex_data_cleaned.csv; then
-            echo "WARNING: Still found carriage returns in cleaned file"
-          else
-            echo "SUCCESS: No carriage returns found in cleaned file"
+          # Sprawdź czy pobieranie się powiodło
+          if [ ! -s forex_data_raw.csv ]; then
+            echo "ERROR: Failed to download data"
+            exit 1
           fi
 
-      - name: Commit and push if changed
+          echo "Cleaning CSV data with Python..."
+          python3 << 'EOF'
+          import csv
+          import os
+
+          input_file = 'forex_data_raw.csv'
+          output_file = 'forex_data_cleaned.csv'
+
+          # Sprawdź czy plik wejściowy istnieje
+          if not os.path.exists(input_file):
+              print(f"ERROR: Input file {input_file} does not exist")
+              exit(1)
+
+          with open(input_file, 'r', encoding='utf-8', newline='') as f_in:
+              reader = csv.reader(f_in)
+              rows = list(reader)
+
+          if len(rows) <= 1:
+              print("ERROR: Input file is empty or has only header")
+              exit(1)
+
+          # Przetwórz dane
+          with open(output_file, 'w', encoding='utf-8', newline='') as f_out:
+              writer = csv.writer(f_out)
+              
+              # Write new header
+              writer.writerow(['Title', 'Country', 'Date', 'Time', 'Impact', 'Forecast', 'Previous'])
+              
+              # Process data rows
+              for row in rows[1:]:  # Skip header
+                  if len(row) >= 8:
+                      # Clean each field - remove carriage returns and extra spaces
+                      cleaned_row = []
+                      for field in row[:7]:  # Take first 7 columns
+                          if field:
+                              # Remove \r, \n and extra spaces
+                              cleaned_field = field.replace('\r', ' ').replace('\n', ' ').strip()
+                              cleaned_row.append(cleaned_field)
+                          else:
+                              cleaned_row.append('')
+                      
+                      # Ensure we have exactly 7 fields
+                      while len(cleaned_row) < 7:
+                          cleaned_row.append('')
+                          
+                      writer.writerow(cleaned_row)
+
+          print(f"SUCCESS: Processed {len(rows)-1} rows")
+          EOF
+
+          # Sprawdź wyniki
+          echo "Processing completed. Checking files..."
+          if [ -f forex_data_cleaned.csv ]; then
+            raw_count=$(wc -l < forex_data_raw.csv | tr -d ' ')
+            cleaned_count=$(wc -l < forex_data_cleaned.csv | tr -d ' ')
+            echo "✅ Raw data lines: $raw_count"
+            echo "✅ Cleaned data lines: $cleaned_count"
+            echo "✅ Reduction: $((raw_count - cleaned_count)) lines (header adjustment)"
+            
+            # Pokaż przykładowe dane
+            echo "Sample of cleaned data:"
+            head -3 forex_data_cleaned.csv
+          else
+            echo "❌ ERROR: Cleaned file was not created"
+            exit 1
+          fi
+
+      - name: Commit and push changes
         run: |
-          git config --local user.email "action@github.com"
-          git config --local user.name "GitHub Action"
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          
+          # Sprawdź czy są zmiany
           git add forex_data_raw.csv forex_data_cleaned.csv
-          git diff --quiet && git diff --staged --quiet || (git commit -m "Auto-update cleaned forex calendar data [$(date +%Y-%m-%d)]" && git push)
+          if git diff --staged --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "🤖 Auto-update forex calendar data [$(date +%Y-%m-%d %H:%M)]"
+            git push
+            echo "Changes committed and pushed successfully"
+          fi
+
+      - name: Create status summary
+        run: |
+          if [ -f forex_data_cleaned.csv ]; then
+            EVENT_COUNT=$(( $(wc -l < forex_data_cleaned.csv) - 1 ))
+            echo "📊 **Workflow Summary**" >> $GITHUB_STEP_SUMMARY
+            echo "✅ **Status**: Success" >> $GITHUB_STEP_SUMMARY
+            echo "📅 **Events Processed**: $EVENT_COUNT" >> $GITHUB_STEP_SUMMARY
+            echo "🕒 **Last Updated**: $(date -u)" >> $GITHUB_STEP_SUMMARY
+            echo "" >> $GITHUB_STEP_SUMMARY
+            echo "**Sample Events:**" >> $GITHUB_STEP_SUMMARY
+            echo '```csv' >> $GITHUB_STEP_SUMMARY
+            head -5 forex_data_cleaned.csv >> $GITHUB_STEP_SUMMARY
+            echo '```' >> $GITHUB_STEP_SUMMARY
+          else
+            echo "❌ **Workflow Summary**" >> $GITHUB_STEP_SUMMARY
+            echo "**Status**: Failed" >> $GITHUB_STEP_SUMMARY
+            echo "**Error**: Cleaned file was not created" >> $GITHUB_STEP_SUMMARY
+          fi
