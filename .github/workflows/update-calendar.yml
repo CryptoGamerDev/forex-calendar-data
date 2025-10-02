@@ -32,20 +32,20 @@ jobs:
           echo "Downloading and optimizing data for MQL5..."
           python3 << 'EOF'
           import csv
-          import requests
-          from datetime import datetime
+          import urllib.request
           import re
+          from datetime import datetime
 
-          # Pobierz dane
+          # Pobierz dane używając urllib (wbudowane, nie wymaga instalacji)
           url = "https://nfs.faireconomy.media/ff_calendar_thisweek.csv"
-          response = requests.get(url)
-          
-          if response.status_code != 200:
-              print("ERROR: Failed to download data")
+          try:
+              with urllib.request.urlopen(url) as response:
+                  csv_data = response.read().decode('utf-8').splitlines()
+          except Exception as e:
+              print(f"ERROR: Failed to download data: {e}")
               exit(1)
 
           # Przeczytaj dane
-          csv_data = response.text.splitlines()
           reader = csv.reader(csv_data)
           rows = list(reader)
 
@@ -98,6 +98,8 @@ jobs:
 
           def is_duplicate_event(row):
               """Sprawdź czy wydarzenie jest duplikatem"""
+              if len(row) < 4:
+                  return False
               key = (row[0], row[1], row[2], row[3])  # Title, Country, Date, Time
               if key in seen_events:
                   return True
@@ -105,7 +107,7 @@ jobs:
               return False
 
           # Przetwórz wiersze danych
-          for row in rows[1:]:  # Pomijaj nagłówek
+          for row in rows[1:]:  # Pomijaj nagłózek
               if len(row) < 8:
                   continue
                   
@@ -142,9 +144,9 @@ jobs:
           print(f"SUCCESS: Optimized {len(optimized_rows)-1} events for MQL5")
           
           # Statystyki
-          high_impact = sum(1 for row in optimized_rows if row[5] == 'High')
-          medium_impact = sum(1 for row in optimized_rows if row[5] == 'Medium')
-          with_forecast = sum(1 for row in optimized_rows[1:] if row[8] == '1')
+          high_impact = sum(1 for row in optimized_rows if len(row) > 5 and row[5] == 'High')
+          medium_impact = sum(1 for row in optimized_rows if len(row) > 5 and row[5] == 'Medium')
+          with_forecast = sum(1 for row in optimized_rows[1:] if len(row) > 8 and row[8] == '1')
           
           print(f"Statistics: High impact: {high_impact}, Medium: {medium_impact}, With forecast: {with_forecast}")
           EOF
@@ -156,30 +158,35 @@ jobs:
           import csv
 
           # Stwórz uproszczoną wersję tylko z najważniejszymi kolumnami
-          with open('forex_data_optimized.csv', 'r', encoding='utf-8') as f:
-              reader = csv.reader(f)
-              rows = list(reader)
+          try:
+              with open('forex_data_optimized.csv', 'r', encoding='utf-8') as f:
+                  reader = csv.reader(f)
+                  rows = list(reader)
 
-          # Uproszczony plik - tylko kolumny potrzebne do szybkiego parsowania w MQL5
-          simplified_rows = []
-          simplified_rows.append(['Title', 'Country', 'Date', 'Time24h', 'Importance', 'Forecast', 'Previous'])
+              # Uproszczony plik - tylko kolumny potrzebne do szybkiego parsowania w MQL5
+              simplified_rows = []
+              simplified_rows.append(['Title', 'Country', 'Date', 'Time24h', 'Importance', 'Forecast', 'Previous'])
 
-          for row in rows[1:]:
-              simplified_rows.append([
-                  row[0],  # Title
-                  row[1],  # Country
-                  row[2],  # Date
-                  row[4],  # Time24h
-                  row[10], # Importance (numeryczna)
-                  row[6],  # Forecast
-                  row[7]   # Previous
-              ])
+              for row in rows[1:]:
+                  if len(row) >= 11:  # Upewnij się, że wiersz ma wystarczającą liczbę kolumn
+                      simplified_rows.append([
+                          row[0],  # Title
+                          row[1],  # Country
+                          row[2],  # Date
+                          row[4],  # Time24h
+                          row[10], # Importance (numeryczna)
+                          row[6],  # Forecast
+                          row[7]   # Previous
+                      ])
 
-          with open('forex_data.csv', 'w', newline='', encoding='utf-8') as f:
-              writer = csv.writer(f)
-              writer.writerows(simplified_rows)
+              with open('forex_data.csv', 'w', newline='', encoding='utf-8') as f:
+                  writer = csv.writer(f)
+                  writer.writerows(simplified_rows)
 
-          print(f"Created simplified version with {len(simplified_rows)-1} events")
+              print(f"Created simplified version with {len(simplified_rows)-1} events")
+          except Exception as e:
+              print(f"Error creating simplified version: {e}")
+              exit(1)
           EOF
 
       - name: Verify and display results
@@ -199,17 +206,20 @@ jobs:
           echo "=== STATISTICS ==="
           python3 << 'EOF'
           import csv
-          with open('forex_data.csv', 'r', encoding='utf-8') as f:
-              reader = csv.reader(f)
-              rows = list(reader)
+          try:
+              with open('forex_data.csv', 'r', encoding='utf-8') as f:
+                  reader = csv.reader(f)
+                  rows = list(reader)
+                  
+              total = len(rows) - 1
+              high_impact = sum(1 for row in rows[1:] if len(row) > 4 and row[4] == '3')
+              with_data = sum(1 for row in rows[1:] if len(row) > 5 and row[5] != 'N/A' and row[6] != 'N/A')
               
-          total = len(rows) - 1
-          high_impact = sum(1 for row in rows[1:] if row[4] == '3')
-          with_data = sum(1 for row in rows[1:] if row[5] != 'N/A' and row[6] != 'N/A')
-          
-          print(f"Total events: {total}")
-          print(f"High importance (3): {high_impact}")
-          print(f"Events with forecast data: {with_data}")
+              print(f"Total events: {total}")
+              print(f"High importance (3): {high_impact}")
+              print(f"Events with forecast data: {with_data}")
+          except Exception as e:
+              print(f"Error reading statistics: {e}")
           EOF
 
       - name: Commit and push changes
