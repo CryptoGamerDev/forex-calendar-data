@@ -1,7 +1,7 @@
 <?php
 // get_calendar.php - Zwraca zoptymalizowane dane dla MQL5 (uproszczona wersja)
 header('Content-Type: text/plain; charset=utf-8');
-header('Access-Control-Allow-Origin: *');
+header('Access-Control-Allow-Origin: '*');
 
 $simple_filename = 'forex_data_simple.csv';
 $optimized_filename = 'forex_data_optimized.csv';
