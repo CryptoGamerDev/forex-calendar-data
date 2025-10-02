@@ -1,48 +1,66 @@
 <?php
-// get_calendar.php - Zwraca OCZYSZCZONE dane w formacie dla MQL5
+// get_calendar.php - Zwraca OCZYSZCZONE i POPRAWNE dane w formacie CSV
 header('Content-Type: text/plain; charset=utf-8');
 header('Access-Control-Allow-Origin: *');
 
 $cleaned_filename = 'forex_data.csv';
 
-// Jeśli oczyszczony plik nie istnieje, utwórz go
-if (!file_exists($cleaned_filename)) {
-    // Pobierz surowe dane
+function cleanAndCreateCSV() {
     $raw_data = file_get_contents('https://nfs.faireconomy.media/ff_calendar_thisweek.csv');
+    if ($raw_data === FALSE) {
+        return false;
+    }
+    
+    // Zapisz surowe dane
     file_put_contents('forex_data_raw.csv', $raw_data);
     
-    // Proste czyszczenie w PHP - USUŃ TYLKO KOLUMNĘ URL, ZACHOWAJ WSZYSTKIE WIERSZE
+    // Użyj bardziej zaawansowanego przetwarzania CSV
     $raw_lines = explode("\n", trim($raw_data));
-    $cleaned_content = "Title,Country,Date,Time,Impact,Forecast,Previous\n";
+    $output = fopen('forex_data.csv', 'w');
+    
+    // Nagłówek
+    fputcsv($output, ['Title', 'Country', 'Date', 'Time', 'Impact', 'Forecast', 'Previous']);
     
     $first_line = true;
     foreach ($raw_lines as $line) {
         if ($first_line) {
             $first_line = false;
-            continue; // Pomijamy oryginalne nagłówki
+            continue;
         }
         
         if (!empty(trim($line))) {
-            $fields = str_getcsv($line);
+            // Usuń znaki \r i rozdziel pola
+            $clean_line = str_replace(["\r", "\n"], ' ', $line);
+            $fields = str_getcsv($clean_line);
+            
             if (count($fields) >= 8) {
-                // Zachowaj WSZYSTKIE wiersze, przepisz tylko pierwsze 7 kolumn
-                $cleaned_content .= implode(',', array_slice($fields, 0, 7)) . "\n";
+                // Weź pierwsze 7 pól i usuń dodatkowe białe znaki
+                $cleaned_fields = array_map('trim', array_slice($fields, 0, 7));
+                fputcsv($output, $cleaned_fields);
             }
         }
     }
     
-    file_put_contents($cleaned_filename, $cleaned_content);
+    fclose($output);
+    return true;
+}
+
+// Jeśli oczyszczony plik nie istnieje lub jest stary, utwórz nowy
+if (!file_exists($cleaned_filename) || 
+    (time() - filemtime($cleaned_filename) > 3600)) {
+    cleanAndCreateCSV();
 }
 
 // Zwróć oczyszczone dane
 if (file_exists($cleaned_filename)) {
-    echo file_get_contents($cleaned_filename);
+    readfile($cleaned_filename);
 } else {
-    // Fallback: zwróć surowe dane
-    if (file_exists('forex_data_raw.csv')) {
-        echo file_get_contents('forex_data_raw.csv');
+    // Fallback: spróbuj utworzyć jeszcze raz
+    if (cleanAndCreateCSV()) {
+        readfile($cleaned_filename);
     } else {
-        echo "ERROR: No data available";
+        http_response_code(500);
+        echo "ERROR: Could not generate cleaned CSV data";
     }
 }
 ?>
