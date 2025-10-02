@@ -20,35 +20,73 @@ jobs:
           echo "Downloading raw data..."
           curl -s "https://nfs.faireconomy.media/ff_calendar_thisweek.csv" -o forex_data_raw.csv
           
-          # Utwórz OCZYSZCZONY plik CSV z nowymi nagłówkami (BEZ FILTROWANIA ILOŚCI)
-          echo "Creating cleaned CSV..."
+          # Napraw znaki nowej linii i utwórz poprawny CSV
+          echo "Cleaning and fixing CSV format..."
           {
-            # Nagłówki dla MT5 (bez URL)
+            # Nagłówki dla MT5
             echo "Title,Country,Date,Time,Impact,Forecast,Previous"
             
-            # Przepisz WSZYSTKIE dane, pomijając tylko kolumnę URL
-            tail -n +2 forex_data_raw.csv | while IFS= read -r line; do
-              # Zastąp przecinki wewnątrz pól, aby uniknąć problemów z podziałem
-              clean_line=$(echo "$line" | sed 's/","/@%@%/g' | sed 's/,/ /g' | sed 's/@%@%/,/g')
+            # Przepisz dane, usuwając problematyczne znaki i kolumnę URL
+            tail -n +2 forex_data_raw.csv | while IFS= read -r line || [ -n "$line" ]; do
+              # Usuń znaki \r i zastąp przecinki wewnątrz pól tymczasowym separatorem
+              clean_line=$(echo "$line" | sed 's/\r//g' | sed 's/","/###TEMP###/g' | sed 's/,/ /g' | sed 's/###TEMP###/,/g')
               
-              # Użyj przecinka jako separatora i przepisz tylko pierwsze 7 pól
-              echo "$clean_line" | awk -F',' '{for(i=1;i<=7;i++) printf "%s%s", $i, (i<7 ? "," : "\n")}'
+              # Podziel na pola i wypisz tylko pierwsze 7
+              IFS=',' read -r -a fields <<< "$clean_line"
+              if [ ${#fields[@]} -ge 7 ]; then
+                printf "%s," "${fields[0]}"
+                printf "%s," "${fields[1]}"
+                printf "%s," "${fields[2]}"
+                printf "%s," "${fields[3]}"
+                printf "%s," "${fields[4]}"
+                printf "%s," "${fields[5]}"
+                printf "%s\n" "${fields[6]}"
+              fi
             done
-          } > forex_data.csv
+          } > forex_data_cleaned.csv
+          
+          # Alternatywnie: użyj Python do naprawy CSV (bardziej niezawodne)
+          echo "Alternative cleaning with Python..."
+          python3 -c "
+import csv
+
+with open('forex_data_raw.csv', 'r', newline='', encoding='utf-8') as f_in:
+    with open('forex_data_cleaned_python.csv', 'w', newline='', encoding='utf-8') as f_out:
+        reader = csv.reader(f_in)
+        writer = csv.writer(f_out)
+        
+        # Write header
+        writer.writerow(['Title', 'Country', 'Date', 'Time', 'Impact', 'Forecast', 'Previous'])
+        
+        # Skip original header and process rows
+        next(reader, None)
+        for row in reader:
+            if len(row) >= 8:
+                # Take only first 7 columns, remove any carriage returns
+                cleaned_row = [field.replace('\r', '').replace('\n', ' ') for field in row[:7]]
+                writer.writerow(cleaned_row)
+          "
+          
+          # Użyj pliku utworzonego przez Python (bardziej niezawodny)
+          mv forex_data_cleaned_python.csv forex_data_cleaned.csv
           
           # Sprawdź rozmiary plików
           raw_lines=$(wc -l < forex_data_raw.csv)
-          cleaned_lines=$(wc -l < forex_data.csv)
+          cleaned_lines=$(wc -l < forex_data_cleaned.csv)
           echo "Raw data lines: $raw_lines"
           echo "Cleaned data lines: $cleaned_lines"
           
-          # Sprawdź zawartość
-          echo "First few lines of cleaned file:"
-          head -5 forex_data.csv
+          # Sprawdź czy są jakieś problematyczne znaki
+          echo "Checking for problematic characters..."
+          if grep -q $'\r' forex_data_cleaned.csv; then
+            echo "WARNING: Still found carriage returns in cleaned file"
+          else
+            echo "SUCCESS: No carriage returns found in cleaned file"
+          fi
 
       - name: Commit and push if changed
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
-          git add forex_data_raw.csv forex_data.csv
+          git add forex_data_raw.csv forex_data_cleaned.csv
           git diff --quiet && git diff --staged --quiet || (git commit -m "Auto-update cleaned forex calendar data [$(date +%Y-%m-%d)]" && git push)
