@@ -106,8 +106,36 @@ jobs:
                   pass
               return date_str
 
-          # Nagłówek dla uproszczonego pliku - BEZ Forecast, Previous, URL
-          optimized_rows.append(['Title', 'Country', 'Date', 'Time24h', 'Importance'])
+          def clean_forecast_value(value):
+              """Oczyść wartości forecast/previous dla MQL5"""
+              if not value or value.strip() == '':
+                  return '0'
+              
+              value = value.strip()
+              
+              # Usuń znaki specjalne jak | które powodują problemy
+              if '|' in value:
+                  value = value.split('|')[0]
+              
+              # Zamień procenty na liczby (usuwając %)
+              if '%' in value:
+                  value = value.replace('%', '')
+              
+              # Zamień litery na liczby (K=1000, M=1000000, B=1000000000)
+              if 'K' in value:
+                  value = str(float(value.replace('K', '')) * 1000)
+              elif 'M' in value:
+                  value = str(float(value.replace('M', '')) * 1000000)
+              elif 'B' in value:
+                  value = str(float(value.replace('B', '')) * 1000000000)
+              
+              # Usuń przecinki z liczb
+              value = value.replace(',', '')
+              
+              return value
+
+          # Nagłówek dla uproszczonego pliku
+          optimized_rows.append(['Title', 'Country', 'Date', 'Time24h', 'Importance', 'Forecast', 'Previous'])
 
           # Przetwórz wiersze danych
           processed_count = 0
@@ -115,8 +143,7 @@ jobs:
               if len(row) < 8:
                   continue
                   
-              # Pobierz tylko potrzebne kolumny - POMIŃ Forecast, Previous, URL
-              title, country, date, time, impact = row[:5]
+              title, country, date, time, impact, forecast, previous = row[:7]
               
               # Sprawdź duplikaty
               event_key = f"{title}_{country}_{date}_{time}"
@@ -128,16 +155,21 @@ jobs:
               time24h = convert_time_to_24h(time)
               date_mql5 = convert_date_format(date)
               
+              # Oczyść wartości forecast/previous
+              forecast_clean = clean_forecast_value(forecast)
+              previous_clean = clean_forecast_value(previous)
+              
               # Wartość numeryczna dla impact
               importance = str(impact_to_importance.get(impact, 0))
               
-              # Dodaj do uproszczonego pliku - BEZ Forecast, Previous, URL
               optimized_rows.append([
                   title, 
                   country, 
                   date_mql5,
                   time24h, 
-                  importance
+                  importance,
+                  forecast_clean,
+                  previous_clean
               ])
               processed_count += 1
 
@@ -154,8 +186,9 @@ jobs:
           
           # Statystyki
           high_impact = sum(1 for row in optimized_rows[1:] if row[4] == '3')
+          with_data = sum(1 for row in optimized_rows[1:] if row[5] != '0' and row[6] != '0')
           
-          print(f"📊 Statistics: High impact: {high_impact}")
+          print(f"📊 Statistics: High impact: {high_impact}, With data: {with_data}")
           EOF
 
       - name: Verify and display results
