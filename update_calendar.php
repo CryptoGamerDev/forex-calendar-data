@@ -26,19 +26,35 @@ function convert_time_to_24h($time_str) {
     if (empty($time_str)) return '00:00';
     
     $time_str = strtolower(trim($time_str));
+    
+    // POPRAWIONY REGEX - obsługuje czas bez minut i z spacjami
     if (!preg_match('/(\d+):?(\d+)?\s*(am|pm)/', $time_str, $matches)) {
-        return $time_str;
+        // Dodatkowe sprawdzenie dla formatu "7am" bez dwukropka
+        if (preg_match('/(\d+)\s*(am|pm)/', $time_str, $matches)) {
+            $hour = (int)$matches[1];
+            $minute = '00';
+            $period = $matches[2];
+        } else {
+            return '00:00';
+        }
+    } else {
+        $hour = (int)$matches[1];
+        $minute = isset($matches[2]) ? $matches[2] : '00';
+        $period = $matches[3];
     }
     
-    $hour = (int)$matches[1];
-    $minute = isset($matches[2]) ? $matches[2] : '00';
-    $period = $matches[3];
+    // Upewnij się, że minuty są 2-cyfrowe
+    if (strlen($minute) == 1) $minute = '0' . $minute;
+    if (empty($minute)) $minute = '00';
     
     if ($period == 'pm' && $hour != 12) {
         $hour += 12;
     } elseif ($period == 'am' && $hour == 12) {
         $hour = 0;
     }
+    
+    // Normalizuj godzinę do zakresu 0-23
+    $hour = $hour % 24;
     
     return sprintf("%02d:%s", $hour, $minute);
 }
@@ -61,13 +77,13 @@ function convert_date_format($date_str) {
 }
 
 function clean_forecast_value($value) {
-    if (empty($value) || trim($value) === '') {
+    if (empty($value) || trim($value) === '' || trim($value) === '-') {
         return '0';
     }
     
     $value = trim($value);
     
-    // Usuń znaki specjalne jak |
+    // Usuń znaki specjalne jak | które powodują problemy
     if (strpos($value, '|') !== false) {
         $value = explode('|', $value)[0];
     }
@@ -77,19 +93,35 @@ function clean_forecast_value($value) {
         $value = str_replace('%', '', $value);
     }
     
-    // Zamień litery na liczby (K=1000, M=1000000, B=1000000000)
-    if (strpos($value, 'K') !== false) {
-        $value = strval(floatval(str_replace('K', '', $value)) * 1000);
-    } elseif (strpos($value, 'M') !== false) {
-        $value = strval(floatval(str_replace('M', '', $value)) * 1000000);
-    } elseif (strpos($value, 'B') !== false) {
-        $value = strval(floatval(str_replace('B', '', $value)) * 1000000000);
-    }
-    
     // Usuń przecinki z liczb
     $value = str_replace(',', '', $value);
     
-    return $value;
+    // Sprawdź czy wartość zawiera litery oznaczające mnożniki
+    $multiplier = 1;
+    if (strpos($value, 'K') !== false) {
+        $multiplier = 1000;
+        $value = str_replace('K', '', $value);
+    } elseif (strpos($value, 'M') !== false) {
+        $multiplier = 1000000;
+        $value = str_replace('M', '', $value);
+    } elseif (strpos($value, 'B') !== false) {
+        $multiplier = 1000000000;
+        $value = str_replace('B', '', $value);
+    }
+    
+    // Sprawdź czy wartość jest numeryczna po usunięciu liter
+    if (is_numeric($value)) {
+        $numeric_value = floatval($value) * $multiplier;
+        // Jeśli wartość jest całkowita, przedstaw jako integer
+        if (floor($numeric_value) == $numeric_value) {
+            return (string)intval($numeric_value);
+        } else {
+            // Zaokrąglij do 2 miejsc po przecinku
+            return (string)round($numeric_value, 2);
+        }
+    }
+    
+    return '0';
 }
 
 function downloadAndOptimizeData() {
