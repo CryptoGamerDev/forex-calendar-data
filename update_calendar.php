@@ -26,35 +26,19 @@ function convert_time_to_24h($time_str) {
     if (empty($time_str)) return '00:00';
     
     $time_str = strtolower(trim($time_str));
-    
-    // POPRAWIONY REGEX - obsługuje czas bez minut i z spacjami
     if (!preg_match('/(\d+):?(\d+)?\s*(am|pm)/', $time_str, $matches)) {
-        // Dodatkowe sprawdzenie dla formatu "7am" bez dwukropka
-        if (preg_match('/(\d+)\s*(am|pm)/', $time_str, $matches)) {
-            $hour = (int)$matches[1];
-            $minute = '00';
-            $period = $matches[2];
-        } else {
-            return '00:00';
-        }
-    } else {
-        $hour = (int)$matches[1];
-        $minute = isset($matches[2]) ? $matches[2] : '00';
-        $period = $matches[3];
+        return $time_str;
     }
     
-    // Upewnij się, że minuty są 2-cyfrowe
-    if (strlen($minute) == 1) $minute = '0' . $minute;
-    if (empty($minute)) $minute = '00';
+    $hour = (int)$matches[1];
+    $minute = isset($matches[2]) ? $matches[2] : '00';
+    $period = $matches[3];
     
     if ($period == 'pm' && $hour != 12) {
         $hour += 12;
     } elseif ($period == 'am' && $hour == 12) {
         $hour = 0;
     }
-    
-    // Normalizuj godzinę do zakresu 0-23
-    $hour = $hour % 24;
     
     return sprintf("%02d:%s", $hour, $minute);
 }
@@ -74,54 +58,6 @@ function convert_date_format($date_str) {
         // Ignore and return original
     }
     return $date_str;
-}
-
-function clean_forecast_value($value) {
-    if (empty($value) || trim($value) === '' || trim($value) === '-') {
-        return '0';
-    }
-    
-    $value = trim($value);
-    
-    // Usuń znaki specjalne jak | które powodują problemy
-    if (strpos($value, '|') !== false) {
-        $value = explode('|', $value)[0];
-    }
-    
-    // Zamień procenty na liczby (usuwając %)
-    if (strpos($value, '%') !== false) {
-        $value = str_replace('%', '', $value);
-    }
-    
-    // Usuń przecinki z liczb
-    $value = str_replace(',', '', $value);
-    
-    // Sprawdź czy wartość zawiera litery oznaczające mnożniki
-    $multiplier = 1;
-    if (strpos($value, 'K') !== false) {
-        $multiplier = 1000;
-        $value = str_replace('K', '', $value);
-    } elseif (strpos($value, 'M') !== false) {
-        $multiplier = 1000000;
-        $value = str_replace('M', '', $value);
-    } elseif (strpos($value, 'B') !== false) {
-        $multiplier = 1000000000;
-        $value = str_replace('B', '', $value);
-    }
-    
-    // Sprawdź czy wartość jest numeryczna po usunięciu liter
-    if (is_numeric($value)) {
-        $numeric_value = floatval($value) * $multiplier;
-        // Jeśli wartość jest całkowita, przedstaw jako integer
-        if (floor($numeric_value) == $numeric_value) {
-            return (string)intval($numeric_value);
-        } else {
-            // Zaokrąglij do 2 miejsc po przecinku
-            return (string)round($numeric_value, 2);
-        }
-    }
-    
-    return '0';
 }
 
 function downloadAndOptimizeData() {
@@ -154,11 +90,11 @@ function downloadAndOptimizeData() {
         'Holiday' => 0
     ];
     
-    // Nagłówki dla zoptymalizowanego pliku (pełnego)
-    $optimized_rows[] = ['Title', 'Country', 'Date', 'Time', 'Time24h', 'Impact', 'Forecast', 'Previous', 'HasForecast', 'HasPrevious', 'Importance'];
+    // Nagłówki dla zoptymalizowanego pliku (pełnego) - BEZ Forecast, Previous, URL
+    $optimized_rows[] = ['Title', 'Country', 'Date', 'Time', 'Time24h', 'Impact', 'Importance'];
     
-    // Nagłówki dla uproszczonego pliku
-    $simple_rows[] = ['Title', 'Country', 'Date', 'Time24h', 'Importance', 'Forecast', 'Previous'];
+    // Nagłówki dla uproszczonego pliku - BEZ Forecast, Previous, URL
+    $simple_rows[] = ['Title', 'Country', 'Date', 'Time24h', 'Importance'];
     
     $seen_events = [];
     
@@ -178,7 +114,8 @@ function downloadAndOptimizeData() {
         $fields = str_getcsv($line);
         if (count($fields) < 8) continue;
         
-        list($title, $country, $date, $time, $impact, $forecast, $previous) = array_slice($fields, 0, 7);
+        // Pobierz tylko potrzebne kolumny - POMIŃ Forecast, Previous, URL
+        list($title, $country, $date, $time, $impact) = array_slice($fields, 0, 5);
         
         // Sprawdź duplikaty
         $key = $title . $country . $date . $time;
@@ -189,26 +126,17 @@ function downloadAndOptimizeData() {
         $time24h = convert_time_to_24h($time);
         $date_mql5 = convert_date_format($date);
         
-        // Oczyść wartości forecast/previous
-        $forecast_clean = clean_forecast_value($forecast);
-        $previous_clean = clean_forecast_value($previous);
-        
         // Wartość numeryczna dla impact
         $importance = (string)($impact_to_importance[$impact] ?? 0);
         
-        // Flagi czy ma forecast/previous (w oparciu o oryginalne wartości, nie wyczyszczone)
-        $has_forecast = (empty($forecast) || trim($forecast) === '') ? '0' : '1';
-        $has_previous = (empty($previous) || trim($previous) === '') ? '0' : '1';
-        
-        // Dodaj do zoptymalizowanego pliku (pełnego)
+        // Dodaj do zoptymalizowanego pliku (pełnego) - BEZ Forecast, Previous, URL
         $optimized_rows[] = [
-            $title, $country, $date, $time, $time24h, $impact,
-            $forecast, $previous, $has_forecast, $has_previous, $importance
+            $title, $country, $date, $time, $time24h, $impact, $importance
         ];
         
-        // Dodaj do uproszczonego pliku (dla MQL5)
+        // Dodaj do uproszczonego pliku (dla MQL5) - BEZ Forecast, Previous, URL
         $simple_rows[] = [
-            $title, $country, $date_mql5, $time24h, $importance, $forecast_clean, $previous_clean
+            $title, $country, $date_mql5, $time24h, $importance
         ];
         
         $processed_count++;
@@ -243,20 +171,17 @@ if (is_numeric($result)) {
     $simple_count = count($simple_content) - 1;
     
     $high_impact = 0;
-    $with_data = 0;
     
     for ($i = 1; $i < count($simple_content); $i++) {
         $fields = str_getcsv(trim($simple_content[$i]));
         if (count($fields) >= 5) {
             if ($fields[4] == '3') $high_impact++;
-            if ($fields[5] != '0' && $fields[6] != '0') $with_data++;
         }
     }
     
     echo "✅ SUCCESS: Data optimized and saved at " . date('Y-m-d H:i:s') . "\n";
     echo "📊 Events processed: $optimized_count\n";
     echo "🎯 High impact events: $high_impact\n";
-    echo "📈 Events with forecast data: $with_data\n";
     
 } else {
     echo "❌ $result\n";
