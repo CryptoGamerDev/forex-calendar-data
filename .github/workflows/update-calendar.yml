@@ -75,25 +75,42 @@ jobs:
           }
 
           def convert_time_to_24h(time_str):
-              """Konwertuj czas AM/PM na format 24-godzinny"""
+              """Konwertuj czas AM/PM na format 24-godzinny - POPRAWIONA"""
               if not time_str or time_str.strip() == '':
                   return '00:00'
               
               time_str = time_str.lower().strip()
               
+              # POPRAWIONY REGEX - obsługuje czas bez minut i z spacjami
               match = re.match(r'(\d+):?(\d+)?\s*(am|pm)', time_str)
               if not match:
-                  return '00:00'
-                  
-              hour = int(match.group(1))
-              minute = match.group(2) if match.group(2) else '00'
-              period = match.group(3)
+                  # Dodatkowe sprawdzenie dla formatu "7am" bez dwukropka
+                  match = re.match(r'(\d+)\s*(am|pm)', time_str)
+                  if match:
+                      hour = int(match.group(1))
+                      minute = '00'
+                      period = match.group(2)
+                  else:
+                      return '00:00'
+              else:
+                  hour = int(match.group(1))
+                  minute = match.group(2) if match.group(2) else '00'
+                  period = match.group(3)
+              
+              # Upewnij się, że minuty są 2-cyfrowe
+              if len(minute) == 1:
+                  minute = '0' + minute
+              if not minute:
+                  minute = '00'
               
               if period == 'pm' and hour != 12:
                   hour += 12
               elif period == 'am' and hour == 12:
                   hour = 0
-                  
+              
+              # Normalizuj godzinę do zakresu 0-23
+              hour = hour % 24
+              
               return f"{hour:02d}:{minute}"
 
           def convert_date_format(date_str):
@@ -107,8 +124,8 @@ jobs:
               return date_str
 
           def clean_forecast_value(value):
-              """Oczyść wartości forecast/previous dla MQL5"""
-              if not value or value.strip() == '':
+              """Oczyść wartości forecast/previous dla MQL5 - POPRAWIONA"""
+              if not value or value.strip() == '' or value.strip() == '-':
                   return '0'
               
               value = value.strip()
@@ -121,18 +138,32 @@ jobs:
               if '%' in value:
                   value = value.replace('%', '')
               
-              # Zamień litery na liczby (K=1000, M=1000000, B=1000000000)
-              if 'K' in value:
-                  value = str(float(value.replace('K', '')) * 1000)
-              elif 'M' in value:
-                  value = str(float(value.replace('M', '')) * 1000000)
-              elif 'B' in value:
-                  value = str(float(value.replace('B', '')) * 1000000000)
-              
               # Usuń przecinki z liczb
               value = value.replace(',', '')
               
-              return value
+              # Sprawdź czy wartość zawiera litery oznaczające mnożniki
+              multiplier = 1
+              if 'K' in value:
+                  multiplier = 1000
+                  value = value.replace('K', '')
+              elif 'M' in value:
+                  multiplier = 1000000
+                  value = value.replace('M', '')
+              elif 'B' in value:
+                  multiplier = 1000000000
+                  value = value.replace('B', '')
+              
+              # Sprawdź czy wartość jest numeryczna po usunięciu liter
+              try:
+                  numeric_value = float(value) * multiplier
+                  # Jeśli wartość jest całkowita, przedstaw jako integer
+                  if numeric_value.is_integer():
+                      return str(int(numeric_value))
+                  else:
+                      # Zaokrąglij do 2 miejsc po przecinku
+                      return str(round(numeric_value, 2))
+              except ValueError:
+                  return '0'
 
           # Nagłówek dla uproszczonego pliku
           optimized_rows.append(['Title', 'Country', 'Date', 'Time24h', 'Importance', 'Forecast', 'Previous'])
