@@ -40,7 +40,6 @@ Current Account,JPY,2025.10.07,23:50,1,2.45T,1.88T
 Bank Holiday,CNY,2025.10.08,00:01,0,0,0
 Official Cash Rate,NZD,2025.10.08,01:00,3,2.75,3.00
 RBNZ Rate Statement,NZD,2025.10.08,01:00,3,0,0
-BOJ Gov Ueda Speaks,JPY,2025.10.08,01:45,3,0,0
 Economy Watchers Sentiment,JPY,2025.10.08,05:00,1,47.0,46.7
 German Industrial Production m/m,EUR,2025.10.08,06:00,1,-1.0,1.3
 FPC Meeting Minutes,GBP,2025.10.08,09:30,1,0,0
@@ -58,6 +57,7 @@ FOMC Member Kashkari Speaks,USD,2025.10.08,19:15,1,0,0
 FOMC Member Barr Speaks,USD,2025.10.08,21:45,1,0,0
 RICS House Price Balance,GBP,2025.10.08,23:01,1,-18,-19
 MI Inflation Expectations,AUD,2025.10.09,00:00,1,0,4.7
+BOJ Gov Ueda Speaks,JPY,2025.10.09,01:45,3,0,0
 German Trade Balance,EUR,2025.10.09,06:00,1,15100000000.0,14700000000.0
 Prelim Machine Tool Orders y/y,JPY,2025.10.09,06:00,1,0,8.1
 New Loans,CNY,2025.10.09,08:03,2,1460000000000.0,590000000000.0
