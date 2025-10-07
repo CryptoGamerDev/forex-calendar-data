@@ -23,7 +23,6 @@ Halifax HPI m/m,GBP,2025.10.07,06:00,1,0.2,0.3
 French Trade Balance,EUR,2025.10.07,06:45,1,-5200000000.0,-5600000000.0
 Foreign Currency Reserves,CHF,2025.10.07,07:00,1,0,715000000000.0
 Trade Balance,CAD,2025.10.07,12:30,1,-5700000000.0,-4900000000.0
-Trade Balance,USD,2025.10.07,12:33,1,-61400000000.0,-78300000000.0
 Ivey PMI,CAD,2025.10.07,14:00,2,51.2,50.1
 FOMC Member Bostic Speaks,USD,2025.10.07,14:00,1,0,0
 FOMC Member Bowman Speaks,USD,2025.10.07,14:05,1,0,0
@@ -49,7 +48,6 @@ FPC Statement,GBP,2025.10.08,09:30,1,0,0
 FOMC Member Musalem Speaks,USD,2025.10.08,13:20,1,0,0
 FOMC Member Barr Speaks,USD,2025.10.08,13:30,1,0,0
 FOMC Member Goolsbee Speaks,USD,2025.10.08,14:00,1,0,0
-Construction Spending m/m,USD,2025.10.08,14:15,1,-0.1,-0.1
 Crude Oil Inventories,USD,2025.10.08,14:30,1,0,1800000.0
 MPC Member Pill Speaks,GBP,2025.10.08,15:00,1,0,0
 ECB President Lagarde Speaks,EUR,2025.10.08,16:00,1,0,0
@@ -68,7 +66,6 @@ MPC Member Mann Speaks,GBP,2025.10.09,08:30,1,0,0
 Eurogroup Meetings,EUR,2025.10.09,09:15,1,0,0
 ECB Monetary Policy Meeting Accounts,EUR,2025.10.09,11:30,1,0,0
 Gov Council Member Rogers Speaks,CAD,2025.10.09,12:00,1,0,0
-Unemployment Claims,USD,2025.10.09,12:29,3,225000.0,218000.0
 Fed Chair Powell Speaks,USD,2025.10.09,12:30,2,0,0
 Unemployment Claims,USD,2025.10.09,12:33,3,227000.0,0
 FOMC Member Bowman Speaks,USD,2025.10.09,12:35,1,0,0
@@ -88,9 +85,6 @@ Italian Industrial Production m/m,EUR,2025.10.10,08:00,1,-0.3,0.4
 ECOFIN Meetings,EUR,2025.10.10,09:15,1,0,0
 Employment Change,CAD,2025.10.10,12:30,3,2800.0,-65500.0
 Unemployment Rate,CAD,2025.10.10,12:30,3,7.2,7.1
-Average Hourly Earnings m/m,USD,2025.10.10,12:32,3,0.3,0.3
-Non-Farm Employment Change,USD,2025.10.10,12:32,3,52000.0,22000.0
-Unemployment Rate,USD,2025.10.10,12:32,3,4.3,4.3
 FOMC Member Goolsbee Speaks,USD,2025.10.10,13:45,1,0,0
 Prelim UoM Consumer Sentiment,USD,2025.10.10,14:00,3,54.1,55.4
 Prelim UoM Inflation Expectations,USD,2025.10.10,14:00,3,0,4.8
