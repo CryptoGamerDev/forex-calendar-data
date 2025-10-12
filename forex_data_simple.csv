@@ -1,85 +1,118 @@
 Title,Country,Date,Time24h,Importance,Forecast,Previous
-Bank Holiday,AUD,2025.10.05,20:00,0,0,0
-MI Inflation Gauge m/m,AUD,2025.10.06,00:00,1,0,-0.3
-ANZ Commodity Prices m/m,NZD,2025.10.06,00:00,1,0,0.7
-Bank Holiday,CNY,2025.10.06,00:01,0,0,0
-Unemployment Rate,CHF,2025.10.06,07:00,1,2.9,2.9
-Sentix Investor Confidence,EUR,2025.10.06,08:30,1,-7.5,-9.2
-Construction PMI,GBP,2025.10.06,08:30,1,46.1,45.5
-Housing Equity Withdrawal q/q,GBP,2025.10.06,08:30,1,-4500000000.0,-3300000000.0
-Retail Sales m/m,EUR,2025.10.06,09:00,1,0.1,-0.5
-BOE Gov Bailey Speaks,GBP,2025.10.06,15:00,3,0,0
-ECB President Lagarde Speaks,EUR,2025.10.06,17:00,3,0,0
-NZIER Business Confidence,NZD,2025.10.06,21:00,1,0,22
-FOMC Member Schmid Speaks,USD,2025.10.06,21:00,1,0,0
-Westpac Consumer Sentiment,AUD,2025.10.06,22:57,1,0,-3.1
-Household Spending y/y,JPY,2025.10.06,23:30,1,1.4,1.4
-Bank Holiday,CNY,2025.10.07,00:01,0,0,0
-ANZ Job Advertisements m/m,AUD,2025.10.07,00:30,1,0,0.1
-30-y Bond Auction,JPY,2025.10.07,03:35,1,0,3.26
-Leading Indicators,JPY,2025.10.07,05:00,1,107.1,105.9
-German Factory Orders m/m,EUR,2025.10.07,06:00,1,1.2,-2.9
-Halifax HPI m/m,GBP,2025.10.07,06:00,1,0.2,0.3
-French Trade Balance,EUR,2025.10.07,06:45,1,-5200000000.0,-5600000000.0
-Foreign Currency Reserves,CHF,2025.10.07,07:00,1,0,715000000000.0
-Trade Balance,CAD,2025.10.07,12:30,1,-5700000000.0,-4900000000.0
-Ivey PMI,CAD,2025.10.07,14:00,2,51.2,50.1
-FOMC Member Bostic Speaks,USD,2025.10.07,14:00,1,0,0
-RCM/TIPP Economic Optimism,USD,2025.10.07,14:02,1,49.3,48.7
-FOMC Member Bowman Speaks,USD,2025.10.07,14:05,1,0,0
-FOMC Member Miran Speaks,USD,2025.10.07,14:45,1,0,0
-GDT Price Index,NZD,2025.10.07,15:15,1,0,-0.8
-FOMC Member Kashkari Speaks,USD,2025.10.07,15:30,1,0,0
-German Buba President Nagel Speaks,EUR,2025.10.07,16:00,1,0,0
-ECB President Lagarde Speaks,EUR,2025.10.07,16:10,2,0,0
-Consumer Credit m/m,USD,2025.10.07,19:00,1,12900000000.0,16000000000.0
-FOMC Member Miran Speaks,USD,2025.10.07,20:05,1,0,0
-API Weekly Statistical Bulletin,USD,2025.10.07,20:30,1,0,0
-Average Cash Earnings y/y,JPY,2025.10.07,23:30,1,2.6,4.1
-Current Account,JPY,2025.10.07,23:50,1,2.45T,1.88T
-Bank Holiday,CNY,2025.10.08,00:01,0,0,0
-Official Cash Rate,NZD,2025.10.08,01:00,3,2.75,3.00
-RBNZ Rate Statement,NZD,2025.10.08,01:00,3,0,0
-Economy Watchers Sentiment,JPY,2025.10.08,05:00,1,47.0,46.7
-German Industrial Production m/m,EUR,2025.10.08,06:00,1,-1.0,1.3
-FPC Meeting Minutes,GBP,2025.10.08,09:30,1,0,0
-FPC Statement,GBP,2025.10.08,09:30,1,0,0
-FOMC Member Musalem Speaks,USD,2025.10.08,13:20,1,0,0
-FOMC Member Barr Speaks,USD,2025.10.08,13:30,1,0,0
-FOMC Member Goolsbee Speaks,USD,2025.10.08,14:00,1,0,0
-Crude Oil Inventories,USD,2025.10.08,14:30,1,400000.0,1800000.0
-MPC Member Pill Speaks,GBP,2025.10.08,15:00,1,0,0
-ECB President Lagarde Speaks,EUR,2025.10.08,16:00,1,0,0
-10-y Bond Auction,USD,2025.10.08,17:01,1,0,4.03
-FOMC Member Logan Speaks,USD,2025.10.08,17:15,1,0,0
-FOMC Meeting Minutes,USD,2025.10.08,18:00,3,0,0
-FOMC Member Kashkari Speaks,USD,2025.10.08,19:15,1,0,0
-FOMC Member Barr Speaks,USD,2025.10.08,21:45,1,0,0
-RICS House Price Balance,GBP,2025.10.08,23:01,1,-18,-19
-MI Inflation Expectations,AUD,2025.10.09,00:00,1,0,4.7
-Prelim Machine Tool Orders y/y,JPY,2025.10.09,05:58,1,0,8.1
-German Trade Balance,EUR,2025.10.09,06:00,1,15100000000.0,14700000000.0
-MPC Member Mann Speaks,GBP,2025.10.09,08:30,1,0,0
-Eurogroup Meetings,EUR,2025.10.09,09:15,1,0,0
-ECB Monetary Policy Meeting Accounts,EUR,2025.10.09,11:30,1,0,0
-Gov Council Member Rogers Speaks,CAD,2025.10.09,12:00,1,0,0
-Fed Chair Powell Speaks,USD,2025.10.09,12:30,2,0,0
-FOMC Member Bowman Speaks,USD,2025.10.09,12:35,1,0,0
-Natural Gas Storage,USD,2025.10.09,14:30,1,76000000000.0,53000000000.0
-FOMC Member Barr Speaks,USD,2025.10.09,16:45,1,0,0
-30-y Bond Auction,USD,2025.10.09,17:01,1,0,4.65
-FOMC Member Bowman Speaks,USD,2025.10.09,19:45,1,0,0
-BusinessNZ Manufacturing Index,NZD,2025.10.09,21:30,1,0,49.9
-RBA Gov Bullock Speaks,AUD,2025.10.09,22:00,3,0,0
-Bank Lending y/y,JPY,2025.10.09,23:50,1,3.7,3.6
-PPI y/y,JPY,2025.10.09,23:50,1,2.5,2.7
-FOMC Member Daly Speaks,USD,2025.10.10,01:40,1,0,0
-SECO Consumer Climate,CHF,2025.10.10,07:00,1,-38,-40
-Italian Industrial Production m/m,EUR,2025.10.10,08:00,1,-0.3,0.4
-ECOFIN Meetings,EUR,2025.10.10,09:15,1,0,0
-Employment Change,CAD,2025.10.10,12:30,3,2800.0,-65500.0
-Unemployment Rate,CAD,2025.10.10,12:30,3,7.2,7.1
-FOMC Member Goolsbee Speaks,USD,2025.10.10,13:45,1,0,0
-Prelim UoM Consumer Sentiment,USD,2025.10.10,14:00,3,54.1,55.4
-Prelim UoM Inflation Expectations,USD,2025.10.10,14:00,3,0,4.8
-FOMC Member Musalem Speaks,USD,2025.10.10,17:00,1,0,0
+BusinessNZ Services Index,NZD,2025.10.12,21:30,1,0,47.5
+Visitor Arrivals m/m,NZD,2025.10.12,21:45,1,0,2.6
+Bank Holiday,JPY,2025.10.12,23:00,0,0,0
+Trade Balance,CNY,2025.10.13,02:03,1,710000000000.0,733000000000.0
+USD-Denominated Trade Balance,CNY,2025.10.13,02:04,1,98500000000.0,102300000000.0
+German WPI m/m,EUR,2025.10.13,06:00,1,0.2,-0.6
+New Loans,CNY,2025.10.13,09:33,2,1460000000000.0,590000000000.0
+M2 Money Supply y/y,CNY,2025.10.13,09:33,1,8.5,8.8
+MPC Member Greene Speaks,GBP,2025.10.13,11:05,1,0,0
+Bank Holiday,CAD,2025.10.13,12:00,0,0,0
+Bank Holiday,USD,2025.10.13,12:00,0,0,0
+CB Leading Index m/m,GBP,2025.10.13,13:30,1,0,-0.1
+IMF Meetings,All,2025.10.13,14:15,1,0,0
+FOMC Member Paulson Speaks,USD,2025.10.13,16:55,1,0,0
+MPC Member Mann Speaks,GBP,2025.10.13,19:10,1,0,0
+BRC Retail Sales Monitor y/y,GBP,2025.10.13,23:01,1,2.5,2.9
+M2 Money Stock y/y,JPY,2025.10.13,23:50,1,0,1.3
+Monetary Policy Meeting Minutes,AUD,2025.10.14,00:30,2,0,0
+NAB Business Confidence,AUD,2025.10.14,00:30,1,0,4
+German Final CPI m/m,EUR,2025.10.14,06:00,1,0.2,0.2
+Average Earnings Index 3m/y,GBP,2025.10.14,06:00,2,4.7,4.7
+Claimant Count Change,GBP,2025.10.14,06:00,2,0,17400.0
+Unemployment Rate,GBP,2025.10.14,06:00,1,4.7,4.7
+PPI m/m,CHF,2025.10.14,06:30,1,0.2,-0.6
+German ZEW Economic Sentiment,EUR,2025.10.14,09:00,2,41.7,37.3
+ZEW Economic Sentiment,EUR,2025.10.14,09:00,1,30.2,26.1
+NFIB Small Business Index,USD,2025.10.14,10:00,1,100.5,100.8
+MPC Member Taylor Speaks,GBP,2025.10.14,12:00,1,0,0
+Building Permits m/m,CAD,2025.10.14,12:30,1,0.2,-0.1
+FOMC Member Bowman Speaks,USD,2025.10.14,12:45,1,0,0
+IMF Meetings,All,2025.10.14,14:15,1,0,0
+CB Leading Index m/m,AUD,2025.10.14,14:30,1,0,0.0
+Gov Council Member Rogers Speaks,CAD,2025.10.14,15:15,1,0,0
+Fed Chair Powell Speaks,USD,2025.10.14,16:20,3,0,0
+BOE Gov Bailey Speaks,GBP,2025.10.14,17:00,3,0,0
+FOMC Member Waller Speaks,USD,2025.10.14,19:25,1,0,0
+FOMC Member Collins Speaks,USD,2025.10.14,19:30,1,0,0
+MI Leading Index m/m,AUD,2025.10.14,23:30,1,0,0.0
+RBA Assist Gov Hunter Speaks,AUD,2025.10.14,23:30,1,0,0
+CPI y/y,CNY,2025.10.15,01:30,2,-0.2,-0.4
+PPI y/y,CNY,2025.10.15,01:30,2,-2.3,-2.9
+Revised Industrial Production m/m,JPY,2025.10.15,04:30,1,-1.2,-1.2
+French Final CPI m/m,EUR,2025.10.15,06:45,1,-1.0,-1.0
+MPC Member Ramsden Speaks,GBP,2025.10.15,08:00,1,0,0
+Industrial Production m/m,EUR,2025.10.15,09:00,1,-1.8,0.3
+German 30-y Bond Auction,EUR,2025.10.15,09:34,1,0,3.25
+Manufacturing Sales m/m,CAD,2025.10.15,12:30,1,-1.5,2.5
+Wholesale Sales m/m,CAD,2025.10.15,12:30,1,0.8,1.2
+Empire State Manufacturing Index,USD,2025.10.15,12:30,2,0.2,-8.7
+FOMC Member Miran Speaks,USD,2025.10.15,13:30,1,0,0
+IMF Meetings,All,2025.10.15,14:15,1,0,0
+MPC Member Breeden Speaks,GBP,2025.10.15,15:00,1,0,0
+MPC Member Breeden Speaks,GBP,2025.10.15,15:45,1,0,0
+FOMC Member Miran Speaks,USD,2025.10.15,16:30,1,0,0
+FOMC Member Waller Speaks,USD,2025.10.15,17:00,1,0,0
+Beige Book,USD,2025.10.15,18:00,1,0,0
+FOMC Member Schmid Speaks,USD,2025.10.15,18:30,1,0,0
+RBA Gov Bullock Speaks,AUD,2025.10.15,19:45,3,0,0
+API Weekly Statistical Bulletin,USD,2025.10.15,20:30,1,0,0
+FPI m/m,NZD,2025.10.15,21:45,1,0,0.3
+RBA Assist Gov Kent Speaks,AUD,2025.10.15,21:50,1,0,0
+Core Machinery Orders m/m,JPY,2025.10.15,23:50,1,0.5,-4.6
+Employment Change,AUD,2025.10.16,00:30,3,20000.0,-5400.0
+Unemployment Rate,AUD,2025.10.16,00:30,3,4.3,4.2
+Tertiary Industry Activity m/m,JPY,2025.10.16,04:30,1,-0.2,0.5
+GDP m/m,GBP,2025.10.16,06:00,3,0.1,0.0
+Construction Output m/m,GBP,2025.10.16,06:00,1,-0.2,0.2
+Goods Trade Balance,GBP,2025.10.16,06:00,1,-22000000000.0,-22200000000.0
+Index of Services 3m/3m,GBP,2025.10.16,06:00,1,0.4,0.4
+Industrial Production m/m,GBP,2025.10.16,06:00,1,0.2,-0.9
+Manufacturing Production m/m,GBP,2025.10.16,06:00,1,0.2,-1.3
+SECO Economic Forecasts,CHF,2025.10.16,07:00,1,0,0
+BOE Credit Conditions Survey,GBP,2025.10.16,08:30,1,0,0
+Italian Trade Balance,EUR,2025.10.16,09:00,1,7550000000.0,7910000000.0
+Trade Balance,EUR,2025.10.16,09:00,1,4200000000.0,5300000000.0
+Spanish 10-y Bond Auction,EUR,2025.10.16,09:03,1,0,3.23
+Housing Starts,CAD,2025.10.16,12:15,1,248000.0,246000.0
+Philly Fed Manufacturing Index,USD,2025.10.16,12:30,2,9.1,23.2
+Core PPI m/m,USD,2025.10.16,12:33,3,0.3,-0.1
+Core Retail Sales m/m,USD,2025.10.16,12:33,3,0.3,0.7
+PPI m/m,USD,2025.10.16,12:33,3,0.3,-0.1
+Retail Sales m/m,USD,2025.10.16,12:33,3,0.4,0.6
+Unemployment Claims,USD,2025.10.16,12:33,3,0,0
+MPC Member Mann Speaks,GBP,2025.10.16,13:00,1,0,0
+FOMC Member Waller Speaks,USD,2025.10.16,13:00,2,0,0
+FOMC Member Barr Speaks,USD,2025.10.16,13:00,1,0,0
+FOMC Member Miran Speaks,USD,2025.10.16,13:00,1,0,0
+FOMC Member Bowman Speaks,USD,2025.10.16,14:00,1,0,0
+NAHB Housing Market Index,USD,2025.10.16,14:00,1,33,32
+Business Inventories m/m,USD,2025.10.16,14:03,1,0.1,0.2
+IMF Meetings,All,2025.10.16,14:15,1,0,0
+Natural Gas Storage,USD,2025.10.16,14:30,1,0,80000000000.0
+MPC Member Mann Speaks,GBP,2025.10.16,14:45,1,0,0
+ECB President Lagarde Speaks,EUR,2025.10.16,16:00,2,0,0
+Crude Oil Inventories,USD,2025.10.16,16:00,1,0,3700000.0
+BOC Gov Macklem Speaks,CAD,2025.10.16,17:30,3,0,0
+MPC Member Greene Speaks,GBP,2025.10.16,18:30,1,0,0
+FOMC Member Miran Speaks,USD,2025.10.16,20:15,1,0,0
+Foreign Direct Investment ytd/y,CNY,2025.10.17,06:02,1,0,0
+Final Core CPI y/y,EUR,2025.10.17,09:00,1,0,2.3
+Final CPI y/y,EUR,2025.10.17,09:00,1,0,2.2
+MPC Member Pill Speaks,GBP,2025.10.17,09:35,1,0,0
+MPC Member Greene Speaks,GBP,2025.10.17,11:00,1,0,0
+Foreign Securities Purchases,CAD,2025.10.17,12:30,1,0,26690000000.0
+Building Permits,USD,2025.10.17,12:33,1,0,1310000.0
+Housing Starts,USD,2025.10.17,12:33,1,0,1310000.0
+Import Prices m/m,USD,2025.10.17,12:33,1,0,0.3
+German Buba President Nagel Speaks,EUR,2025.10.17,12:45,1,0,0
+IMF Meetings,All,2025.10.17,14:15,1,0,0
+FOMC Member Musalem Speaks,USD,2025.10.17,16:15,1,0,0
+MPC Member Breeden Speaks,GBP,2025.10.17,16:30,1,0,0
+Federal Budget Balance,USD,2025.10.17,18:03,1,42300000000.0,-344800000000.0
+TIC Long-Term Purchases,USD,2025.10.17,20:03,1,0,49200000000.0
+German Buba President Nagel Speaks,EUR,2025.10.18,12:00,1,0,0
+ECB President Lagarde Speaks,EUR,2025.10.18,13:00,2,0,0
+BOE Gov Bailey Speaks,GBP,2025.10.18,13:00,3,0,0
+IMF Meetings,All,2025.10.18,14:15,1,0,0
