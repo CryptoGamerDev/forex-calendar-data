@@ -13,7 +13,7 @@ IMF Meetings,All,2025.10.13,14:15,1,0,0
 FOMC Member Paulson Speaks,USD,2025.10.13,16:55,1,0,0
 MPC Member Mann Speaks,GBP,2025.10.13,19:10,1,0,0
 BRC Retail Sales Monitor y/y,GBP,2025.10.13,23:01,1,2.5,2.9
-M2 Money Stock y/y,JPY,2025.10.13,23:50,1,0,1.3
+M2 Money Stock y/y,JPY,2025.10.13,23:50,1,1.2,1.3
 Monetary Policy Meeting Minutes,AUD,2025.10.14,00:30,2,0,0
 NAB Business Confidence,AUD,2025.10.14,00:30,1,0,4
 German Final CPI m/m,EUR,2025.10.14,06:00,1,0.2,0.2
@@ -43,11 +43,11 @@ PPI y/y,CNY,2025.10.15,01:30,2,-2.3,-2.9
 Revised Industrial Production m/m,JPY,2025.10.15,04:30,1,-1.2,-1.2
 French Final CPI m/m,EUR,2025.10.15,06:45,1,-1.0,-1.0
 MPC Member Ramsden Speaks,GBP,2025.10.15,08:00,1,0,0
-Industrial Production m/m,EUR,2025.10.15,09:00,1,-1.8,0.3
+Industrial Production m/m,EUR,2025.10.15,09:00,1,-1.7,0.3
 German 30-y Bond Auction,EUR,2025.10.15,09:34,1,0,3.25
 Manufacturing Sales m/m,CAD,2025.10.15,12:30,1,-1.5,2.5
-Wholesale Sales m/m,CAD,2025.10.15,12:30,1,0.8,1.2
-Empire State Manufacturing Index,USD,2025.10.15,12:30,2,0.2,-8.7
+Wholesale Sales m/m,CAD,2025.10.15,12:30,1,-1.3,1.2
+Empire State Manufacturing Index,USD,2025.10.15,12:30,2,-1.9,-8.7
 FOMC Member Miran Speaks,USD,2025.10.15,13:30,1,0,0
 IMF Meetings,All,2025.10.15,14:15,1,0,0
 MPC Member Breeden Speaks,GBP,2025.10.15,15:00,1,0,0
@@ -61,21 +61,21 @@ API Weekly Statistical Bulletin,USD,2025.10.15,20:30,1,0,0
 FPI m/m,NZD,2025.10.15,21:45,1,0,0.3
 RBA Assist Gov Kent Speaks,AUD,2025.10.15,21:50,1,0,0
 Core Machinery Orders m/m,JPY,2025.10.15,23:50,1,0.5,-4.6
-Employment Change,AUD,2025.10.16,00:30,3,20000.0,-5400.0
+Employment Change,AUD,2025.10.16,00:30,3,20900.0,-5400.0
 Unemployment Rate,AUD,2025.10.16,00:30,3,4.3,4.2
 Tertiary Industry Activity m/m,JPY,2025.10.16,04:30,1,-0.2,0.5
 GDP m/m,GBP,2025.10.16,06:00,3,0.1,0.0
 Construction Output m/m,GBP,2025.10.16,06:00,1,-0.2,0.2
-Goods Trade Balance,GBP,2025.10.16,06:00,1,-22000000000.0,-22200000000.0
+Goods Trade Balance,GBP,2025.10.16,06:00,1,-21900000000.0,-22200000000.0
 Index of Services 3m/3m,GBP,2025.10.16,06:00,1,0.4,0.4
 Industrial Production m/m,GBP,2025.10.16,06:00,1,0.2,-0.9
 Manufacturing Production m/m,GBP,2025.10.16,06:00,1,0.2,-1.3
 SECO Economic Forecasts,CHF,2025.10.16,07:00,1,0,0
 BOE Credit Conditions Survey,GBP,2025.10.16,08:30,1,0,0
 Italian Trade Balance,EUR,2025.10.16,09:00,1,7550000000.0,7910000000.0
-Trade Balance,EUR,2025.10.16,09:00,1,4200000000.0,5300000000.0
+Trade Balance,EUR,2025.10.16,09:00,1,6900000000.0,5300000000.0
 Spanish 10-y Bond Auction,EUR,2025.10.16,09:03,1,0,3.23
-Housing Starts,CAD,2025.10.16,12:15,1,248000.0,246000.0
+Housing Starts,CAD,2025.10.16,12:15,1,258000.0,246000.0
 Philly Fed Manufacturing Index,USD,2025.10.16,12:30,2,9.1,23.2
 Core PPI m/m,USD,2025.10.16,12:33,3,0.3,-0.1
 Core Retail Sales m/m,USD,2025.10.16,12:33,3,0.3,0.7
@@ -98,14 +98,14 @@ BOC Gov Macklem Speaks,CAD,2025.10.16,17:30,3,0,0
 MPC Member Greene Speaks,GBP,2025.10.16,18:30,1,0,0
 FOMC Member Miran Speaks,USD,2025.10.16,20:15,1,0,0
 FOMC Member Kashkari Speaks,USD,2025.10.16,22:00,1,0,0
-Foreign Direct Investment ytd/y,CNY,2025.10.17,06:02,1,0,0
-Final Core CPI y/y,EUR,2025.10.17,09:00,1,0,2.3
-Final CPI y/y,EUR,2025.10.17,09:00,1,0,2.2
+Foreign Direct Investment ytd/y,CNY,2025.10.17,06:02,1,0,-12.7
+Final Core CPI y/y,EUR,2025.10.17,09:00,1,2.3,2.3
+Final CPI y/y,EUR,2025.10.17,09:00,1,2.2,2.2
 MPC Member Pill Speaks,GBP,2025.10.17,09:35,1,0,0
-Foreign Securities Purchases,CAD,2025.10.17,12:30,1,0,26690000000.0
-Building Permits,USD,2025.10.17,12:33,1,0,1310000.0
-Housing Starts,USD,2025.10.17,12:33,1,0,1310000.0
-Import Prices m/m,USD,2025.10.17,12:33,1,0,0.3
+Foreign Securities Purchases,CAD,2025.10.17,12:30,1,11610000000.0,26690000000.0
+Building Permits,USD,2025.10.17,12:33,1,1340000.0,1310000.0
+Housing Starts,USD,2025.10.17,12:33,1,1320000.0,1310000.0
+Import Prices m/m,USD,2025.10.17,12:33,1,0.1,0.3
 German Buba President Nagel Speaks,EUR,2025.10.17,12:45,1,0,0
 IMF Meetings,All,2025.10.17,14:15,1,0,0
 MPC Member Greene Speaks,GBP,2025.10.17,16:00,1,0,0
