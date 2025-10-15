@@ -77,11 +77,6 @@ Trade Balance,EUR,2025.10.16,09:00,1,6900000000.0,5300000000.0
 Spanish 10-y Bond Auction,EUR,2025.10.16,09:03,1,0,3.23
 Housing Starts,CAD,2025.10.16,12:15,1,258000.0,246000.0
 Philly Fed Manufacturing Index,USD,2025.10.16,12:30,2,8.6,23.2
-Core PPI m/m,USD,2025.10.16,12:33,3,0.2,-0.1
-Core Retail Sales m/m,USD,2025.10.16,12:33,3,0.3,0.7
-PPI m/m,USD,2025.10.16,12:33,3,0.3,-0.1
-Retail Sales m/m,USD,2025.10.16,12:33,3,0.4,0.6
-Unemployment Claims,USD,2025.10.16,12:33,3,0,0
 MPC Member Mann Speaks,GBP,2025.10.16,13:00,1,0,0
 FOMC Member Waller Speaks,USD,2025.10.16,13:00,2,0,0
 FOMC Member Barr Speaks,USD,2025.10.16,13:00,1,0,0
@@ -103,16 +98,11 @@ Final Core CPI y/y,EUR,2025.10.17,09:00,1,2.3,2.3
 Final CPI y/y,EUR,2025.10.17,09:00,1,2.2,2.2
 MPC Member Pill Speaks,GBP,2025.10.17,09:35,1,0,0
 Foreign Securities Purchases,CAD,2025.10.17,12:30,1,11610000000.0,26690000000.0
-Building Permits,USD,2025.10.17,12:33,1,1340000.0,1310000.0
-Housing Starts,USD,2025.10.17,12:33,1,1320000.0,1310000.0
-Import Prices m/m,USD,2025.10.17,12:33,1,0.1,0.3
 German Buba President Nagel Speaks,EUR,2025.10.17,12:45,1,0,0
 IMF Meetings,All,2025.10.17,14:15,1,0,0
 MPC Member Greene Speaks,GBP,2025.10.17,16:00,1,0,0
 FOMC Member Musalem Speaks,USD,2025.10.17,16:15,1,0,0
 MPC Member Breeden Speaks,GBP,2025.10.17,16:30,1,0,0
-Federal Budget Balance,USD,2025.10.17,18:03,1,42300000000.0,-344800000000.0
-TIC Long-Term Purchases,USD,2025.10.17,20:03,1,0,49200000000.0
 German Buba President Nagel Speaks,EUR,2025.10.18,12:00,1,0,0
 ECB President Lagarde Speaks,EUR,2025.10.18,13:00,2,0,0
 BOE Gov Bailey Speaks,GBP,2025.10.18,13:00,3,0,0
