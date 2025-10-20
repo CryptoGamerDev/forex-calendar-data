@@ -15,10 +15,9 @@ German PPI m/m,EUR,2025.10.20,06:00,1,0.1,-0.5
 Current Account,EUR,2025.10.20,08:00,1,22500000000.0,27700000000.0
 IPPI m/m,CAD,2025.10.20,12:30,1,0.2,0.5
 RMPI m/m,CAD,2025.10.20,12:30,1,-0.3,-0.6
-CB Leading Index m/m,USD,2025.10.20,14:00,1,0.1,-0.5
 BOC Business Outlook Survey,CAD,2025.10.20,14:30,2,0,0
 German Buba President Nagel Speaks,EUR,2025.10.20,19:00,1,0,0
-Trade Balance,NZD,2025.10.20,21:45,1,0,-1185000000.0
+Trade Balance,NZD,2025.10.20,21:45,1,-554000000.0,-1185000000.0
 RBA Assist Gov Jones Speaks,AUD,2025.10.20,23:45,1,0,0
 Credit Card Spending y/y,NZD,2025.10.21,02:00,1,0,3.5
 Trade Balance,CHF,2025.10.21,06:00,1,5220000000.0,4010000000.0
@@ -45,6 +44,7 @@ RPI y/y,GBP,2025.10.22,06:00,1,4.7,4.6
 HPI y/y,GBP,2025.10.22,08:30,1,2.9,2.8
 ECB President Lagarde Speaks,EUR,2025.10.22,12:25,2,0,0
 Crude Oil Inventories,USD,2025.10.22,14:30,1,0,3500000.0
+FOMC Member Barr Speaks,USD,2025.10.22,20:00,1,0,0
 RBA Bulletin,AUD,2025.10.23,00:30,1,0,0
 NAB Quarterly Business Confidence,AUD,2025.10.23,00:35,1,0,-1
 Summary of Monetary Policy Discussions,CHF,2025.10.23,07:30,1,0,0
