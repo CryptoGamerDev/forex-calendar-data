@@ -38,8 +38,8 @@ German Buba President Nagel Speaks,EUR,2025.10.21,22:00,1,0,0
 Trade Balance,JPY,2025.10.21,23:50,1,-0.09T,-0.15T
 CPI y/y,GBP,2025.10.22,06:00,3,4.0,3.8
 Core CPI y/y,GBP,2025.10.22,06:00,1,3.7,3.6
-PPI Input m/m,GBP,2025.10.22,06:00,1,0,0
-PPI Output m/m,GBP,2025.10.22,06:00,1,0,0
+PPI Input m/m,GBP,2025.10.22,06:00,1,0,0.8
+PPI Output m/m,GBP,2025.10.22,06:00,1,0,0.5
 RPI y/y,GBP,2025.10.22,06:00,1,4.7,4.6
 HPI y/y,GBP,2025.10.22,08:30,1,2.9,2.8
 ECB President Lagarde Speaks,EUR,2025.10.22,12:25,2,0,0
@@ -53,6 +53,8 @@ Core Retail Sales m/m,CAD,2025.10.23,12:30,2,1.5,-1.2
 Retail Sales m/m,CAD,2025.10.23,12:30,2,1.0,-0.8
 Consumer Confidence,EUR,2025.10.23,14:00,1,-15,-15
 Existing Home Sales,USD,2025.10.23,14:00,2,4059999.9999999995,4000000.0
+FOMC Member Bowman Speaks,USD,2025.10.23,14:00,1,0,0
+FOMC Member Barr Speaks,USD,2025.10.23,14:25,1,0,0
 Natural Gas Storage,USD,2025.10.23,14:30,1,0,80000000000.0
 Flash Manufacturing PMI,AUD,2025.10.23,22:00,1,0,51.6
 Flash Services PMI,AUD,2025.10.23,22:00,1,0,52.0
