@@ -10,19 +10,19 @@ CB Leading Index m/m,CNY,2025.10.27,13:00,1,0,-0.5
 BRC Shop Price Index y/y,GBP,2025.10.28,00:01,1,1.6,1.4
 BOJ Core CPI y/y,JPY,2025.10.28,05:00,1,2.1,2.0
 German GfK Consumer Climate,EUR,2025.10.28,07:00,1,-22.0,-22.3
-S&P/CS Composite-20 HPI y/y,USD,2025.10.28,13:00,1,1.9,1.8
-HPI m/m,USD,2025.10.28,13:00,1,0.1,-0.1
-Richmond Manufacturing Index,USD,2025.10.28,14:00,2,-14,-17
-CB Consumer Confidence,USD,2025.10.28,14:00,2,93.9,94.2
+S&P/CS Composite-20 HPI y/y,USD,2025.10.28,13:00,1,1.4,1.8
+HPI m/m,USD,2025.10.28,13:00,1,-0.1,-0.1
+Richmond Manufacturing Index,USD,2025.10.28,14:00,2,-11,-17
+CB Consumer Confidence,USD,2025.10.28,14:00,2,93.4,94.2
 API Weekly Statistical Bulletin,USD,2025.10.28,20:30,1,0,0
 CPI q/q,AUD,2025.10.29,00:30,3,1.1,0.7
 CPI y/y,AUD,2025.10.29,00:30,3,3.1,3.0
 Trimmed Mean CPI q/q,AUD,2025.10.29,00:30,3,0.8,0.6
 RBNZ Gov Hawkesby Speaks,NZD,2025.10.29,03:30,2,0,0
-Consumer Confidence,JPY,2025.10.29,05:00,1,35.6,35.3
-Spanish Flash GDP q/q,EUR,2025.10.29,08:00,1,0.7,0.7
+Consumer Confidence,JPY,2025.10.29,05:00,1,35.5,35.3
+Spanish Flash GDP q/q,EUR,2025.10.29,08:00,1,0.6,0.7
 UBS Economic Expectations,CHF,2025.10.29,09:00,1,0,-46.4
-M4 Money Supply m/m,GBP,2025.10.29,09:30,1,0.3,0.4
+M4 Money Supply m/m,GBP,2025.10.29,09:30,1,0.1,0.4
 Mortgage Approvals,GBP,2025.10.29,09:30,1,64000.0,65000.0
 Net Lending to Individuals m/m,GBP,2025.10.29,09:30,1,5500000000.0,6000000000.0
 German 10-y Bond Auction,EUR,2025.10.29,09:42,1,0,2.72
@@ -56,6 +56,7 @@ Unemployment Rate,EUR,2025.10.30,10:00,1,6.3,6.3
 Main Refinancing Rate,EUR,2025.10.30,13:15,3,2.15,2.15
 Monetary Policy Statement,EUR,2025.10.30,13:15,3,0,0
 ECB Press Conference,EUR,2025.10.30,13:45,3,0,0
+FOMC Member Bowman Speaks,USD,2025.10.30,13:55,1,0,0
 Natural Gas Storage,USD,2025.10.30,14:30,1,0,87000000000.0
 Gov Board Member Tschudin Speaks,CHF,2025.10.30,17:00,1,0,0
 FOMC Member Logan Speaks,USD,2025.10.30,17:20,1,0,0
