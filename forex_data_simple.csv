@@ -57,7 +57,7 @@ Main Refinancing Rate,EUR,2025.10.30,13:15,3,2.15,2.15
 Monetary Policy Statement,EUR,2025.10.30,13:15,3,0,0
 ECB Press Conference,EUR,2025.10.30,13:45,3,0,0
 FOMC Member Bowman Speaks,USD,2025.10.30,13:55,1,0,0
-Natural Gas Storage,USD,2025.10.30,14:30,1,0,87000000000.0
+Natural Gas Storage,USD,2025.10.30,14:30,1,71000000000.0,87000000000.0
 Gov Board Member Tschudin Speaks,CHF,2025.10.30,17:00,1,0,0
 FOMC Member Logan Speaks,USD,2025.10.30,17:20,1,0,0
 Tokyo Core CPI y/y,JPY,2025.10.30,23:30,2,2.6,2.5
@@ -67,8 +67,8 @@ Retail Sales y/y,JPY,2025.10.30,23:50,1,0.8,-1.1
 PPI q/q,AUD,2025.10.31,00:30,1,0.8,0.7
 Private Sector Credit m/m,AUD,2025.10.31,00:30,1,0.6,0.6
 Manufacturing PMI,CNY,2025.10.31,01:30,3,49.6,49.8
-Non-Manufacturing PMI,CNY,2025.10.31,01:30,2,50.2,50.0
-Housing Starts y/y,JPY,2025.10.31,05:00,1,-7.9,-9.8
+Non-Manufacturing PMI,CNY,2025.10.31,01:30,2,50.1,50.0
+Housing Starts y/y,JPY,2025.10.31,05:00,1,-7.8,-9.8
 German Import Prices m/m,EUR,2025.10.31,07:00,1,-0.2,-0.5
 German Retail Sales m/m,EUR,2025.10.31,07:00,1,0.2,-0.2
 Nationwide HPI m/m,GBP,2025.10.31,07:00,1,0.0,0.5
