@@ -37,9 +37,9 @@ FOMC Statement,USD,2025.10.29,18:00,3,0,0
 FOMC Press Conference,USD,2025.10.29,18:30,3,0,0
 ANZ Business Confidence,NZD,2025.10.30,00:00,1,0,49.6
 Import Prices q/q,AUD,2025.10.30,00:30,1,-0.3,-0.8
-BOJ Policy Rate,JPY,2025.10.30,02:30,3,<0.50,<0.50
-Monetary Policy Statement,JPY,2025.10.30,02:30,3,0,0
-BOJ Outlook Report,JPY,2025.10.30,02:48,3,0,0
+BOJ Outlook Report,JPY,2025.10.30,03:15,3,0,0
+BOJ Policy Rate,JPY,2025.10.30,03:15,3,<0.50,<0.50
+Monetary Policy Statement,JPY,2025.10.30,03:15,3,0,0
 BOJ Press Conference,JPY,2025.10.30,05:30,3,0,0
 French Consumer Spending m/m,EUR,2025.10.30,06:30,1,0.0,0.1
 French Flash GDP q/q,EUR,2025.10.30,06:30,1,0.2,0.3
