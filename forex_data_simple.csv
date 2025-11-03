@@ -26,7 +26,7 @@ Wards Total Vehicle Sales,USD,2025.11.03,15:15,1,15600000.0,16399999.999999998
 FOMC Member Daly Speaks,USD,2025.11.03,17:00,1,0,0
 BOC Gov Macklem Speaks,CAD,2025.11.03,18:30,3,0,0
 FOMC Member Cook Speaks,USD,2025.11.03,19:00,1,0,0
-Loan Officer Survey,USD,2025.11.03,19:03,1,0,0
+Loan Officer Survey,USD,2025.11.03,19:00,1,0,0
 Final Manufacturing PMI,JPY,2025.11.04,00:30,1,48.3,48.3
 Cash Rate,AUD,2025.11.04,03:30,3,3.60,3.60
 RBA Monetary Policy Statement,AUD,2025.11.04,03:30,3,0,0
@@ -41,7 +41,6 @@ MPC Member Breeden Speaks,GBP,2025.11.04,13:00,1,0,0
 RCM/TIPP Economic Optimism,USD,2025.11.04,15:10,1,48.1,48.3
 GDT Price Index,NZD,2025.11.04,15:50,1,0,-1.4
 German Buba President Nagel Speaks,EUR,2025.11.04,17:00,1,0,0
-German Buba President Nagel Speaks,EUR,2025.11.04,18:00,1,0,0
 RBNZ Financial Stability Report,NZD,2025.11.04,20:00,1,0,0
 Annual Budget Release,CAD,2025.11.04,21:03,1,0,0
 API Weekly Statistical Bulletin,USD,2025.11.04,21:30,1,0,0
@@ -81,7 +80,7 @@ Spanish 10-y Bond Auction,EUR,2025.11.06,10:03,1,0,3.09
 French 10-y Bond Auction,EUR,2025.11.06,10:18,1,0,3.51
 BOE Monetary Policy Report,GBP,2025.11.06,12:00,3,0,0
 Monetary Policy Summary,GBP,2025.11.06,12:00,3,0,0
-MPC Official Bank Rate Votes,GBP,2025.11.06,12:00,3,0-1-8,0-2-7
+MPC Official Bank Rate Votes,GBP,2025.11.06,12:00,3,0-3-6,0-2-7
 Official Bank Rate,GBP,2025.11.06,12:00,3,4.00,4.00
 German Buba President Nagel Speaks,EUR,2025.11.06,12:30,1,0,0
 BOE Gov Bailey Speaks,GBP,2025.11.06,12:30,3,0,0
@@ -97,26 +96,26 @@ Gov Council Member Kozicki Speaks,CAD,2025.11.06,19:00,1,0,0
 FOMC Member Waller Speaks,USD,2025.11.06,20:30,2,0,0
 FOMC Member Paulson Speaks,USD,2025.11.06,21:30,1,0,0
 FOMC Member Musalem Speaks,USD,2025.11.06,22:30,1,0,0
-Household Spending y/y,JPY,2025.11.06,23:30,1,2.6,2.3
-Trade Balance,CNY,2025.11.07,02:03,1,670000000000.0,645000000000.0
-USD-Denominated Trade Balance,CNY,2025.11.07,02:04,1,95600000000.0,90500000000.0
-German Trade Balance,EUR,2025.11.07,07:00,1,17000000000.0,17200000000.0
+Household Spending y/y,JPY,2025.11.06,23:30,1,2.5,2.3
+Trade Balance,CNY,2025.11.07,02:03,1,695000000000.0,645000000000.0
+USD-Denominated Trade Balance,CNY,2025.11.07,02:04,1,96700000000.0,90500000000.0
+German Trade Balance,EUR,2025.11.07,07:00,1,16700000000.0,17200000000.0
 Halifax HPI m/m,GBP,2025.11.07,07:00,1,0.1,-0.3
-French Trade Balance,EUR,2025.11.07,07:45,1,-5200000000.0,-5500000000.0
+French Trade Balance,EUR,2025.11.07,07:45,1,-5800000000.0,-5500000000.0
 Foreign Currency Reserves,CHF,2025.11.07,08:00,1,0,727000000000.0
 SECO Consumer Climate,CHF,2025.11.07,08:00,1,-35,-37
 FOMC Member Williams Speaks,USD,2025.11.07,08:00,1,0,0
 German Buba President Nagel Speaks,EUR,2025.11.07,12:00,1,0,0
 FOMC Member Jefferson Speaks,USD,2025.11.07,12:00,1,0,0
 MPC Member Pill Speaks,GBP,2025.11.07,12:15,1,0,0
-Employment Change,CAD,2025.11.07,13:30,3,-4000.0,60400.0
-Unemployment Rate,CAD,2025.11.07,13:30,3,7.2,7.1
+Employment Change,CAD,2025.11.07,13:30,3,-5000.0,60400.0
+Unemployment Rate,CAD,2025.11.07,13:30,3,7.1,7.1
 Average Hourly Earnings m/m,USD,2025.11.07,13:30,3,0,0
 Non-Farm Employment Change,USD,2025.11.07,13:30,3,0,0
 Unemployment Rate,USD,2025.11.07,13:30,3,0,0
 Prelim UoM Consumer Sentiment,USD,2025.11.07,15:00,2,53.0,55.0
 Prelim UoM Inflation Expectations,USD,2025.11.07,15:00,2,0,4.6
-Consumer Credit m/m,USD,2025.11.07,20:00,1,0,400000000.0
+Consumer Credit m/m,USD,2025.11.07,20:00,1,10800000000.0,400000000.0
 FOMC Member Miran Speaks,USD,2025.11.07,20:00,1,0,0
-CPI y/y,CNY,2025.11.09,01:30,2,0,-0.3
-PPI y/y,CNY,2025.11.09,01:30,2,0,-2.3
+CPI y/y,CNY,2025.11.09,01:30,2,0.0,-0.3
+PPI y/y,CNY,2025.11.09,01:30,2,-2.2,-2.3
