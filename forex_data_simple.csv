@@ -64,19 +64,19 @@ Italian Retail Sales m/m,EUR,2025.11.05,09:00,1,0.2,-0.1
 Final Services PMI,GBP,2025.11.05,09:30,1,51.1,51.1
 German Buba President Nagel Speaks,EUR,2025.11.05,10:00,1,0,0
 PPI m/m,EUR,2025.11.05,10:00,1,0.0,-0.3
-ADP Non-Farm Employment Change,USD,2025.11.05,13:15,3,31000.0,-32000.0
+ADP Non-Farm Employment Change,USD,2025.11.05,13:15,3,32000.0,-32000.0
 Final Services PMI,USD,2025.11.05,14:45,1,55.2,55.2
 ISM Services PMI,USD,2025.11.05,15:00,3,50.7,50.0
-Crude Oil Inventories,USD,2025.11.05,15:30,1,-2400000.0,-6900000.0
+Crude Oil Inventories,USD,2025.11.05,15:30,1,-2500000.0,-6900000.0
 MPC Member Breeden Speaks,GBP,2025.11.05,16:10,1,0,0
 Gov Board Member Tschudin Speaks,CHF,2025.11.05,16:30,1,0,0
 BOC Gov Macklem Speaks,CAD,2025.11.05,21:30,3,0,0
-Average Cash Earnings y/y,JPY,2025.11.05,23:30,1,2.0,1.5
-Goods Trade Balance,AUD,2025.11.06,00:30,1,3910000000.0,1830000000.0
+Average Cash Earnings y/y,JPY,2025.11.05,23:30,1,1.9,1.5
+Goods Trade Balance,AUD,2025.11.06,00:30,1,3930000000.0,1830000000.0
 German Industrial Production m/m,EUR,2025.11.06,07:00,1,3.0,-4.3
 French Prelim Private Payrolls q/q,EUR,2025.11.06,07:45,1,-0.1,0.0
 Unemployment Rate,CHF,2025.11.06,08:00,1,3.0,3.0
-Construction PMI,GBP,2025.11.06,09:30,1,46.7,46.2
+Construction PMI,GBP,2025.11.06,09:30,1,46.9,46.2
 Retail Sales m/m,EUR,2025.11.06,10:00,1,0.2,0.1
 Spanish 10-y Bond Auction,EUR,2025.11.06,10:03,1,0,3.09
 French 10-y Bond Auction,EUR,2025.11.06,10:18,1,0,3.51
@@ -91,7 +91,7 @@ Gov Council Member Gravelle Speaks,CAD,2025.11.06,13:50,1,0,0
 German Buba President Nagel Speaks,EUR,2025.11.06,14:00,1,0,0
 Ivey PMI,CAD,2025.11.06,15:00,2,55.2,59.8
 BOC Gov Macklem Speaks,CAD,2025.11.06,15:30,3,0,0
-Natural Gas Storage,USD,2025.11.06,15:30,1,0,74000000000.0
+Natural Gas Storage,USD,2025.11.06,15:30,1,34000000000.0,74000000000.0
 FOMC Member Barr Speaks,USD,2025.11.06,16:00,1,0,0
 FOMC Member Williams Speaks,USD,2025.11.06,16:00,1,0,0
 FOMC Member Hammack Speaks,USD,2025.11.06,17:00,1,0,0
@@ -100,17 +100,16 @@ FOMC Member Waller Speaks,USD,2025.11.06,20:30,2,0,0
 FOMC Member Paulson Speaks,USD,2025.11.06,21:30,1,0,0
 FOMC Member Musalem Speaks,USD,2025.11.06,22:30,1,0,0
 Household Spending y/y,JPY,2025.11.06,23:30,1,2.5,2.3
-Trade Balance,CNY,2025.11.07,02:03,1,695000000000.0,645000000000.0
-USD-Denominated Trade Balance,CNY,2025.11.07,02:04,1,96700000000.0,90500000000.0
+Trade Balance,CNY,2025.11.07,02:03,1,705000000000.0,645000000000.0
+USD-Denominated Trade Balance,CNY,2025.11.07,02:04,1,96900000000.0,90500000000.0
 German Trade Balance,EUR,2025.11.07,07:00,1,16700000000.0,17200000000.0
 Halifax HPI m/m,GBP,2025.11.07,07:00,1,0.1,-0.3
-French Trade Balance,EUR,2025.11.07,07:45,1,-5800000000.0,-5500000000.0
+French Trade Balance,EUR,2025.11.07,07:45,1,-5900000000.0,-5500000000.0
 Foreign Currency Reserves,CHF,2025.11.07,08:00,1,0,727000000000.0
-SECO Consumer Climate,CHF,2025.11.07,08:00,1,-35,-37
+SECO Consumer Climate,CHF,2025.11.07,08:00,1,-36,-37
 FOMC Member Williams Speaks,USD,2025.11.07,08:00,1,0,0
 German Buba President Nagel Speaks,EUR,2025.11.07,12:00,1,0,0
 FOMC Member Jefferson Speaks,USD,2025.11.07,12:00,1,0,0
-MPC Member Pill Speaks,GBP,2025.11.07,12:15,1,0,0
 Employment Change,CAD,2025.11.07,13:30,3,-5000.0,60400.0
 Unemployment Rate,CAD,2025.11.07,13:30,3,7.1,7.1
 Average Hourly Earnings m/m,USD,2025.11.07,13:30,3,0,0
@@ -118,7 +117,8 @@ Non-Farm Employment Change,USD,2025.11.07,13:30,3,0,0
 Unemployment Rate,USD,2025.11.07,13:30,3,0,0
 Prelim UoM Consumer Sentiment,USD,2025.11.07,15:00,2,53.0,55.0
 Prelim UoM Inflation Expectations,USD,2025.11.07,15:00,2,0,4.6
-Consumer Credit m/m,USD,2025.11.07,20:00,1,10800000000.0,400000000.0
+MPC Member Pill Speaks,GBP,2025.11.07,15:15,1,0,0
+Consumer Credit m/m,USD,2025.11.07,20:00,1,10400000000.0,400000000.0
 FOMC Member Miran Speaks,USD,2025.11.07,20:00,1,0,0
 CPI y/y,CNY,2025.11.09,01:30,2,0.0,-0.3
-PPI y/y,CNY,2025.11.09,01:30,2,-2.2,-2.3
+PPI y/y,CNY,2025.11.09,01:30,2,-2.3,-2.3
