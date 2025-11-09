@@ -1,124 +1,102 @@
 Title,Country,Date,Time24h,Importance,Forecast,Previous
-Daylight Saving Time Shift,CAD,2025.11.02,07:00,0,0,0
-Daylight Saving Time Shift,USD,2025.11.02,07:00,0,0,0
-Building Consents m/m,NZD,2025.11.02,21:45,1,0,5.8
-MI Inflation Gauge m/m,AUD,2025.11.03,00:00,1,0,0.4
-Bank Holiday,JPY,2025.11.03,00:00,0,0,0
-ANZ Job Advertisements m/m,AUD,2025.11.03,00:30,1,0,-3.3
-Building Approvals m/m,AUD,2025.11.03,00:30,1,5.1,-6.0
-Household Spending m/m,AUD,2025.11.03,00:30,1,0.5,0.1
-RatingDog Manufacturing PMI,CNY,2025.11.03,01:45,1,50.7,51.2
-Commodity Prices y/y,AUD,2025.11.03,05:30,1,0,0.0
-CPI m/m,CHF,2025.11.03,07:30,3,-0.1,-0.2
-Spanish Manufacturing PMI,EUR,2025.11.03,08:15,1,51.8,51.5
-Manufacturing PMI,CHF,2025.11.03,08:30,1,47.7,46.3
-Italian Manufacturing PMI,EUR,2025.11.03,08:45,1,49.3,49.0
-French Final Manufacturing PMI,EUR,2025.11.03,08:50,1,48.3,48.3
-German Final Manufacturing PMI,EUR,2025.11.03,08:55,1,49.6,49.6
-Final Manufacturing PMI,EUR,2025.11.03,09:00,1,50.0,50.0
-Final Manufacturing PMI,GBP,2025.11.03,09:30,1,49.6,49.6
-Manufacturing PMI,CAD,2025.11.03,14:30,1,0,47.7
-Final Manufacturing PMI,USD,2025.11.03,14:45,1,52.2,52.2
-ISM Manufacturing PMI,USD,2025.11.03,15:00,3,49.4,49.1
-ISM Manufacturing Prices,USD,2025.11.03,15:00,2,62.4,61.9
-FOMC Member Goolsbee Speaks,USD,2025.11.03,15:00,1,0,0
-Wards Total Vehicle Sales,USD,2025.11.03,15:15,1,15600000.0,16399999.999999998
-FOMC Member Daly Speaks,USD,2025.11.03,17:00,1,0,0
-BOC Gov Macklem Speaks,CAD,2025.11.03,18:30,3,0,0
-FOMC Member Cook Speaks,USD,2025.11.03,19:00,1,0,0
-Loan Officer Survey,USD,2025.11.03,19:00,1,0,0
-Final Manufacturing PMI,JPY,2025.11.04,00:30,1,48.3,48.3
-Cash Rate,AUD,2025.11.04,03:30,3,3.60,3.60
-RBA Monetary Policy Statement,AUD,2025.11.04,03:30,3,0,0
-RBA Rate Statement,AUD,2025.11.04,03:30,3,0,0
-RBA Press Conference,AUD,2025.11.04,04:30,3,0,0
-ECB President Lagarde Speaks,EUR,2025.11.04,07:40,2,0,0
-French Gov Budget Balance,EUR,2025.11.04,07:45,1,0,-157500000000.0
-Spanish Unemployment Change,EUR,2025.11.04,08:00,1,5200.0,-4800.0
-ECB President Lagarde Speaks,EUR,2025.11.04,10:00,2,0,0
-FOMC Member Bowman Speaks,USD,2025.11.04,11:35,1,0,0
-MPC Member Breeden Speaks,GBP,2025.11.04,13:00,1,0,0
-GDT Price Index,NZD,2025.11.04,14:45,1,0,-1.4
-RCM/TIPP Economic Optimism,USD,2025.11.04,15:01,1,48.1,48.3
-German Buba President Nagel Speaks,EUR,2025.11.04,17:00,1,0,0
-RBNZ Financial Stability Report,NZD,2025.11.04,20:00,1,0,0
-Annual Budget Release,CAD,2025.11.04,21:03,1,0,0
-API Weekly Statistical Bulletin,USD,2025.11.04,21:30,1,0,0
-Employment Change q/q,NZD,2025.11.04,21:45,3,0.1,-0.1
-Unemployment Rate,NZD,2025.11.04,21:45,3,5.3,5.2
-Labor Cost Index q/q,NZD,2025.11.04,21:45,1,0.5,0.6
-Monetary Base y/y,JPY,2025.11.04,23:50,1,-4.8,-6.2
-Monetary Policy Meeting Minutes,JPY,2025.11.04,23:50,1,0,0
-RBNZ Gov Hawkesby Speaks,NZD,2025.11.05,00:00,2,0,0
-ANZ Commodity Prices m/m,NZD,2025.11.05,00:00,1,0,-1.1
-RatingDog Services PMI,CNY,2025.11.05,01:45,1,52.5,52.9
-10-y Bond Auction,JPY,2025.11.05,03:35,1,0,1.64
-German Factory Orders m/m,EUR,2025.11.05,07:00,1,0.9,-0.8
-French Industrial Production m/m,EUR,2025.11.05,07:45,1,0.1,-0.7
-Spanish Services PMI,EUR,2025.11.05,08:15,1,54.8,54.3
-Italian Services PMI,EUR,2025.11.05,08:45,1,53.0,52.5
-French Final Services PMI,EUR,2025.11.05,08:50,1,47.1,47.1
-German Final Services PMI,EUR,2025.11.05,08:55,1,54.5,54.5
-Final Services PMI,EUR,2025.11.05,09:00,1,52.6,52.6
-Italian Retail Sales m/m,EUR,2025.11.05,09:00,1,0.2,-0.1
-Final Services PMI,GBP,2025.11.05,09:30,1,51.1,51.1
-German Buba President Nagel Speaks,EUR,2025.11.05,10:00,1,0,0
-PPI m/m,EUR,2025.11.05,10:00,1,0.0,-0.3
-ADP Non-Farm Employment Change,USD,2025.11.05,13:15,3,32000.0,-32000.0
-Final Services PMI,USD,2025.11.05,14:45,1,55.2,55.2
-ISM Services PMI,USD,2025.11.05,15:00,3,50.7,50.0
-Crude Oil Inventories,USD,2025.11.05,15:30,1,-2500000.0,-6900000.0
-MPC Member Breeden Speaks,GBP,2025.11.05,16:10,1,0,0
-Gov Board Member Tschudin Speaks,CHF,2025.11.05,16:30,1,0,0
-President Trump Speaks,USD,2025.11.05,18:00,2,0,0
-BOC Gov Macklem Speaks,CAD,2025.11.05,21:30,3,0,0
-Average Cash Earnings y/y,JPY,2025.11.05,23:30,1,1.9,1.5
-Goods Trade Balance,AUD,2025.11.06,00:30,1,3930000000.0,1830000000.0
-German Industrial Production m/m,EUR,2025.11.06,07:00,1,3.0,-4.3
-French Prelim Private Payrolls q/q,EUR,2025.11.06,07:45,1,-0.1,0.0
-Unemployment Rate,CHF,2025.11.06,08:00,1,3.0,3.0
-Challenger Job Cuts y/y,USD,2025.11.06,08:57,1,0,-25.8
-Construction PMI,GBP,2025.11.06,09:30,1,46.9,46.2
-Spanish 10-y Bond Auction,EUR,2025.11.06,09:47,1,0,3.09
-French 10-y Bond Auction,EUR,2025.11.06,09:59,1,0,3.51
-Retail Sales m/m,EUR,2025.11.06,10:00,1,0.2,0.1
-BOE Monetary Policy Report,GBP,2025.11.06,12:00,3,0,0
-Monetary Policy Summary,GBP,2025.11.06,12:00,3,0,0
-MPC Official Bank Rate Votes,GBP,2025.11.06,12:00,3,0-3-6,0-2-7
-Official Bank Rate,GBP,2025.11.06,12:00,3,4.00,4.00
-German Buba President Nagel Speaks,EUR,2025.11.06,12:30,1,0,0
-BOE Gov Bailey Speaks,GBP,2025.11.06,12:30,3,0,0
-Gov Council Member Gravelle Speaks,CAD,2025.11.06,13:50,1,0,0
-German Buba President Nagel Speaks,EUR,2025.11.06,14:00,1,0,0
-Ivey PMI,CAD,2025.11.06,15:00,2,55.2,59.8
-BOC Gov Macklem Speaks,CAD,2025.11.06,15:30,3,0,0
-Natural Gas Storage,USD,2025.11.06,15:30,1,34000000000.0,74000000000.0
-President Trump Speaks,USD,2025.11.06,16:00,2,0,0
-FOMC Member Barr Speaks,USD,2025.11.06,16:00,1,0,0
-FOMC Member Williams Speaks,USD,2025.11.06,16:00,1,0,0
-FOMC Member Hammack Speaks,USD,2025.11.06,17:00,1,0,0
-Gov Council Member Kozicki Speaks,CAD,2025.11.06,19:00,1,0,0
-FOMC Member Waller Speaks,USD,2025.11.06,20:30,2,0,0
-FOMC Member Paulson Speaks,USD,2025.11.06,21:30,1,0,0
-FOMC Member Musalem Speaks,USD,2025.11.06,22:30,1,0,0
-Household Spending y/y,JPY,2025.11.06,23:30,1,2.5,2.3
-Trade Balance,CNY,2025.11.07,03:01,1,705000000000.0,645000000000.0
-USD-Denominated Trade Balance,CNY,2025.11.07,03:02,1,96900000000.0,90500000000.0
-German Trade Balance,EUR,2025.11.07,07:00,1,16700000000.0,17200000000.0
-Halifax HPI m/m,GBP,2025.11.07,07:00,1,0.1,-0.3
-French Trade Balance,EUR,2025.11.07,07:45,1,-5900000000.0,-5500000000.0
-Foreign Currency Reserves,CHF,2025.11.07,08:00,1,0,727000000000.0
-SECO Consumer Climate,CHF,2025.11.07,08:00,1,-36,-37
-FOMC Member Williams Speaks,USD,2025.11.07,08:00,1,0,0
-German Buba President Nagel Speaks,EUR,2025.11.07,12:00,1,0,0
-FOMC Member Jefferson Speaks,USD,2025.11.07,12:00,1,0,0
-Employment Change,CAD,2025.11.07,13:30,3,-5000.0,60400.0
-Unemployment Rate,CAD,2025.11.07,13:30,3,7.1,7.1
-Prelim UoM Consumer Sentiment,USD,2025.11.07,15:00,2,53.0,55.0
-Prelim UoM Inflation Expectations,USD,2025.11.07,15:00,2,0,4.6
-MPC Member Pill Speaks,GBP,2025.11.07,15:15,1,0,0
-Consumer Credit m/m,USD,2025.11.07,20:00,1,10400000000.0,400000000.0
-FOMC Member Miran Speaks,USD,2025.11.07,20:00,1,0,0
-FOMC Financial Stability Report,USD,2025.11.07,21:01,1,0,0
-CPI y/y,CNY,2025.11.09,01:30,2,0.0,-0.3
-PPI y/y,CNY,2025.11.09,01:30,2,-2.3,-2.3
+RBA Deputy Gov Hauser Speaks,AUD,2025.11.09,23:30,1,0,0
+BOJ Summary of Opinions,JPY,2025.11.09,23:50,1,0,0
+Leading Indicators,JPY,2025.11.10,05:00,1,107.9,107.4
+M2 Money Supply y/y,CNY,2025.11.10,09:03,1,8.1,8.4
+New Loans,CNY,2025.11.10,09:03,1,0,1290000000000.0
+MPC Member Lombardelli Speaks,GBP,2025.11.10,09:10,1,0,0
+Sentix Investor Confidence,EUR,2025.11.10,09:30,1,-3.9,-5.4
+Cleveland Fed Inflation Expectations,USD,2025.11.10,14:48,1,0,3.5
+Westpac Consumer Sentiment,AUD,2025.11.10,23:30,1,0,-3.5
+Bank Lending y/y,JPY,2025.11.10,23:50,1,3.8,3.8
+Current Account,JPY,2025.11.10,23:50,1,2.26T,2.46T
+BRC Retail Sales Monitor y/y,GBP,2025.11.11,00:01,1,0,2.0
+NAB Business Confidence,AUD,2025.11.11,00:30,1,0,7
+Inflation Expectations q/q,NZD,2025.11.11,02:00,2,0,2.28
+30-y Bond Auction,JPY,2025.11.11,03:35,1,0,3.25
+Economy Watchers Sentiment,JPY,2025.11.11,05:00,1,47.6,47.1
+Claimant Count Change,GBP,2025.11.11,07:00,3,20300.0,25800.0
+Average Earnings Index 3m/y,GBP,2025.11.11,07:00,2,5.0,5.0
+Unemployment Rate,GBP,2025.11.11,07:00,1,4.9,4.8
+French Bank Holiday,EUR,2025.11.11,07:01,0,0,0
+MPC Member Greene Speaks,GBP,2025.11.11,08:30,1,0,0
+German ZEW Economic Sentiment,EUR,2025.11.11,10:00,1,41.2,39.3
+ZEW Economic Sentiment,EUR,2025.11.11,10:00,1,23.5,22.7
+NFIB Small Business Index,USD,2025.11.11,11:00,1,98.3,98.8
+Bank Holiday,CAD,2025.11.11,13:00,0,0,0
+Bank Holiday,USD,2025.11.11,13:00,0,0,0
+CB Leading Index m/m,GBP,2025.11.11,14:30,1,0,-0.3
+RBA Assist Gov Jones Speaks,AUD,2025.11.11,22:15,1,0,0
+M2 Money Stock y/y,JPY,2025.11.11,23:50,1,1.8,1.6
+FOMC Member Barr Speaks,USD,2025.11.12,03:25,1,0,0
+Prelim Machine Tool Orders y/y,JPY,2025.11.12,06:00,1,0,9.9
+German Final CPI m/m,EUR,2025.11.12,07:00,1,0.3,0.3
+German WPI m/m,EUR,2025.11.12,07:00,1,0.1,0.2
+Italian Industrial Production m/m,EUR,2025.11.12,09:00,1,1.5,-2.4
+Eurogroup Meetings,EUR,2025.11.12,10:15,1,0,0
+German 30-y Bond Auction,EUR,2025.11.12,10:34,1,0,3.17
+MPC Member Pill Speaks,GBP,2025.11.12,12:05,1,0,0
+Building Permits m/m,CAD,2025.11.12,13:30,1,0.9,-1.2
+FOMC Member Williams Speaks,USD,2025.11.12,14:20,1,0,0
+FOMC Member Paulson Speaks,USD,2025.11.12,15:00,1,0,0
+FOMC Member Waller Speaks,USD,2025.11.12,15:20,2,0,0
+CB Leading Index m/m,AUD,2025.11.12,15:30,1,0,0.6
+FOMC Member Bostic Speaks,USD,2025.11.12,16:30,1,0,0
+FOMC Member Miran Speaks,USD,2025.11.12,17:30,1,0,0
+10-y Bond Auction,USD,2025.11.12,18:01,1,0,4.12
+BOC Summary of Deliberations,CAD,2025.11.12,18:30,1,0,0
+API Weekly Statistical Bulletin,USD,2025.11.12,21:30,1,0,0
+Visitor Arrivals m/m,NZD,2025.11.12,21:45,1,0,2.2
+PPI y/y,JPY,2025.11.12,23:50,1,2.5,2.7
+MI Inflation Expectations,AUD,2025.11.13,00:00,1,0,4.8
+RICS House Price Balance,GBP,2025.11.13,00:01,1,-14,-15
+Employment Change,AUD,2025.11.13,00:30,3,20300.0,14900.0
+Unemployment Rate,AUD,2025.11.13,00:30,3,4.4,4.5
+GDP m/m,GBP,2025.11.13,07:00,3,0.0,0.1
+Prelim GDP q/q,GBP,2025.11.13,07:00,2,0.2,0.3
+Construction Output m/m,GBP,2025.11.13,07:00,1,0.1,-0.3
+Goods Trade Balance,GBP,2025.11.13,07:00,1,-20800000000.0,-21200000000.0
+Index of Services 3m/3m,GBP,2025.11.13,07:00,1,0.3,0.4
+Industrial Production m/m,GBP,2025.11.13,07:00,1,-0.1,0.4
+Manufacturing Production m/m,GBP,2025.11.13,07:00,1,-0.3,0.7
+Prelim Business Investment q/q,GBP,2025.11.13,07:00,1,-0.7,-4.0
+PPI m/m,CHF,2025.11.13,07:30,1,0.1,-0.2
+ECB Economic Bulletin,EUR,2025.11.13,09:00,1,0,0
+Industrial Production m/m,EUR,2025.11.13,10:00,1,0.8,-1.2
+ECOFIN Meetings,EUR,2025.11.13,10:15,1,0,0
+MPC Member Greene Speaks,GBP,2025.11.13,12:00,1,0,0
+Core CPI m/m,USD,2025.11.13,13:30,3,0.3,0.2
+CPI m/m,USD,2025.11.13,13:30,3,0.2,0.3
+CPI y/y,USD,2025.11.13,13:30,3,0,3.0
+Unemployment Claims,USD,2025.11.13,13:30,3,0,0
+Mortgage Delinquencies,USD,2025.11.13,15:00,1,0,3.93
+Crude Oil Inventories,USD,2025.11.13,17:00,1,0,5200000.0
+FOMC Member Musalem Speaks,USD,2025.11.13,17:15,1,0,0
+FOMC Member Hammack Speaks,USD,2025.11.13,17:20,1,0,0
+Gov Board Member Tschudin Speaks,CHF,2025.11.13,17:30,1,0,0
+30-y Bond Auction,USD,2025.11.13,18:01,1,0,4.73
+Federal Budget Balance,USD,2025.11.13,19:00,1,0,198000000000.0
+BusinessNZ Manufacturing Index,NZD,2025.11.13,21:30,1,0,49.9
+New Home Prices m/m,CNY,2025.11.14,01:30,1,0,-0.41
+Fixed Asset Investment ytd/y,CNY,2025.11.14,02:00,1,-0.8,-0.5
+Industrial Production y/y,CNY,2025.11.14,02:00,1,5.5,6.5
+NBS Press Conference,CNY,2025.11.14,02:00,1,0,0
+Retail Sales y/y,CNY,2025.11.14,02:00,1,2.8,3.0
+Unemployment Rate,CNY,2025.11.14,02:00,1,5.2,5.2
+Tertiary Industry Activity m/m,JPY,2025.11.14,04:30,1,0.3,-0.4
+French Final CPI m/m,EUR,2025.11.14,07:45,1,0.1,0.1
+Italian Trade Balance,EUR,2025.11.14,09:00,1,3220000000.0,2049999999.9999998
+Flash Employment Change q/q,EUR,2025.11.14,10:00,1,0.1,0.1
+Flash GDP q/q,EUR,2025.11.14,10:00,1,0.2,0.2
+Trade Balance,EUR,2025.11.14,10:00,1,0,9700000000.0
+Manufacturing Sales m/m,CAD,2025.11.14,13:30,1,2.8,-1.0
+Wholesale Sales m/m,CAD,2025.11.14,13:30,1,0.0,-1.2
+Core PPI m/m,USD,2025.11.14,13:30,3,0,0
+Core Retail Sales m/m,USD,2025.11.14,13:30,3,0,0
+PPI m/m,USD,2025.11.14,13:30,3,0,0
+Retail Sales m/m,USD,2025.11.14,13:30,3,0,0
+FOMC Member Bostic Speaks,USD,2025.11.14,14:20,1,0,0
+Business Inventories m/m,USD,2025.11.14,15:00,1,0,0
+FOMC Member Schmid Speaks,USD,2025.11.14,15:05,1,0,0
+Natural Gas Storage,USD,2025.11.14,15:30,1,0,33000000000.0
+FOMC Member Logan Speaks,USD,2025.11.14,19:30,1,0,0
