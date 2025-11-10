@@ -14,17 +14,17 @@ BRC Retail Sales Monitor y/y,GBP,2025.11.11,00:01,1,2.4,2.0
 NAB Business Confidence,AUD,2025.11.11,00:30,1,0,7
 Inflation Expectations q/q,NZD,2025.11.11,02:00,2,0,2.28
 30-y Bond Auction,JPY,2025.11.11,03:35,1,0,3.25
-Economy Watchers Sentiment,JPY,2025.11.11,05:00,1,47.6,47.1
-Claimant Count Change,GBP,2025.11.11,07:00,3,20300.0,25800.0
+Economy Watchers Sentiment,JPY,2025.11.11,05:00,1,47.5,47.1
+Claimant Count Change,GBP,2025.11.11,07:00,3,17600.0,25800.0
 Average Earnings Index 3m/y,GBP,2025.11.11,07:00,2,5.0,5.0
 Unemployment Rate,GBP,2025.11.11,07:00,1,4.9,4.8
 French Bank Holiday,EUR,2025.11.11,07:01,0,0,0
 MPC Member Greene Speaks,GBP,2025.11.11,08:30,1,0,0
 M2 Money Supply y/y,CNY,2025.11.11,09:03,1,8.1,8.4
-New Loans,CNY,2025.11.11,09:03,1,0,1290000000000.0
-German ZEW Economic Sentiment,EUR,2025.11.11,10:00,1,41.2,39.3
+New Loans,CNY,2025.11.11,09:03,1,465000000000.0,1290000000000.0
+German ZEW Economic Sentiment,EUR,2025.11.11,10:00,1,41.0,39.3
 ZEW Economic Sentiment,EUR,2025.11.11,10:00,1,23.5,22.7
-NFIB Small Business Index,USD,2025.11.11,11:00,1,98.3,98.8
+NFIB Small Business Index,USD,2025.11.11,11:00,1,98.5,98.8
 Bank Holiday,CAD,2025.11.11,13:00,0,0,0
 Bank Holiday,USD,2025.11.11,13:00,0,0,0
 CB Leading Index m/m,GBP,2025.11.11,14:30,1,0,-0.3
@@ -38,7 +38,7 @@ Italian Industrial Production m/m,EUR,2025.11.12,09:00,1,1.5,-2.4
 Eurogroup Meetings,EUR,2025.11.12,10:15,1,0,0
 German 30-y Bond Auction,EUR,2025.11.12,10:34,1,0,3.17
 MPC Member Pill Speaks,GBP,2025.11.12,12:05,1,0,0
-Building Permits m/m,CAD,2025.11.12,13:30,1,0.9,-1.2
+Building Permits m/m,CAD,2025.11.12,13:30,1,0.8,-1.2
 FOMC Member Williams Speaks,USD,2025.11.12,14:20,1,0,0
 FOMC Member Paulson Speaks,USD,2025.11.12,15:00,1,0,0
 FOMC Member Waller Speaks,USD,2025.11.12,15:20,1,0,0
@@ -53,25 +53,25 @@ Visitor Arrivals m/m,NZD,2025.11.12,21:45,1,0,2.2
 PPI y/y,JPY,2025.11.12,23:50,1,2.5,2.7
 MI Inflation Expectations,AUD,2025.11.13,00:00,1,0,4.8
 RICS House Price Balance,GBP,2025.11.13,00:01,1,-14,-15
-Employment Change,AUD,2025.11.13,00:30,3,20300.0,14900.0
+Employment Change,AUD,2025.11.13,00:30,3,20100.0,14900.0
 Unemployment Rate,AUD,2025.11.13,00:30,3,4.4,4.5
 GDP m/m,GBP,2025.11.13,07:00,3,0.0,0.1
 Prelim GDP q/q,GBP,2025.11.13,07:00,2,0.2,0.3
-Construction Output m/m,GBP,2025.11.13,07:00,1,0.1,-0.3
+Construction Output m/m,GBP,2025.11.13,07:00,1,0.0,-0.3
 Goods Trade Balance,GBP,2025.11.13,07:00,1,-20800000000.0,-21200000000.0
 Index of Services 3m/3m,GBP,2025.11.13,07:00,1,0.3,0.4
-Industrial Production m/m,GBP,2025.11.13,07:00,1,-0.1,0.4
-Manufacturing Production m/m,GBP,2025.11.13,07:00,1,-0.3,0.7
-Prelim Business Investment q/q,GBP,2025.11.13,07:00,1,-0.7,-4.0
-PPI m/m,CHF,2025.11.13,07:30,1,0.1,-0.2
+Industrial Production m/m,GBP,2025.11.13,07:00,1,-0.5,0.4
+Manufacturing Production m/m,GBP,2025.11.13,07:00,1,-0.6,0.7
+Prelim Business Investment q/q,GBP,2025.11.13,07:00,1,0.4,-4.0
+PPI m/m,CHF,2025.11.13,07:30,1,-0.1,-0.2
 ECB Economic Bulletin,EUR,2025.11.13,09:00,1,0,0
-Industrial Production m/m,EUR,2025.11.13,10:00,1,0.8,-1.2
+Industrial Production m/m,EUR,2025.11.13,10:00,1,0.7,-1.2
 ECOFIN Meetings,EUR,2025.11.13,10:15,1,0,0
 MPC Member Greene Speaks,GBP,2025.11.13,12:00,1,0,0
 FOMC Member Daly Speaks,USD,2025.11.13,13:00,1,0,0
 Core CPI m/m,USD,2025.11.13,13:30,3,0.3,0.2
 CPI m/m,USD,2025.11.13,13:30,3,0.2,0.3
-CPI y/y,USD,2025.11.13,13:30,3,0,3.0
+CPI y/y,USD,2025.11.13,13:30,3,3.0,3.0
 Unemployment Claims,USD,2025.11.13,13:30,3,0,0
 Mortgage Delinquencies,USD,2025.11.13,15:00,1,0,3.93
 FOMC Member Kashkari Speaks,USD,2025.11.13,15:30,1,0,0
@@ -80,21 +80,21 @@ FOMC Member Musalem Speaks,USD,2025.11.13,17:15,1,0,0
 FOMC Member Hammack Speaks,USD,2025.11.13,17:20,1,0,0
 Gov Board Member Tschudin Speaks,CHF,2025.11.13,17:30,1,0,0
 30-y Bond Auction,USD,2025.11.13,18:01,1,0,4.73
-Federal Budget Balance,USD,2025.11.13,19:00,1,0,198000000000.0
+Federal Budget Balance,USD,2025.11.13,19:00,1,-72600000000.0,198000000000.0
 BusinessNZ Manufacturing Index,NZD,2025.11.13,21:30,1,0,49.9
 New Home Prices m/m,CNY,2025.11.14,01:30,1,0,-0.41
-Fixed Asset Investment ytd/y,CNY,2025.11.14,02:00,1,-0.8,-0.5
+Fixed Asset Investment ytd/y,CNY,2025.11.14,02:00,1,-0.9,-0.5
 Industrial Production y/y,CNY,2025.11.14,02:00,1,5.5,6.5
 NBS Press Conference,CNY,2025.11.14,02:00,1,0,0
-Retail Sales y/y,CNY,2025.11.14,02:00,1,2.8,3.0
+Retail Sales y/y,CNY,2025.11.14,02:00,1,2.7,3.0
 Unemployment Rate,CNY,2025.11.14,02:00,1,5.2,5.2
 Tertiary Industry Activity m/m,JPY,2025.11.14,04:30,1,0.3,-0.4
 French Final CPI m/m,EUR,2025.11.14,07:45,1,0.1,0.1
 Italian Trade Balance,EUR,2025.11.14,09:00,1,3220000000.0,2049999999.9999998
 Flash Employment Change q/q,EUR,2025.11.14,10:00,1,0.1,0.1
 Flash GDP q/q,EUR,2025.11.14,10:00,1,0.2,0.2
-Trade Balance,EUR,2025.11.14,10:00,1,0,9700000000.0
-Manufacturing Sales m/m,CAD,2025.11.14,13:30,1,2.8,-1.0
+Trade Balance,EUR,2025.11.14,10:00,1,9100000000.0,9700000000.0
+Manufacturing Sales m/m,CAD,2025.11.14,13:30,1,2.6,-1.0
 Wholesale Sales m/m,CAD,2025.11.14,13:30,1,0.0,-1.2
 Core PPI m/m,USD,2025.11.14,13:30,3,0,0
 Core Retail Sales m/m,USD,2025.11.14,13:30,3,0,0
