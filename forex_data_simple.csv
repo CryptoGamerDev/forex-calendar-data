@@ -75,12 +75,12 @@ CPI y/y,USD,2025.11.13,13:30,3,3.0,3.0
 Unemployment Claims,USD,2025.11.13,13:30,3,0,0
 Mortgage Delinquencies,USD,2025.11.13,15:05,1,0,3.93
 FOMC Member Kashkari Speaks,USD,2025.11.13,15:30,1,0,0
-Crude Oil Inventories,USD,2025.11.13,17:00,1,0,5200000.0
+Crude Oil Inventories,USD,2025.11.13,17:00,1,1000000.0,5200000.0
 FOMC Member Musalem Speaks,USD,2025.11.13,17:15,1,0,0
 FOMC Member Hammack Speaks,USD,2025.11.13,17:20,1,0,0
 Gov Board Member Tschudin Speaks,CHF,2025.11.13,17:30,1,0,0
 30-y Bond Auction,USD,2025.11.13,18:01,1,0,4.73
-Federal Budget Balance,USD,2025.11.13,19:00,1,-72600000000.0,198000000000.0
+Federal Budget Balance,USD,2025.11.13,19:00,1,-215300000000.0,198000000000.0
 BusinessNZ Manufacturing Index,NZD,2025.11.13,21:30,1,0,49.9
 New Home Prices m/m,CNY,2025.11.14,01:30,1,0,-0.41
 Fixed Asset Investment ytd/y,CNY,2025.11.14,02:00,1,-0.9,-0.5
@@ -90,11 +90,11 @@ Retail Sales y/y,CNY,2025.11.14,02:00,1,2.7,3.0
 Unemployment Rate,CNY,2025.11.14,02:00,1,5.2,5.2
 Tertiary Industry Activity m/m,JPY,2025.11.14,04:30,1,0.3,-0.4
 French Final CPI m/m,EUR,2025.11.14,07:45,1,0.1,0.1
-Italian Trade Balance,EUR,2025.11.14,09:00,1,3220000000.0,2049999999.9999998
+Italian Trade Balance,EUR,2025.11.14,09:00,1,3180000000.0,2049999999.9999998
 Flash Employment Change q/q,EUR,2025.11.14,10:00,1,0.1,0.1
 Flash GDP q/q,EUR,2025.11.14,10:00,1,0.2,0.2
-Trade Balance,EUR,2025.11.14,10:00,1,9100000000.0,9700000000.0
-Manufacturing Sales m/m,CAD,2025.11.14,13:30,1,2.6,-1.0
+Trade Balance,EUR,2025.11.14,10:00,1,8800000000.0,9700000000.0
+Manufacturing Sales m/m,CAD,2025.11.14,13:30,1,2.8,-1.0
 Wholesale Sales m/m,CAD,2025.11.14,13:30,1,0.0,-1.2
 Core PPI m/m,USD,2025.11.14,13:30,3,0,0
 Core Retail Sales m/m,USD,2025.11.14,13:30,3,0,0
@@ -102,6 +102,6 @@ PPI m/m,USD,2025.11.14,13:30,3,0,0
 Retail Sales m/m,USD,2025.11.14,13:30,3,0,0
 Business Inventories m/m,USD,2025.11.14,15:00,1,0,0
 FOMC Member Schmid Speaks,USD,2025.11.14,15:05,1,0,0
-Natural Gas Storage,USD,2025.11.14,15:30,1,0,33000000000.0
+Natural Gas Storage,USD,2025.11.14,15:30,1,34000000000.0,33000000000.0
 FOMC Member Logan Speaks,USD,2025.11.14,19:30,1,0,0
 FOMC Member Bostic Speaks,USD,2025.11.14,20:20,1,0,0
