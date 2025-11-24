@@ -7,19 +7,18 @@ CB Leading Index m/m,CNY,2025.11.24,14:00,1,0,-0.1
 Belgian NBB Business Climate,EUR,2025.11.24,14:00,1,-8.7,-9.1
 ECB President Lagarde Speaks,EUR,2025.11.24,14:50,2,0,0
 German Buba President Nagel Speaks,EUR,2025.11.24,17:45,1,0,0
-Federal Budget Balance,USD,2025.11.24,19:03,1,-223400000000.0,198000000000.0
 German Final GDP q/q,EUR,2025.11.25,07:00,1,0.0,0.0
 CBI Realized Sales,GBP,2025.11.25,11:00,1,-30,-27
-Core PPI m/m,USD,2025.11.25,13:30,3,0,-0.1
-Core Retail Sales m/m,USD,2025.11.25,13:30,3,0,0.7
-PPI m/m,USD,2025.11.25,13:30,3,0,-0.1
-Retail Sales m/m,USD,2025.11.25,13:30,3,0,0.6
-HPI m/m,USD,2025.11.25,14:00,1,0,0.4
-S&P/CS Composite-20 HPI y/y,USD,2025.11.25,14:00,1,0,1.6
-Pending Home Sales m/m,USD,2025.11.25,15:00,2,0,0.0
+Core PPI m/m,USD,2025.11.25,13:30,3,0.2,-0.1
+Core Retail Sales m/m,USD,2025.11.25,13:30,3,0.3,0.7
+PPI m/m,USD,2025.11.25,13:30,3,0.3,-0.1
+Retail Sales m/m,USD,2025.11.25,13:30,3,0.4,0.6
+HPI m/m,USD,2025.11.25,14:00,1,0.1,0.4
+S&P/CS Composite-20 HPI y/y,USD,2025.11.25,14:00,1,1.4,1.6
+Pending Home Sales m/m,USD,2025.11.25,15:00,2,0.1,0.0
 Richmond Manufacturing Index,USD,2025.11.25,15:00,2,-2,-4
-Business Inventories m/m,USD,2025.11.25,15:00,1,0,0.2
-CB Consumer Confidence,USD,2025.11.25,15:00,2,93.4,94.6
+Business Inventories m/m,USD,2025.11.25,15:00,1,0.0,0.2
+Federal Budget Balance,USD,2025.11.25,19:03,1,-223400000000.0,198000000000.0
 API Weekly Statistical Bulletin,USD,2025.11.25,21:30,1,0,0
 SPPI y/y,JPY,2025.11.25,23:50,1,2.7,3.0
 CPI y/y,AUD,2025.11.26,00:30,3,0,3.5
@@ -40,6 +39,7 @@ Prelim GDP q/q,USD,2025.11.26,13:30,3,0,0
 Prelim GDP Price Index q/q,USD,2025.11.26,13:30,2,0,0
 Chicago PMI,USD,2025.11.26,14:45,1,0,43.8
 Core PCE Price Index m/m,USD,2025.11.26,15:00,3,0,0
+CB Consumer Confidence,USD,2025.11.26,15:00,2,93.4,94.6
 Personal Income m/m,USD,2025.11.26,15:00,1,0,0
 Personal Spending m/m,USD,2025.11.26,15:00,1,0,0
 CB Leading Index m/m,USD,2025.11.26,15:15,1,0,0
