@@ -3,8 +3,8 @@ G20 Meetings,All,2025.11.23,16:15,1,0,0
 Bank Holiday,JPY,2025.11.24,00:00,0,0,0
 German ifo Business Climate,EUR,2025.11.24,09:00,2,88.6,88.4
 Corporate Profits q/q,CAD,2025.11.24,13:30,1,0,-1.7
+Belgian NBB Business Climate,EUR,2025.11.24,13:50,1,-8.7,-9.1
 CB Leading Index m/m,CNY,2025.11.24,14:00,1,0,-0.1
-Belgian NBB Business Climate,EUR,2025.11.24,14:00,1,-8.7,-9.1
 ECB President Lagarde Speaks,EUR,2025.11.24,14:50,2,0,0
 German Buba President Nagel Speaks,EUR,2025.11.24,17:45,1,0,0
 German Final GDP q/q,EUR,2025.11.25,07:00,1,0.0,0.0
@@ -21,7 +21,7 @@ Business Inventories m/m,USD,2025.11.25,15:00,1,0.0,0.2
 Federal Budget Balance,USD,2025.11.25,19:03,1,-223400000000.0,198000000000.0
 API Weekly Statistical Bulletin,USD,2025.11.25,21:30,1,0,0
 SPPI y/y,JPY,2025.11.25,23:50,1,2.7,3.0
-CPI y/y,AUD,2025.11.26,00:30,3,0,3.5
+CPI y/y,AUD,2025.11.26,00:30,3,3.6,3.5
 Construction Work Done q/q,AUD,2025.11.26,00:30,1,0.4,3.0
 Official Cash Rate,NZD,2025.11.26,01:00,3,2.25,2.50
 RBNZ Monetary Policy Statement,NZD,2025.11.26,01:00,3,0,0
@@ -32,9 +32,9 @@ UBS Economic Expectations,CHF,2025.11.26,09:00,1,0,-7.7
 ECB Financial Stability Review,EUR,2025.11.26,09:00,2,0,0
 German 10-y Bond Auction,EUR,2025.11.26,10:42,1,0,2.62
 Autumn Forecast Statement,GBP,2025.11.26,12:30,3,0,0
-Unemployment Claims,USD,2025.11.26,13:30,3,0,220000.0
-Core Durable Goods Orders m/m,USD,2025.11.26,13:30,2,0,0.4
-Durable Goods Orders m/m,USD,2025.11.26,13:30,2,0,2.9
+Unemployment Claims,USD,2025.11.26,13:30,3,226000.0,220000.0
+Core Durable Goods Orders m/m,USD,2025.11.26,13:30,2,0.2,0.4
+Durable Goods Orders m/m,USD,2025.11.26,13:30,2,0.5,2.9
 Prelim GDP q/q,USD,2025.11.26,13:30,3,0,0
 Prelim GDP Price Index q/q,USD,2025.11.26,13:30,2,0,0
 Chicago PMI,USD,2025.11.26,14:45,1,0,43.8
@@ -57,7 +57,7 @@ Private Loans y/y,EUR,2025.11.27,09:00,1,2.6,2.6
 Italian 10-y Bond Auction,EUR,2025.11.27,10:33,1,0,3.46
 ECB Monetary Policy Meeting Accounts,EUR,2025.11.27,12:30,1,0,0
 Bank Holiday,USD,2025.11.27,13:00,0,0,0
-Current Account,CAD,2025.11.27,13:30,1,-14400000000.0,-21200000000.0
+Current Account,CAD,2025.11.27,13:30,1,-15100000000.0,-21200000000.0
 MPC Member Greene Speaks,GBP,2025.11.27,16:00,1,0,0
 Tokyo Core CPI y/y,JPY,2025.11.27,23:30,2,2.7,2.8
 Unemployment Rate,JPY,2025.11.27,23:30,1,2.5,2.6
