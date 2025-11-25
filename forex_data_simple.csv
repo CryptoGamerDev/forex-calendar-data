@@ -15,8 +15,9 @@ PPI m/m,USD,2025.11.25,13:30,3,0.3,-0.1
 Retail Sales m/m,USD,2025.11.25,13:30,3,0.4,0.6
 HPI m/m,USD,2025.11.25,14:00,1,0.2,0.4
 S&P/CS Composite-20 HPI y/y,USD,2025.11.25,14:00,1,1.4,1.6
+Richmond Manufacturing Index,USD,2025.11.25,14:59,2,-5,-4
+CB Consumer Confidence,USD,2025.11.25,15:00,2,93.4,94.6
 Pending Home Sales m/m,USD,2025.11.25,15:00,2,0.5,0.0
-Richmond Manufacturing Index,USD,2025.11.25,15:00,2,-5,-4
 Business Inventories m/m,USD,2025.11.25,15:00,1,0.0,0.2
 API Weekly Statistical Bulletin,USD,2025.11.25,21:30,1,0,0
 SPPI y/y,JPY,2025.11.25,23:50,1,2.7,3.0
@@ -35,8 +36,7 @@ Unemployment Claims,USD,2025.11.26,13:30,3,226000.0,220000.0
 Core Durable Goods Orders m/m,USD,2025.11.26,13:30,2,0.2,0.4
 Durable Goods Orders m/m,USD,2025.11.26,13:30,2,0.5,2.9
 Chicago PMI,USD,2025.11.26,14:45,1,43.9,43.8
-CB Consumer Confidence,USD,2025.11.26,15:00,2,93.4,94.6
-Crude Oil Inventories,USD,2025.11.26,15:30,1,-1000000.0,-3400000.0
+Crude Oil Inventories,USD,2025.11.26,15:30,1,-1300000.0,-3400000.0
 ECB President Lagarde Speaks,EUR,2025.11.26,17:00,2,0,0
 Natural Gas Storage,USD,2025.11.26,17:00,1,-5000000000.0,-14000000000.0
 Beige Book,USD,2025.11.26,19:00,1,0,0
