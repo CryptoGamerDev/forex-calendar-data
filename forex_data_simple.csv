@@ -1,92 +1,128 @@
 Title,Country,Date,Time24h,Importance,Forecast,Previous
-Average Cash Earnings y/y,JPY,2025.12.07,23:30,1,2.2,1.9
-Bank Lending y/y,JPY,2025.12.07,23:50,1,4.0,4.1
-Current Account,JPY,2025.12.07,23:50,1,3.09T,4.35T
-Final GDP Price Index y/y,JPY,2025.12.07,23:50,1,2.8,2.8
-Final GDP q/q,JPY,2025.12.07,23:50,1,-0.5,-0.4
-Trade Balance,CNY,2025.12.08,03:02,1,670000000000.0,640000000000.0
-USD-Denominated Trade Balance,CNY,2025.12.08,03:18,1,105000000000.0,90100000000.0
-Economy Watchers Sentiment,JPY,2025.12.08,05:00,1,49.5,49.1
-German Industrial Production m/m,EUR,2025.12.08,07:00,1,0.2,1.3
-Italian Bank Holiday,EUR,2025.12.08,07:03,0,0,0
-SECO Consumer Climate,CHF,2025.12.08,08:00,1,-34,-37
-Sentix Investor Confidence,EUR,2025.12.08,09:30,1,-6.2,-7.4
-MPC Member Taylor Speaks,GBP,2025.12.08,17:00,1,0,0
-MPC Member Lombardelli Speaks,GBP,2025.12.08,18:30,1,0,0
-M2 Money Stock y/y,JPY,2025.12.08,23:50,1,1.4,1.6
-BRC Retail Sales Monitor y/y,GBP,2025.12.09,00:01,1,2.6,1.5
-NAB Business Confidence,AUD,2025.12.09,00:30,1,0,6
-Cash Rate,AUD,2025.12.09,03:30,3,3.60,3.60
-RBA Rate Statement,AUD,2025.12.09,03:30,3,0,0
-RBA Press Conference,AUD,2025.12.09,04:30,3,0,0
-Prelim Machine Tool Orders y/y,JPY,2025.12.09,05:58,1,0,16.8
-German Trade Balance,EUR,2025.12.09,07:00,1,15900000000.0,15300000000.0
-German Buba President Nagel Speaks,EUR,2025.12.09,08:00,1,0,0
-BOJ Gov Ueda Speaks,JPY,2025.12.09,09:00,3,0,0
-NFIB Small Business Index,USD,2025.12.09,11:00,1,98.4,98.2
-ADP Weekly Employment Change,USD,2025.12.09,13:15,3,0,-13500.0
-Monetary Policy Report Hearings,GBP,2025.12.09,14:15,2,0,0
-JOLTS Job Openings,USD,2025.12.09,14:59,2,0,7230000.0
-JOLTS Job Openings,USD,2025.12.09,15:00,3,7140000.0,7660000.0
-CB Leading Index m/m,USD,2025.12.09,15:00,1,-0.3,-0.5
-10-y Bond Auction,USD,2025.12.09,18:01,1,0,4.07
-RBNZ Gov Breman Speaks,NZD,2025.12.09,20:45,2,0,0
-API Weekly Statistical Bulletin,USD,2025.12.09,21:30,1,0,0
-Visitor Arrivals m/m,NZD,2025.12.09,21:48,1,0,2.9
-President Trump Speaks,USD,2025.12.09,23:10,2,0,0
-PPI y/y,JPY,2025.12.09,23:50,1,2.7,2.7
-CPI y/y,CNY,2025.12.10,01:30,2,0.7,0.2
-PPI y/y,CNY,2025.12.10,01:30,2,-2.0,-2.1
-Italian Industrial Production m/m,EUR,2025.12.10,09:00,1,-0.3,2.8
-10-y Bond Auction,GBP,2025.12.10,10:11,1,0,4.61
-ECB President Lagarde Speaks,EUR,2025.12.10,10:55,2,0,0
-Employment Cost Index q/q,USD,2025.12.10,13:30,3,0.9,0.9
-BOC Rate Statement,CAD,2025.12.10,14:45,3,0,0
-Overnight Rate,CAD,2025.12.10,14:45,3,2.25,2.25
-BOC Press Conference,CAD,2025.12.10,15:30,3,0,0
-Crude Oil Inventories,USD,2025.12.10,15:30,1,-1200000.0,600000.0
-Federal Funds Rate,USD,2025.12.10,19:00,3,3.75,4.00
-FOMC Economic Projections,USD,2025.12.10,19:00,3,0,0
-FOMC Statement,USD,2025.12.10,19:00,3,0,0
-Federal Budget Balance,USD,2025.12.10,19:19,1,-186500000000.0,-284400000000.0
-FOMC Press Conference,USD,2025.12.10,19:30,3,0,0
-Manufacturing Sales q/q,NZD,2025.12.10,21:45,1,0,-3.0
-BSI Manufacturing Index,JPY,2025.12.10,23:50,1,4.1,3.8
-RICS House Price Balance,GBP,2025.12.11,00:01,1,-21,-19
-Employment Change,AUD,2025.12.11,00:30,3,20000.0,42200.0
-Unemployment Rate,AUD,2025.12.11,00:30,3,4.4,4.3
-SNB Monetary Policy Assessment,CHF,2025.12.11,08:30,3,0,0
-SNB Policy Rate,CHF,2025.12.11,08:30,3,0.00,0.00
-SNB Press Conference,CHF,2025.12.11,09:00,3,0,0
-Italian Quarterly Unemployment Rate,EUR,2025.12.11,09:03,1,6.3,6.3
-BOE Gov Bailey Speaks,GBP,2025.12.11,09:52,2,0,0
-BOE Gov Bailey Speaks,GBP,2025.12.11,10:00,2,0,0
-Eurogroup Meetings,EUR,2025.12.11,10:15,1,0,0
-Trade Balance,CAD,2025.12.11,13:30,1,-4400000000.0,-6300000000.0
-Unemployment Claims,USD,2025.12.11,13:30,3,220000.0,191000.0
-Trade Balance,USD,2025.12.11,13:30,1,-62500000000.0,-59600000000.0
-Final Wholesale Inventories m/m,USD,2025.12.11,15:00,1,0.1,0.0
-Natural Gas Storage,USD,2025.12.11,15:30,1,-170000000000.0,-12000000000.0
-30-y Bond Auction,USD,2025.12.11,18:01,1,0,4.69
-BusinessNZ Manufacturing Index,NZD,2025.12.11,21:30,1,0,51.4
-President Trump Speaks,USD,2025.12.12,01:15,2,0,0
-Revised Industrial Production m/m,JPY,2025.12.12,04:30,1,1.4,1.4
-German Final CPI m/m,EUR,2025.12.12,07:00,1,-0.2,-0.2
-GDP m/m,GBP,2025.12.12,07:00,3,0.1,-0.1
-Construction Output m/m,GBP,2025.12.12,07:00,1,-0.1,0.2
-Goods Trade Balance,GBP,2025.12.12,07:00,1,-19100000000.0,-18900000000.0
-Index of Services 3m/3m,GBP,2025.12.12,07:00,1,0.1,0.2
-Industrial Production m/m,GBP,2025.12.12,07:00,1,0.9,-2.0
-Manufacturing Production m/m,GBP,2025.12.12,07:00,1,1.1,-1.7
-French Final CPI m/m,EUR,2025.12.12,07:45,1,-0.1,-0.1
-M2 Money Supply y/y,CNY,2025.12.12,09:05,1,8.2,8.2
-New Loans,CNY,2025.12.12,09:05,1,445000000000.0,220000000000.0
-Consumer Inflation Expectations,GBP,2025.12.12,09:30,1,0,3.6
-ECOFIN Meetings,EUR,2025.12.12,10:15,1,0,0
-FOMC Member Paulson Speaks,USD,2025.12.12,13:00,1,0,0
-Building Permits m/m,CAD,2025.12.12,13:30,1,-1.4,4.5
-Capacity Utilization Rate,CAD,2025.12.12,13:30,1,79.3,79.3
-Wholesale Sales m/m,CAD,2025.12.12,13:30,1,-0.1,0.6
-FOMC Member Hammack Speaks,USD,2025.12.12,13:30,1,0,0
-CB Leading Index m/m,AUD,2025.12.12,15:30,1,0,0.0
-FOMC Member Goolsbee Speaks,USD,2025.12.12,15:35,1,0,0
+BusinessNZ Services Index,NZD,2025.12.14,21:30,1,0,48.7
+Tankan Manufacturing Index,JPY,2025.12.14,23:50,1,15,14
+Tankan Non-Manufacturing Index,JPY,2025.12.14,23:50,1,35,34
+Rightmove HPI m/m,GBP,2025.12.15,00:01,1,0,-1.8
+New Home Prices m/m,CNY,2025.12.15,01:30,1,0,-0.45
+Fixed Asset Investment ytd/y,CNY,2025.12.15,02:00,1,-2.4,-1.7
+Industrial Production y/y,CNY,2025.12.15,02:00,1,5.0,4.9
+NBS Press Conference,CNY,2025.12.15,02:00,1,0,0
+Retail Sales y/y,CNY,2025.12.15,02:00,1,3.0,2.9
+Unemployment Rate,CNY,2025.12.15,02:00,1,5.1,5.1
+Tertiary Industry Activity m/m,JPY,2025.12.15,04:30,1,0.2,0.3
+German WPI m/m,EUR,2025.12.15,07:00,1,0.2,0.3
+PPI m/m,CHF,2025.12.15,07:30,1,0.1,-0.3
+SECO Economic Forecasts,CHF,2025.12.15,08:00,1,0,0
+Industrial Production m/m,EUR,2025.12.15,10:00,1,0.7,0.2
+Housing Starts,CAD,2025.12.15,13:15,1,248000.0,233000.0
+CPI m/m,CAD,2025.12.15,13:30,3,0.1,0.2
+Median CPI y/y,CAD,2025.12.15,13:30,3,2.9,2.9
+Trimmed CPI y/y,CAD,2025.12.15,13:30,3,2.9,3.0
+Common CPI y/y,CAD,2025.12.15,13:30,2,2.8,2.7
+Core CPI m/m,CAD,2025.12.15,13:30,1,0,0.6
+Manufacturing Sales m/m,CAD,2025.12.15,13:30,1,-1.0,3.3
+Empire State Manufacturing Index,USD,2025.12.15,13:30,2,9.8,18.7
+CB Leading Index m/m,GBP,2025.12.15,14:30,1,0,-0.3
+FOMC Member Miran Speaks,USD,2025.12.15,14:30,1,0,0
+NAHB Housing Market Index,USD,2025.12.15,15:00,1,39,38
+FOMC Member Williams Speaks,USD,2025.12.15,15:30,1,0,0
+FOMC Member Miran Speaks,USD,2025.12.15,16:00,1,0,0
+FPI m/m,NZD,2025.12.15,21:45,1,0,-0.3
+Flash Manufacturing PMI,AUD,2025.12.15,22:00,1,0,51.6
+Flash Services PMI,AUD,2025.12.15,22:00,1,0,52.7
+RBA Assist Gov Jones Speaks,AUD,2025.12.15,22:15,1,0,0
+Westpac Consumer Sentiment,AUD,2025.12.15,23:30,1,0,12.8
+Mid-Year Economic and Fiscal Outlook,AUD,2025.12.16,00:03,1,0,0
+Flash Manufacturing PMI,JPY,2025.12.16,00:30,1,48.8,48.8
+Claimant Count Change,GBP,2025.12.16,07:00,3,22300.0,29000.0
+Average Earnings Index 3m/y,GBP,2025.12.16,07:00,2,4.4,4.8
+Unemployment Rate,GBP,2025.12.16,07:00,1,5.1,5.0
+French Flash Manufacturing PMI,EUR,2025.12.16,08:15,2,48.0,47.8
+French Flash Services PMI,EUR,2025.12.16,08:15,2,51.1,50.8
+German Flash Manufacturing PMI,EUR,2025.12.16,08:30,3,48.6,48.4
+German Flash Services PMI,EUR,2025.12.16,08:30,3,53.0,52.7
+Flash Manufacturing PMI,EUR,2025.12.16,09:00,1,49.9,49.7
+Flash Services PMI,EUR,2025.12.16,09:00,1,53.4,53.1
+Flash Manufacturing PMI,GBP,2025.12.16,09:30,3,50.3,50.2
+Flash Services PMI,GBP,2025.12.16,09:30,3,51.7,50.5
+Italian Trade Balance,EUR,2025.12.16,10:00,1,3220000000.0,2850000000.0
+Trade Balance,EUR,2025.12.16,10:00,1,18200000000.0,18700000000.0
+German ZEW Economic Sentiment,EUR,2025.12.16,10:00,1,39.2,38.5
+ZEW Economic Sentiment,EUR,2025.12.16,10:00,1,26.3,25.0
+ADP Weekly Employment Change,USD,2025.12.16,13:20,3,0,4800.0
+Average Hourly Earnings m/m,USD,2025.12.16,13:30,3,0.3,0.2
+Core Retail Sales m/m,USD,2025.12.16,13:30,3,0.2,0.3
+Non-Farm Employment Change,USD,2025.12.16,13:30,3,50000.0,119000.0
+Retail Sales m/m,USD,2025.12.16,13:30,3,0.2,0.2
+Unemployment Rate,USD,2025.12.16,13:30,3,4.5,4.4
+Flash Manufacturing PMI,USD,2025.12.16,14:45,3,52.3,51.9
+Flash Services PMI,USD,2025.12.16,14:45,3,54.0,55.0
+Business Inventories m/m,USD,2025.12.16,15:00,1,0.1,0.0
+GDT Price Index,NZD,2025.12.16,15:50,1,0,-4.3
+BOC Gov Macklem Speaks,CAD,2025.12.16,17:45,2,0,0
+Westpac Consumer Sentiment,NZD,2025.12.16,20:00,1,0,90.9
+API Weekly Statistical Bulletin,USD,2025.12.16,21:30,1,0,0
+Current Account,NZD,2025.12.16,21:45,1,-7550000000.0,-970000000.0
+MI Leading Index m/m,AUD,2025.12.16,23:30,1,0,0.1
+Core Machinery Orders m/m,JPY,2025.12.16,23:50,1,-1.7,4.2
+Trade Balance,JPY,2025.12.16,23:50,1,-0.20T,0.00T
+CPI y/y,GBP,2025.12.17,07:00,3,3.5,3.6
+Core CPI y/y,GBP,2025.12.17,07:00,1,3.4,3.4
+PPI Input m/m,GBP,2025.12.17,07:00,1,0.2,-0.3
+PPI Output m/m,GBP,2025.12.17,07:00,1,0.1,0.0
+RPI y/y,GBP,2025.12.17,07:00,1,4.3,4.3
+German ifo Business Climate,EUR,2025.12.17,09:00,2,88.1,88.1
+HPI y/y,GBP,2025.12.17,09:30,1,2.5,2.6
+Final Core CPI y/y,EUR,2025.12.17,10:00,1,2.4,2.4
+Final CPI y/y,EUR,2025.12.17,10:00,1,2.2,2.2
+CBI Industrial Order Expectations,GBP,2025.12.17,11:00,1,-35,-37
+FOMC Member Waller Speaks,USD,2025.12.17,13:15,2,0,0
+Foreign Securities Purchases,CAD,2025.12.17,13:30,1,0,31320000000.0
+SNB Quarterly Bulletin,CHF,2025.12.17,14:00,1,0,0
+FOMC Member Williams Speaks,USD,2025.12.17,14:05,1,0,0
+Crude Oil Inventories,USD,2025.12.17,15:30,1,0,-1800000.0
+FOMC Member Bostic Speaks,USD,2025.12.17,17:30,1,0,0
+GDP q/q,NZD,2025.12.17,21:45,3,0.8,-0.9
+MI Inflation Expectations,AUD,2025.12.18,00:00,1,0,4.5
+Trade Balance,CHF,2025.12.18,07:00,1,5320000000.0,4320000000.0
+Monetary Policy Summary,GBP,2025.12.18,12:00,3,0,0
+MPC Official Bank Rate Votes,GBP,2025.12.18,12:00,3,0-5-4,0-4-5
+Official Bank Rate,GBP,2025.12.18,12:00,3,3.75,4.00
+BOE Inflation Letter,GBP,2025.12.18,12:03,1,0,0
+BOE Gov Bailey Speaks,GBP,2025.12.18,12:30,3,0,0
+Main Refinancing Rate,EUR,2025.12.18,13:15,3,2.15,2.15
+Monetary Policy Statement,EUR,2025.12.18,13:15,3,0,0
+CPI y/y,USD,2025.12.18,13:30,3,0,3.0
+Unemployment Claims,USD,2025.12.18,13:30,3,224000.0,236000.0
+Philly Fed Manufacturing Index,USD,2025.12.18,13:30,2,3.2,-1.7
+Core CPI m/m,USD,2025.12.18,13:30,3,0,0.2
+CPI m/m,USD,2025.12.18,13:30,3,0,0.3
+ECB Press Conference,EUR,2025.12.18,13:45,3,0,0
+Natural Gas Storage,USD,2025.12.18,15:30,1,0,-177000000000.0
+TIC Long-Term Purchases,USD,2025.12.18,21:00,1,120700000000.0,179800000000.0
+Trade Balance,NZD,2025.12.18,21:45,1,-1185000000.0,-1542000000.0
+National Core CPI y/y,JPY,2025.12.18,23:30,1,3.0,3.0
+ANZ Business Confidence,NZD,2025.12.19,00:00,1,0,67.1
+GfK Consumer Confidence,GBP,2025.12.19,00:01,1,-18,-19
+Private Sector Credit m/m,AUD,2025.12.19,00:30,1,0.2,0.7
+Credit Card Spending y/y,NZD,2025.12.19,02:00,1,0,1.4
+BOJ Policy Rate,JPY,2025.12.19,03:30,3,<0.75,<0.50
+Monetary Policy Statement,JPY,2025.12.19,03:30,3,0,0
+Commodity Prices y/y,AUD,2025.12.19,05:30,1,0,-1.7
+BOJ Press Conference,JPY,2025.12.19,06:30,3,0,0
+German GfK Consumer Climate,EUR,2025.12.19,07:00,1,-23.1,-23.2
+German PPI m/m,EUR,2025.12.19,07:00,1,0.1,0.1
+Retail Sales m/m,GBP,2025.12.19,07:00,3,0.4,-1.1
+Public Sector Net Borrowing,GBP,2025.12.19,07:00,1,10200000000.0,17400000000.0
+Foreign Direct Investment ytd/y,CNY,2025.12.19,07:02,1,0,-10.3
+Current Account,EUR,2025.12.19,09:00,1,0,23100000000.0
+German Buba Monthly Report,EUR,2025.12.19,11:00,1,0,0
+CBI Realized Sales,GBP,2025.12.19,11:00,1,-29,-32
+Core Retail Sales m/m,CAD,2025.12.19,13:30,2,0.0,0.2
+Retail Sales m/m,CAD,2025.12.19,13:30,2,0.0,-0.7
+NHPI m/m,CAD,2025.12.19,13:30,1,0.0,-0.4
+Belgian NBB Business Climate,EUR,2025.12.19,14:00,1,-7.8,-8.2
+Consumer Confidence,EUR,2025.12.19,15:00,1,-14,-14
+Existing Home Sales,USD,2025.12.19,15:00,2,4150000.0000000005,4099999.9999999995
+Revised UoM Consumer Sentiment,USD,2025.12.19,15:00,2,53.3,53.3
+Revised UoM Inflation Expectations,USD,2025.12.19,15:00,1,0,4.1
