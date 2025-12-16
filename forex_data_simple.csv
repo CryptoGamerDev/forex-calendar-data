@@ -48,10 +48,12 @@ Italian Trade Balance,EUR,2025.12.16,10:00,1,3210000000.0,2850000000.0
 Trade Balance,EUR,2025.12.16,10:00,1,18300000000.0,18700000000.0
 German ZEW Economic Sentiment,EUR,2025.12.16,10:00,1,38.4,38.5
 ZEW Economic Sentiment,EUR,2025.12.16,10:00,1,26.3,25.0
-ADP Weekly Employment Change,USD,2025.12.16,13:20,3,0,4800.0
-Average Hourly Earnings m/m,USD,2025.12.16,13:30,3,0.3,0.2
+ADP Weekly Employment Change,USD,2025.12.16,13:15,3,0,4800.0
+Average Hourly Earnings m/m,USD,2025.12.16,13:29,2,0,0.2
+Non-Farm Employment Change,USD,2025.12.16,13:29,2,0,119000.0
+Average Hourly Earnings m/m,USD,2025.12.16,13:30,3,0.3,0.4
 Core Retail Sales m/m,USD,2025.12.16,13:30,3,0.2,0.3
-Non-Farm Employment Change,USD,2025.12.16,13:30,3,51000.0,119000.0
+Non-Farm Employment Change,USD,2025.12.16,13:30,3,51000.0,-105000.0
 Retail Sales m/m,USD,2025.12.16,13:30,3,0.1,0.2
 Unemployment Rate,USD,2025.12.16,13:30,3,4.5,4.4
 Flash Manufacturing PMI,USD,2025.12.16,14:45,3,52.0,51.9
