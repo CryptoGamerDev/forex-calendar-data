@@ -10,30 +10,30 @@ RMPI m/m,CAD,2025.12.22,13:30,1,0.6,1.6
 CB Leading Index m/m,CNY,2025.12.22,14:00,1,0,-0.8
 Monetary Policy Meeting Minutes,AUD,2025.12.23,00:30,1,0,0
 BOJ Core CPI y/y,JPY,2025.12.23,05:00,1,2.2,2.2
-German Import Prices m/m,EUR,2025.12.23,07:00,1,0.1,0.2
+German Import Prices m/m,EUR,2025.12.23,07:00,1,0.2,0.2
 UBS Economic Expectations,CHF,2025.12.23,09:00,1,0,12.2
 ADP Weekly Employment Change,USD,2025.12.23,13:20,2,0,16300.0
 GDP m/m,CAD,2025.12.23,13:30,3,-0.3,0.2
-Prelim GDP q/q,USD,2025.12.23,13:30,3,3.2,3.8
-Core Durable Goods Orders m/m,USD,2025.12.23,13:30,2,-1.4,0.6
-Durable Goods Orders m/m,USD,2025.12.23,13:30,2,0.2,0.5
-Prelim GDP Price Index q/q,USD,2025.12.23,13:30,2,2.6,2.1
+Prelim GDP q/q,USD,2025.12.23,13:30,3,3.3,3.8
+Core Durable Goods Orders m/m,USD,2025.12.23,13:30,2,0.3,0.6
+Durable Goods Orders m/m,USD,2025.12.23,13:30,2,-1.5,0.5
+Prelim GDP Price Index q/q,USD,2025.12.23,13:30,2,2.7,2.1
 Capacity Utilization Rate,USD,2025.12.23,14:14,1,75.9,75.9
 Industrial Production m/m,USD,2025.12.23,14:14,1,0,0.1
 Capacity Utilization Rate,USD,2025.12.23,14:15,1,75.9,0
 Industrial Production m/m,USD,2025.12.23,14:15,1,0.1,0
 CB Consumer Confidence,USD,2025.12.23,15:00,2,91.7,88.7
-Richmond Manufacturing Index,USD,2025.12.23,15:00,2,-7,-15
+Richmond Manufacturing Index,USD,2025.12.23,15:00,2,-8,-15
 BOC Summary of Deliberations,CAD,2025.12.23,18:30,1,0,0
 API Weekly Statistical Bulletin,USD,2025.12.23,21:30,1,0,0
 Monetary Policy Meeting Minutes,JPY,2025.12.23,23:50,1,0,0
-SPPI y/y,JPY,2025.12.23,23:50,1,2.6,2.7
+SPPI y/y,JPY,2025.12.23,23:50,1,2.7,2.7
 German Bank Holiday,EUR,2025.12.24,07:02,0,0,0
-Unemployment Claims,USD,2025.12.24,13:30,3,220000.0,224000.0
+Unemployment Claims,USD,2025.12.24,13:30,3,223000.0,224000.0
 Bank Holiday,NZD,2025.12.24,20:00,0,0,0
 Bank Holiday,AUD,2025.12.24,21:00,0,0,0
 BOJ Gov Ueda Speaks,JPY,2025.12.25,04:59,3,0,0
-Housing Starts y/y,JPY,2025.12.25,05:00,1,0.7,3.2
+Housing Starts y/y,JPY,2025.12.25,05:00,1,0.4,3.2
 Bank Holiday,CHF,2025.12.25,06:00,0,0,0
 French Bank Holiday,EUR,2025.12.25,07:01,0,0,0
 German Bank Holiday,EUR,2025.12.25,07:02,0,0,0
@@ -46,7 +46,7 @@ Bank Holiday,AUD,2025.12.25,21:00,0,0,0
 Tokyo Core CPI y/y,JPY,2025.12.25,23:30,1,2.5,2.8
 Unemployment Rate,JPY,2025.12.25,23:30,1,2.6,2.6
 Prelim Industrial Production m/m,JPY,2025.12.25,23:50,1,-1.9,1.4
-Retail Sales y/y,JPY,2025.12.25,23:50,1,1.0,1.7
+Retail Sales y/y,JPY,2025.12.25,23:50,1,0.9,1.7
 Bank Holiday,CHF,2025.12.26,06:00,0,0,0
 German Bank Holiday,EUR,2025.12.26,07:02,0,0,0
 Italian Bank Holiday,EUR,2025.12.26,07:03,0,0,0
