@@ -2,20 +2,20 @@ Title,Country,Date,Time24h,Importance,Forecast,Previous
 BOJ Summary of Opinions,JPY,2025.12.28,23:50,1,0,0
 Pending Home Sales m/m,USD,2025.12.29,15:00,2,1.0,1.9
 Natural Gas Storage,USD,2025.12.29,17:00,1,-169000000000.0,-167000000000.0
-Crude Oil Inventories,USD,2025.12.29,22:03,1,-2000000.0,-1300000.0
+Crude Oil Inventories,USD,2025.12.29,22:00,1,-2000000.0,-1300000.0
 KOF Economic Barometer,CHF,2025.12.30,08:00,1,101.5,101.7
-Spanish Flash CPI y/y,EUR,2025.12.30,08:00,1,2.9,3.0
+Spanish Flash CPI y/y,EUR,2025.12.30,08:00,1,2.8,3.0
 HPI m/m,USD,2025.12.30,14:00,1,0.1,0.0
 S&P/CS Composite-20 HPI y/y,USD,2025.12.30,14:00,1,1.1,1.4
-Chicago PMI,USD,2025.12.30,14:45,1,39.6,36.3
+Chicago PMI,USD,2025.12.30,14:45,1,39.8,36.3
 FOMC Meeting Minutes,USD,2025.12.30,19:00,3,0,0
 API Weekly Statistical Bulletin,USD,2025.12.30,21:30,1,0,0
 Bank Holiday,JPY,2025.12.31,00:00,0,0,0
-Manufacturing PMI,CNY,2025.12.31,01:30,2,49.4,49.2
-Non-Manufacturing PMI,CNY,2025.12.31,01:30,1,49.8,49.5
-RatingDog Manufacturing PMI,CNY,2025.12.31,01:45,1,49.7,49.9
+Manufacturing PMI,CNY,2025.12.31,01:30,2,49.2,49.2
+Non-Manufacturing PMI,CNY,2025.12.31,01:30,1,49.6,49.5
+RatingDog Manufacturing PMI,CNY,2025.12.31,01:45,1,49.8,49.9
 German Bank Holiday,EUR,2025.12.31,07:02,0,0,0
-Unemployment Claims,USD,2025.12.31,13:30,3,215000.0,214000.0
+Unemployment Claims,USD,2025.12.31,13:30,3,217000.0,214000.0
 Crude Oil Inventories,USD,2025.12.31,15:30,1,0,0
 Natural Gas Storage,USD,2025.12.31,17:00,1,0,-166000000000.0
 Bank Holiday,NZD,2025.12.31,20:00,0,0,0
@@ -35,7 +35,7 @@ Bank Holiday,CNY,2026.01.02,00:01,0,0,0
 Bank Holiday,CHF,2026.01.02,06:00,0,0,0
 Nationwide HPI m/m,GBP,2026.01.02,07:00,1,0.1,0.3
 Spanish Manufacturing PMI,EUR,2026.01.02,08:15,1,51.2,51.5
-Italian Manufacturing PMI,EUR,2026.01.02,08:45,1,50.1,50.6
+Italian Manufacturing PMI,EUR,2026.01.02,08:45,1,50.0,50.6
 French Final Manufacturing PMI,EUR,2026.01.02,08:50,1,50.6,50.6
 German Final Manufacturing PMI,EUR,2026.01.02,08:55,1,47.7,47.7
 Final Manufacturing PMI,EUR,2026.01.02,09:00,1,49.2,49.2
