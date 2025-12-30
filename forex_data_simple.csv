@@ -16,8 +16,8 @@ Non-Manufacturing PMI,CNY,2025.12.31,01:30,1,49.6,49.5
 RatingDog Manufacturing PMI,CNY,2025.12.31,01:45,1,49.8,49.9
 German Bank Holiday,EUR,2025.12.31,07:02,0,0,0
 Unemployment Claims,USD,2025.12.31,13:30,3,217000.0,214000.0
-Crude Oil Inventories,USD,2025.12.31,15:30,1,0,400000.0
-Natural Gas Storage,USD,2025.12.31,17:00,1,0,-166000000000.0
+Crude Oil Inventories,USD,2025.12.31,15:30,1,-1000000.0,400000.0
+Natural Gas Storage,USD,2025.12.31,17:00,1,-50000000000.0,-166000000000.0
 Bank Holiday,NZD,2025.12.31,20:00,0,0,0
 Bank Holiday,AUD,2025.12.31,21:00,0,0,0
 Bank Holiday,JPY,2026.01.01,00:00,0,0,0
