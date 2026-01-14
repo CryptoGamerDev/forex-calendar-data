@@ -36,8 +36,6 @@ Trade Balance,CNY,2026.01.14,02:24,1,805000000000.0,793000000000.0
 USD-Denominated Trade Balance,CNY,2026.01.14,02:24,1,114300000000.0,111700000000.0
 Prelim Machine Tool Orders y/y,JPY,2026.01.14,06:00,1,0,14.2
 MPC Member Taylor Speaks,GBP,2026.01.14,08:00,1,0,0
-M2 Money Supply y/y,CNY,2026.01.14,09:03,1,8.0,8.0
-New Loans,CNY,2026.01.14,09:03,1,820000000000.0,390000000000.0
 10-y Bond Auction,GBP,2026.01.14,10:33,1,0,4.61
 German 30-y Bond Auction,EUR,2026.01.14,10:34,1,0,3.26
 Core PPI m/m,USD,2026.01.14,13:30,3,0.2,0
@@ -69,6 +67,8 @@ Foreign Direct Investment ytd/y,CNY,2026.01.15,07:02,1,0,-7.5
 French Final CPI m/m,EUR,2026.01.15,07:45,1,0.1,0.1
 ECB Economic Bulletin,EUR,2026.01.15,09:00,1,0,0
 Italian Industrial Production m/m,EUR,2026.01.15,09:00,1,0.6,-1.0
+M2 Money Supply y/y,CNY,2026.01.15,09:03,1,8.0,8.0
+New Loans,CNY,2026.01.15,09:03,1,820000000000.0,390000000000.0
 BOE Credit Conditions Survey,GBP,2026.01.15,09:30,1,0,0
 Industrial Production m/m,EUR,2026.01.15,10:00,1,0.5,0.8
 Trade Balance,EUR,2026.01.15,10:00,1,14800000000.0,14000000000.0
