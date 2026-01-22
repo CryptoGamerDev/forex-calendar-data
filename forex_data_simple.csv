@@ -75,13 +75,13 @@ NHPI m/m,CAD,2026.01.22,13:30,1,-0.2,0.0
 Final GDP q/q,USD,2026.01.22,13:30,3,4.3,4.3
 Unemployment Claims,USD,2026.01.22,13:30,3,209000.0,198000.0
 Final GDP Price Index q/q,USD,2026.01.22,13:30,2,3.8,3.8
+Core PCE Price Index m/m,USD,2026.01.22,14:59,2,0,0.2
+Personal Income m/m,USD,2026.01.22,14:59,1,0,0.4
+Personal Spending m/m,USD,2026.01.22,14:59,1,0,0.3
 Consumer Confidence,EUR,2026.01.22,15:00,1,-13,-15
-Core PCE Price Index m/m,USD,2026.01.22,15:00,3,0.2,0
-Personal Income m/m,USD,2026.01.22,15:00,1,0.4,0
-Personal Spending m/m,USD,2026.01.22,15:00,1,0.5,0
-Core PCE Price Index m/m,USD,2026.01.22,15:10,2,0,0.2
-Personal Income m/m,USD,2026.01.22,15:10,1,0,0.4
-Personal Spending m/m,USD,2026.01.22,15:10,1,0,0.3
+Core PCE Price Index m/m,USD,2026.01.22,15:00,3,0.2,0.2
+Personal Income m/m,USD,2026.01.22,15:00,1,0.4,0.1
+Personal Spending m/m,USD,2026.01.22,15:00,1,0.5,0.5
 Natural Gas Storage,USD,2026.01.22,15:30,1,-90000000000.0,-71000000000.0
 Crude Oil Inventories,USD,2026.01.22,17:00,1,-1000000.0,3400000.0
 CPI q/q,NZD,2026.01.22,21:45,3,0.5,1.0
