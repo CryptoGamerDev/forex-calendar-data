@@ -44,6 +44,7 @@ M3 Money Supply y/y,EUR,2026.01.29,09:00,1,3.0,3.0
 Private Loans y/y,EUR,2026.01.29,09:00,1,2.9,2.9
 Trade Balance,CAD,2026.01.29,13:30,1,-700000000.0,-600000000.0
 Unemployment Claims,USD,2026.01.29,13:30,3,206000.0,200000.0
+Goods Trade Balance,USD,2026.01.29,13:30,1,0,-59100000000.0
 Revised Nonfarm Productivity q/q,USD,2026.01.29,13:30,1,4.9,4.9
 Revised Unit Labor Costs q/q,USD,2026.01.29,13:30,1,-1.9,-1.9
 Trade Balance,USD,2026.01.29,13:30,1,-43400000000.0,-29400000000.0
@@ -66,7 +67,6 @@ French Prelim Private Payrolls q/q,EUR,2026.01.30,07:45,1,0.1,-0.1
 KOF Economic Barometer,CHF,2026.01.30,08:00,1,103.1,103.4
 Spanish Flash CPI y/y,EUR,2026.01.30,08:00,1,2.4,2.9
 Spanish Flash GDP q/q,EUR,2026.01.30,08:00,1,0.6,0.6
-Trade Balance,CHF,2026.01.30,08:15,1,4850000000.0,3840000000.0
 German Unemployment Change,EUR,2026.01.30,08:55,1,4000.0,3000.0
 German Prelim GDP q/q,EUR,2026.01.30,09:00,2,0.2,0.0
 Italian Prelim GDP q/q,EUR,2026.01.30,09:00,1,0.2,0.0
