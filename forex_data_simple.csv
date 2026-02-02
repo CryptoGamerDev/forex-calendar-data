@@ -24,8 +24,8 @@ ISM Manufacturing Prices,USD,2026.02.02,15:00,2,59.3,58.5
 FOMC Member Bostic Speaks,USD,2026.02.02,17:30,1,0,0
 Loan Officer Survey,USD,2026.02.02,19:03,1,0,0
 Building Consents m/m,NZD,2026.02.02,21:45,1,0,2.8
-Monetary Base y/y,JPY,2026.02.02,23:50,1,-10.2,-9.8
-Building Approvals m/m,AUD,2026.02.03,00:30,1,-6.4,15.2
+Monetary Base y/y,JPY,2026.02.02,23:50,1,-10.3,-9.8
+Building Approvals m/m,AUD,2026.02.03,00:30,1,-6.2,15.2
 Cash Rate,AUD,2026.02.03,03:30,3,3.85,3.60
 RBA Monetary Policy Statement,AUD,2026.02.03,03:30,3,0,0
 RBA Rate Statement,AUD,2026.02.03,03:30,3,0,0
@@ -49,7 +49,6 @@ ANZ Commodity Prices m/m,NZD,2026.02.04,00:00,1,0,-2.1
 RatingDog Services PMI,CNY,2026.02.04,01:45,1,51.9,52.0
 RBA Assist Gov Jones Speaks,AUD,2026.02.04,05:10,1,0,0
 Spanish Services PMI,EUR,2026.02.04,08:15,1,57.0,57.1
-Trade Balance,CHF,2026.02.04,08:15,1,4850000000.0,3840000000.0
 Italian Services PMI,EUR,2026.02.04,08:45,1,51.6,51.5
 French Final Services PMI,EUR,2026.02.04,08:50,1,48.0,47.9
 German Final Services PMI,EUR,2026.02.04,08:55,1,53.3,53.3
@@ -72,7 +71,7 @@ French Industrial Production m/m,EUR,2026.02.05,07:45,1,0.1,-0.1
 Italian Retail Sales m/m,EUR,2026.02.05,09:00,1,0.4,0.5
 Construction PMI,GBP,2026.02.05,09:30,1,42.0,40.1
 Retail Sales m/m,EUR,2026.02.05,10:00,1,-0.2,0.2
-Spanish 10-y Bond Auction,EUR,2026.02.05,10:03,1,0,0
+Spanish 10-y Bond Auction,EUR,2026.02.05,10:03,1,0,3.20
 French 10-y Bond Auction,EUR,2026.02.05,10:18,1,0,3.53
 BOE Monetary Policy Report,GBP,2026.02.05,12:00,3,0,0
 Monetary Policy Summary,GBP,2026.02.05,12:00,3,0,0
