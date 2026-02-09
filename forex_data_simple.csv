@@ -7,8 +7,6 @@ Current Account,JPY,2026.02.08,23:50,1,2.95T,3.14T
 Household Spending m/m,AUD,2026.02.09,00:30,1,0.2,1.0
 Economy Watchers Sentiment,JPY,2026.02.09,05:00,1,49.1,48.6
 SECO Consumer Climate,CHF,2026.02.09,08:00,1,-30,-31
-M2 Money Supply y/y,CNY,2026.02.09,09:03,1,8.3,8.5
-New Loans,CNY,2026.02.09,09:03,1,0,910000000000.0
 Sentix Investor Confidence,EUR,2026.02.09,09:30,1,-0.2,-1.8
 German Buba President Nagel Speaks,EUR,2026.02.09,16:00,1,0,0
 FOMC Member Waller Speaks,USD,2026.02.09,18:30,1,0,0
@@ -20,6 +18,8 @@ M2 Money Stock y/y,JPY,2026.02.09,23:50,1,1.8,1.7
 BRC Retail Sales Monitor y/y,GBP,2026.02.10,00:01,1,1.2,1.0
 NAB Business Confidence,AUD,2026.02.10,00:30,1,0,3
 Prelim Machine Tool Orders y/y,JPY,2026.02.10,06:00,1,0,10.6
+M2 Money Supply y/y,CNY,2026.02.10,09:03,1,8.3,8.5
+New Loans,CNY,2026.02.10,09:03,1,0,910000000000.0
 NFIB Small Business Index,USD,2026.02.10,11:00,1,99.9,99.5
 ADP Weekly Employment Change,USD,2026.02.10,13:20,1,0,7800.0
 Core Retail Sales m/m,USD,2026.02.10,13:30,3,0.4,0.5
