@@ -9,20 +9,23 @@ Economy Watchers Sentiment,JPY,02-09-2026,5:00am,Low,49.1,48.6,https://www.forex
 SECO Consumer Climate,CHF,02-09-2026,8:00am,Low,-30,-31,https://www.forexfactory.com/calendar/337-sz-seco-consumer-climate
 Sentix Investor Confidence,EUR,02-09-2026,9:30am,Low,-0.2,-1.8,https://www.forexfactory.com/calendar/320-ez-sentix-investor-confidence
 German Buba President Nagel Speaks,EUR,02-09-2026,4:00pm,Low,,,https://www.forexfactory.com/calendar/851-ge-buba-president-nagel-speaks
+ECB President Lagarde Speaks,EUR,02-09-2026,5:00pm,Medium,,,https://www.forexfactory.com/calendar/832-ez-ecb-president-lagarde-speaks
 FOMC Member Waller Speaks,USD,02-09-2026,6:30pm,Low,,,https://www.forexfactory.com/calendar/839-us-fomc-member-waller-speaks
 MPC Member Mann Speaks,GBP,02-09-2026,7:30pm,Low,,,https://www.forexfactory.com/calendar/848-uk-mpc-member-mann-speaks
+FOMC Member Miran Speaks,USD,02-09-2026,7:30pm,Low,,,https://www.forexfactory.com/calendar/926-us-fomc-member-miran-speaks
 FOMC Member Bostic Speaks,USD,02-09-2026,8:15pm,Low,,,https://www.forexfactory.com/calendar/725-us-fomc-member-bostic-speaks
+FOMC Member Miran Speaks,USD,02-09-2026,10:00pm,Low,,,https://www.forexfactory.com/calendar/926-us-fomc-member-miran-speaks
 MPC Member Mann Speaks,GBP,02-09-2026,10:15pm,Low,,,https://www.forexfactory.com/calendar/848-uk-mpc-member-mann-speaks
 Westpac Consumer Sentiment,AUD,02-09-2026,11:30pm,Low,,-1.7%,https://www.forexfactory.com/calendar/338-au-westpac-consumer-sentiment
-M2 Money Stock y/y,JPY,02-09-2026,11:50pm,Low,1.8%,1.7%,https://www.forexfactory.com/calendar/376-jn-m2-money-stock-yy
-BRC Retail Sales Monitor y/y,GBP,02-10-2026,12:01am,Low,1.2%,1.0%,https://www.forexfactory.com/calendar/114-uk-brc-retail-sales-monitor-yy
+M2 Money Stock y/y,JPY,02-09-2026,11:50pm,Low,1.7%,1.7%,https://www.forexfactory.com/calendar/376-jn-m2-money-stock-yy
+BRC Retail Sales Monitor y/y,GBP,02-10-2026,12:01am,Low,1.3%,1.0%,https://www.forexfactory.com/calendar/114-uk-brc-retail-sales-monitor-yy
 NAB Business Confidence,AUD,02-10-2026,12:30am,Low,,3,https://www.forexfactory.com/calendar/323-au-nab-business-confidence
 Prelim Machine Tool Orders y/y,JPY,02-10-2026,6:00am,Low,,10.6%,https://www.forexfactory.com/calendar/321-jn-prelim-machine-tool-orders-yy
 M2 Money Supply y/y,CNY,02-10-2026,9:03am,Low,8.3%,8.5%,https://www.forexfactory.com/calendar/476-ch-m2-money-supply-yy
-New Loans,CNY,02-10-2026,9:03am,Low,,910B,https://www.forexfactory.com/calendar/477-ch-new-loans
-NFIB Small Business Index,USD,02-10-2026,11:00am,Low,99.9,99.5,https://www.forexfactory.com/calendar/570-us-nfib-small-business-index
+New Loans,CNY,02-10-2026,9:03am,Low,5000B,910B,https://www.forexfactory.com/calendar/477-ch-new-loans
+NFIB Small Business Index,USD,02-10-2026,11:00am,Low,99.8,99.5,https://www.forexfactory.com/calendar/570-us-nfib-small-business-index
 ADP Weekly Employment Change,USD,02-10-2026,1:20pm,Low,,7.8K,https://www.forexfactory.com/calendar/929-us-adp-weekly-employment-change
-Core Retail Sales m/m,USD,02-10-2026,1:30pm,High,0.4%,0.5%,https://www.forexfactory.com/calendar/112-us-core-retail-sales-mm
+Core Retail Sales m/m,USD,02-10-2026,1:30pm,High,0.3%,0.5%,https://www.forexfactory.com/calendar/112-us-core-retail-sales-mm
 Retail Sales m/m,USD,02-10-2026,1:30pm,High,0.4%,0.6%,https://www.forexfactory.com/calendar/102-us-retail-sales-mm
 Employment Cost Index q/q,USD,02-10-2026,1:30pm,Medium,0.8%,0.8%,https://www.forexfactory.com/calendar/179-us-employment-cost-index-qq
 Import Prices m/m,USD,02-10-2026,1:30pm,Low,0.1%,0.4%,https://www.forexfactory.com/calendar/256-us-import-prices-mm
@@ -35,34 +38,36 @@ RBA Deputy Gov Hauser Speaks,AUD,02-11-2026,1:30am,Low,,,https://www.forexfactor
 CPI y/y,CNY,02-11-2026,1:30am,Medium,0.4%,0.8%,https://www.forexfactory.com/calendar/454-ch-cpi-yy
 PPI y/y,CNY,02-11-2026,1:30am,Medium,-1.5%,-1.9%,https://www.forexfactory.com/calendar/455-ch-ppi-yy
 NAB Quarterly Business Confidence,AUD,02-11-2026,4:59am,Low,,2,https://www.forexfactory.com/calendar/248-au-nab-quarterly-business-confidence
-Italian Industrial Production m/m,EUR,02-11-2026,9:00am,Low,-0.4%,1.5%,https://www.forexfactory.com/calendar/223-it-industrial-production-mm
+Italian Industrial Production m/m,EUR,02-11-2026,9:00am,Low,-0.6%,1.5%,https://www.forexfactory.com/calendar/223-it-industrial-production-mm
 German 30-y Bond Auction,EUR,02-11-2026,10:34am,Low,,3.49|2.4,https://www.forexfactory.com/calendar/541-ge-30-y-bond-auction
-Building Permits m/m,CAD,02-11-2026,1:30pm,Low,,-13.1%,https://www.forexfactory.com/calendar/200-ca-building-permits-mm
+Building Permits m/m,CAD,02-11-2026,1:30pm,Low,5.0%,-13.1%,https://www.forexfactory.com/calendar/200-ca-building-permits-mm
 Average Hourly Earnings m/m,USD,02-11-2026,1:30pm,High,0.3%,0.3%,https://www.forexfactory.com/calendar/159-us-average-hourly-earnings-mm
-Non-Farm Employment Change,USD,02-11-2026,1:30pm,High,70K,50K,https://www.forexfactory.com/calendar/66-us-non-farm-employment-change
+Non-Farm Employment Change,USD,02-11-2026,1:30pm,High,66K,50K,https://www.forexfactory.com/calendar/66-us-non-farm-employment-change
 Unemployment Rate,USD,02-11-2026,1:30pm,High,4.4%,4.4%,https://www.forexfactory.com/calendar/56-us-unemployment-rate
+FOMC Member Schmid Speaks,USD,02-11-2026,3:00pm,Low,,,https://www.forexfactory.com/calendar/912-us-fomc-member-schmid-speaks
+FOMC Member Bowman Speaks,USD,02-11-2026,3:15pm,Low,,,https://www.forexfactory.com/calendar/812-us-fomc-member-bowman-speaks
 Crude Oil Inventories,USD,02-11-2026,3:30pm,Low,,-3.5M,https://www.forexfactory.com/calendar/10-us-crude-oil-inventories
 10-y Bond Auction,USD,02-11-2026,6:01pm,Low,,4.17|2.6,https://www.forexfactory.com/calendar/519-us-10-y-bond-auction
 BOC Summary of Deliberations,CAD,02-11-2026,6:30pm,Low,,,https://www.forexfactory.com/calendar/891-ca-boc-summary-of-deliberations
-Federal Budget Balance,USD,02-11-2026,7:00pm,Low,,-144.7B,https://www.forexfactory.com/calendar/322-us-federal-budget-balance
+Federal Budget Balance,USD,02-11-2026,7:00pm,Low,-92.3B,-144.7B,https://www.forexfactory.com/calendar/322-us-federal-budget-balance
+FOMC Member Hammack Speaks,USD,02-11-2026,9:00pm,Low,,,https://www.forexfactory.com/calendar/913-us-fomc-member-hammack-speaks
 PPI y/y,JPY,02-11-2026,11:50pm,Low,2.3%,2.4%,https://www.forexfactory.com/calendar/148-jn-ppi-yy
 MI Inflation Expectations,AUD,02-12-2026,12:00am,Low,,4.6%,https://www.forexfactory.com/calendar/293-au-mi-inflation-expectations
 RICS House Price Balance,GBP,02-12-2026,12:01am,Low,-11%,-14%,https://www.forexfactory.com/calendar/260-uk-rics-house-price-balance
 RBA Assist Gov Hunter Speaks,AUD,02-12-2026,4:45am,Low,,,https://www.forexfactory.com/calendar/907-au-rba-assist-gov-hunter-speaks
 GDP m/m,GBP,02-12-2026,7:00am,High,0.1%,0.3%,https://www.forexfactory.com/calendar/804-uk-gdp-mm
 Prelim GDP q/q,GBP,02-12-2026,7:00am,Medium,0.2%,0.1%,https://www.forexfactory.com/calendar/33-uk-prelim-gdp-qq
-Construction Output m/m,GBP,02-12-2026,7:00am,Low,0.6%,-1.3%,https://www.forexfactory.com/calendar/599-uk-construction-output-mm
-Goods Trade Balance,GBP,02-12-2026,7:00am,Low,-22.0B,-23.7B,https://www.forexfactory.com/calendar/119-uk-goods-trade-balance
+Construction Output m/m,GBP,02-12-2026,7:00am,Low,0.5%,-1.3%,https://www.forexfactory.com/calendar/599-uk-construction-output-mm
+Goods Trade Balance,GBP,02-12-2026,7:00am,Low,-22.3B,-23.7B,https://www.forexfactory.com/calendar/119-uk-goods-trade-balance
 Index of Services 3m/3m,GBP,02-12-2026,7:00am,Low,0.2%,0.2%,https://www.forexfactory.com/calendar/385-uk-index-of-services-3m3m
-Industrial Production m/m,GBP,02-12-2026,7:00am,Low,0.0%,1.1%,https://www.forexfactory.com/calendar/193-uk-industrial-production-mm
-Manufacturing Production m/m,GBP,02-12-2026,7:00am,Low,-0.1%,2.1%,https://www.forexfactory.com/calendar/194-uk-manufacturing-production-mm
-Prelim Business Investment q/q,GBP,02-12-2026,7:00am,Low,0.2%,-0.3%,https://www.forexfactory.com/calendar/204-uk-prelim-business-investment-qq
-Italian 10-y Bond Auction,EUR,02-12-2026,10:33am,Low,,,https://www.forexfactory.com/calendar/524-it-10-y-bond-auction
+Industrial Production m/m,GBP,02-12-2026,7:00am,Low,-0.1%,1.1%,https://www.forexfactory.com/calendar/193-uk-industrial-production-mm
+Manufacturing Production m/m,GBP,02-12-2026,7:00am,Low,-0.2%,2.1%,https://www.forexfactory.com/calendar/194-uk-manufacturing-production-mm
+Prelim Business Investment q/q,GBP,02-12-2026,7:00am,Low,-0.5%,-0.3%,https://www.forexfactory.com/calendar/204-uk-prelim-business-investment-qq
 Unemployment Claims,USD,02-12-2026,1:30pm,High,222K,231K,https://www.forexfactory.com/calendar/11-us-unemployment-claims
 Gov Council Member Rogers Speaks,CAD,02-12-2026,1:45pm,Low,,,https://www.forexfactory.com/calendar/847-ca-gov-council-member-rogers-speaks
 CB Leading Index m/m,GBP,02-12-2026,2:30pm,Low,,-0.1%,https://www.forexfactory.com/calendar/299-uk-cb-leading-index-mm
-Existing Home Sales,USD,02-12-2026,3:00pm,Low,4.22M,4.35M,https://www.forexfactory.com/calendar/232-us-existing-home-sales
-Mortgage Delinquencies,USD,02-12-2026,3:00pm,Low,,,https://www.forexfactory.com/calendar/489-us-mortgage-delinquencies
+Existing Home Sales,USD,02-12-2026,3:00pm,Low,4.16M,4.35M,https://www.forexfactory.com/calendar/232-us-existing-home-sales
+Mortgage Delinquencies,USD,02-12-2026,3:00pm,Low,,3.99%,https://www.forexfactory.com/calendar/489-us-mortgage-delinquencies
 CB Leading Index m/m,AUD,02-12-2026,3:30pm,Low,,0.2%,https://www.forexfactory.com/calendar/247-au-cb-leading-index-mm
 Natural Gas Storage,USD,02-12-2026,3:30pm,Low,,-360B,https://www.forexfactory.com/calendar/26-us-natural-gas-storage
 30-y Bond Auction,USD,02-12-2026,6:01pm,Low,,4.83|2.4,https://www.forexfactory.com/calendar/540-us-30-y-bond-auction
@@ -77,8 +82,9 @@ German WPI m/m,EUR,02-13-2026,7:00am,Low,0.1%,-0.2%,https://www.forexfactory.com
 CPI m/m,CHF,02-13-2026,7:30am,High,0.0%,0.0%,https://www.forexfactory.com/calendar/100-sz-cpi-mm
 Flash Employment Change q/q,EUR,02-13-2026,10:00am,Low,0.1%,0.1%,https://www.forexfactory.com/calendar/808-ez-flash-employment-change-qq
 Flash GDP q/q,EUR,02-13-2026,10:00am,Low,0.3%,0.3%,https://www.forexfactory.com/calendar/41-ez-flash-gdp-qq
-Trade Balance,EUR,02-13-2026,10:00am,Low,10.2B,10.7B,https://www.forexfactory.com/calendar/120-ez-trade-balance
+Trade Balance,EUR,02-13-2026,10:00am,Low,11.8B,10.7B,https://www.forexfactory.com/calendar/120-ez-trade-balance
 MPC Member Pill Speaks,GBP,02-13-2026,12:00pm,Low,,,https://www.forexfactory.com/calendar/850-uk-mpc-member-pill-speaks
 Core CPI m/m,USD,02-13-2026,1:30pm,High,0.3%,0.2%,https://www.forexfactory.com/calendar/79-us-core-cpi-mm
 CPI m/m,USD,02-13-2026,1:30pm,High,0.3%,0.3%,https://www.forexfactory.com/calendar/78-us-cpi-mm
 CPI y/y,USD,02-13-2026,1:30pm,High,2.5%,2.7%,https://www.forexfactory.com/calendar/884-us-cpi-yy
+ECB President Lagarde Speaks,EUR,02-14-2026,4:30pm,Medium,,,https://www.forexfactory.com/calendar/832-ez-ecb-president-lagarde-speaks
