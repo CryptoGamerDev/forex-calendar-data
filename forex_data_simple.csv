@@ -1,89 +1,131 @@
 Title,Country,Date,Time24h,Importance,Forecast,Previous
-Lower House Elections,JPY,2026.02.08,06:00,3,0,0
-BOE Gov Bailey Speaks,GBP,2026.02.08,06:40,2,0,0
-Average Cash Earnings y/y,JPY,2026.02.08,23:30,1,3.0,0.5
-Bank Lending y/y,JPY,2026.02.08,23:50,1,4.5,4.4
-Current Account,JPY,2026.02.08,23:50,1,2.95T,3.14T
-Household Spending m/m,AUD,2026.02.09,00:30,1,0.2,1.0
-Economy Watchers Sentiment,JPY,2026.02.09,05:00,1,49.1,48.6
-SECO Consumer Climate,CHF,2026.02.09,08:00,1,-30,-31
-Sentix Investor Confidence,EUR,2026.02.09,09:30,1,-0.2,-1.8
-German Buba President Nagel Speaks,EUR,2026.02.09,16:00,1,0,0
-ECB President Lagarde Speaks,EUR,2026.02.09,17:00,2,0,0
-FOMC Member Waller Speaks,USD,2026.02.09,18:30,1,0,0
-MPC Member Mann Speaks,GBP,2026.02.09,19:30,1,0,0
-FOMC Member Miran Speaks,USD,2026.02.09,19:30,1,0,0
-FOMC Member Bostic Speaks,USD,2026.02.09,20:15,1,0,0
-FOMC Member Miran Speaks,USD,2026.02.09,22:00,1,0,0
-MPC Member Mann Speaks,GBP,2026.02.09,22:15,1,0,0
-Westpac Consumer Sentiment,AUD,2026.02.09,23:30,1,0,-1.7
-M2 Money Stock y/y,JPY,2026.02.09,23:50,1,1.7,1.7
-BRC Retail Sales Monitor y/y,GBP,2026.02.10,00:01,1,1.3,1.0
-NAB Business Confidence,AUD,2026.02.10,00:30,1,0,3
-Prelim Machine Tool Orders y/y,JPY,2026.02.10,06:00,1,0,10.6
-NFIB Small Business Index,USD,2026.02.10,11:00,1,99.8,99.5
-ADP Weekly Employment Change,USD,2026.02.10,13:15,1,0,7800.0
-Core Retail Sales m/m,USD,2026.02.10,13:30,3,0.3,0.5
-Retail Sales m/m,USD,2026.02.10,13:30,3,0.4,0.6
-Employment Cost Index q/q,USD,2026.02.10,13:30,2,0.8,0.8
-Import Prices m/m,USD,2026.02.10,13:30,1,0.1,0.4
-Business Inventories m/m,USD,2026.02.10,15:00,1,0.2,0.3
-FOMC Member Hammack Speaks,USD,2026.02.10,17:00,1,0,0
-FOMC Member Logan Speaks,USD,2026.02.10,18:00,1,0,0
-API Weekly Statistical Bulletin,USD,2026.02.10,21:30,1,0,0
-Bank Holiday,JPY,2026.02.11,00:00,0,0,0
-RBA Deputy Gov Hauser Speaks,AUD,2026.02.11,01:30,1,0,0
-CPI y/y,CNY,2026.02.11,01:30,2,0.4,0.8
-PPI y/y,CNY,2026.02.11,01:30,2,-1.5,-1.9
-Italian Industrial Production m/m,EUR,2026.02.11,09:00,1,-0.6,1.5
-German 30-y Bond Auction,EUR,2026.02.11,10:33,1,0,3.49
-Building Permits m/m,CAD,2026.02.11,13:30,1,4.9,-13.1
-Average Hourly Earnings m/m,USD,2026.02.11,13:30,3,0.3,0.3
-Non-Farm Employment Change,USD,2026.02.11,13:30,3,66000.0,50000.0
-Unemployment Rate,USD,2026.02.11,13:30,3,4.4,4.4
-FOMC Member Schmid Speaks,USD,2026.02.11,15:00,1,0,0
-FOMC Member Bowman Speaks,USD,2026.02.11,15:15,1,0,0
-Crude Oil Inventories,USD,2026.02.11,15:30,1,-200000.0,-3500000.0
-10-y Bond Auction,USD,2026.02.11,18:01,1,0,4.17
-BOC Summary of Deliberations,CAD,2026.02.11,18:30,1,0,0
-Federal Budget Balance,USD,2026.02.11,19:00,1,-94600000000.0,-144700000000.0
-FOMC Member Hammack Speaks,USD,2026.02.11,21:00,1,0,0
-PPI y/y,JPY,2026.02.11,23:50,1,2.3,2.4
-MI Inflation Expectations,AUD,2026.02.12,00:00,1,0,4.6
-RICS House Price Balance,GBP,2026.02.12,00:01,1,-11,-14
-RBA Assist Gov Hunter Speaks,AUD,2026.02.12,04:45,1,0,0
-GDP m/m,GBP,2026.02.12,07:00,3,0.1,0.3
-Prelim GDP q/q,GBP,2026.02.12,07:00,2,0.2,0.1
-Construction Output m/m,GBP,2026.02.12,07:00,1,0.5,-1.3
-Goods Trade Balance,GBP,2026.02.12,07:00,1,-22300000000.0,-23700000000.0
-Index of Services 3m/3m,GBP,2026.02.12,07:00,1,0.2,0.2
-Industrial Production m/m,GBP,2026.02.12,07:00,1,-0.1,1.1
-Manufacturing Production m/m,GBP,2026.02.12,07:00,1,-0.2,2.1
-Prelim Business Investment q/q,GBP,2026.02.12,07:00,1,-0.5,-0.3
-Unemployment Claims,USD,2026.02.12,13:30,3,222000.0,231000.0
-Gov Council Member Rogers Speaks,CAD,2026.02.12,13:45,1,0,0
-CB Leading Index m/m,GBP,2026.02.12,14:30,1,0,-0.1
-Existing Home Sales,USD,2026.02.12,15:00,1,4160000.0,4350000.0
-CB Leading Index m/m,AUD,2026.02.12,15:30,1,0,0.2
-Natural Gas Storage,USD,2026.02.12,15:30,1,-256000000000.0,-360000000000.0
-Mortgage Delinquencies,USD,2026.02.12,17:40,1,0,3.99
-30-y Bond Auction,USD,2026.02.12,18:01,1,0,4.83
-German Buba President Nagel Speaks,EUR,2026.02.12,20:30,1,0,0
-BusinessNZ Manufacturing Index,NZD,2026.02.12,21:30,1,0,56.1
-Visitor Arrivals m/m,NZD,2026.02.12,21:45,1,0,0.8
-FOMC Member Logan Speaks,USD,2026.02.13,00:00,1,0,0
-FOMC Member Miran Speaks,USD,2026.02.13,00:05,1,0,0
-New Home Prices m/m,CNY,2026.02.13,01:30,1,0,-0.37
-Inflation Expectations q/q,NZD,2026.02.13,02:00,1,0,2.28
-German WPI m/m,EUR,2026.02.13,07:00,1,0.1,-0.2
-CPI m/m,CHF,2026.02.13,07:30,3,0.0,0.0
-M2 Money Supply y/y,CNY,2026.02.13,09:03,1,8.3,8.5
-New Loans,CNY,2026.02.13,09:03,1,5000000000000.0,910000000000.0
-Flash Employment Change q/q,EUR,2026.02.13,10:00,1,0.1,0.1
-Flash GDP q/q,EUR,2026.02.13,10:00,1,0.3,0.3
-Trade Balance,EUR,2026.02.13,10:00,1,11800000000.0,10700000000.0
-MPC Member Pill Speaks,GBP,2026.02.13,12:00,1,0,0
-Core CPI m/m,USD,2026.02.13,13:30,3,0.3,0.2
-CPI m/m,USD,2026.02.13,13:30,3,0.3,0.3
-CPI y/y,USD,2026.02.13,13:30,3,2.5,2.7
-ECB President Lagarde Speaks,EUR,2026.02.14,16:30,2,0,0
+ECB President Lagarde Speaks,EUR,2026.02.15,09:30,2,0,0
+BusinessNZ Services Index,NZD,2026.02.15,21:30,1,0,51.5
+Prelim GDP Price Index y/y,JPY,2026.02.15,23:50,1,3.2,2.8
+Prelim GDP q/q,JPY,2026.02.15,23:50,1,0.4,-0.4
+Rightmove HPI m/m,GBP,2026.02.16,00:01,1,0,2.8
+Bank Holiday,CNY,2026.02.16,00:01,0,0,0
+Revised Industrial Production m/m,JPY,2026.02.16,04:30,1,-0.1,-0.1
+Industrial Production m/m,EUR,2026.02.16,10:00,1,-1.5,0.7
+Eurogroup Meetings,EUR,2026.02.16,10:15,1,0,0
+Bank Holiday,CAD,2026.02.16,13:00,0,0,0
+Bank Holiday,USD,2026.02.16,13:00,0,0,0
+Housing Starts,CAD,2026.02.16,13:15,1,266000.0,282000.0
+FOMC Member Bowman Speaks,USD,2026.02.16,13:25,1,0,0
+Manufacturing Sales m/m,CAD,2026.02.16,13:30,1,0.5,-1.2
+German Buba President Nagel Speaks,EUR,2026.02.16,17:40,1,0,0
+FPI m/m,NZD,2026.02.16,21:45,1,0,-0.3
+Bank Holiday,CNY,2026.02.17,00:01,0,0,0
+Monetary Policy Meeting Minutes,AUD,2026.02.17,00:30,1,0,0
+Tertiary Industry Activity m/m,JPY,2026.02.17,04:30,1,-0.3,-0.2
+German Final CPI m/m,EUR,2026.02.17,07:00,1,0.1,0.1
+Claimant Count Change,GBP,2026.02.17,07:00,3,22800.0,17900.0
+Average Earnings Index 3m/y,GBP,2026.02.17,07:00,2,4.6,4.7
+Unemployment Rate,GBP,2026.02.17,07:00,1,5.1,5.1
+Italian Trade Balance,EUR,2026.02.17,09:00,1,4750000000.0,5080000000.0
+ZEW Economic Sentiment,EUR,2026.02.17,10:00,1,45.2,40.8
+German ZEW Economic Sentiment,EUR,2026.02.17,10:00,1,65.2,59.6
+ECOFIN Meetings,EUR,2026.02.17,10:15,1,0,0
+ADP Weekly Employment Change,USD,2026.02.17,13:20,1,0,6500.0
+CPI m/m,CAD,2026.02.17,13:30,3,0.1,-0.2
+Median CPI y/y,CAD,2026.02.17,13:30,3,2.5,2.5
+Trimmed CPI y/y,CAD,2026.02.17,13:30,3,2.6,2.7
+Common CPI y/y,CAD,2026.02.17,13:30,2,2.8,2.8
+Core CPI m/m,CAD,2026.02.17,13:30,1,0,-0.4
+Foreign Securities Purchases,CAD,2026.02.17,13:30,1,0,16329999999.999998
+Wholesale Sales m/m,CAD,2026.02.17,13:30,1,1.9,-1.8
+Empire State Manufacturing Index,USD,2026.02.17,13:30,2,8.5,7.7
+Cleveland Fed Inflation Expectations,USD,2026.02.17,14:48,1,0,3.3
+NAHB Housing Market Index,USD,2026.02.17,15:00,1,38,37
+GDT Price Index,NZD,2026.02.17,15:50,1,0,6.7
+FOMC Member Barr Speaks,USD,2026.02.17,17:45,1,0,0
+FOMC Member Daly Speaks,USD,2026.02.17,19:30,1,0,0
+PPI Input q/q,NZD,2026.02.17,21:45,1,0.5,0.2
+PPI Output q/q,NZD,2026.02.17,21:45,1,0.7,0.6
+MI Leading Index m/m,AUD,2026.02.17,23:30,1,0,0.1
+Trade Balance,JPY,2026.02.17,23:50,1,-0.16T,-0.21T
+Bank Holiday,CNY,2026.02.18,00:01,0,0,0
+Wage Price Index q/q,AUD,2026.02.18,00:30,2,0.8,0.8
+Official Cash Rate,NZD,2026.02.18,01:00,3,2.25,2.25
+RBNZ Monetary Policy Statement,NZD,2026.02.18,01:00,3,0,0
+RBNZ Rate Statement,NZD,2026.02.18,01:00,3,0,0
+RBNZ Press Conference,NZD,2026.02.18,02:00,3,0,0
+NAB Quarterly Business Confidence,AUD,2026.02.18,04:59,1,0,2
+CPI y/y,GBP,2026.02.18,07:00,3,3.0,3.4
+Core CPI y/y,GBP,2026.02.18,07:00,1,3.0,3.2
+PPI Input m/m,GBP,2026.02.18,07:00,1,0.4,-0.2
+PPI Output m/m,GBP,2026.02.18,07:00,1,0.2,0.0
+RPI y/y,GBP,2026.02.18,07:00,1,3.8,4.2
+French Final CPI m/m,EUR,2026.02.18,07:45,1,-0.3,-0.3
+HPI y/y,GBP,2026.02.18,09:30,1,2.3,2.5
+German 10-y Bond Auction,EUR,2026.02.18,10:42,1,0,2.85
+Core Durable Goods Orders m/m,USD,2026.02.18,13:30,2,0.3,0.5
+Durable Goods Orders m/m,USD,2026.02.18,13:30,2,-1.8,5.3
+Building Permits,USD,2026.02.18,13:30,1,1420000.0,0
+FOMC Member Bowman Speaks,USD,2026.02.18,13:30,1,0,0
+Housing Starts,USD,2026.02.18,13:30,1,1330000.0,0
+Capacity Utilization Rate,USD,2026.02.18,14:15,1,76.4,76.3
+Industrial Production m/m,USD,2026.02.18,14:15,1,0.4,0.4
+FOMC Meeting Minutes,USD,2026.02.18,19:00,3,0,0
+TIC Long-Term Purchases,USD,2026.02.18,21:00,1,125800000000.0,220200000000.0
+API Weekly Statistical Bulletin,USD,2026.02.18,21:30,1,0,0
+Core Machinery Orders m/m,JPY,2026.02.18,23:50,1,5.1,-11.0
+Bank Holiday,CNY,2026.02.19,00:01,0,0,0
+Employment Change,AUD,2026.02.19,00:30,3,20100.0,65200.0
+Unemployment Rate,AUD,2026.02.19,00:30,3,4.2,4.1
+Current Account,EUR,2026.02.19,09:00,1,9200000000.0,8600000000.0
+ECB Economic Bulletin,EUR,2026.02.19,09:00,1,0,0
+Spanish 10-y Bond Auction,EUR,2026.02.19,10:03,1,0,0
+German Buba Monthly Report,EUR,2026.02.19,11:00,1,0,0
+CBI Industrial Order Expectations,GBP,2026.02.19,11:00,1,-27,-30
+FOMC Member Bostic Speaks,USD,2026.02.19,13:20,1,0,0
+NHPI m/m,CAD,2026.02.19,13:30,1,0.1,-0.2
+Trade Balance,CAD,2026.02.19,13:30,1,-2000000000.0,-2200000000.0
+Unemployment Claims,USD,2026.02.19,13:30,3,229000.0,227000.0
+Philly Fed Manufacturing Index,USD,2026.02.19,13:30,2,7.8,12.6
+FOMC Member Bowman Speaks,USD,2026.02.19,13:30,1,0,0
+Goods Trade Balance,USD,2026.02.19,13:30,1,-85700000000.0,-86900000000.0
+Prelim Wholesale Inventories m/m,USD,2026.02.19,13:30,1,0.1,0.2
+Trade Balance,USD,2026.02.19,13:30,1,-55200000000.0,-56800000000.0
+FOMC Member Kashkari Speaks,USD,2026.02.19,14:00,1,0,0
+Consumer Confidence,EUR,2026.02.19,15:00,1,-12,-12
+Pending Home Sales m/m,USD,2026.02.19,15:00,2,2.4,-9.3
+CB Leading Index m/m,USD,2026.02.19,15:00,1,-0.3,-0.3
+FOMC Member Goolsbee Speaks,USD,2026.02.19,15:30,1,0,0
+Natural Gas Storage,USD,2026.02.19,15:30,1,0,-249000000000.0
+Crude Oil Inventories,USD,2026.02.19,17:00,1,0,8500000.0
+Trade Balance,NZD,2026.02.19,21:45,1,-745000000.0,52000000.0
+Flash Manufacturing PMI,AUD,2026.02.19,22:00,1,0,52.4
+Flash Services PMI,AUD,2026.02.19,22:00,1,0,56.0
+RBNZ Gov Breman Speaks,NZD,2026.02.19,23:00,3,0,0
+National Core CPI y/y,JPY,2026.02.19,23:30,1,2.0,2.4
+ECB President Lagarde Speaks,EUR,2026.02.20,00:00,2,0,0
+Bank Holiday,CNY,2026.02.20,00:01,0,0,0
+Flash Manufacturing PMI,JPY,2026.02.20,00:30,1,51.3,51.5
+German PPI m/m,EUR,2026.02.20,07:00,1,0.3,-0.2
+Retail Sales m/m,GBP,2026.02.20,07:00,3,0.2,0.4
+Public Sector Net Borrowing,GBP,2026.02.20,07:00,1,-23300000000.0,11600000000.0
+French Flash Manufacturing PMI,EUR,2026.02.20,08:15,2,51.0,51.0
+French Flash Services PMI,EUR,2026.02.20,08:15,2,49.1,47.9
+German Flash Manufacturing PMI,EUR,2026.02.20,08:30,3,49.6,48.7
+German Flash Services PMI,EUR,2026.02.20,08:30,3,52.5,53.3
+Flash Manufacturing PMI,EUR,2026.02.20,09:00,1,50.0,49.4
+Flash Services PMI,EUR,2026.02.20,09:00,1,51.9,51.9
+Flash Manufacturing PMI,GBP,2026.02.20,09:30,3,51.5,51.6
+Flash Services PMI,GBP,2026.02.20,09:30,3,53.4,54.3
+Core Retail Sales m/m,CAD,2026.02.20,13:30,2,0.1,1.7
+Retail Sales m/m,CAD,2026.02.20,13:30,2,-0.4,1.3
+IPPI m/m,CAD,2026.02.20,13:30,1,0.2,-0.6
+RMPI m/m,CAD,2026.02.20,13:30,1,0.6,0.5
+Advance GDP q/q,USD,2026.02.20,13:30,3,2.8,3.0
+Core PCE Price Index m/m,USD,2026.02.20,13:30,3,0.3,0.2
+Advance GDP Price Index q/q,USD,2026.02.20,13:30,2,3.2,2.0
+Personal Income m/m,USD,2026.02.20,13:30,1,0.3,0.3
+Personal Spending m/m,USD,2026.02.20,13:30,1,0.4,0.5
+Flash Manufacturing PMI,USD,2026.02.20,14:45,3,52.1,51.9
+Flash Services PMI,USD,2026.02.20,14:45,3,52.8,52.5
+FOMC Member Bostic Speaks,USD,2026.02.20,14:45,1,0,0
+New Home Sales,USD,2026.02.20,15:00,2,735000.0,0
+Revised UoM Consumer Sentiment,USD,2026.02.20,15:00,1,56.9,57.3
+Revised UoM Inflation Expectations,USD,2026.02.20,15:00,1,0,3.5
+FOMC Member Logan Speaks,USD,2026.02.20,18:15,1,0,0
