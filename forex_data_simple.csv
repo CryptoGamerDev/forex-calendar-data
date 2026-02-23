@@ -8,12 +8,11 @@ PPI m/m,CHF,2026.02.23,07:30,1,0.1,-0.2
 German ifo Business Climate,EUR,2026.02.23,09:00,1,88.4,87.6
 MPC Member Taylor Speaks,GBP,2026.02.23,11:00,1,0,0
 FOMC Member Waller Speaks,USD,2026.02.23,13:00,2,0,0
-Belgian NBB Business Climate,EUR,2026.02.23,14:00,1,-7.5,-8.8
+Belgian NBB Business Climate,EUR,2026.02.23,13:26,1,-7.5,-8.8
 Factory Orders m/m,USD,2026.02.23,15:00,1,-0.4,2.7
 ECB President Lagarde Speaks,EUR,2026.02.23,17:30,2,0,0
 1-y Loan Prime Rate,CNY,2026.02.24,01:00,1,3.00,3.00
 5-y Loan Prime Rate,CNY,2026.02.24,01:00,1,3.50,3.50
-Foreign Direct Investment ytd/y,CNY,2026.02.24,07:02,1,0,-9.5
 CBI Realized Sales,GBP,2026.02.24,11:00,1,-26,-17
 FOMC Member Goolsbee Speaks,USD,2026.02.24,13:00,1,0,0
 ADP Weekly Employment Change,USD,2026.02.24,13:20,1,0,10300.0
@@ -40,6 +39,7 @@ NAB Quarterly Business Confidence,AUD,2026.02.25,04:59,1,0,2
 BOJ Core CPI y/y,JPY,2026.02.25,05:00,1,1.9,1.9
 German Final GDP q/q,EUR,2026.02.25,07:00,1,0.3,0.3
 German GfK Consumer Climate,EUR,2026.02.25,07:00,1,-22.9,-24.1
+Foreign Direct Investment ytd/y,CNY,2026.02.25,07:02,1,0,-9.5
 RBA Gov Bullock Speaks,AUD,2026.02.25,08:40,2,0,0
 UBS Economic Expectations,CHF,2026.02.25,09:00,1,0,-4.7
 Final Core CPI y/y,EUR,2026.02.25,10:00,1,2.2,2.2
