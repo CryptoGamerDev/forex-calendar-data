@@ -22,17 +22,17 @@ FPI m/m,NZD,2026.03.16,21:45,1,0,2.5
 Cash Rate,AUD,2026.03.17,03:30,3,4.10,3.85
 RBA Rate Statement,AUD,2026.03.17,03:30,3,0,0
 RBA Press Conference,AUD,2026.03.17,04:30,3,0,0
-Tertiary Industry Activity m/m,JPY,2026.03.17,04:30,1,0.8,-0.5
+Tertiary Industry Activity m/m,JPY,2026.03.17,04:30,1,0.9,-0.5
 PPI m/m,CHF,2026.03.17,07:30,1,0.0,-0.2
-German ZEW Economic Sentiment,EUR,2026.03.17,10:00,1,38.9,58.3
-ZEW Economic Sentiment,EUR,2026.03.17,10:00,1,24.0,39.4
+German ZEW Economic Sentiment,EUR,2026.03.17,10:00,1,39.0,58.3
+ZEW Economic Sentiment,EUR,2026.03.17,10:00,1,26.5,39.4
 ADP Weekly Employment Change,USD,2026.03.17,12:15,1,0,15500.0
-Pending Home Sales m/m,USD,2026.03.17,14:00,2,-1.2,-0.8
+Pending Home Sales m/m,USD,2026.03.17,14:00,2,-0.6,-0.8
 CB Leading Index m/m,AUD,2026.03.17,14:30,1,0,0.3
 GDT Price Index,NZD,2026.03.17,14:50,1,0,5.7
 German Buba President Nagel Speaks,EUR,2026.03.17,15:15,1,0,0
 API Weekly Statistical Bulletin,USD,2026.03.17,20:30,1,0,0
-Current Account,NZD,2026.03.17,21:45,1,-4750000000.0,-8369999999.999999
+Current Account,NZD,2026.03.17,21:45,1,-4780000000.0,-8369999999.999999
 MI Leading Index m/m,AUD,2026.03.17,23:30,1,0,-0.1
 Trade Balance,JPY,2026.03.17,23:50,1,-0.63T,0.46T
 SECO Economic Forecasts,CHF,2026.03.18,08:00,1,0,0
@@ -70,7 +70,7 @@ Foreign Direct Investment ytd/y,CNY,2026.03.19,07:02,1,0,-5.7
 SNB Monetary Policy Assessment,CHF,2026.03.19,08:30,3,0,0
 SNB Policy Rate,CHF,2026.03.19,08:30,3,0.00,0.00
 SNB Press Conference,CHF,2026.03.19,09:00,3,0,0
-Spanish 10-y Bond Auction,EUR,2026.03.19,09:03,1,0,0
+Spanish 10-y Bond Auction,EUR,2026.03.19,09:03,1,0,3.17
 Monetary Policy Summary,GBP,2026.03.19,12:00,3,0,0
 MPC Official Bank Rate Votes,GBP,2026.03.19,12:00,3,0-3-6,0-4-5
 Official Bank Rate,GBP,2026.03.19,12:00,3,3.75,3.75
