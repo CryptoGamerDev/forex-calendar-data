@@ -63,7 +63,7 @@ Monetary Policy Statement,JPY,2026.03.19,02:30,3,0,0
 NAB Quarterly Business Confidence,AUD,2026.03.19,03:59,1,0,2
 Revised Industrial Production m/m,JPY,2026.03.19,04:30,1,2.2,2.2
 BOJ Press Conference,JPY,2026.03.19,05:30,3,0,0
-Claimant Count Change,GBP,2026.03.19,07:00,3,24500.0,28600.0
+Claimant Count Change,GBP,2026.03.19,07:00,3,25800.0,28600.0
 Average Earnings Index 3m/y,GBP,2026.03.19,07:00,2,3.9,4.2
 Unemployment Rate,GBP,2026.03.19,07:00,1,5.3,5.2
 Foreign Direct Investment ytd/y,CNY,2026.03.19,07:02,1,0,-5.7
@@ -72,19 +72,19 @@ SNB Policy Rate,CHF,2026.03.19,08:30,3,0.00,0.00
 SNB Press Conference,CHF,2026.03.19,09:00,3,0,0
 Spanish 10-y Bond Auction,EUR,2026.03.19,09:03,1,0,3.17
 Monetary Policy Summary,GBP,2026.03.19,12:00,3,0,0
-MPC Official Bank Rate Votes,GBP,2026.03.19,12:00,3,0-3-6,0-4-5
+MPC Official Bank Rate Votes,GBP,2026.03.19,12:00,3,0-2-7,0-4-5
 Official Bank Rate,GBP,2026.03.19,12:00,3,3.75,3.75
 BOE Inflation Letter,GBP,2026.03.19,12:10,1,0,0
 Unemployment Claims,USD,2026.03.19,12:30,3,215000.0,213000.0
-Philly Fed Manufacturing Index,USD,2026.03.19,12:30,2,17.5,16.3
+Philly Fed Manufacturing Index,USD,2026.03.19,12:30,2,8.5,16.3
 Main Refinancing Rate,EUR,2026.03.19,13:15,3,2.15,2.15
 Monetary Policy Statement,EUR,2026.03.19,13:15,3,0,0
 ECB Press Conference,EUR,2026.03.19,13:45,3,0,0
-New Home Sales,USD,2026.03.19,14:00,2,723000.0,745000.0
-CB Leading Index m/m,USD,2026.03.19,14:00,1,0,-0.2
+New Home Sales,USD,2026.03.19,14:00,2,722000.0,745000.0
+CB Leading Index m/m,USD,2026.03.19,14:00,1,-0.1,-0.2
 Final Wholesale Inventories m/m,USD,2026.03.19,14:00,1,0.2,0.2
 Natural Gas Storage,USD,2026.03.19,14:30,1,0,-38000000000.0
-Trade Balance,NZD,2026.03.19,21:45,1,-470000000.0,-519000000.0
+Trade Balance,NZD,2026.03.19,21:45,1,-740000000.0,-519000000.0
 Bank Holiday,JPY,2026.03.19,23:00,0,0,0
 1-y Loan Prime Rate,CNY,2026.03.20,01:00,1,3.00,3.00
 5-y Loan Prime Rate,CNY,2026.03.20,01:00,1,3.50,3.50
@@ -94,12 +94,12 @@ Public Sector Net Borrowing,GBP,2026.03.20,07:00,1,8700000000.0,-30400000000.0
 Current Account,EUR,2026.03.20,09:00,1,17200000000.0,14600000000.0
 Italian Trade Balance,EUR,2026.03.20,09:00,1,5650000000.0,6040000000.0
 Trade Balance,EUR,2026.03.20,10:00,1,12800000000.0,11600000000.0
-CBI Industrial Order Expectations,GBP,2026.03.20,11:00,1,-29,-28
+CBI Industrial Order Expectations,GBP,2026.03.20,11:00,1,-30,-28
 Euro Summit,EUR,2026.03.20,11:15,1,0,0
 Core Retail Sales m/m,CAD,2026.03.20,12:30,2,1.2,0.1
 Retail Sales m/m,CAD,2026.03.20,12:30,2,1.4,-0.4
-IPPI m/m,CAD,2026.03.20,12:30,1,0.6,2.7
-NHPI m/m,CAD,2026.03.20,12:30,1,-0.3,-0.4
-RMPI m/m,CAD,2026.03.20,12:30,1,0.8,7.7
+IPPI m/m,CAD,2026.03.20,12:30,1,1.1,2.7
+NHPI m/m,CAD,2026.03.20,12:30,1,-0.2,-0.4
+RMPI m/m,CAD,2026.03.20,12:30,1,2.4,7.7
 German Buba President Nagel Speaks,EUR,2026.03.20,17:30,1,0,0
 Fed Chair Powell Speaks,USD,2026.03.21,17:30,3,0,0
