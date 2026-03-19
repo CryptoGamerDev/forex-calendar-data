@@ -65,7 +65,6 @@ BOJ Press Conference,JPY,2026.03.19,05:30,3,0,0
 Claimant Count Change,GBP,2026.03.19,07:00,3,25800.0,28600.0
 Average Earnings Index 3m/y,GBP,2026.03.19,07:00,2,3.9,4.2
 Unemployment Rate,GBP,2026.03.19,07:00,1,5.3,5.2
-Foreign Direct Investment ytd/y,CNY,2026.03.19,07:02,1,0,-5.7
 SNB Monetary Policy Assessment,CHF,2026.03.19,08:30,3,0,0
 SNB Policy Rate,CHF,2026.03.19,08:30,3,0.00,0.00
 SNB Press Conference,CHF,2026.03.19,09:00,3,0,0
@@ -91,6 +90,7 @@ Bank Holiday,JPY,2026.03.19,23:00,0,0,0
 Credit Card Spending y/y,NZD,2026.03.20,02:00,1,0,1.0
 German PPI m/m,EUR,2026.03.20,07:00,1,0.3,-0.6
 Public Sector Net Borrowing,GBP,2026.03.20,07:00,1,8700000000.0,-30400000000.0
+Foreign Direct Investment ytd/y,CNY,2026.03.20,07:02,1,0,-5.7
 Current Account,EUR,2026.03.20,09:00,1,17200000000.0,14600000000.0
 Italian Trade Balance,EUR,2026.03.20,09:00,1,5650000000.0,6040000000.0
 Trade Balance,EUR,2026.03.20,10:00,1,12800000000.0,11600000000.0
