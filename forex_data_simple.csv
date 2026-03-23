@@ -1,4 +1,5 @@
 Title,Country,Date,Time24h,Importance,Forecast,Previous
+FOMC Member Miran Speaks,USD,2026.03.23,12:45,1,0,0
 Construction Spending m/m,USD,2026.03.23,14:00,1,0.1,0.3
 Consumer Confidence,EUR,2026.03.23,15:00,1,-15,-12
 RBNZ Gov Breman Speaks,NZD,2026.03.23,20:00,2,0,0
@@ -6,7 +7,6 @@ Flash Manufacturing PMI,AUD,2026.03.23,22:00,1,0,51.5
 Flash Services PMI,AUD,2026.03.23,22:00,1,0,52.2
 National Core CPI y/y,JPY,2026.03.23,23:30,1,1.7,2.0
 Flash Manufacturing PMI,JPY,2026.03.24,00:30,1,52.9,52.8
-Foreign Direct Investment ytd/y,CNY,2026.03.24,07:02,1,0,-5.7
 French Flash Manufacturing PMI,EUR,2026.03.24,08:15,2,49.0,49.9
 French Flash Services PMI,EUR,2026.03.24,08:15,2,49.2,49.6
 German Flash Manufacturing PMI,EUR,2026.03.24,08:30,3,49.8,50.7
@@ -20,6 +20,7 @@ CBI Realized Sales,GBP,2026.03.24,11:00,1,-40,-43
 ADP Weekly Employment Change,USD,2026.03.24,12:15,1,0,9000.0
 Revised Nonfarm Productivity q/q,USD,2026.03.24,12:30,1,2.4,2.8
 Revised Unit Labor Costs q/q,USD,2026.03.24,12:30,1,3.4,2.8
+MPC Member Pill Speaks,GBP,2026.03.24,13:25,1,0,0
 Flash Manufacturing PMI,USD,2026.03.24,13:45,3,0,51.2
 Flash Services PMI,USD,2026.03.24,13:45,3,0,52.3
 Richmond Manufacturing Index,USD,2026.03.24,14:00,2,-5,-10
@@ -27,6 +28,7 @@ German Buba President Nagel Speaks,EUR,2026.03.24,15:00,1,0,0
 Gov Board Member Tschudin Speaks,CHF,2026.03.24,15:15,1,0,0
 SNB Chairman Schlegel Speaks,CHF,2026.03.24,17:00,2,0,0
 API Weekly Statistical Bulletin,USD,2026.03.24,20:30,1,0,0
+FOMC Member Barr Speaks,USD,2026.03.24,22:30,1,0,0
 Monetary Policy Meeting Minutes,JPY,2026.03.24,23:50,1,0,0
 CPI m/m,AUD,2026.03.25,00:30,3,0,0.4
 CPI y/y,AUD,2026.03.25,00:30,3,3.8,3.8
