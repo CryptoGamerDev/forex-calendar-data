@@ -7,23 +7,23 @@ Flash Manufacturing PMI,AUD,2026.03.23,22:00,1,0,51.5
 Flash Services PMI,AUD,2026.03.23,22:00,1,0,52.2
 National Core CPI y/y,JPY,2026.03.23,23:30,1,1.7,2.0
 Flash Manufacturing PMI,JPY,2026.03.24,00:30,1,53.2,52.8
-French Flash Manufacturing PMI,EUR,2026.03.24,08:15,2,49.0,49.9
+French Flash Manufacturing PMI,EUR,2026.03.24,08:15,2,49.4,49.9
 French Flash Services PMI,EUR,2026.03.24,08:15,2,49.2,49.6
-German Flash Manufacturing PMI,EUR,2026.03.24,08:30,3,49.8,50.7
+German Flash Manufacturing PMI,EUR,2026.03.24,08:30,3,49.6,50.7
 German Flash Services PMI,EUR,2026.03.24,08:30,3,52.5,53.4
-Flash Manufacturing PMI,EUR,2026.03.24,09:00,1,49.5,50.8
-Flash Services PMI,EUR,2026.03.24,09:00,1,50.8,51.8
-Flash Manufacturing PMI,GBP,2026.03.24,09:30,3,51.1,52.0
-Flash Services PMI,GBP,2026.03.24,09:30,3,53.0,53.9
+Flash Manufacturing PMI,EUR,2026.03.24,09:00,1,49.4,50.8
+Flash Services PMI,EUR,2026.03.24,09:00,1,51.1,51.8
+Flash Manufacturing PMI,GBP,2026.03.24,09:30,3,50.0,52.0
+Flash Services PMI,GBP,2026.03.24,09:30,3,52.8,53.9
 10-y Bond Auction,GBP,2026.03.24,10:33,1,0,4.59
-CBI Realized Sales,GBP,2026.03.24,11:00,1,-40,-43
+CBI Realized Sales,GBP,2026.03.24,11:00,1,-43,-43
 ADP Weekly Employment Change,USD,2026.03.24,12:15,1,0,9000.0
-Revised Nonfarm Productivity q/q,USD,2026.03.24,12:30,1,2.4,2.8
-Revised Unit Labor Costs q/q,USD,2026.03.24,12:30,1,3.4,2.8
+Revised Nonfarm Productivity q/q,USD,2026.03.24,12:30,1,1.9,2.8
+Revised Unit Labor Costs q/q,USD,2026.03.24,12:30,1,3.6,2.8
 MPC Member Pill Speaks,GBP,2026.03.24,13:25,1,0,0
-Flash Manufacturing PMI,USD,2026.03.24,13:45,3,51.3,51.2
-Flash Services PMI,USD,2026.03.24,13:45,3,52.1,52.3
-Richmond Manufacturing Index,USD,2026.03.24,14:00,2,-5,-10
+Flash Manufacturing PMI,USD,2026.03.24,13:45,3,51.5,51.2
+Flash Services PMI,USD,2026.03.24,13:45,3,52.0,52.3
+Richmond Manufacturing Index,USD,2026.03.24,14:00,2,-8,-10
 German Buba President Nagel Speaks,EUR,2026.03.24,15:00,1,0,0
 Gov Board Member Tschudin Speaks,CHF,2026.03.24,15:15,1,0,0
 SNB Chairman Schlegel Speaks,CHF,2026.03.24,17:00,2,0,0
@@ -41,22 +41,22 @@ PPI Output m/m,GBP,2026.03.25,07:00,1,0.3,0.0
 RPI y/y,GBP,2026.03.25,07:00,1,3.7,3.8
 ECB President Lagarde Speaks,EUR,2026.03.25,08:45,2,0,0
 UBS Economic Expectations,CHF,2026.03.25,09:00,1,0,9.8
-German ifo Business Climate,EUR,2026.03.25,09:00,1,86.3,88.6
-HPI y/y,GBP,2026.03.25,09:30,1,2.5,2.4
+German ifo Business Climate,EUR,2026.03.25,09:00,1,86.2,88.6
+HPI y/y,GBP,2026.03.25,09:30,1,1.7,2.4
 MPC Member Greene Speaks,GBP,2026.03.25,12:00,1,0,0
-Current Account,USD,2026.03.25,12:30,1,-207000000000.0,-226000000000.0
-Import Prices m/m,USD,2026.03.25,12:30,1,0.2,0.2
+Current Account,USD,2026.03.25,12:30,1,-211000000000.0,-226000000000.0
+Import Prices m/m,USD,2026.03.25,12:30,1,0.6,0.2
 CB Leading Index m/m,CNY,2026.03.25,13:00,1,0,-0.3
 SNB Quarterly Bulletin,CHF,2026.03.25,14:00,1,0,0
-Belgian NBB Business Climate,EUR,2026.03.25,14:00,1,-14.1,-13.7
+Belgian NBB Business Climate,EUR,2026.03.25,14:00,1,-14.8,-13.7
 Crude Oil Inventories,USD,2026.03.25,14:30,1,-1400000.0,6200000.0
 FOMC Member Miran Speaks,USD,2026.03.25,20:10,1,0,0
 RBA Assist Gov Kent Speaks,AUD,2026.03.25,22:15,1,0,0
 SPPI y/y,JPY,2026.03.25,23:50,1,2.6,2.6
 NAB Quarterly Business Confidence,AUD,2026.03.26,01:35,1,0,0
 BOJ Core CPI y/y,JPY,2026.03.26,05:00,1,1.6,1.7
-German GfK Consumer Climate,EUR,2026.03.26,07:00,1,-28.6,-24.7
-M3 Money Supply y/y,EUR,2026.03.26,09:00,1,3.2,3.3
+German GfK Consumer Climate,EUR,2026.03.26,07:00,1,-27.3,-24.7
+M3 Money Supply y/y,EUR,2026.03.26,09:00,1,3.3,3.3
 Private Loans y/y,EUR,2026.03.26,09:00,1,3.1,3.0
 MPC Member Breeden Speaks,GBP,2026.03.26,09:30,1,0,0
 German Buba Monthly Report,EUR,2026.03.26,11:00,1,0,0
@@ -70,11 +70,11 @@ FOMC Member Miran Speaks,USD,2026.03.26,22:30,1,0,0
 FOMC Member Jefferson Speaks,USD,2026.03.26,23:00,1,0,0
 FOMC Member Barr Speaks,USD,2026.03.26,23:10,1,0,0
 GfK Consumer Confidence,GBP,2026.03.27,00:01,1,-24,-19
-Retail Sales m/m,GBP,2026.03.27,07:00,3,-0.3,1.8
-Spanish Flash CPI y/y,EUR,2026.03.27,08:00,1,2.4,2.3
+Retail Sales m/m,GBP,2026.03.27,07:00,3,-0.6,1.8
+Spanish Flash CPI y/y,EUR,2026.03.27,08:00,1,3.6,2.3
 Eurogroup Meetings,EUR,2026.03.27,09:15,1,0,0
 Italian 10-y Bond Auction,EUR,2026.03.27,10:33,1,0,0
-Revised UoM Consumer Sentiment,USD,2026.03.27,14:00,2,54.2,55.5
+Revised UoM Consumer Sentiment,USD,2026.03.27,14:00,2,53.9,55.5
 Revised UoM Inflation Expectations,USD,2026.03.27,14:00,1,0,3.4
 FOMC Member Daly Speaks,USD,2026.03.27,15:30,1,0,0
 FOMC Member Paulson Speaks,USD,2026.03.27,15:40,1,0,0
