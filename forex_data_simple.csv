@@ -50,7 +50,7 @@ Import Prices m/m,USD,2026.03.25,12:30,1,0.6,0.2
 CB Leading Index m/m,CNY,2026.03.25,13:00,1,0,-0.3
 SNB Quarterly Bulletin,CHF,2026.03.25,14:00,1,0,0
 Belgian NBB Business Climate,EUR,2026.03.25,14:00,1,-14.8,-13.7
-Crude Oil Inventories,USD,2026.03.25,14:30,1,-1400000.0,6200000.0
+Crude Oil Inventories,USD,2026.03.25,14:30,1,-1300000.0,6200000.0
 FOMC Member Miran Speaks,USD,2026.03.25,20:10,1,0,0
 RBA Assist Gov Kent Speaks,AUD,2026.03.25,22:15,1,0,0
 SPPI y/y,JPY,2026.03.25,23:50,1,2.6,2.6
@@ -63,7 +63,7 @@ MPC Member Breeden Speaks,GBP,2026.03.26,09:30,1,0,0
 30-y Bond Auction,GBP,2026.03.26,10:32,1,0,5.29
 German Buba Monthly Report,EUR,2026.03.26,11:00,1,0,0
 Unemployment Claims,USD,2026.03.26,12:30,3,211000.0,205000.0
-Natural Gas Storage,USD,2026.03.26,14:30,1,0,35000000000.0
+Natural Gas Storage,USD,2026.03.26,14:30,1,-49000000000.0,35000000000.0
 Gov Council Member Rogers Speaks,CAD,2026.03.26,16:00,1,0,0
 MPC Member Taylor Speaks,GBP,2026.03.26,16:00,1,0,0
 MPC Member Greene Speaks,GBP,2026.03.26,16:30,1,0,0
