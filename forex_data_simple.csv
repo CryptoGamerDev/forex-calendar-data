@@ -11,29 +11,29 @@ Spanish Unemployment Change,EUR,2026.04.06,07:00,1,10300.0,3600.0
 Bank Holiday,GBP,2026.04.06,07:00,0,0,0
 ISM Services PMI,USD,2026.04.06,14:00,3,54.8,56.1
 President Trump Speaks,USD,2026.04.06,17:00,3,0,0
-Household Spending y/y,JPY,2026.04.06,23:30,1,-0.7,-1.0
+Household Spending y/y,JPY,2026.04.06,23:30,1,-0.8,-1.0
 MI Inflation Gauge m/m,AUD,2026.04.07,01:00,1,0,-0.2
 ANZ Commodity Prices m/m,NZD,2026.04.07,01:00,1,0,4.2
 ANZ Job Advertisements m/m,AUD,2026.04.07,01:30,1,0,3.2
 Household Spending m/m,AUD,2026.04.07,01:30,1,0.2,0.3
 30-y Bond Auction,JPY,2026.04.07,03:35,1,0,3.40
-Leading Indicators,JPY,2026.04.07,05:00,1,112.3,112.4
+Leading Indicators,JPY,2026.04.07,05:00,1,112.4,112.4
 Foreign Currency Reserves,CHF,2026.04.07,07:00,1,0,710000000000.0
-Spanish Services PMI,EUR,2026.04.07,07:15,1,50.5,51.9
-Italian Services PMI,EUR,2026.04.07,07:45,1,50.8,52.3
+Spanish Services PMI,EUR,2026.04.07,07:15,1,50.7,51.9
+Italian Services PMI,EUR,2026.04.07,07:45,1,51.0,52.3
 French Final Services PMI,EUR,2026.04.07,07:50,1,48.3,48.3
 German Final Services PMI,EUR,2026.04.07,07:55,1,51.2,51.2
 Final Services PMI,EUR,2026.04.07,08:00,1,50.1,50.1
-Sentix Investor Confidence,EUR,2026.04.07,08:30,1,-7.5,-3.1
-Final Services PMI,GBP,2026.04.07,08:30,1,51.2,51.2
+Sentix Investor Confidence,EUR,2026.04.07,08:30,1,-7.8,-3.1
+Final Services PMI,GBP,2026.04.07,08:30,1,51.1,51.2
 ADP Weekly Employment Change,USD,2026.04.07,12:15,1,0,10000.0
 Core Durable Goods Orders m/m,USD,2026.04.07,12:30,2,0.5,0.4
-Durable Goods Orders m/m,USD,2026.04.07,12:30,2,-1.0,0.0
-Ivey PMI,CAD,2026.04.07,14:00,2,57.2,56.6
+Durable Goods Orders m/m,USD,2026.04.07,12:30,2,-1.1,0.0
+Ivey PMI,CAD,2026.04.07,14:00,2,55.9,56.6
 RCM/TIPP Economic Optimism,USD,2026.04.07,14:10,1,48.1,47.5
 GDT Price Index,NZD,2026.04.07,14:50,1,0,0.1
 FOMC Member Goolsbee Speaks,USD,2026.04.07,16:35,1,0,0
-Consumer Credit m/m,USD,2026.04.07,19:00,1,11400000000.0,8000000000.0
+Consumer Credit m/m,USD,2026.04.07,19:00,1,10500000000.0,8000000000.0
 API Weekly Statistical Bulletin,USD,2026.04.07,20:30,1,0,0
 FOMC Member Jefferson Speaks,USD,2026.04.07,21:50,1,0,0
 Average Cash Earnings y/y,JPY,2026.04.07,23:30,1,2.7,3.0
@@ -52,6 +52,7 @@ PPI m/m,EUR,2026.04.08,09:00,1,-0.5,0.7
 Retail Sales m/m,EUR,2026.04.08,09:00,1,-0.2,-0.1
 German 10-y Bond Auction,EUR,2026.04.08,09:42,1,0,2.89
 Crude Oil Inventories,USD,2026.04.08,14:30,1,0,5500000.0
+FOMC Member Daly Speaks,USD,2026.04.08,17:00,1,0,0
 10-y Bond Auction,USD,2026.04.08,17:01,1,0,4.22
 FOMC Meeting Minutes,USD,2026.04.08,18:00,3,0,0
 RICS House Price Balance,GBP,2026.04.08,23:01,1,-18,-12
@@ -79,6 +80,7 @@ PPI y/y,CNY,2026.04.10,01:30,2,0.5,-0.9
 German Final CPI m/m,EUR,2026.04.10,06:00,1,1.1,1.1
 SECO Consumer Climate,CHF,2026.04.10,07:00,1,-32,-30
 Italian Industrial Production m/m,EUR,2026.04.10,08:00,1,0.5,-0.6
+Italian 10-y Bond Auction,EUR,2026.04.10,09:33,1,0,0
 Employment Change,CAD,2026.04.10,12:30,3,12600.0,-83900.0
 Unemployment Rate,CAD,2026.04.10,12:30,3,6.8,6.7
 Core CPI m/m,USD,2026.04.10,12:30,3,0.3,0.2
