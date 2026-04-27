@@ -15,9 +15,9 @@ BOJ Press Conference,JPY,2026.04.28,05:30,3,0,0
 Spanish Unemployment Rate,EUR,2026.04.28,07:00,1,9.8,9.9
 ADP Weekly Employment Change,USD,2026.04.28,12:15,1,0,54800.0
 HPI m/m,USD,2026.04.28,13:00,1,0.1,0.1
-S&P/CS Composite-20 HPI y/y,USD,2026.04.28,13:00,1,1.0,1.2
-CB Consumer Confidence,USD,2026.04.28,14:00,2,89.4,91.8
-Richmond Manufacturing Index,USD,2026.04.28,14:00,1,-4,0
+S&P/CS Composite-20 HPI y/y,USD,2026.04.28,13:00,1,1.1,1.2
+CB Consumer Confidence,USD,2026.04.28,14:00,2,89.0,91.8
+Richmond Manufacturing Index,USD,2026.04.28,14:00,1,2,0
 API Weekly Statistical Bulletin,USD,2026.04.28,20:30,1,0,0
 Bank Holiday,JPY,2026.04.28,23:00,0,0,0
 RBNZ Gov Breman Speaks,NZD,2026.04.29,00:30,2,0,0
@@ -25,7 +25,7 @@ CPI m/m,AUD,2026.04.29,01:30,3,1.3,0.0
 CPI y/y,AUD,2026.04.29,01:30,3,4.8,3.7
 Trimmed Mean CPI m/m,AUD,2026.04.29,01:30,3,0.3,0.2
 German Prelim CPI m/m,EUR,2026.04.29,06:29,2,0.7,1.1
-Spanish Flash CPI y/y,EUR,2026.04.29,07:00,1,3.6,3.3
+Spanish Flash CPI y/y,EUR,2026.04.29,07:00,1,3.5,3.3
 UBS Economic Expectations,CHF,2026.04.29,08:00,1,0,-35.0
 M3 Money Supply y/y,EUR,2026.04.29,08:00,1,3.1,3.0
 Private Loans y/y,EUR,2026.04.29,08:00,1,3.1,3.0
@@ -33,10 +33,10 @@ Italian 10-y Bond Auction,EUR,2026.04.29,09:33,1,0,4.09
 German 10-y Bond Auction,EUR,2026.04.29,09:42,1,0,2.92
 Building Permits,USD,2026.04.29,12:30,1,1390000.0,0
 Core Durable Goods Orders m/m,USD,2026.04.29,12:30,1,0.4,0.8
-Durable Goods Orders m/m,USD,2026.04.29,12:30,1,0.5,-1.4
-Goods Trade Balance,USD,2026.04.29,12:30,1,-86300000000.0,-83500000000.0
-Housing Starts,USD,2026.04.29,12:30,1,1400000.0,0
-Prelim Wholesale Inventories m/m,USD,2026.04.29,12:30,1,0.3,0.2
+Durable Goods Orders m/m,USD,2026.04.29,12:30,1,0.4,-1.4
+Goods Trade Balance,USD,2026.04.29,12:30,1,-87500000000.0,-83500000000.0
+Housing Starts,USD,2026.04.29,12:30,1,1380000.0,0
+Prelim Wholesale Inventories m/m,USD,2026.04.29,12:30,1,0.4,0.2
 BOC Monetary Policy Report,CAD,2026.04.29,13:45,3,0,0
 BOC Rate Statement,CAD,2026.04.29,13:45,3,0,0
 Overnight Rate,CAD,2026.04.29,13:45,3,2.25,2.25
@@ -45,20 +45,20 @@ Crude Oil Inventories,USD,2026.04.29,14:30,1,0,1900000.0
 Federal Funds Rate,USD,2026.04.29,18:00,3,3.75,3.75
 FOMC Statement,USD,2026.04.29,18:00,3,0,0
 FOMC Press Conference,USD,2026.04.29,18:30,3,0,0
-Prelim Industrial Production m/m,JPY,2026.04.29,23:50,1,0.9,-2.1
-Retail Sales y/y,JPY,2026.04.29,23:50,1,1.0,-0.2
+Prelim Industrial Production m/m,JPY,2026.04.29,23:50,1,1.0,-2.1
+Retail Sales y/y,JPY,2026.04.29,23:50,1,0.9,-0.2
 ANZ Business Confidence,NZD,2026.04.30,01:00,1,0,32.5
-Import Prices q/q,AUD,2026.04.30,01:30,1,-0.6,0.9
+Import Prices q/q,AUD,2026.04.30,01:30,1,0.4,0.9
 Private Sector Credit m/m,AUD,2026.04.30,01:30,1,0.6,0.6
-Manufacturing PMI,CNY,2026.04.30,01:30,1,50.2,50.4
+Manufacturing PMI,CNY,2026.04.30,01:30,1,50.1,50.4
 Non-Manufacturing PMI,CNY,2026.04.30,01:30,1,49.9,50.1
-RatingDog Manufacturing PMI,CNY,2026.04.30,01:45,1,51.0,50.8
-Consumer Confidence,JPY,2026.04.30,05:00,1,32.6,33.3
-Housing Starts y/y,JPY,2026.04.30,05:00,1,-28.9,-4.9
+RatingDog Manufacturing PMI,CNY,2026.04.30,01:45,1,50.9,50.8
+Consumer Confidence,JPY,2026.04.30,05:00,1,32.8,33.3
+Housing Starts y/y,JPY,2026.04.30,05:00,1,-28.7,-4.9
 French Consumer Spending m/m,EUR,2026.04.30,05:30,1,0.7,-1.4
 French Flash GDP q/q,EUR,2026.04.30,05:30,1,0.2,0.2
-German Import Prices m/m,EUR,2026.04.30,06:00,1,3.3,0.3
-German Retail Sales m/m,EUR,2026.04.30,06:00,1,-0.2,-0.6
+German Import Prices m/m,EUR,2026.04.30,06:00,1,3.6,0.3
+German Retail Sales m/m,EUR,2026.04.30,06:00,1,-0.3,-0.6
 French Prelim CPI m/m,EUR,2026.04.30,06:45,1,1.0,0.9
 French Prelim Private Payrolls q/q,EUR,2026.04.30,06:45,1,0.0,-0.1
 KOF Economic Barometer,CHF,2026.04.30,07:00,1,95.9,96.1
@@ -77,6 +77,7 @@ Monetary Policy Summary,GBP,2026.04.30,11:00,3,0,0
 MPC Official Bank Rate Votes,GBP,2026.04.30,11:00,3,0-0-9,0-0-9
 Official Bank Rate,GBP,2026.04.30,11:00,3,3.75,3.75
 BOE Inflation Letter,GBP,2026.04.30,11:10,1,0,0
+BOE Gov Bailey Speaks,GBP,2026.04.30,11:30,3,0,0
 Main Refinancing Rate,EUR,2026.04.30,12:15,3,2.15,2.15
 Monetary Policy Statement,EUR,2026.04.30,12:15,3,0,0
 GDP m/m,CAD,2026.04.30,12:30,3,0.2,0.1
