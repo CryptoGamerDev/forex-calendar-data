@@ -24,7 +24,6 @@ CPI m/m,USD,2026.05.12,12:30,3,0.6,0.9
 CPI y/y,USD,2026.05.12,12:30,3,3.7,3.3
 FOMC Member Goolsbee Speaks,USD,2026.05.12,13:10,1,0,0
 CB Leading Index m/m,AUD,2026.05.12,14:30,1,0,1.1
-Fed Chair Nomination Vote,USD,2026.05.12,15:59,3,Pass,0
 FOMC Member Goolsbee Speaks,USD,2026.05.12,17:00,1,0,0
 10-y Bond Auction,USD,2026.05.12,17:01,1,0,4.28
 Federal Budget Balance,USD,2026.05.12,18:00,1,157200000000.0,-164100000000.0
@@ -47,6 +46,7 @@ MPC Member Mann Speaks,GBP,2026.05.13,14:00,1,0,0
 Crude Oil Inventories,USD,2026.05.13,14:30,1,-1600000.0,-2300000.0
 Gov Council Member Alexopoulos Speaks,CAD,2026.05.13,15:05,1,0,0
 FOMC Member Collins Speaks,USD,2026.05.13,15:30,1,0,0
+Fed Chair Nomination Vote,USD,2026.05.13,16:29,3,Pass,0
 30-y Bond Auction,USD,2026.05.13,17:01,1,0,4.88
 FOMC Member Kashkari Speaks,USD,2026.05.13,17:15,1,0,0
 BOC Summary of Deliberations,CAD,2026.05.13,17:30,1,0,0
