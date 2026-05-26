@@ -35,7 +35,7 @@ FOMC Member Cook Speaks,USD,2026.05.27,19:55,1,0,0
 RBNZ Gov Breman Speaks,NZD,2026.05.27,20:10,2,0,0
 API Weekly Statistical Bulletin,USD,2026.05.27,20:30,1,0,0
 FOMC Member Jefferson Speaks,USD,2026.05.28,00:00,1,0,0
-Household Spending m/m,AUD,2026.05.28,01:30,1,0.7,1.6
+Household Spending m/m,AUD,2026.05.28,01:30,1,-0.5,1.6
 Private Capital Expenditure q/q,AUD,2026.05.28,01:30,1,1.2,0.4
 RBA Bulletin,AUD,2026.05.28,01:30,1,0,0
 Annual Budget Release,NZD,2026.05.28,02:00,2,0,0
@@ -86,12 +86,12 @@ BOE Gov Bailey Speaks,GBP,2026.05.29,08:20,3,0,0
 Italian Prelim CPI m/m,EUR,2026.05.29,09:00,1,0.1,1.2
 FOMC Member Schmid Speaks,USD,2026.05.29,10:50,1,0,0
 GDP m/m,CAD,2026.05.29,12:30,3,0.1,0.2
-Goods Trade Balance,USD,2026.05.29,12:30,1,-86900000000.0,-87900000000.0
+Goods Trade Balance,USD,2026.05.29,12:30,1,-86500000000.0,-87900000000.0
 Prelim Wholesale Inventories m/m,USD,2026.05.29,12:30,1,0.6,1.4
 FOMC Member Bowman Speaks,USD,2026.05.29,13:10,1,0,0
 FOMC Member Paulson Speaks,USD,2026.05.29,13:15,1,0,0
 Chicago PMI,USD,2026.05.29,13:45,1,50.6,49.2
 FOMC Member Daly Speaks,USD,2026.05.29,16:40,1,0,0
 MPC Member Mann Speaks,GBP,2026.05.30,09:40,1,0,0
-Manufacturing PMI,CNY,2026.05.31,01:30,1,0,50.3
-Non-Manufacturing PMI,CNY,2026.05.31,01:30,1,0,49.4
+Manufacturing PMI,CNY,2026.05.31,01:30,1,50.2,50.3
+Non-Manufacturing PMI,CNY,2026.05.31,01:30,1,49.5,49.4
