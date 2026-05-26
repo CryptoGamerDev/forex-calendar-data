@@ -12,7 +12,7 @@ Gov Council Member Vincent Speaks,CAD,2026.05.26,12:20,1,0,0
 HPI m/m,USD,2026.05.26,13:00,1,0.1,0.0
 S&P/CS Composite-20 HPI y/y,USD,2026.05.26,13:00,1,0.9,0.9
 CB Consumer Confidence,USD,2026.05.26,14:00,2,91.9,92.8
-SPPI y/y,JPY,2026.05.26,23:50,1,3.2,3.1
+SPPI y/y,JPY,2026.05.26,23:50,1,3.3,3.1
 BOJ Gov Ueda Speaks,JPY,2026.05.27,00:00,2,0,0
 MI Leading Index m/m,AUD,2026.05.27,00:30,1,0,-0.1
 CPI m/m,AUD,2026.05.27,01:30,3,0.6,1.1
@@ -41,7 +41,7 @@ RBA Bulletin,AUD,2026.05.28,01:30,1,0,0
 Annual Budget Release,NZD,2026.05.28,02:00,2,0,0
 MPC Member Lombardelli Speaks,GBP,2026.05.28,02:25,1,0,0
 FOMC Member Goolsbee Speaks,USD,2026.05.28,02:25,1,0,0
-ECB President Lagarde Speaks,EUR,2026.05.28,07:20,2,0,0
+ECB President Lagarde Speaks,EUR,2026.05.28,06:10,2,0,0
 MPC Member Breeden Speaks,GBP,2026.05.28,08:05,1,0,0
 Italian 10-y Bond Auction,EUR,2026.05.28,09:33,1,0,3.77
 SNB Chairman Schlegel Speaks,CHF,2026.05.28,11:00,2,0,0
@@ -72,6 +72,7 @@ Private Sector Credit m/m,AUD,2026.05.29,01:30,1,0.6,0.7
 Consumer Confidence,JPY,2026.05.29,05:00,1,32.3,32.2
 Housing Starts y/y,JPY,2026.05.29,05:00,1,14.7,-29.3
 German Import Prices m/m,EUR,2026.05.29,06:00,1,1.2,3.6
+FOMC Member Kashkari Speaks,USD,2026.05.29,06:00,1,0,0
 German Prelim CPI m/m,EUR,2026.05.29,06:29,2,0.1,0.6
 French Consumer Spending m/m,EUR,2026.05.29,06:45,1,-0.1,0.7
 French Final Private Payrolls q/q,EUR,2026.05.29,06:45,1,-0.1,-0.1
