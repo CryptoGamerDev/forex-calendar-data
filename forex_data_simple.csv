@@ -32,13 +32,13 @@ Gov Council Member Rogers Speaks,CAD,2026.06.01,16:00,1,0,0
 Monetary Base y/y,JPY,2026.06.01,23:50,1,-9.5,-11.3
 Building Approvals m/m,AUD,2026.06.02,01:30,1,-1.5,-10.5
 Company Operating Profits q/q,AUD,2026.06.02,01:30,1,0.5,5.8
-Current Account,AUD,2026.06.02,01:30,1,-22800000000.0,-21100000000.0
+Current Account,AUD,2026.06.02,01:30,1,-23100000000.0,-21100000000.0
 Private Sector Credit m/m,AUD,2026.06.02,01:30,1,0.6,0.7
 10-y Bond Auction,JPY,2026.06.02,03:35,1,0,2.54
 FOMC Member Kashkari Speaks,USD,2026.06.02,05:50,1,0,0
 Italian Bank Holiday,EUR,2026.06.02,06:03,0,0,0
 French Gov Budget Balance,EUR,2026.06.02,06:45,1,0,-42900000000.0
-Spanish Unemployment Change,EUR,2026.06.02,07:00,1,0,-62700.0
+Spanish Unemployment Change,EUR,2026.06.02,07:00,1,-56800.0,-62700.0
 M4 Money Supply m/m,GBP,2026.06.02,08:30,1,0.6,0.8
 Mortgage Approvals,GBP,2026.06.02,08:30,1,62000.0,64000.0
 Net Lending to Individuals m/m,GBP,2026.06.02,08:30,1,7100000000.0,8000000000.0
@@ -47,8 +47,8 @@ CPI Flash Estimate y/y,EUR,2026.06.02,09:00,2,3.3,3.0
 10-y Bond Auction,GBP,2026.06.02,09:33,1,0,5.03
 FOMC Member Hammack Speaks,USD,2026.06.02,12:30,1,0,0
 BOE Gov Bailey Speaks,GBP,2026.06.02,14:00,3,0,0
-JOLTS Job Openings,USD,2026.06.02,14:00,2,6870000.0,6870000.0
-RCM/TIPP Economic Optimism,USD,2026.06.02,14:10,1,0,42.6
+JOLTS Job Openings,USD,2026.06.02,14:00,2,6860000.0,6870000.0
+RCM/TIPP Economic Optimism,USD,2026.06.02,14:10,1,44.5,42.6
 Wards Total Vehicle Sales,USD,2026.06.02,14:15,1,16000000.0,15900000.0
 GDT Price Index,NZD,2026.06.02,14:50,1,0,0.6
 MPC Member Greene Speaks,GBP,2026.06.02,15:00,1,0,0
@@ -71,7 +71,7 @@ FOMC Member Barr Speaks,USD,2026.06.03,13:00,1,0,0
 Final Services PMI,USD,2026.06.03,13:45,1,50.9,50.9
 ISM Services PMI,USD,2026.06.03,14:00,3,53.8,53.6
 Treasury Sec Bessent Speaks,USD,2026.06.03,14:00,2,0,0
-Factory Orders m/m,USD,2026.06.03,14:00,1,0,1.5
+Factory Orders m/m,USD,2026.06.03,14:00,1,4.4,1.5
 Crude Oil Inventories,USD,2026.06.03,14:30,1,0,-3300000.0
 Beige Book,USD,2026.06.03,18:00,1,0,0
 FOMC Member Logan Speaks,USD,2026.06.03,19:00,1,0,0
