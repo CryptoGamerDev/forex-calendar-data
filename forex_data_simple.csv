@@ -47,9 +47,9 @@ CPI Flash Estimate y/y,EUR,2026.06.02,09:00,2,3.2,3.0
 FOMC Member Hammack Speaks,USD,2026.06.02,12:30,1,0,0
 BOE Gov Bailey Speaks,GBP,2026.06.02,14:00,3,0,0
 JOLTS Job Openings,USD,2026.06.02,14:00,2,6870000.0,6870000.0
-RCM/TIPP Economic Optimism,USD,2026.06.02,14:10,1,44.5,42.6
-Wards Total Vehicle Sales,USD,2026.06.02,14:15,1,16000000.0,15900000.0
-GDT Price Index,NZD,2026.06.02,14:50,1,0,0.6
+RCM/TIPP Economic Optimism,USD,2026.06.02,14:02,1,44.5,42.6
+Omdia Total Vehicle Sales,USD,2026.06.02,14:15,1,16000000.0,15900000.0
+GDT Price Index,NZD,2026.06.02,14:59,1,0,0.6
 MPC Member Greene Speaks,GBP,2026.06.02,15:00,1,0,0
 API Weekly Statistical Bulletin,USD,2026.06.02,20:30,1,0,0
 Building Consents m/m,NZD,2026.06.02,22:45,1,0,-1.3
@@ -73,7 +73,7 @@ Final Services PMI,USD,2026.06.03,13:45,1,51.0,50.9
 ISM Services PMI,USD,2026.06.03,14:00,3,53.7,53.6
 Treasury Sec Bessent Speaks,USD,2026.06.03,14:00,2,0,0
 Factory Orders m/m,USD,2026.06.03,14:00,1,4.6,1.5
-Crude Oil Inventories,USD,2026.06.03,14:30,1,0,-3300000.0
+Crude Oil Inventories,USD,2026.06.03,14:30,1,-2900000.0,-3300000.0
 Beige Book,USD,2026.06.03,18:00,1,0,0
 FOMC Member Logan Speaks,USD,2026.06.03,19:00,1,0,0
 ANZ Commodity Prices m/m,NZD,2026.06.04,01:00,1,0,-0.8
