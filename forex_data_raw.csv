@@ -33,7 +33,6 @@ Monetary Base y/y,JPY,06-01-2026,11:50pm,Low,-9.5%,-11.3%,https://www.forexfacto
 Building Approvals m/m,AUD,06-02-2026,1:30am,Low,-1.5%,-10.5%,https://www.forexfactory.com/calendar/202-au-building-approvals-mm
 Company Operating Profits q/q,AUD,06-02-2026,1:30am,Low,0.5%,5.8%,https://www.forexfactory.com/calendar/380-au-company-operating-profits-qq
 Current Account,AUD,06-02-2026,1:30am,Low,-23.1B,-21.1B,https://www.forexfactory.com/calendar/216-au-current-account
-Private Sector Credit m/m,AUD,06-02-2026,1:30am,Low,0.6%,0.7%,https://www.forexfactory.com/calendar/344-au-private-sector-credit-mm
 10-y Bond Auction,JPY,06-02-2026,3:35am,Low,,2.54|3.9,https://www.forexfactory.com/calendar/574-jn-10-y-bond-auction
 FOMC Member Kashkari Speaks,USD,06-02-2026,5:50am,Low,,,https://www.forexfactory.com/calendar/651-us-fomc-member-kashkari-speaks
 Italian Bank Holiday,EUR,06-02-2026,6:03am,Holiday,,,https://www.forexfactory.com/calendar/397-it-bank-holiday
@@ -47,36 +46,38 @@ CPI Flash Estimate y/y,EUR,06-02-2026,9:00am,Medium,3.2%,3.0%,https://www.forexf
 10-y Bond Auction,GBP,06-02-2026,9:33am,Low,,5.03|3.4,https://www.forexfactory.com/calendar/526-uk-10-y-bond-auction
 FOMC Member Hammack Speaks,USD,06-02-2026,12:30pm,Low,,,https://www.forexfactory.com/calendar/913-us-fomc-member-hammack-speaks
 BOE Gov Bailey Speaks,GBP,06-02-2026,2:00pm,High,,,https://www.forexfactory.com/calendar/838-uk-boe-gov-bailey-speaks
-JOLTS Job Openings,USD,06-02-2026,2:00pm,Medium,6.86M,6.87M,https://www.forexfactory.com/calendar/578-us-jolts-job-openings
+JOLTS Job Openings,USD,06-02-2026,2:00pm,Medium,6.87M,6.87M,https://www.forexfactory.com/calendar/578-us-jolts-job-openings
 RCM/TIPP Economic Optimism,USD,06-02-2026,2:10pm,Low,44.5,42.6,https://www.forexfactory.com/calendar/237-us-rcmtipp-economic-optimism
 Wards Total Vehicle Sales,USD,06-02-2026,2:15pm,Low,16.0M,15.9M,https://www.forexfactory.com/calendar/828-us-wards-total-vehicle-sales
 GDT Price Index,NZD,06-02-2026,2:50pm,Low,,0.6%,https://www.forexfactory.com/calendar/602-nz-gdt-price-index
 MPC Member Greene Speaks,GBP,06-02-2026,3:00pm,Low,,,https://www.forexfactory.com/calendar/894-uk-mpc-member-greene-speaks
 API Weekly Statistical Bulletin,USD,06-02-2026,8:30pm,Low,,,https://www.forexfactory.com/calendar/754-us-api-weekly-statistical-bulletin
 Building Consents m/m,NZD,06-02-2026,10:45pm,Low,,-1.3%,https://www.forexfactory.com/calendar/229-nz-building-consents-mm
-Overseas Trade Index q/q,NZD,06-02-2026,10:45pm,Low,-1.2%,3.7%,https://www.forexfactory.com/calendar/158-nz-overseas-trade-index-qq
+Overseas Trade Index q/q,NZD,06-02-2026,10:45pm,Low,-1.7%,3.7%,https://www.forexfactory.com/calendar/158-nz-overseas-trade-index-qq
 GDP q/q,AUD,06-03-2026,1:30am,High,0.5%,0.8%,https://www.forexfactory.com/calendar/31-au-gdp-qq
 RatingDog Services PMI,CNY,06-03-2026,1:45am,Low,52.3,52.6,https://www.forexfactory.com/calendar/591-ch-ratingdog-services-pmi
-Spanish Services PMI,EUR,06-03-2026,7:15am,Low,48.3,47.9,https://www.forexfactory.com/calendar/558-sp-services-pmi
-Italian Services PMI,EUR,06-03-2026,7:45am,Low,49.3,49.8,https://www.forexfactory.com/calendar/548-it-services-pmi
-French Final Services PMI,EUR,06-03-2026,7:50am,Low,42.9,42.9,https://www.forexfactory.com/calendar/619-fr-final-services-pmi
+Private Sector Credit m/m,AUD,06-03-2026,1:50am,Low,0.6%,0.7%,https://www.forexfactory.com/calendar/344-au-private-sector-credit-mm
+FOMC Member Goolsbee Speaks,USD,06-03-2026,3:00am,Low,,,https://www.forexfactory.com/calendar/889-us-fomc-member-goolsbee-speaks
+Spanish Services PMI,EUR,06-03-2026,7:15am,Low,48.2,47.9,https://www.forexfactory.com/calendar/558-sp-services-pmi
+Italian Services PMI,EUR,06-03-2026,7:45am,Low,49.2,49.8,https://www.forexfactory.com/calendar/548-it-services-pmi
+French Final Services PMI,EUR,06-03-2026,7:50am,Low,43.0,42.9,https://www.forexfactory.com/calendar/619-fr-final-services-pmi
 German Final Services PMI,EUR,06-03-2026,7:55am,Low,47.8,47.8,https://www.forexfactory.com/calendar/620-ge-final-services-pmi
 Final Services PMI,EUR,06-03-2026,8:00am,Low,46.4,46.4,https://www.forexfactory.com/calendar/265-ez-final-services-pmi
 Final Services PMI,GBP,06-03-2026,8:30am,Low,47.9,47.9,https://www.forexfactory.com/calendar/250-uk-final-services-pmi
 BOJ Gov Ueda Speaks,JPY,06-03-2026,8:30am,High,,,https://www.forexfactory.com/calendar/892-jn-boj-gov-ueda-speaks
 PPI m/m,EUR,06-03-2026,9:00am,Low,0.6%,3.4%,https://www.forexfactory.com/calendar/89-ez-ppi-mm
-ADP Non-Farm Employment Change,USD,06-03-2026,12:15pm,High,118K,109K,https://www.forexfactory.com/calendar/75-us-adp-non-farm-employment-change
-Labor Productivity q/q,CAD,06-03-2026,12:30pm,Low,0.4%,-0.1%,https://www.forexfactory.com/calendar/157-ca-labor-productivity-qq
+ADP Non-Farm Employment Change,USD,06-03-2026,12:15pm,High,116K,109K,https://www.forexfactory.com/calendar/75-us-adp-non-farm-employment-change
+Labor Productivity q/q,CAD,06-03-2026,12:30pm,Low,0.3%,-0.1%,https://www.forexfactory.com/calendar/157-ca-labor-productivity-qq
 FOMC Member Barr Speaks,USD,06-03-2026,1:00pm,Low,,,https://www.forexfactory.com/calendar/880-us-fomc-member-barr-speaks
-Final Services PMI,USD,06-03-2026,1:45pm,Low,50.9,50.9,https://www.forexfactory.com/calendar/584-us-final-services-pmi
-ISM Services PMI,USD,06-03-2026,2:00pm,High,53.8,53.6,https://www.forexfactory.com/calendar/253-us-ism-services-pmi
+Final Services PMI,USD,06-03-2026,1:45pm,Low,51.0,50.9,https://www.forexfactory.com/calendar/584-us-final-services-pmi
+ISM Services PMI,USD,06-03-2026,2:00pm,High,53.7,53.6,https://www.forexfactory.com/calendar/253-us-ism-services-pmi
 Treasury Sec Bessent Speaks,USD,06-03-2026,2:00pm,Medium,,,https://www.forexfactory.com/calendar/917-us-treasury-sec-bessent-speaks
-Factory Orders m/m,USD,06-03-2026,2:00pm,Low,4.5%,1.5%,https://www.forexfactory.com/calendar/351-us-factory-orders-mm
+Factory Orders m/m,USD,06-03-2026,2:00pm,Low,4.6%,1.5%,https://www.forexfactory.com/calendar/351-us-factory-orders-mm
 Crude Oil Inventories,USD,06-03-2026,2:30pm,Low,,-3.3M,https://www.forexfactory.com/calendar/10-us-crude-oil-inventories
 Beige Book,USD,06-03-2026,6:00pm,Low,,,https://www.forexfactory.com/calendar/241-us-beige-book
 FOMC Member Logan Speaks,USD,06-03-2026,7:00pm,Low,,,https://www.forexfactory.com/calendar/890-us-fomc-member-logan-speaks
 ANZ Commodity Prices m/m,NZD,06-04-2026,1:00am,Low,,-0.8%,https://www.forexfactory.com/calendar/190-nz-anz-commodity-prices-mm
-Goods Trade Balance,AUD,06-04-2026,1:30am,Low,-1.45B,-1.84B,https://www.forexfactory.com/calendar/122-au-goods-trade-balance
+Goods Trade Balance,AUD,06-04-2026,1:30am,Low,1.23B,-1.84B,https://www.forexfactory.com/calendar/122-au-goods-trade-balance
 RBA Gov Bullock Speaks,AUD,06-04-2026,5:00am,High,,,https://www.forexfactory.com/calendar/671-au-rba-gov-bullock-speaks
 CPI m/m,CHF,06-04-2026,6:30am,Medium,0.3%,0.3%,https://www.forexfactory.com/calendar/100-sz-cpi-mm
 Unemployment Rate,CHF,06-04-2026,7:00am,Low,3.0%,3.0%,https://www.forexfactory.com/calendar/62-sz-unemployment-rate
@@ -87,29 +88,29 @@ French 10-y Bond Auction,EUR,06-04-2026,9:18am,Low,,3.61|2.0,https://www.forexfa
 Challenger Job Cuts y/y,USD,06-04-2026,9:30am,Low,,-20.9%,https://www.forexfactory.com/calendar/76-us-challenger-job-cuts-yy
 Unemployment Claims,USD,06-04-2026,12:30pm,Medium,214K,215K,https://www.forexfactory.com/calendar/11-us-unemployment-claims
 FOMC Member Barkin Speaks,USD,06-04-2026,12:30pm,Low,,,https://www.forexfactory.com/calendar/728-us-fomc-member-barkin-speaks
-Revised Nonfarm Productivity q/q,USD,06-04-2026,12:30pm,Low,0.4%,0.8%,https://www.forexfactory.com/calendar/156-us-revised-nonfarm-productivity-qq
+Revised Nonfarm Productivity q/q,USD,06-04-2026,12:30pm,Low,0.5%,0.8%,https://www.forexfactory.com/calendar/156-us-revised-nonfarm-productivity-qq
 Revised Unit Labor Costs q/q,USD,06-04-2026,12:30pm,Low,2.4%,2.3%,https://www.forexfactory.com/calendar/178-us-revised-unit-labor-costs-qq
 Natural Gas Storage,USD,06-04-2026,2:30pm,Low,,92B,https://www.forexfactory.com/calendar/26-us-natural-gas-storage
 BOE Gov Bailey Speaks,GBP,06-04-2026,3:40pm,High,,,https://www.forexfactory.com/calendar/838-uk-boe-gov-bailey-speaks
 FOMC Member Daly Speaks,USD,06-04-2026,5:10pm,Low,,,https://www.forexfactory.com/calendar/807-us-fomc-member-daly-speaks
 Average Cash Earnings y/y,JPY,06-04-2026,11:30pm,Low,3.1%,2.7%,https://www.forexfactory.com/calendar/181-jn-average-cash-earnings-yy
-Household Spending y/y,JPY,06-04-2026,11:30pm,Low,-1.4%,-2.9%,https://www.forexfactory.com/calendar/359-jn-household-spending-yy
+Household Spending y/y,JPY,06-04-2026,11:30pm,Low,-1.5%,-2.9%,https://www.forexfactory.com/calendar/359-jn-household-spending-yy
 RBA Deputy Gov Hauser Speaks,AUD,06-05-2026,4:35am,Low,,,https://www.forexfactory.com/calendar/904-au-rba-deputy-gov-hauser-speaks
-Leading Indicators,JPY,06-05-2026,5:00am,Low,114.5%,114.5%,https://www.forexfactory.com/calendar/145-jn-leading-indicators
-Halifax HPI m/m,GBP,06-05-2026,6:00am,Low,0.2%,-0.1%,https://www.forexfactory.com/calendar/151-uk-halifax-hpi-mm
+Leading Indicators,JPY,06-05-2026,5:00am,Low,114.4%,114.5%,https://www.forexfactory.com/calendar/145-jn-leading-indicators
+Halifax HPI m/m,GBP,06-05-2026,6:00am,Low,0.0%,-0.1%,https://www.forexfactory.com/calendar/151-uk-halifax-hpi-mm
 French Industrial Production m/m,EUR,06-05-2026,6:45am,Low,-0.2%,1.0%,https://www.forexfactory.com/calendar/222-fr-industrial-production-mm
-French Trade Balance,EUR,06-05-2026,6:45am,Low,-6.5B,-6.9B,https://www.forexfactory.com/calendar/126-fr-trade-balance
+French Trade Balance,EUR,06-05-2026,6:45am,Low,-6.2B,-6.9B,https://www.forexfactory.com/calendar/126-fr-trade-balance
 Foreign Currency Reserves,CHF,06-05-2026,7:00am,Low,,716B,https://www.forexfactory.com/calendar/517-sz-foreign-currency-reserves
 Final Employment Change q/q,EUR,06-05-2026,9:00am,Low,0.1%,0.1%,https://www.forexfactory.com/calendar/69-ez-final-employment-change-qq
-Italian Retail Sales m/m,EUR,06-05-2026,9:00am,Low,0.2%,0.8%,https://www.forexfactory.com/calendar/108-it-retail-sales-mm
+Italian Retail Sales m/m,EUR,06-05-2026,9:00am,Low,0.4%,0.8%,https://www.forexfactory.com/calendar/108-it-retail-sales-mm
 Revised GDP q/q,EUR,06-05-2026,9:00am,Low,0.1%,0.1%,https://www.forexfactory.com/calendar/42-ez-revised-gdp-qq
-Employment Change,CAD,06-05-2026,12:30pm,High,10.2K,-17.7K,https://www.forexfactory.com/calendar/67-ca-employment-change
+Employment Change,CAD,06-05-2026,12:30pm,High,10.0K,-17.7K,https://www.forexfactory.com/calendar/67-ca-employment-change
 Unemployment Rate,CAD,06-05-2026,12:30pm,High,6.9%,6.9%,https://www.forexfactory.com/calendar/57-ca-unemployment-rate
 Average Hourly Earnings m/m,USD,06-05-2026,12:30pm,High,0.3%,0.2%,https://www.forexfactory.com/calendar/159-us-average-hourly-earnings-mm
-Non-Farm Employment Change,USD,06-05-2026,12:30pm,High,87K,115K,https://www.forexfactory.com/calendar/66-us-non-farm-employment-change
+Non-Farm Employment Change,USD,06-05-2026,12:30pm,High,85K,115K,https://www.forexfactory.com/calendar/66-us-non-farm-employment-change
 Unemployment Rate,USD,06-05-2026,12:30pm,High,4.3%,4.3%,https://www.forexfactory.com/calendar/56-us-unemployment-rate
 MPC Member Dhingra Speaks,GBP,06-05-2026,1:40pm,Low,,,https://www.forexfactory.com/calendar/875-uk-mpc-member-dhingra-speaks
 Ivey PMI,CAD,06-05-2026,2:00pm,Medium,54.5,57.7,https://www.forexfactory.com/calendar/254-ca-ivey-pmi
 BOE Gov Bailey Speaks,GBP,06-05-2026,6:00pm,Medium,,,https://www.forexfactory.com/calendar/838-uk-boe-gov-bailey-speaks
-Consumer Credit m/m,USD,06-05-2026,7:00pm,Low,17.7B,24.9B,https://www.forexfactory.com/calendar/341-us-consumer-credit-mm
+Consumer Credit m/m,USD,06-05-2026,7:00pm,Low,17.8B,24.9B,https://www.forexfactory.com/calendar/341-us-consumer-credit-mm
 FOMC Member Barr Speaks,USD,06-06-2026,4:00pm,Low,,,https://www.forexfactory.com/calendar/880-us-fomc-member-barr-speaks
