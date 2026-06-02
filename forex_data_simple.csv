@@ -49,24 +49,23 @@ BOE Gov Bailey Speaks,GBP,2026.06.02,14:00,3,0,0
 JOLTS Job Openings,USD,2026.06.02,14:00,2,6870000.0,6870000.0
 RCM/TIPP Economic Optimism,USD,2026.06.02,14:02,1,44.5,42.6
 Omdia Total Vehicle Sales,USD,2026.06.02,14:15,1,16000000.0,15900000.0
-GDT Price Index,NZD,2026.06.02,14:59,1,0,0.6
 MPC Member Greene Speaks,GBP,2026.06.02,15:00,1,0,0
+GDT Price Index,NZD,2026.06.02,15:05,1,0,0.6
 API Weekly Statistical Bulletin,USD,2026.06.02,20:30,1,0,0
 Building Consents m/m,NZD,2026.06.02,22:45,1,0,-1.3
-Overseas Trade Index q/q,NZD,2026.06.02,22:45,1,-1.7,3.7
+Overseas Trade Index q/q,NZD,2026.06.02,22:45,1,-1.2,3.7
 GDP q/q,AUD,2026.06.03,01:30,3,0.5,0.8
 RatingDog Services PMI,CNY,2026.06.03,01:45,1,52.3,52.6
-Private Sector Credit m/m,AUD,2026.06.03,01:50,1,0.6,0.7
 FOMC Member Goolsbee Speaks,USD,2026.06.03,03:00,1,0,0
 Spanish Services PMI,EUR,2026.06.03,07:15,1,48.2,47.9
 Italian Services PMI,EUR,2026.06.03,07:45,1,49.2,49.8
-French Final Services PMI,EUR,2026.06.03,07:50,1,43.0,42.9
+French Final Services PMI,EUR,2026.06.03,07:50,1,42.9,42.9
 German Final Services PMI,EUR,2026.06.03,07:55,1,47.8,47.8
 Final Services PMI,EUR,2026.06.03,08:00,1,46.4,46.4
 Final Services PMI,GBP,2026.06.03,08:30,1,47.9,47.9
 BOJ Gov Ueda Speaks,JPY,2026.06.03,08:30,3,0,0
 PPI m/m,EUR,2026.06.03,09:00,1,0.6,3.4
-ADP Non-Farm Employment Change,USD,2026.06.03,12:15,3,116000.0,109000.0
+ADP Non-Farm Employment Change,USD,2026.06.03,12:15,3,118000.0,109000.0
 Labor Productivity q/q,CAD,2026.06.03,12:30,1,0.3,-0.1
 FOMC Member Barr Speaks,USD,2026.06.03,13:00,1,0,0
 Final Services PMI,USD,2026.06.03,13:45,1,51.0,50.9
@@ -95,6 +94,7 @@ BOE Gov Bailey Speaks,GBP,2026.06.04,15:40,3,0,0
 FOMC Member Daly Speaks,USD,2026.06.04,17:10,1,0,0
 Average Cash Earnings y/y,JPY,2026.06.04,23:30,1,3.1,2.7
 Household Spending y/y,JPY,2026.06.04,23:30,1,-1.5,-2.9
+Private Sector Credit m/m,AUD,2026.06.05,01:50,1,0.6,0.7
 RBA Deputy Gov Hauser Speaks,AUD,2026.06.05,04:35,1,0,0
 Leading Indicators,JPY,2026.06.05,05:00,1,114.4,114.5
 Halifax HPI m/m,GBP,2026.06.05,06:00,1,0.0,-0.1
@@ -104,7 +104,7 @@ Foreign Currency Reserves,CHF,2026.06.05,07:00,1,0,716000000000.0
 Final Employment Change q/q,EUR,2026.06.05,09:00,1,0.1,0.1
 Italian Retail Sales m/m,EUR,2026.06.05,09:00,1,0.4,0.8
 Revised GDP q/q,EUR,2026.06.05,09:00,1,0.1,0.1
-Employment Change,CAD,2026.06.05,12:30,3,10000.0,-17700.0
+Employment Change,CAD,2026.06.05,12:30,3,10100.0,-17700.0
 Unemployment Rate,CAD,2026.06.05,12:30,3,6.9,6.9
 Average Hourly Earnings m/m,USD,2026.06.05,12:30,3,0.3,0.2
 Non-Farm Employment Change,USD,2026.06.05,12:30,3,85000.0,115000.0
