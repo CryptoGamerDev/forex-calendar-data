@@ -1,121 +1,79 @@
 Title,Country,Date,Time24h,Importance,Forecast,Previous
-MPC Member Greene Speaks,GBP,2026.05.31,12:30,1,0,0
-FOMC Member Waller Speaks,USD,2026.05.31,12:30,1,0,0
-Bank Holiday,NZD,2026.05.31,20:00,0,0,0
-Capital Spending q/y,JPY,2026.05.31,23:50,1,4.1,6.5
-Final Manufacturing PMI,JPY,2026.06.01,00:30,1,54.5,54.5
-FOMC Member Powell Speaks,USD,2026.06.01,00:30,2,0,0
-MI Inflation Gauge m/m,AUD,2026.06.01,01:00,1,0,0.6
-ANZ Job Advertisements m/m,AUD,2026.06.01,01:30,1,0,-0.8
-RatingDog Manufacturing PMI,CNY,2026.06.01,01:45,1,51.4,52.2
-German Retail Sales m/m,EUR,2026.06.01,06:00,1,-0.4,-2.0
-Nationwide HPI m/m,GBP,2026.06.01,06:00,1,-0.1,0.4
-Commodity Prices y/y,AUD,2026.06.01,06:30,1,0,15.7
-Retail Sales y/y,CHF,2026.06.01,06:30,1,0.2,0.5
-GDP q/q,CHF,2026.06.01,07:00,1,0.6,0.1
-Spanish Manufacturing PMI,EUR,2026.06.01,07:15,1,53.7,51.7
-Manufacturing PMI,CHF,2026.06.01,07:30,1,54.0,54.5
-Italian Manufacturing PMI,EUR,2026.06.01,07:45,1,52.0,52.1
-French Final Manufacturing PMI,EUR,2026.06.01,07:50,1,48.9,48.9
-German Final Manufacturing PMI,EUR,2026.06.01,07:55,1,49.9,49.9
-Final Manufacturing PMI,EUR,2026.06.01,08:00,1,51.4,51.4
-M3 Money Supply y/y,EUR,2026.06.01,08:00,1,3.1,3.2
-Private Loans y/y,EUR,2026.06.01,08:00,1,3.0,3.0
-Final Manufacturing PMI,GBP,2026.06.01,08:30,1,53.7,53.7
-Unemployment Rate,EUR,2026.06.01,09:00,1,6.2,6.2
-Manufacturing PMI,CAD,2026.06.01,13:30,1,0,53.3
-Final Manufacturing PMI,USD,2026.06.01,13:45,1,55.3,55.3
-ISM Manufacturing PMI,USD,2026.06.01,14:00,3,53.3,52.7
-ISM Manufacturing Prices,USD,2026.06.01,14:00,2,85.3,84.6
-Construction Spending m/m,USD,2026.06.01,14:00,1,0.3,0.6
-Gov Council Member Rogers Speaks,CAD,2026.06.01,16:00,1,0,0
-Monetary Base y/y,JPY,2026.06.01,23:50,1,-9.5,-11.3
-Building Approvals m/m,AUD,2026.06.02,01:30,1,-1.5,-10.5
-Company Operating Profits q/q,AUD,2026.06.02,01:30,1,0.5,5.8
-Current Account,AUD,2026.06.02,01:30,1,-23100000000.0,-21100000000.0
-10-y Bond Auction,JPY,2026.06.02,03:35,1,0,2.54
-FOMC Member Kashkari Speaks,USD,2026.06.02,05:50,1,0,0
-Italian Bank Holiday,EUR,2026.06.02,06:03,0,0,0
-French Gov Budget Balance,EUR,2026.06.02,06:45,1,0,-42900000000.0
-Spanish Unemployment Change,EUR,2026.06.02,07:00,1,-56800.0,-62700.0
-M4 Money Supply m/m,GBP,2026.06.02,08:30,1,0.6,0.8
-Mortgage Approvals,GBP,2026.06.02,08:30,1,62000.0,64000.0
-Net Lending to Individuals m/m,GBP,2026.06.02,08:30,1,7100000000.0,8000000000.0
-Core CPI Flash Estimate y/y,EUR,2026.06.02,09:00,2,2.4,2.2
-CPI Flash Estimate y/y,EUR,2026.06.02,09:00,2,3.2,3.0
-10-y Bond Auction,GBP,2026.06.02,09:00,1,0,5.03
-FOMC Member Hammack Speaks,USD,2026.06.02,12:30,1,0,0
-BOE Gov Bailey Speaks,GBP,2026.06.02,14:00,3,0,0
-JOLTS Job Openings,USD,2026.06.02,14:00,2,6870000.0,6870000.0
-RCM/TIPP Economic Optimism,USD,2026.06.02,14:02,1,44.5,42.6
-Omdia Total Vehicle Sales,USD,2026.06.02,14:15,1,16000000.0,15900000.0
-MPC Member Greene Speaks,GBP,2026.06.02,15:00,1,0,0
-GDT Price Index,NZD,2026.06.02,15:05,1,0,0.6
-API Weekly Statistical Bulletin,USD,2026.06.02,20:30,1,0,0
-Building Consents m/m,NZD,2026.06.02,22:45,1,0,-1.3
-Overseas Trade Index q/q,NZD,2026.06.02,22:45,1,-1.2,3.7
-GDP q/q,AUD,2026.06.03,01:30,3,0.5,0.8
-RatingDog Services PMI,CNY,2026.06.03,01:45,1,52.3,52.6
-FOMC Member Goolsbee Speaks,USD,2026.06.03,03:00,1,0,0
-Private Sector Credit m/m,AUD,2026.06.03,06:19,1,0.6,0.7
-Spanish Services PMI,EUR,2026.06.03,07:15,1,48.2,47.9
-Italian Services PMI,EUR,2026.06.03,07:45,1,49.2,49.8
-French Final Services PMI,EUR,2026.06.03,07:50,1,42.9,42.9
-German Final Services PMI,EUR,2026.06.03,07:55,1,47.8,47.8
-Final Services PMI,EUR,2026.06.03,08:00,1,46.4,46.4
-Final Services PMI,GBP,2026.06.03,08:30,1,47.9,47.9
-BOJ Gov Ueda Speaks,JPY,2026.06.03,08:30,3,0,0
-PPI m/m,EUR,2026.06.03,09:00,1,0.6,3.4
-ADP Non-Farm Employment Change,USD,2026.06.03,12:15,3,118000.0,109000.0
-Labor Productivity q/q,CAD,2026.06.03,12:30,1,0.3,-0.1
-FOMC Member Barr Speaks,USD,2026.06.03,13:00,1,0,0
-Final Services PMI,USD,2026.06.03,13:45,1,51.0,50.9
-ISM Services PMI,USD,2026.06.03,14:00,3,53.7,53.6
-Treasury Sec Bessent Speaks,USD,2026.06.03,14:00,2,0,0
-Factory Orders m/m,USD,2026.06.03,14:00,1,4.6,1.5
-Crude Oil Inventories,USD,2026.06.03,14:30,1,-2900000.0,-3300000.0
-Beige Book,USD,2026.06.03,18:00,1,0,0
-FOMC Member Logan Speaks,USD,2026.06.03,20:00,1,0,0
-ANZ Commodity Prices m/m,NZD,2026.06.04,01:00,1,0,-0.8
-Goods Trade Balance,AUD,2026.06.04,01:30,1,1230000000.0,-1840000000.0
-RBA Gov Bullock Speaks,AUD,2026.06.04,05:00,3,0,0
-CPI m/m,CHF,2026.06.04,06:30,2,0.3,0.3
-Unemployment Rate,CHF,2026.06.04,07:00,1,3.0,3.0
-ECB President Lagarde Speaks,EUR,2026.06.04,08:00,2,0,0
-Construction PMI,GBP,2026.06.04,08:30,1,40.4,39.7
-French 10-y Bond Auction,EUR,2026.06.04,08:50,1,0,3.61
-Retail Sales m/m,EUR,2026.06.04,09:00,1,-0.3,-0.1
-Challenger Job Cuts y/y,USD,2026.06.04,09:30,1,0,-20.9
-Unemployment Claims,USD,2026.06.04,12:30,2,214000.0,215000.0
-FOMC Member Barkin Speaks,USD,2026.06.04,12:30,1,0,0
-Revised Nonfarm Productivity q/q,USD,2026.06.04,12:30,1,0.5,0.8
-Revised Unit Labor Costs q/q,USD,2026.06.04,12:30,1,2.4,2.3
-Treasury Sec Bessent Speaks,USD,2026.06.04,14:00,2,0,0
-FOMC Member Bowman Speaks,USD,2026.06.04,14:00,1,0,0
-Natural Gas Storage,USD,2026.06.04,14:30,1,99000000000.0,92000000000.0
-BOE Gov Bailey Speaks,GBP,2026.06.04,15:40,3,0,0
-FOMC Member Daly Speaks,USD,2026.06.04,15:40,1,0,0
-FOMC Member Schmid Speaks,USD,2026.06.04,17:00,1,0,0
-FOMC Member Daly Speaks,USD,2026.06.04,17:10,1,0,0
-President Trump Speaks,USD,2026.06.04,19:00,2,0,0
-Average Cash Earnings y/y,JPY,2026.06.04,23:30,1,3.1,2.7
-Household Spending y/y,JPY,2026.06.04,23:30,1,-1.5,-2.9
-RBA Deputy Gov Hauser Speaks,AUD,2026.06.05,04:35,1,0,0
-Leading Indicators,JPY,2026.06.05,05:00,1,114.4,114.5
-Halifax HPI m/m,GBP,2026.06.05,06:00,1,0.0,-0.1
-French Industrial Production m/m,EUR,2026.06.05,06:45,1,-0.2,1.0
-French Trade Balance,EUR,2026.06.05,06:45,1,-6200000000.0,-6900000000.0
-Foreign Currency Reserves,CHF,2026.06.05,07:00,1,0,716000000000.0
-Final Employment Change q/q,EUR,2026.06.05,09:00,1,0.1,0.1
-Italian Retail Sales m/m,EUR,2026.06.05,09:00,1,0.4,0.8
-Revised GDP q/q,EUR,2026.06.05,09:00,1,0.1,0.1
-Employment Change,CAD,2026.06.05,12:30,3,10600.0,-17700.0
-Unemployment Rate,CAD,2026.06.05,12:30,3,6.9,6.9
-Average Hourly Earnings m/m,USD,2026.06.05,12:30,3,0.3,0.2
-Non-Farm Employment Change,USD,2026.06.05,12:30,3,85000.0,115000.0
-Unemployment Rate,USD,2026.06.05,12:30,3,4.3,4.3
-MPC Member Dhingra Speaks,GBP,2026.06.05,13:40,1,0,0
-Ivey PMI,CAD,2026.06.05,14:00,2,54.5,57.7
-BOE Gov Bailey Speaks,GBP,2026.06.05,18:00,2,0,0
-Consumer Credit m/m,USD,2026.06.05,19:00,1,17800000000.0,24900000000.0
-FOMC Member Barr Speaks,USD,2026.06.06,16:00,1,0,0
+OPEC-JMMC Meetings,All,2026.06.07,09:15,2,0,0
+OPEC Meetings,All,2026.06.07,10:15,2,0,0
+Bank Holiday,AUD,2026.06.07,21:00,0,0,0
+Bank Lending y/y,JPY,2026.06.07,23:50,1,5.6,5.4
+Current Account,JPY,2026.06.07,23:50,1,3.26T,3.90T
+Final GDP Price Index y/y,JPY,2026.06.07,23:50,1,3.4,3.4
+Final GDP q/q,JPY,2026.06.07,23:50,1,0.3,0.5
+Economy Watchers Sentiment,JPY,2026.06.08,05:00,1,41.9,40.8
+German Factory Orders m/m,EUR,2026.06.08,06:00,1,-2.2,5.0
+SECO Consumer Climate,CHF,2026.06.08,07:00,1,-38,-40
+Sentix Investor Confidence,EUR,2026.06.08,08:30,1,-13.8,-16.4
+Manufacturing Sales q/q,NZD,2026.06.08,22:45,1,0,0.6
+BRC Retail Sales Monitor y/y,GBP,2026.06.08,23:01,1,0.6,-3.4
+M2 Money Stock y/y,JPY,2026.06.08,23:50,1,2.4,2.3
+Westpac Consumer Sentiment,AUD,2026.06.09,00:30,1,0,3.5
+NAB Business Confidence,AUD,2026.06.09,01:30,1,0,-24
+Trade Balance,CNY,2026.06.09,02:03,1,637000000000.0,586000000000.0
+USD-Denominated Trade Balance,CNY,2026.06.09,02:04,1,88700000000.0,84800000000.0
+German Industrial Production m/m,EUR,2026.06.09,06:00,1,0.1,-0.7
+German Trade Balance,EUR,2026.06.09,06:00,1,14200000000.0,14300000000.0
+Prelim Machine Tool Orders y/y,JPY,2026.06.09,06:00,1,0,45.1
+NFIB Small Business Index,USD,2026.06.09,10:00,1,96.0,95.9
+ADP Weekly Employment Change,USD,2026.06.09,12:15,1,0,35800.0
+Trade Balance,CAD,2026.06.09,12:30,1,1900000000.0,1800000000.0
+Trade Balance,USD,2026.06.09,12:30,1,-55200000000.0,-60300000000.0
+Existing Home Sales,USD,2026.06.09,14:00,1,4080000.0,4019999.9999999995
+Final Wholesale Inventories m/m,USD,2026.06.09,14:00,1,0.6,0.5
+API Weekly Statistical Bulletin,USD,2026.06.09,20:30,1,0,0
+PPI y/y,JPY,2026.06.09,23:50,1,5.7,4.9
+CPI y/y,CNY,2026.06.10,01:30,1,1.3,1.2
+PPI y/y,CNY,2026.06.10,01:30,1,3.8,2.8
+30-y Bond Auction,JPY,2026.06.10,03:35,1,0,3.84
+Italian Industrial Production m/m,EUR,2026.06.10,08:00,1,0.1,0.7
+German 10-y Bond Auction,EUR,2026.06.10,09:42,1,0,3.16
+Core CPI m/m,USD,2026.06.10,12:30,3,0.5,0.4
+Core CPI y/y,USD,2026.06.10,12:30,3,2.9,2.8
+CPI m/m,USD,2026.06.10,12:30,3,0.3,0.6
+CPI y/y,USD,2026.06.10,12:30,3,4.2,3.8
+BOC Rate Statement,CAD,2026.06.10,13:45,3,0,0
+Overnight Rate,CAD,2026.06.10,13:45,3,2.25,2.25
+BOC Press Conference,CAD,2026.06.10,14:30,3,0,0
+Crude Oil Inventories,USD,2026.06.10,14:30,1,0,-8000000.0
+10-y Bond Auction,USD,2026.06.10,17:01,1,0,4.47
+Federal Budget Balance,USD,2026.06.10,18:00,1,0,215000000000.0
+RICS House Price Balance,GBP,2026.06.10,23:01,1,0,-34
+BSI Manufacturing Index,JPY,2026.06.10,23:50,1,0,3.8
+MI Inflation Expectations,AUD,2026.06.11,01:00,1,0,5.6
+German WPI m/m,EUR,2026.06.11,06:00,1,0,2.0
+M2 Money Supply y/y,CNY,2026.06.11,08:03,1,8.6,8.6
+New Loans,CNY,2026.06.11,08:03,1,540000000000.0,-10000000000.0
+Eurogroup Meetings,EUR,2026.06.11,09:15,1,0,0
+Main Refinancing Rate,EUR,2026.06.11,12:15,3,2.40,2.15
+Monetary Policy Statement,EUR,2026.06.11,12:15,3,0,0
+Building Permits m/m,CAD,2026.06.11,12:30,1,0,10.3
+Core PPI m/m,USD,2026.06.11,12:30,3,0.5,1.0
+PPI m/m,USD,2026.06.11,12:30,3,0.7,1.4
+Unemployment Claims,USD,2026.06.11,12:30,2,0,225000.0
+ECB Press Conference,EUR,2026.06.11,12:45,3,0,0
+Natural Gas Storage,USD,2026.06.11,14:30,1,0,95000000000.0
+30-y Bond Auction,USD,2026.06.11,17:01,1,0,5.05
+BusinessNZ Manufacturing Index,NZD,2026.06.11,22:30,1,0,50.5
+Visitor Arrivals m/m,NZD,2026.06.11,22:45,1,0,-3.0
+Revised Industrial Production m/m,JPY,2026.06.12,04:30,1,0,0.8
+German Final CPI m/m,EUR,2026.06.12,06:00,1,0,-0.2
+GDP m/m,GBP,2026.06.12,06:00,3,0,0.3
+Construction Output m/m,GBP,2026.06.12,06:00,1,0,1.5
+Goods Trade Balance,GBP,2026.06.12,06:00,1,0,-27200000000.0
+Index of Services 3m/3m,GBP,2026.06.12,06:00,1,0,0.8
+Industrial Production m/m,GBP,2026.06.12,06:00,1,0,-0.2
+Manufacturing Production m/m,GBP,2026.06.12,06:00,1,0,1.2
+French Final CPI m/m,EUR,2026.06.12,06:45,1,0,0.1
+Consumer Inflation Expectations,GBP,2026.06.12,08:30,1,0,3.2
+ECOFIN Meetings,EUR,2026.06.12,09:15,1,0,0
+Capacity Utilization Rate,CAD,2026.06.12,12:30,1,0,78.5
+CB Leading Index m/m,GBP,2026.06.12,13:30,1,0,-0.7
+Prelim UoM Consumer Sentiment,USD,2026.06.12,14:00,2,46.6,48.2
+Prelim UoM Inflation Expectations,USD,2026.06.12,14:00,2,0,4.5
+German Buba President Nagel Speaks,EUR,2026.06.12,14:30,1,0,0
