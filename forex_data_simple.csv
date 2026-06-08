@@ -14,19 +14,19 @@ BRC Retail Sales Monitor y/y,GBP,2026.06.08,23:01,1,0.6,-3.4
 M2 Money Stock y/y,JPY,2026.06.08,23:50,1,2.4,2.3
 Westpac Consumer Sentiment,AUD,2026.06.09,00:30,1,0,3.5
 NAB Business Confidence,AUD,2026.06.09,01:30,1,0,-24
-Trade Balance,CNY,2026.06.09,02:03,1,637000000000.0,586000000000.0
-USD-Denominated Trade Balance,CNY,2026.06.09,02:04,1,88700000000.0,84800000000.0
-German Industrial Production m/m,EUR,2026.06.09,06:00,1,0.1,-0.7
-German Trade Balance,EUR,2026.06.09,06:00,1,14200000000.0,14300000000.0
+Trade Balance,CNY,2026.06.09,02:03,1,634000000000.0,586000000000.0
+USD-Denominated Trade Balance,CNY,2026.06.09,02:04,1,91800000000.0,84800000000.0
+German Industrial Production m/m,EUR,2026.06.09,06:00,1,0.3,-0.7
+German Trade Balance,EUR,2026.06.09,06:00,1,15200000000.0,14300000000.0
 Prelim Machine Tool Orders y/y,JPY,2026.06.09,06:00,1,0,45.1
 NFIB Small Business Index,USD,2026.06.09,10:00,1,96.0,95.9
 ADP Weekly Employment Change,USD,2026.06.09,12:15,1,0,35800.0
-Trade Balance,CAD,2026.06.09,12:30,1,1900000000.0,1800000000.0
-Trade Balance,USD,2026.06.09,12:30,1,-55200000000.0,-60300000000.0
-Existing Home Sales,USD,2026.06.09,14:00,1,4080000.0,4019999.9999999995
+Trade Balance,CAD,2026.06.09,12:30,1,2500000000.0,1800000000.0
+Trade Balance,USD,2026.06.09,12:30,1,-56400000000.0,-60300000000.0
+Existing Home Sales,USD,2026.06.09,14:00,1,4059999.9999999995,4019999.9999999995
 Final Wholesale Inventories m/m,USD,2026.06.09,14:00,1,0.6,0.5
 API Weekly Statistical Bulletin,USD,2026.06.09,20:30,1,0,0
-PPI y/y,JPY,2026.06.09,23:50,1,5.7,4.9
+PPI y/y,JPY,2026.06.09,23:50,1,5.6,4.9
 CPI y/y,CNY,2026.06.10,01:30,1,1.3,1.2
 PPI y/y,CNY,2026.06.10,01:30,1,3.8,2.8
 30-y Bond Auction,JPY,2026.06.10,03:35,1,0,3.84
@@ -41,37 +41,37 @@ Overnight Rate,CAD,2026.06.10,13:45,3,2.25,2.25
 BOC Press Conference,CAD,2026.06.10,14:30,3,0,0
 Crude Oil Inventories,USD,2026.06.10,14:30,1,0,-8000000.0
 10-y Bond Auction,USD,2026.06.10,17:01,1,0,4.47
-Federal Budget Balance,USD,2026.06.10,18:00,1,0,215000000000.0
-RICS House Price Balance,GBP,2026.06.10,23:01,1,0,-34
-BSI Manufacturing Index,JPY,2026.06.10,23:50,1,0,3.8
+Federal Budget Balance,USD,2026.06.10,18:00,1,-276400000000.0,215000000000.0
+RICS House Price Balance,GBP,2026.06.10,23:01,1,-32,-34
+BSI Manufacturing Index,JPY,2026.06.10,23:50,1,4.2,3.8
 MI Inflation Expectations,AUD,2026.06.11,01:00,1,0,5.6
 M2 Money Supply y/y,CNY,2026.06.11,08:03,1,8.6,8.6
 New Loans,CNY,2026.06.11,08:03,1,540000000000.0,-10000000000.0
 Eurogroup Meetings,EUR,2026.06.11,09:15,1,0,0
 Main Refinancing Rate,EUR,2026.06.11,12:15,3,2.40,2.15
 Monetary Policy Statement,EUR,2026.06.11,12:15,3,0,0
-Building Permits m/m,CAD,2026.06.11,12:30,1,0,10.3
+Building Permits m/m,CAD,2026.06.11,12:30,1,-3.8,10.3
 Core PPI m/m,USD,2026.06.11,12:30,3,0.5,1.0
 PPI m/m,USD,2026.06.11,12:30,3,0.7,1.4
-Unemployment Claims,USD,2026.06.11,12:30,2,0,225000.0
+Unemployment Claims,USD,2026.06.11,12:30,2,219000.0,225000.0
 ECB Press Conference,EUR,2026.06.11,12:45,3,0,0
 Natural Gas Storage,USD,2026.06.11,14:30,1,0,95000000000.0
 30-y Bond Auction,USD,2026.06.11,17:01,1,0,5.05
 BusinessNZ Manufacturing Index,NZD,2026.06.11,22:30,1,0,50.5
 Visitor Arrivals m/m,NZD,2026.06.11,22:45,1,0,-3.0
-Revised Industrial Production m/m,JPY,2026.06.12,04:30,1,0,0.8
-German Final CPI m/m,EUR,2026.06.12,06:00,1,0,-0.2
-GDP m/m,GBP,2026.06.12,06:00,3,0,0.3
-Construction Output m/m,GBP,2026.06.12,06:00,1,0,1.5
-Goods Trade Balance,GBP,2026.06.12,06:00,1,0,-27200000000.0
-Index of Services 3m/3m,GBP,2026.06.12,06:00,1,0,0.8
-Industrial Production m/m,GBP,2026.06.12,06:00,1,0,-0.2
-Manufacturing Production m/m,GBP,2026.06.12,06:00,1,0,1.2
-French Final CPI m/m,EUR,2026.06.12,06:45,1,0,0.1
+Revised Industrial Production m/m,JPY,2026.06.12,04:30,1,0.9,0.8
+German Final CPI m/m,EUR,2026.06.12,06:00,1,-0.2,-0.2
+GDP m/m,GBP,2026.06.12,06:00,3,-0.1,0.3
+Construction Output m/m,GBP,2026.06.12,06:00,1,-0.6,1.5
+Goods Trade Balance,GBP,2026.06.12,06:00,1,-22700000000.0,-27200000000.0
+Index of Services 3m/3m,GBP,2026.06.12,06:00,1,0.8,0.8
+Industrial Production m/m,GBP,2026.06.12,06:00,1,0.1,-0.2
+Manufacturing Production m/m,GBP,2026.06.12,06:00,1,-0.2,1.2
+French Final CPI m/m,EUR,2026.06.12,06:45,1,0.1,0.1
 Consumer Inflation Expectations,GBP,2026.06.12,08:30,1,0,3.2
 ECOFIN Meetings,EUR,2026.06.12,09:15,1,0,0
 Capacity Utilization Rate,CAD,2026.06.12,12:30,1,0,78.5
 CB Leading Index m/m,GBP,2026.06.12,13:30,1,0,-0.7
-Prelim UoM Consumer Sentiment,USD,2026.06.12,14:00,2,46.6,48.2
+Prelim UoM Consumer Sentiment,USD,2026.06.12,14:00,2,46.1,48.2
 Prelim UoM Inflation Expectations,USD,2026.06.12,14:00,2,0,4.5
 German Buba President Nagel Speaks,EUR,2026.06.12,14:30,1,0,0
