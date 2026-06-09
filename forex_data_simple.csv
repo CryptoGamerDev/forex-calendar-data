@@ -28,7 +28,7 @@ Final Wholesale Inventories m/m,USD,2026.06.09,14:00,1,0.6,0.5
 API Weekly Statistical Bulletin,USD,2026.06.09,20:30,1,0,0
 PPI y/y,JPY,2026.06.09,23:50,1,5.6,4.9
 CPI y/y,CNY,2026.06.10,01:30,1,1.3,1.2
-PPI y/y,CNY,2026.06.10,01:30,1,3.8,2.8
+PPI y/y,CNY,2026.06.10,01:30,1,3.9,2.8
 30-y Bond Auction,JPY,2026.06.10,03:35,1,0,3.84
 Italian Industrial Production m/m,EUR,2026.06.10,08:00,1,0.0,0.7
 German 10-y Bond Auction,EUR,2026.06.10,09:42,1,0,3.16
@@ -39,9 +39,9 @@ CPI y/y,USD,2026.06.10,12:30,3,4.2,3.8
 BOC Rate Statement,CAD,2026.06.10,13:45,3,0,0
 Overnight Rate,CAD,2026.06.10,13:45,3,2.25,2.25
 BOC Press Conference,CAD,2026.06.10,14:30,3,0,0
-Crude Oil Inventories,USD,2026.06.10,14:30,1,-5100000.0,-8000000.0
+Crude Oil Inventories,USD,2026.06.10,14:30,1,-3000000.0,-8000000.0
 10-y Bond Auction,USD,2026.06.10,17:01,1,0,4.47
-Federal Budget Balance,USD,2026.06.10,18:00,1,-280900000000.0,215000000000.0
+Federal Budget Balance,USD,2026.06.10,18:00,1,-282900000000.0,215000000000.0
 RICS House Price Balance,GBP,2026.06.10,23:01,1,-32,-34
 BSI Manufacturing Index,JPY,2026.06.10,23:50,1,4.2,3.8
 MI Inflation Expectations,AUD,2026.06.11,01:00,1,0,5.6
@@ -55,7 +55,7 @@ Core PPI m/m,USD,2026.06.11,12:30,3,0.5,1.0
 PPI m/m,USD,2026.06.11,12:30,3,0.7,1.4
 Unemployment Claims,USD,2026.06.11,12:30,2,220000.0,225000.0
 ECB Press Conference,EUR,2026.06.11,12:45,3,0,0
-Natural Gas Storage,USD,2026.06.11,14:30,1,0,95000000000.0
+Natural Gas Storage,USD,2026.06.11,14:30,1,101000000000.0,95000000000.0
 30-y Bond Auction,USD,2026.06.11,17:01,1,0,5.05
 BusinessNZ Manufacturing Index,NZD,2026.06.11,22:30,1,0,50.5
 Visitor Arrivals m/m,NZD,2026.06.11,22:45,1,0,-3.0
@@ -70,7 +70,6 @@ Manufacturing Production m/m,GBP,2026.06.12,06:00,1,-0.2,1.2
 French Final CPI m/m,EUR,2026.06.12,06:45,1,0.1,0.1
 Consumer Inflation Expectations,GBP,2026.06.12,08:30,1,0,3.2
 ECOFIN Meetings,EUR,2026.06.12,09:15,1,0,0
-Capacity Utilization Rate,CAD,2026.06.12,12:30,1,78.6,78.5
 CB Leading Index m/m,GBP,2026.06.12,13:30,1,0,-0.7
 Prelim UoM Consumer Sentiment,USD,2026.06.12,14:00,2,46.1,48.2
 Prelim UoM Inflation Expectations,USD,2026.06.12,14:00,2,0,4.5
