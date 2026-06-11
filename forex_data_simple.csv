@@ -45,8 +45,6 @@ Federal Budget Balance,USD,2026.06.10,17:59,1,-282900000000.0,215000000000.0
 RICS House Price Balance,GBP,2026.06.10,23:01,1,-32,-34
 BSI Manufacturing Index,JPY,2026.06.10,23:50,1,4.2,3.8
 MI Inflation Expectations,AUD,2026.06.11,01:00,1,0,5.6
-M2 Money Supply y/y,CNY,2026.06.11,08:03,1,8.6,8.6
-New Loans,CNY,2026.06.11,08:03,1,450000000000.0,-10000000000.0
 Eurogroup Meetings,EUR,2026.06.11,09:15,1,0,0
 Main Refinancing Rate,EUR,2026.06.11,12:15,3,2.40,2.15
 Monetary Policy Statement,EUR,2026.06.11,12:15,3,0,0
@@ -68,6 +66,8 @@ Index of Services 3m/3m,GBP,2026.06.12,06:00,1,0.8,0.8
 Industrial Production m/m,GBP,2026.06.12,06:00,1,0.1,-0.2
 Manufacturing Production m/m,GBP,2026.06.12,06:00,1,-0.2,1.2
 French Final CPI m/m,EUR,2026.06.12,06:45,1,0.1,0.1
+M2 Money Supply y/y,CNY,2026.06.12,08:03,1,8.6,8.6
+New Loans,CNY,2026.06.12,08:03,1,450000000000.0,-10000000000.0
 Consumer Inflation Expectations,GBP,2026.06.12,08:30,1,0,3.2
 ECOFIN Meetings,EUR,2026.06.12,09:15,1,0,0
 CB Leading Index m/m,GBP,2026.06.12,13:30,1,0,-0.7
