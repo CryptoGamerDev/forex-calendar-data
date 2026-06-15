@@ -21,7 +21,7 @@ NAHB Housing Market Index,USD,2026.06.15,14:00,1,36,37
 FPI m/m,NZD,2026.06.15,22:45,1,0,0.0
 New Home Prices m/m,CNY,2026.06.16,01:30,1,0,-0.19
 Fixed Asset Investment ytd/y,CNY,2026.06.16,02:00,1,-2.3,-1.6
-Industrial Production y/y,CNY,2026.06.16,02:00,1,4.3,4.1
+Industrial Production y/y,CNY,2026.06.16,02:00,1,4.4,4.1
 NBS Press Conference,CNY,2026.06.16,02:00,1,0,0
 Retail Sales y/y,CNY,2026.06.16,02:00,1,-0.2,0.2
 Unemployment Rate,CNY,2026.06.16,02:00,1,5.2,5.2
@@ -38,13 +38,13 @@ ZEW Economic Sentiment,EUR,2026.06.16,09:00,1,-7.6,-9.1
 ADP Weekly Employment Change,USD,2026.06.16,12:15,1,0,29000.0
 Foreign Securities Purchases,CAD,2026.06.16,12:30,1,11280000000.0,4620000000.0
 Building Permits,USD,2026.06.16,12:30,1,1420000.0,1440000.0
-Housing Starts,USD,2026.06.16,12:30,1,1420000.0,1470000.0
+Housing Starts,USD,2026.06.16,12:30,1,1430000.0,1470000.0
 Import Prices m/m,USD,2026.06.16,12:30,1,0.9,1.9
 GDT Price Index,NZD,2026.06.16,14:50,1,0,-0.6
 API Weekly Statistical Bulletin,USD,2026.06.16,20:30,1,0,0
 Westpac Consumer Sentiment,NZD,2026.06.16,21:00,1,0,0
 Current Account,NZD,2026.06.16,22:45,1,-1190000000.0,-5980000000.0
-Core Machinery Orders m/m,JPY,2026.06.16,23:50,1,4.1,-9.4
+Core Machinery Orders m/m,JPY,2026.06.16,23:50,1,2.1,-9.4
 Trade Balance,JPY,2026.06.16,23:50,1,-0.21T,0.24T
 MI Leading Index m/m,AUD,2026.06.17,00:30,1,0,0.0
 RBA Assist Gov Jones Speaks,AUD,2026.06.17,01:30,1,0,0
@@ -58,11 +58,11 @@ G7 Meetings,All,2026.06.17,08:45,1,0,0
 Final Core CPI y/y,EUR,2026.06.17,09:00,1,2.5,2.5
 Final CPI y/y,EUR,2026.06.17,09:00,1,3.2,3.2
 NHPI m/m,CAD,2026.06.17,12:30,1,-0.1,-0.4
-Core Retail Sales m/m,USD,2026.06.17,12:30,2,0.5,0.7
+Core Retail Sales m/m,USD,2026.06.17,12:30,2,0.6,0.7
 Retail Sales m/m,USD,2026.06.17,12:30,2,0.5,0.5
 President Trump Speaks,USD,2026.06.17,13:30,2,0,0
 Business Inventories m/m,USD,2026.06.17,14:00,1,0.5,0.9
-Pending Home Sales m/m,USD,2026.06.17,14:00,1,1.3,1.4
+Pending Home Sales m/m,USD,2026.06.17,14:00,1,0.9,1.4
 Crude Oil Inventories,USD,2026.06.17,14:30,1,0,-7200000.0
 Federal Funds Rate,USD,2026.06.17,18:00,3,3.75,3.75
 FOMC Economic Projections,USD,2026.06.17,18:00,3,0,0
@@ -83,9 +83,9 @@ German Buba Monthly Report,EUR,2026.06.18,10:00,1,0,0
 Monetary Policy Summary,GBP,2026.06.18,11:00,3,0,0
 MPC Official Bank Rate Votes,GBP,2026.06.18,11:00,3,1-0-8,1-0-8
 Official Bank Rate,GBP,2026.06.18,11:00,3,3.75,3.75
-IPPI m/m,CAD,2026.06.18,12:30,1,1.4,2.0
-RMPI m/m,CAD,2026.06.18,12:30,1,1.8,2.6
-Philly Fed Manufacturing Index,USD,2026.06.18,12:30,2,11.4,-0.4
+IPPI m/m,CAD,2026.06.18,12:30,1,1.3,2.0
+RMPI m/m,CAD,2026.06.18,12:30,1,1.4,2.6
+Philly Fed Manufacturing Index,USD,2026.06.18,12:30,2,9.8,-0.4
 Unemployment Claims,USD,2026.06.18,12:30,2,225000.0,229000.0
 CB Leading Index m/m,USD,2026.06.18,14:00,1,0.1,0.1
 Natural Gas Storage,USD,2026.06.18,14:30,1,0,108000000000.0
@@ -95,10 +95,10 @@ GfK Consumer Confidence,GBP,2026.06.18,23:01,1,-23,-23
 Bank Holiday,CNY,2026.06.18,23:01,0,0,0
 National Core CPI y/y,JPY,2026.06.18,23:30,1,1.4,1.4
 Monetary Policy Meeting Minutes,JPY,2026.06.18,23:50,1,0,0
-German PPI m/m,EUR,2026.06.19,06:00,1,0.8,1.2
+German PPI m/m,EUR,2026.06.19,06:00,1,0.7,1.2
 Retail Sales m/m,GBP,2026.06.19,06:00,2,0.5,-1.3
-Public Sector Net Borrowing,GBP,2026.06.19,06:00,1,18900000000.0,24300000000.0
+Public Sector Net Borrowing,GBP,2026.06.19,06:00,1,19000000000.0,24300000000.0
 Bank Holiday,USD,2026.06.19,12:00,0,0,0
-Core Retail Sales m/m,CAD,2026.06.19,12:30,1,0.7,1.4
+Core Retail Sales m/m,CAD,2026.06.19,12:30,1,0.8,1.4
 Retail Sales m/m,CAD,2026.06.19,12:30,1,0.6,0.9
 CB Leading Index m/m,AUD,2026.06.19,14:30,1,0,-0.6
