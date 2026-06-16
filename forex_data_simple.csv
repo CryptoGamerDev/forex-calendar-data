@@ -40,11 +40,11 @@ Foreign Securities Purchases,CAD,2026.06.16,12:30,1,8160000000.0,4620000000.0
 Building Permits,USD,2026.06.16,12:30,1,1420000.0,1440000.0
 Housing Starts,USD,2026.06.16,12:30,1,1430000.0,1470000.0
 Import Prices m/m,USD,2026.06.16,12:30,1,0.9,1.9
-GDT Price Index,NZD,2026.06.16,14:50,1,0,-0.6
+GDT Price Index,NZD,2026.06.16,15:14,1,0,-0.6
 API Weekly Statistical Bulletin,USD,2026.06.16,20:30,1,0,0
 Westpac Consumer Sentiment,NZD,2026.06.16,21:00,1,0,94.7
-Current Account,NZD,2026.06.16,22:45,1,-1030000000.0,-5980000000.0
-Core Machinery Orders m/m,JPY,2026.06.16,23:50,1,2.1,-9.4
+Current Account,NZD,2026.06.16,22:45,1,-1010000000.0,-5980000000.0
+Core Machinery Orders m/m,JPY,2026.06.16,23:50,1,1.2,-9.4
 Trade Balance,JPY,2026.06.16,23:50,1,-0.21T,0.24T
 MI Leading Index m/m,AUD,2026.06.17,00:30,1,0,0.0
 RBA Assist Gov Jones Speaks,AUD,2026.06.17,01:30,1,0,0
@@ -64,7 +64,7 @@ Retail Sales m/m,USD,2026.06.17,12:30,2,0.5,0.5
 President Trump Speaks,USD,2026.06.17,13:30,2,0,0
 Business Inventories m/m,USD,2026.06.17,14:00,1,0.5,0.9
 Pending Home Sales m/m,USD,2026.06.17,14:00,1,0.8,1.4
-Crude Oil Inventories,USD,2026.06.17,14:30,1,0,-7200000.0
+Crude Oil Inventories,USD,2026.06.17,14:30,1,-3600000.0,-7200000.0
 Federal Funds Rate,USD,2026.06.17,18:00,3,3.75,3.75
 FOMC Economic Projections,USD,2026.06.17,18:00,3,0,0
 FOMC Statement,USD,2026.06.17,18:00,3,0,0
@@ -87,9 +87,9 @@ Official Bank Rate,GBP,2026.06.18,11:00,3,3.75,3.75
 IPPI m/m,CAD,2026.06.18,12:30,1,1.3,2.0
 RMPI m/m,CAD,2026.06.18,12:30,1,1.1,2.6
 Philly Fed Manufacturing Index,USD,2026.06.18,12:30,2,9.8,-0.4
-Unemployment Claims,USD,2026.06.18,12:30,2,225000.0,229000.0
+Unemployment Claims,USD,2026.06.18,12:30,2,226000.0,229000.0
 CB Leading Index m/m,USD,2026.06.18,14:00,1,0.1,0.1
-Natural Gas Storage,USD,2026.06.18,14:30,1,0,108000000000.0
+Natural Gas Storage,USD,2026.06.18,14:30,1,95000000000.0,108000000000.0
 TIC Long-Term Purchases,USD,2026.06.18,20:00,1,72500000000.0,81300000000.0
 Trade Balance,NZD,2026.06.18,22:45,1,875000000.0,1920000000.0
 GfK Consumer Confidence,GBP,2026.06.18,23:01,1,-23,-23
