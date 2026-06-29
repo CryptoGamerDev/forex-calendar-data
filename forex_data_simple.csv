@@ -79,7 +79,7 @@ Goods Trade Balance,AUD,2026.07.02,01:30,1,2190000000.0,1790000000.0
 SNB Financial Stability Report,CHF,2026.07.02,04:30,1,0,0
 CPI m/m,CHF,2026.07.02,06:30,2,0.1,0.2
 French Gov Budget Balance,EUR,2026.07.02,06:45,1,0,-69600000000.0
-Spanish Unemployment Change,EUR,2026.07.02,07:00,1,0,-36300.0
+Spanish Unemployment Change,EUR,2026.07.02,07:00,1,-40800.0,-36300.0
 Italian Monthly Unemployment Rate,EUR,2026.07.02,08:00,1,5.1,5.1
 BOE Credit Conditions Survey,GBP,2026.07.02,08:30,1,0,0
 Unemployment Rate,EUR,2026.07.02,09:00,1,6.3,6.3
@@ -88,23 +88,23 @@ French 10-y Bond Auction,EUR,2026.07.02,09:18,1,0,3.80
 10-y Bond Auction,GBP,2026.07.02,09:33,1,0,4.86
 FOMC Member Daly Speaks,USD,2026.07.02,11:45,1,0,0
 Average Hourly Earnings m/m,USD,2026.07.02,12:30,3,0.3,0.3
-Non-Farm Employment Change,USD,2026.07.02,12:30,3,114000.0,172000.0
+Non-Farm Employment Change,USD,2026.07.02,12:30,3,110000.0,172000.0
 Unemployment Rate,USD,2026.07.02,12:30,3,4.3,4.3
-Unemployment Claims,USD,2026.07.02,12:30,2,220000.0,215000.0
+Unemployment Claims,USD,2026.07.02,12:30,2,219000.0,215000.0
 Manufacturing PMI,CAD,2026.07.02,13:30,1,0,52.9
-Factory Orders m/m,USD,2026.07.02,14:00,1,2.1,4.8
+Factory Orders m/m,USD,2026.07.02,14:00,1,-1.7,4.8
 Natural Gas Storage,USD,2026.07.02,14:30,1,0,76000000000.0
 MPC Member Mann Speaks,GBP,2026.07.02,15:45,1,0,0
-RatingDog Services PMI,CNY,2026.07.03,01:45,1,53.6,54.4
+RatingDog Services PMI,CNY,2026.07.03,01:45,1,53.0,54.4
 French Industrial Production m/m,EUR,2026.07.03,06:45,1,-0.3,0.1
-Spanish Services PMI,EUR,2026.07.03,07:15,1,50.8,50.1
-Italian Services PMI,EUR,2026.07.03,07:45,1,50.2,49.4
+Spanish Services PMI,EUR,2026.07.03,07:15,1,51.0,50.1
+Italian Services PMI,EUR,2026.07.03,07:45,1,50.3,49.4
 French Final Services PMI,EUR,2026.07.03,07:50,1,47.4,47.4
-German Final Services PMI,EUR,2026.07.03,07:55,1,46.8,46.8
+German Final Services PMI,EUR,2026.07.03,07:55,1,46.9,46.8
 ECB President Lagarde Speaks,EUR,2026.07.03,08:00,2,0,0
 Final Services PMI,EUR,2026.07.03,08:00,1,48.9,48.9
-Italian Retail Sales m/m,EUR,2026.07.03,08:00,1,0.1,0.0
-Final Services PMI,GBP,2026.07.03,08:30,1,48.7,48.7
+Italian Retail Sales m/m,EUR,2026.07.03,08:00,1,0.2,0.0
+Final Services PMI,GBP,2026.07.03,08:30,1,48.8,48.7
 Bank Holiday,USD,2026.07.03,12:00,0,0,0
 German Buba President Nagel Speaks,EUR,2026.07.03,15:00,1,0,0
 BOE Gov Bailey Speaks,GBP,2026.07.03,15:00,2,0,0
