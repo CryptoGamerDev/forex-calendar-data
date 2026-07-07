@@ -44,7 +44,8 @@ Economy Watchers Sentiment,JPY,2026.07.08,05:00,1,44.3,43.6
 German 10-y Bond Auction,EUR,2026.07.08,09:42,1,0,2.96
 German Buba President Nagel Speaks,EUR,2026.07.08,11:30,1,0,0
 Final Wholesale Inventories m/m,USD,2026.07.08,14:00,1,0.3,0.3
-Crude Oil Inventories,USD,2026.07.08,14:30,1,-1000000.0,-3800000.0
+Crude Oil Inventories,USD,2026.07.08,14:30,1,-1900000.0,-3800000.0
+SNB Chairman Schlegel Speaks,CHF,2026.07.08,16:40,2,0,0
 10-y Bond Auction,USD,2026.07.08,17:01,1,0,4.54
 FOMC Meeting Minutes,USD,2026.07.08,18:00,3,0,0
 Consumer Credit m/m,USD,2026.07.08,19:00,1,16899999999.999998,20700000000.0
@@ -60,7 +61,7 @@ ECB Monetary Policy Meeting Accounts,EUR,2026.07.09,11:30,1,0,0
 Unemployment Claims,USD,2026.07.09,12:30,2,218000.0,215000.0
 FOMC Member Williams Speaks,USD,2026.07.09,13:00,1,0,0
 Existing Home Sales,USD,2026.07.09,14:00,1,4190000.0000000005,4170000.0
-Natural Gas Storage,USD,2026.07.09,14:30,1,0,87000000000.0
+Natural Gas Storage,USD,2026.07.09,14:30,1,60000000000.0,87000000000.0
 Gov Board Member Martin Speaks,CHF,2026.07.09,16:00,1,0,0
 30-y Bond Auction,USD,2026.07.09,17:01,1,0,5.02
 Bank Holiday,NZD,2026.07.09,20:00,0,0,0
