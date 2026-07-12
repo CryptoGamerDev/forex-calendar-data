@@ -1,77 +1,99 @@
 Title,Country,Date,Time24h,Importance,Forecast,Previous
-MI Inflation Gauge m/m,AUD,2026.07.06,01:00,1,0,-0.3
-ANZ Commodity Prices m/m,NZD,2026.07.06,01:00,1,0,0.7
-ANZ Job Advertisements m/m,AUD,2026.07.06,01:30,1,0,1.8
-German Factory Orders m/m,EUR,2026.07.06,06:00,1,1.1,-3.8
-Unemployment Rate,CHF,2026.07.06,07:00,1,3.1,3.1
-Sentix Investor Confidence,EUR,2026.07.06,08:30,1,-8.9,-13.4
-Construction PMI,GBP,2026.07.06,08:30,1,40.1,38.2
-Housing Equity Withdrawal q/q,GBP,2026.07.06,08:30,1,-14500000000.0,-13800000000.0
-PPI m/m,EUR,2026.07.06,09:00,1,0.2,0.6
-Retail Sales m/m,EUR,2026.07.06,09:00,1,0.2,-0.4
-Final Services PMI,USD,2026.07.06,13:45,1,51.4,51.3
-ISM Services PMI,USD,2026.07.06,14:00,3,54.2,54.5
-FOMC Member Waller Speaks,USD,2026.07.06,15:00,1,0,0
-BOC Business Outlook Survey,CAD,2026.07.06,15:30,1,0,0
-Average Cash Earnings y/y,JPY,2026.07.06,23:30,1,3.4,3.5
-Household Spending y/y,JPY,2026.07.06,23:30,1,-2.3,-0.5
-30-y Bond Auction,JPY,2026.07.07,03:35,1,0,3.86
-Leading Indicators,JPY,2026.07.07,05:00,1,116.9,115.9
-German Industrial Production m/m,EUR,2026.07.07,06:00,1,0.1,0.4
-Lloyds HPI m/m,GBP,2026.07.07,06:03,1,0.1,-0.1
-French Trade Balance,EUR,2026.07.07,06:45,1,-5900000000.0,-5600000000.0
-Foreign Currency Reserves,CHF,2026.07.07,07:00,1,0,711000000000.0
-BOE Financial Stability Report,GBP,2026.07.07,09:30,1,0,0
-FPC Meeting Minutes,GBP,2026.07.07,09:30,1,0,0
-FPC Statement,GBP,2026.07.07,09:30,1,0,0
-BOE Gov Bailey Speaks,GBP,2026.07.07,10:30,2,0,0
-FOMC Member Bowman Speaks,USD,2026.07.07,11:00,1,0,0
-ADP Weekly Employment Change,USD,2026.07.07,12:14,1,0,30800.0
-ADP Weekly Employment Change,USD,2026.07.07,12:15,1,0,24300.0
-Trade Balance,CAD,2026.07.07,12:30,1,2800000000.0,2700000000.0
-Trade Balance,USD,2026.07.07,12:30,1,-78300000000.0,-55900000000.0
-Ivey PMI,CAD,2026.07.07,14:00,2,59.1,58.2
-RCM/TIPP Economic Optimism,USD,2026.07.07,14:04,1,45.0,42.5
-GDT Price Index,NZD,2026.07.07,15:16,1,0,-2.8
-API Weekly Statistical Bulletin,USD,2026.07.07,20:30,1,0,0
-Bank Lending y/y,JPY,2026.07.07,23:50,1,5.8,5.7
-Current Account,JPY,2026.07.07,23:50,1,3.19T,4.21T
-RBA Assist Gov Hunter Speaks,AUD,2026.07.08,01:00,1,0,0
-Official Cash Rate,NZD,2026.07.08,02:00,3,2.50,2.25
-RBNZ Rate Statement,NZD,2026.07.08,02:00,3,0,0
-RBNZ Press Conference,NZD,2026.07.08,03:00,3,0,0
-Economy Watchers Sentiment,JPY,2026.07.08,05:00,1,44.3,43.6
-German 10-y Bond Auction,EUR,2026.07.08,09:41,1,0,2.96
-German Buba President Nagel Speaks,EUR,2026.07.08,11:30,1,0,0
-Final Wholesale Inventories m/m,USD,2026.07.08,14:00,1,0.3,0.3
-Crude Oil Inventories,USD,2026.07.08,14:30,1,-1900000.0,-3800000.0
-SNB Chairman Schlegel Speaks,CHF,2026.07.08,16:40,2,0,0
-10-y Bond Auction,USD,2026.07.08,17:01,1,0,4.54
-FOMC Meeting Minutes,USD,2026.07.08,18:00,3,0,0
-Consumer Credit m/m,USD,2026.07.08,19:00,1,16899999999.999998,20700000000.0
-BusinessNZ Manufacturing Index,NZD,2026.07.08,22:30,1,0,49.9
-RICS House Price Balance,GBP,2026.07.08,23:01,1,-31,-35
-M2 Money Stock y/y,JPY,2026.07.08,23:50,1,2.4,2.5
-CPI y/y,CNY,2026.07.09,01:30,1,1.1,1.2
-PPI y/y,CNY,2026.07.09,01:30,1,4.1,3.9
-German Trade Balance,EUR,2026.07.09,06:00,1,14900000000.0,14500000000.0
-Prelim Machine Tool Orders y/y,JPY,2026.07.09,06:00,1,0,37.4
-Eurogroup Meetings,EUR,2026.07.09,09:15,1,0,0
-ECB Monetary Policy Meeting Accounts,EUR,2026.07.09,11:30,1,0,0
-Unemployment Claims,USD,2026.07.09,12:30,2,218000.0,215000.0
-FOMC Member Williams Speaks,USD,2026.07.09,13:00,1,0,0
-Existing Home Sales,USD,2026.07.09,14:00,1,4190000.0000000005,4170000.0
-Natural Gas Storage,USD,2026.07.09,14:30,1,60000000000.0,87000000000.0
-Gov Board Member Martin Speaks,CHF,2026.07.09,16:00,1,0,0
-30-y Bond Auction,USD,2026.07.09,17:01,1,0,5.02
-Bank Holiday,NZD,2026.07.09,20:00,0,0,0
-PPI y/y,JPY,2026.07.09,23:50,1,6.8,6.3
-German Final CPI m/m,EUR,2026.07.10,06:00,1,-0.3,-0.3
-French Final CPI m/m,EUR,2026.07.10,06:45,1,-0.2,-0.2
-SECO Consumer Climate,CHF,2026.07.10,07:00,1,-35,-38
-Italian Industrial Production m/m,EUR,2026.07.10,08:00,1,-0.1,0.5
-ECOFIN Meetings,EUR,2026.07.10,09:15,1,0,0
-Employment Change,CAD,2026.07.10,12:30,3,11200.0,87800.0
-Unemployment Rate,CAD,2026.07.10,12:30,3,6.6,6.6
-Building Permits m/m,CAD,2026.07.10,12:30,1,1.0,-7.6
-Fed Monetary Policy Report,USD,2026.07.10,15:00,1,0,0
+BusinessNZ Services Index,NZD,2026.07.12,22:30,1,0,47.5
+M2 Money Supply y/y,CNY,2026.07.13,08:03,1,8.5,8.6
+New Loans,CNY,2026.07.13,08:03,1,1950000000000.0,520000000000.0
+FOMC Member Bowman Speaks,USD,2026.07.13,09:25,1,0,0
+FOMC Member Waller Speaks,USD,2026.07.13,16:30,1,0,0
+MPC Member Pill Speaks,GBP,2026.07.13,18:00,1,0,0
+Federal Budget Balance,USD,2026.07.13,18:00,1,-132800000000.00002,-292600000000.0
+NZIER Business Confidence,NZD,2026.07.13,22:00,1,0,-4
+Visitor Arrivals m/m,NZD,2026.07.13,22:45,1,0,2.3
+BRC Retail Sales Monitor y/y,GBP,2026.07.13,23:01,1,2.9,3.4
+Westpac Consumer Sentiment,AUD,2026.07.14,00:30,1,0,-2.9
+NAB Business Confidence,AUD,2026.07.14,01:30,1,0,-14
+Trade Balance,CNY,2026.07.14,02:03,1,820000000000.0,724000000000.0
+USD-Denominated Trade Balance,CNY,2026.07.14,02:04,1,121400000000.0,105400000000.0
+Revised Industrial Production m/m,JPY,2026.07.14,04:30,1,0.5,0.5
+German WPI m/m,EUR,2026.07.14,06:00,1,0.2,-0.6
+French Bank Holiday,EUR,2026.07.14,06:01,0,0,0
+PPI m/m,CHF,2026.07.14,06:30,1,-0.5,-0.4
+BOE Gov Bailey Speaks,GBP,2026.07.14,08:45,3,0,0
+NFIB Small Business Index,USD,2026.07.14,10:00,1,95.6,95.3
+ADP Weekly Employment Change,USD,2026.07.14,12:15,1,0,21000.0
+Core CPI m/m,USD,2026.07.14,12:30,3,0.2,0.2
+Core CPI y/y,USD,2026.07.14,12:30,3,2.8,2.9
+CPI m/m,USD,2026.07.14,12:30,3,-0.1,0.5
+CPI y/y,USD,2026.07.14,12:30,3,3.8,4.2
+CB Leading Index m/m,GBP,2026.07.14,13:30,1,0,-0.4
+Fed Chairman Warsh Testifies,USD,2026.07.14,14:00,3,0,0
+CB Leading Index m/m,AUD,2026.07.14,14:30,1,0,0.3
+FOMC Member Barr Speaks,USD,2026.07.14,16:40,1,0,0
+FOMC Member Goolsbee Speaks,USD,2026.07.14,17:00,1,0,0
+FOMC Member Bowman Speaks,USD,2026.07.14,18:55,1,0,0
+BOE Gov Bailey Speaks,GBP,2026.07.14,20:00,3,0,0
+TIC Long-Term Purchases,USD,2026.07.14,20:00,1,128500000000.0,103100000000.0
+API Weekly Statistical Bulletin,USD,2026.07.14,20:30,1,0,0
+Core Machinery Orders m/m,JPY,2026.07.14,23:50,1,-4.2,8.7
+New Home Prices m/m,CNY,2026.07.15,01:30,1,0,-0.20
+Fixed Asset Investment ytd/y,CNY,2026.07.15,02:00,1,-5.0,-4.1
+GDP q/y,CNY,2026.07.15,02:00,1,4.5,5.0
+Industrial Production y/y,CNY,2026.07.15,02:00,1,4.6,4.5
+NBS Press Conference,CNY,2026.07.15,02:00,1,0,0
+Retail Sales y/y,CNY,2026.07.15,02:00,1,-0.1,-0.6
+Unemployment Rate,CNY,2026.07.15,02:00,1,5.1,5.1
+Tertiary Industry Activity m/m,JPY,2026.07.15,04:30,1,0.4,1.3
+Industrial Production m/m,EUR,2026.07.15,09:00,1,0.3,0.1
+German 30-y Bond Auction,EUR,2026.07.15,09:34,1,0,3.50
+MPC Member Pill Speaks,GBP,2026.07.15,10:30,1,0,0
+Manufacturing Sales m/m,CAD,2026.07.15,12:30,1,1.1,4.2
+Wholesale Sales m/m,CAD,2026.07.15,12:30,1,-0.7,0.6
+Core PPI m/m,USD,2026.07.15,12:30,3,0.3,0.4
+PPI m/m,USD,2026.07.15,12:30,3,0.0,1.1
+Empire State Manufacturing Index,USD,2026.07.15,12:30,1,8.7,5.7
+FOMC Member Williams Speaks,USD,2026.07.15,12:45,1,0,0
+BOC Monetary Policy Report,CAD,2026.07.15,13:45,3,0,0
+BOC Rate Statement,CAD,2026.07.15,13:45,3,0,0
+Overnight Rate,CAD,2026.07.15,13:45,3,2.25,2.25
+Fed Chairman Warsh Testifies,USD,2026.07.15,14:00,3,0,0
+BOC Press Conference,CAD,2026.07.15,14:30,3,0,0
+Crude Oil Inventories,USD,2026.07.15,14:30,1,0,3000000.0
+German Buba President Nagel Speaks,EUR,2026.07.15,16:00,1,0,0
+FOMC Member Cook Speaks,USD,2026.07.15,17:00,1,0,0
+Beige Book,USD,2026.07.15,18:00,1,0,0
+FOMC Member Musalem Speaks,USD,2026.07.15,22:30,1,0,0
+MI Inflation Expectations,AUD,2026.07.16,01:00,1,0,5.5
+GDP m/m,GBP,2026.07.16,06:00,3,0.1,-0.1
+Construction Output m/m,GBP,2026.07.16,06:00,1,-0.3,0.1
+Goods Trade Balance,GBP,2026.07.16,06:00,1,-22800000000.0,-26000000000.0
+Index of Services 3m/3m,GBP,2026.07.16,06:00,1,0.6,0.8
+Industrial Production m/m,GBP,2026.07.16,06:00,1,-0.1,0.0
+Manufacturing Production m/m,GBP,2026.07.16,06:00,1,-0.2,0.4
+Summary of Monetary Policy Discussions,CHF,2026.07.16,07:30,1,0,0
+Italian Trade Balance,EUR,2026.07.16,09:00,1,4500000000.0,4290000000.0
+Trade Balance,EUR,2026.07.16,09:00,1,2500000000.0,1300000000.0
+10-y Bond Auction,GBP,2026.07.16,09:33,1,0,4.93
+Housing Starts,CAD,2026.07.16,12:15,1,257000.0,261000.0
+Core Retail Sales m/m,USD,2026.07.16,12:30,2,-0.1,0.8
+Philly Fed Manufacturing Index,USD,2026.07.16,12:30,2,12.1,10.3
+Retail Sales m/m,USD,2026.07.16,12:30,2,0.3,0.9
+Unemployment Claims,USD,2026.07.16,12:30,2,215000.0,215000.0
+Business Inventories m/m,USD,2026.07.16,14:00,1,0.3,0.5
+NAHB Housing Market Index,USD,2026.07.16,14:00,1,35,35
+Pending Home Sales m/m,USD,2026.07.16,14:00,1,-0.3,3.8
+Natural Gas Storage,USD,2026.07.16,14:30,1,0,61000000000.0
+FOMC Member Logan Speaks,USD,2026.07.16,16:30,1,0,0
+FOMC Member Schmid Speaks,USD,2026.07.16,17:25,1,0,0
+Treasury Currency Report,USD,2026.07.16,20:00,1,0,0
+FPI m/m,NZD,2026.07.16,22:45,1,0,1.0
+FOMC Member Jefferson Speaks,USD,2026.07.16,23:00,1,0,0
+Current Account,EUR,2026.07.17,08:00,1,17100000000.000002,15700000000.0
+Final Core CPI y/y,EUR,2026.07.17,09:00,1,2.4,2.4
+Final CPI y/y,EUR,2026.07.17,09:00,1,2.8,2.8
+Foreign Securities Purchases,CAD,2026.07.17,12:30,1,15210000000.0,46910000000.0
+Building Permits,USD,2026.07.17,12:30,1,1400000.0,1410000.0
+Housing Starts,USD,2026.07.17,12:30,1,1320000.0,1180000.0
+Import Prices m/m,USD,2026.07.17,12:30,1,-0.4,1.9
+Capacity Utilization Rate,USD,2026.07.17,13:15,1,76.2,76.2
+Industrial Production m/m,USD,2026.07.17,13:15,1,0.2,0.1
+Prelim UoM Consumer Sentiment,USD,2026.07.17,14:00,2,51.4,48.9
+Prelim UoM Inflation Expectations,USD,2026.07.17,14:00,2,0,4.6
