@@ -47,15 +47,15 @@ German 30-y Bond Auction,EUR,2026.07.15,09:34,1,0,3.50
 MPC Member Pill Speaks,GBP,2026.07.15,10:30,1,0,0
 Manufacturing Sales m/m,CAD,2026.07.15,12:30,1,1.1,4.2
 Wholesale Sales m/m,CAD,2026.07.15,12:30,1,-0.7,0.6
-Core PPI m/m,USD,2026.07.15,12:30,3,0.4,0.4
+Core PPI m/m,USD,2026.07.15,12:30,3,0.3,0.4
 PPI m/m,USD,2026.07.15,12:30,3,0.0,1.1
-Empire State Manufacturing Index,USD,2026.07.15,12:30,1,9.4,5.7
+Empire State Manufacturing Index,USD,2026.07.15,12:30,1,9.3,5.7
 FOMC Member Williams Speaks,USD,2026.07.15,12:45,1,0,0
 BOC Monetary Policy Report,CAD,2026.07.15,13:45,3,0,0
 BOC Rate Statement,CAD,2026.07.15,13:45,3,0,0
 Overnight Rate,CAD,2026.07.15,13:45,3,2.25,2.25
 Fed Chairman Warsh Testifies,USD,2026.07.15,14:00,3,0,0
-Crude Oil Inventories,USD,2026.07.15,14:30,1,-2400000.0,3000000.0
+Crude Oil Inventories,USD,2026.07.15,14:30,1,-1800000.0,3000000.0
 BOC Press Conference,CAD,2026.07.15,14:45,3,0,0
 German Buba President Nagel Speaks,EUR,2026.07.15,16:00,1,0,0
 FOMC Member Cook Speaks,USD,2026.07.15,17:00,1,0,0
@@ -79,13 +79,14 @@ Retail Sales m/m,USD,2026.07.16,12:30,2,0.2,0.9
 Unemployment Claims,USD,2026.07.16,12:30,2,216000.0,215000.0
 Business Inventories m/m,USD,2026.07.16,14:00,1,0.3,0.5
 NAHB Housing Market Index,USD,2026.07.16,14:00,1,35,35
-Pending Home Sales m/m,USD,2026.07.16,14:00,1,-0.4,3.8
-Natural Gas Storage,USD,2026.07.16,14:30,1,0,61000000000.0
+Pending Home Sales m/m,USD,2026.07.16,14:00,1,-0.5,3.8
+Natural Gas Storage,USD,2026.07.16,14:30,1,45000000000.0,61000000000.0
 FOMC Member Logan Speaks,USD,2026.07.16,16:30,1,0,0
 FOMC Member Schmid Speaks,USD,2026.07.16,17:25,1,0,0
 Treasury Currency Report,USD,2026.07.16,20:00,1,0,0
 FPI m/m,NZD,2026.07.16,22:45,1,0,1.0
 FOMC Member Jefferson Speaks,USD,2026.07.16,23:00,1,0,0
+President Trump Speaks,USD,2026.07.17,01:00,2,0,0
 Current Account,EUR,2026.07.17,08:00,1,18100000000.0,15700000000.0
 Final Core CPI y/y,EUR,2026.07.17,09:00,1,2.4,2.4
 Final CPI y/y,EUR,2026.07.17,09:00,1,2.8,2.8
