@@ -35,6 +35,7 @@ Crude Oil Inventories,USD,2026.07.22,14:30,1,-2000000.0,-1700000.0
 President Trump Speaks,USD,2026.07.22,19:00,2,0,0
 Employment Change,AUD,2026.07.23,01:30,3,16400.0,40300.0
 Unemployment Rate,AUD,2026.07.23,01:30,3,4.4,4.4
+Foreign Direct Investment ytd/y,CNY,2026.07.23,08:56,1,0,-8.6
 CBI Industrial Order Expectations,GBP,2026.07.23,10:00,1,-40,-45
 Main Refinancing Rate,EUR,2026.07.23,12:15,3,2.40,2.40
 Monetary Policy Statement,EUR,2026.07.23,12:15,3,0,0
@@ -53,7 +54,6 @@ National Core CPI y/y,JPY,2026.07.23,23:30,1,1.6,1.4
 Flash Manufacturing PMI,JPY,2026.07.24,00:30,1,55.0,54.9
 German GfK Consumer Climate,EUR,2026.07.24,06:00,1,-28.7,-29.2
 Retail Sales m/m,GBP,2026.07.24,06:00,2,-0.3,1.2
-Foreign Direct Investment ytd/y,CNY,2026.07.24,06:02,1,0,-8.6
 French Flash Manufacturing PMI,EUR,2026.07.24,07:15,2,51.0,50.7
 French Flash Services PMI,EUR,2026.07.24,07:15,2,47.5,47.4
 German Flash Manufacturing PMI,EUR,2026.07.24,07:30,2,50.4,50.0
