@@ -8,29 +8,29 @@ CBI Realized Sales,GBP,2026.07.27,10:00,1,-45,-54
 Core Durable Goods Orders m/m,USD,2026.07.27,12:30,1,0.9,1.3
 Durable Goods Orders m/m,USD,2026.07.27,12:30,1,1.6,-4.5
 President Trump Speaks,USD,2026.07.27,18:50,2,0,0
-BRC Shop Price Index y/y,GBP,2026.07.27,23:01,1,1.2,1.2
+BRC Shop Price Index y/y,GBP,2026.07.27,23:01,1,1.1,1.2
 RBA Gov Bullock Speaks,AUD,2026.07.28,03:05,3,0,0
 BOJ Core CPI y/y,JPY,2026.07.28,05:00,1,1.4,1.4
-Spanish Unemployment Rate,EUR,2026.07.28,07:00,1,10.7,10.8
-German Buba Monthly Report,EUR,2026.07.28,10:03,1,0,0
+Spanish Unemployment Rate,EUR,2026.07.28,07:00,1,10.1,10.8
+German Buba Monthly Report,EUR,2026.07.28,10:00,1,0,0
 ADP Weekly Employment Change,USD,2026.07.28,12:15,1,0,16500.0
-Goods Trade Balance,USD,2026.07.28,12:30,1,-98000000000.0,-105800000000.0
-Prelim Wholesale Inventories m/m,USD,2026.07.28,12:30,1,0.2,0.3
-HPI m/m,USD,2026.07.28,13:00,1,0.2,-0.1
-S&P/CS Composite-20 HPI y/y,USD,2026.07.28,13:00,1,0.8,1.1
-CB Consumer Confidence,USD,2026.07.28,14:00,2,92.1,91.2
-Richmond Manufacturing Index,USD,2026.07.28,14:00,1,0,4
+Goods Trade Balance,USD,2026.07.28,12:30,1,-100300000000.0,-105800000000.0
+Prelim Wholesale Inventories m/m,USD,2026.07.28,12:30,1,0.4,0.3
+HPI m/m,USD,2026.07.28,13:00,1,0.1,-0.1
+S&P/CS Composite-20 HPI y/y,USD,2026.07.28,13:00,1,1.3,1.1
+CB Consumer Confidence,USD,2026.07.28,14:00,2,92.4,91.2
+Richmond Manufacturing Index,USD,2026.07.28,14:00,1,7,4
 API Weekly Statistical Bulletin,USD,2026.07.28,20:30,1,0,0
 CPI m/m,AUD,2026.07.29,01:30,3,0.2,-0.7
 CPI y/y,AUD,2026.07.29,01:30,3,4.0,4.0
-Trimmed Mean CPI m/m,AUD,2026.07.29,01:30,3,0.4,0.4
-German Import Prices m/m,EUR,2026.07.29,06:00,1,-0.8,0.7
+Trimmed Mean CPI m/m,AUD,2026.07.29,01:30,3,0.3,0.4
+German Import Prices m/m,EUR,2026.07.29,06:00,1,-0.7,0.7
 UBS Economic Expectations,CHF,2026.07.29,08:00,1,0,-25.0
 M4 Money Supply m/m,GBP,2026.07.29,08:30,1,0.2,0.1
-Mortgage Approvals,GBP,2026.07.29,08:30,1,56000.0,56000.0
+Mortgage Approvals,GBP,2026.07.29,08:30,1,57000.0,56000.0
 Net Lending to Individuals m/m,GBP,2026.07.29,08:30,1,5500000000.0,4600000000.0
 German 10-y Bond Auction,EUR,2026.07.29,09:42,1,0,3.09
-Crude Oil Inventories,USD,2026.07.29,14:30,1,0,2000000.0
+Crude Oil Inventories,USD,2026.07.29,14:30,1,-1700000.0,2000000.0
 BOC Summary of Deliberations,CAD,2026.07.29,17:30,1,0,0
 Federal Funds Rate,USD,2026.07.29,18:00,3,3.75,3.75
 FOMC Statement,USD,2026.07.29,18:00,3,0,0
@@ -52,11 +52,12 @@ Italian Prelim GDP q/q,EUR,2026.07.30,08:00,1,0.1,0.2
 Italian Monthly Unemployment Rate,EUR,2026.07.30,09:00,1,5.1,5.0
 Prelim Flash GDP q/q,EUR,2026.07.30,09:00,1,0.2,0.1
 Unemployment Rate,EUR,2026.07.30,09:00,1,6.2,6.2
-Italian 10-y Bond Auction,EUR,2026.07.30,09:33,1,0,0
+Italian 10-y Bond Auction,EUR,2026.07.30,09:33,1,0,3.63
 BOE Monetary Policy Report,GBP,2026.07.30,11:00,3,0,0
 Monetary Policy Summary,GBP,2026.07.30,11:00,3,0,0
 MPC Official Bank Rate Votes,GBP,2026.07.30,11:00,3,2-0-7,2-0-7
 Official Bank Rate,GBP,2026.07.30,11:00,3,3.75,3.75
+BOE Gov Bailey Speaks,GBP,2026.07.30,11:30,3,0,0
 Advance GDP q/q,USD,2026.07.30,12:30,3,2.3,2.0
 Core PCE Price Index m/m,USD,2026.07.30,12:30,3,0.1,0.3
 Advance GDP Price Index q/q,USD,2026.07.30,12:30,2,3.7,3.6
