@@ -20,20 +20,20 @@ ISM Manufacturing PMI,USD,2026.08.03,14:00,3,54.0,53.3
 ISM Manufacturing Prices,USD,2026.08.03,14:00,2,70.0,73.0
 Construction Spending m/m,USD,2026.08.03,14:00,1,0.2,0.1
 Omdia Total Vehicle Sales,USD,2026.08.03,14:15,1,16300000.0,16500000.0
-Loan Officer Survey,USD,2026.08.03,18:03,1,0,0
+Loan Officer Survey,USD,2026.08.03,18:00,1,0,0
 Monetary Base y/y,JPY,2026.08.03,23:50,1,-13.0,-13.7
 ANZ Job Advertisements m/m,AUD,2026.08.04,01:30,1,0,-0.2
 Household Spending m/m,AUD,2026.08.04,01:30,1,0.2,1.3
 10-y Bond Auction,JPY,2026.08.04,03:35,1,0,2.73
 Commodity Prices y/y,AUD,2026.08.04,06:30,1,0,16.9
 French Gov Budget Balance,EUR,2026.08.04,06:45,1,0,-93300000000.0
-Spanish Unemployment Change,EUR,2026.08.04,07:00,1,-20300.0,-28700.0
-Italian Retail Sales m/m,EUR,2026.08.04,08:00,1,0.1,0.2
+Spanish Unemployment Change,EUR,2026.08.04,07:00,1,-18400.0,-28700.0
+Italian Retail Sales m/m,EUR,2026.08.04,08:00,1,0.3,0.2
 Trade Balance,CAD,2026.08.04,12:30,1,3000000000.0,4200000000.0
 Trade Balance,USD,2026.08.04,12:30,1,-73000000000.0,-77600000000.0
-Manufacturing PMI,CAD,2026.08.04,13:30,1,50.2,53.0
-JOLTS Job Openings,USD,2026.08.04,14:00,2,7420000.0,7590000.0
-Factory Orders m/m,USD,2026.08.04,14:00,1,0.0,-1.3
+Manufacturing PMI,CAD,2026.08.04,13:30,1,52.2,53.0
+JOLTS Job Openings,USD,2026.08.04,14:00,2,7440000.0,7590000.0
+Factory Orders m/m,USD,2026.08.04,14:00,1,0.2,-1.3
 RCM/TIPP Economic Optimism,USD,2026.08.04,14:10,1,47.5,45.5
 GDT Price Index,NZD,2026.08.04,14:50,1,0,1.5
 API Weekly Statistical Bulletin,USD,2026.08.04,20:30,1,0,0
@@ -42,23 +42,24 @@ Unemployment Rate,NZD,2026.08.04,22:45,3,5.4,5.3
 Labor Cost Index q/q,NZD,2026.08.04,22:45,1,0.6,0.5
 Average Cash Earnings y/y,JPY,2026.08.04,23:30,1,3.4,3.2
 Monetary Policy Meeting Minutes,JPY,2026.08.04,23:50,1,0,0
+FOMC Member Schmid Speaks,USD,2026.08.05,00:15,1,0,0
 ANZ Commodity Prices m/m,NZD,2026.08.05,01:00,1,0,-1.0
 RatingDog Services PMI,CNY,2026.08.05,01:45,1,53.7,54.1
 French Industrial Production m/m,EUR,2026.08.05,06:45,1,0.3,-0.1
-Spanish Services PMI,EUR,2026.08.05,07:15,1,54.8,54.2
-Italian Services PMI,EUR,2026.08.05,07:45,1,51.2,50.2
+Spanish Services PMI,EUR,2026.08.05,07:15,1,54.9,54.2
+Italian Services PMI,EUR,2026.08.05,07:45,1,51.0,50.2
 French Final Services PMI,EUR,2026.08.05,07:50,1,49.8,49.8
 German Final Services PMI,EUR,2026.08.05,07:55,1,49.6,49.6
 Final Services PMI,EUR,2026.08.05,08:00,1,51.6,51.6
 Final Services PMI,GBP,2026.08.05,08:30,1,51.8,51.8
-PPI m/m,EUR,2026.08.05,09:00,1,-0.3,0.2
-ADP Non-Farm Employment Change,USD,2026.08.05,12:15,2,71000.0,98000.0
+PPI m/m,EUR,2026.08.05,09:00,1,-0.2,0.2
+ADP Non-Farm Employment Change,USD,2026.08.05,12:15,2,68000.0,98000.0
 Final Services PMI,USD,2026.08.05,13:45,1,53.6,53.6
 ISM Services PMI,USD,2026.08.05,14:00,2,54.5,54.0
 Crude Oil Inventories,USD,2026.08.05,14:30,1,0,-7200000.0
 FOMC Member Cook Speaks,USD,2026.08.05,20:05,1,0,0
 FOMC Member Daly Speaks,USD,2026.08.06,00:35,1,0,0
-Goods Trade Balance,AUD,2026.08.06,01:30,1,-1080000000.0,-3020000000.0
+Goods Trade Balance,AUD,2026.08.06,01:30,1,-1060000000.0,-3020000000.0
 30-y Bond Auction,JPY,2026.08.06,03:35,1,0,3.99
 German Factory Orders m/m,EUR,2026.08.06,06:00,1,0.5,1.9
 Unemployment Rate,CHF,2026.08.06,07:00,1,3.1,3.1
@@ -69,7 +70,7 @@ Retail Sales m/m,EUR,2026.08.06,09:00,1,0.1,0.2
 Spanish 10-y Bond Auction,EUR,2026.08.06,09:03,1,0,3.40
 French 10-y Bond Auction,EUR,2026.08.06,09:18,1,0,3.68
 Challenger Job Cuts y/y,USD,2026.08.06,09:30,1,0,-4.5
-Unemployment Claims,USD,2026.08.06,12:30,2,205000.0,197000.0
+Unemployment Claims,USD,2026.08.06,12:30,2,203000.0,197000.0
 Prelim Nonfarm Productivity q/q,USD,2026.08.06,12:30,1,0.7,0.8
 Prelim Unit Labor Costs q/q,USD,2026.08.06,12:30,1,2.1,2.3
 Final Wholesale Inventories m/m,USD,2026.08.06,14:00,1,0.3,0.3
