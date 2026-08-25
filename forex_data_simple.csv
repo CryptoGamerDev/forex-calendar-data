@@ -32,7 +32,7 @@ Core Durable Goods Orders m/m,USD,2026.08.26,12:30,1,0.6,0.6
 Durable Goods Orders m/m,USD,2026.08.26,12:30,1,0.4,0.3
 Personal Income m/m,USD,2026.08.26,12:30,1,0.2,0.2
 Personal Spending m/m,USD,2026.08.26,12:30,1,0.1,0.3
-Crude Oil Inventories,USD,2026.08.26,14:30,1,1900000.0,4400000.0
+Crude Oil Inventories,USD,2026.08.26,14:30,1,1600000.0,4400000.0
 FOMC Member Barkin Speaks,USD,2026.08.26,15:45,1,0,0
 Gov Board Member Martin Speaks,CHF,2026.08.26,16:15,1,0,0
 Household Spending m/m,AUD,2026.08.27,01:30,1,0.3,0.8
@@ -47,7 +47,7 @@ Unemployment Claims,USD,2026.08.27,12:30,2,208000.0,206000.0
 Goods Trade Balance,USD,2026.08.27,12:30,1,-100800000000.0,-101500000000.0
 Prelim Wholesale Inventories m/m,USD,2026.08.27,12:30,1,0.2,0.2
 CB Leading Index m/m,CNY,2026.08.27,13:00,1,0,0.1
-Natural Gas Storage,USD,2026.08.27,14:30,1,0,16000000000.0
+Natural Gas Storage,USD,2026.08.27,14:30,1,19000000000.0,16000000000.0
 Jackson Hole Symposium,All,2026.08.27,16:15,2,0,0
 Tokyo Core CPI y/y,JPY,2026.08.27,23:30,2,1.8,1.9
 Unemployment Rate,JPY,2026.08.27,23:30,1,2.5,2.5
@@ -59,7 +59,7 @@ French Prelim GDP q/q,EUR,2026.08.28,06:45,1,0.2,0.2
 KOF Economic Barometer,CHF,2026.08.28,07:00,1,103.0,103.5
 Spanish Flash CPI y/y,EUR,2026.08.28,07:00,1,4.2,3.6
 German Unemployment Change,EUR,2026.08.28,07:55,1,4000.0,6000.0
-Italian 10-y Bond Auction,EUR,2026.08.28,09:33,1,0,0
+Italian 10-y Bond Auction,EUR,2026.08.28,09:33,1,0,4.00
 GDP m/m,CAD,2026.08.28,12:30,3,0.2,0.3
 Chicago PMI,USD,2026.08.28,13:45,1,57.9,57.6
 Fed Chairman Warsh Speaks,USD,2026.08.28,14:00,3,0,0
