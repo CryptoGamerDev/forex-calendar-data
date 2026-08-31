@@ -84,8 +84,8 @@ German Final Services PMI,EUR,2026.09.03,07:55,1,48.5,48.5
 Final Services PMI,EUR,2026.09.03,08:00,1,51.7,51.7
 Final Services PMI,GBP,2026.09.03,08:30,1,52.8,52.8
 PPI m/m,EUR,2026.09.03,09:00,1,1.3,-0.3
-Spanish 10-y Bond Auction,EUR,2026.09.03,09:03,1,0,0
-French 10-y Bond Auction,EUR,2026.09.03,09:18,1,0,0
+Spanish 10-y Bond Auction,EUR,2026.09.03,09:03,1,0,3.54
+French 10-y Bond Auction,EUR,2026.09.03,09:18,1,0,3.86
 Challenger Job Cuts y/y,USD,2026.09.03,09:30,1,0,-46.1
 Labor Productivity q/q,CAD,2026.09.03,12:30,1,0.2,-0.5
 Trade Balance,CAD,2026.09.03,12:30,1,3200000000.0,3900000000.0
@@ -97,6 +97,8 @@ Trade Balance,USD,2026.09.03,12:30,1,-86400000000.0,-73300000000.0
 Final Services PMI,USD,2026.09.03,13:45,1,56.8,56.8
 ISM Services PMI,USD,2026.09.03,14:00,2,54.1,54.1
 Natural Gas Storage,USD,2026.09.03,14:30,1,0,15000000000.0
+FOMC Member Hammack Speaks,USD,2026.09.03,19:00,1,0,0
+FOMC Member Goolsbee Speaks,USD,2026.09.03,19:05,1,0,0
 Household Spending y/y,JPY,2026.09.03,23:30,1,-1.6,-3.3
 German Factory Orders m/m,EUR,2026.09.04,06:00,1,0.4,3.1
 Italian Retail Sales m/m,EUR,2026.09.04,08:00,1,0.2,-0.1
