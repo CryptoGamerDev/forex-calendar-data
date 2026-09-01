@@ -61,12 +61,12 @@ RBNZ Rate Statement,NZD,2026.09.02,02:00,3,0,0
 RBNZ Press Conference,NZD,2026.09.02,03:00,3,0,0
 French Gov Budget Balance,EUR,2026.09.02,06:45,1,0,-106800000000.0
 Spanish Unemployment Change,EUR,2026.09.02,07:00,1,15400.0,19500.0
-ADP Non-Farm Employment Change,USD,2026.09.02,12:15,2,48000.0,44000.0
+ADP Non-Farm Employment Change,USD,2026.09.02,12:15,2,47000.0,44000.0
 BOC Rate Statement,CAD,2026.09.02,13:45,3,0,0
 Overnight Rate,CAD,2026.09.02,13:45,3,2.25,2.25
 Factory Orders m/m,USD,2026.09.02,14:00,1,0.7,-0.3
 BOC Press Conference,CAD,2026.09.02,14:30,3,0,0
-Crude Oil Inventories,USD,2026.09.02,14:30,1,0.0,100000.0
+Crude Oil Inventories,USD,2026.09.02,14:30,1,-400000.0,100000.0
 Beige Book,USD,2026.09.02,18:00,1,0,0
 RBNZ Gov Breman Speaks,NZD,2026.09.02,20:10,2,0,0
 Overseas Trade Index q/q,NZD,2026.09.02,22:45,1,-2.2,-2.0
@@ -97,7 +97,7 @@ Revised Unit Labor Costs q/q,USD,2026.09.03,12:30,1,1.3,1.3
 Trade Balance,USD,2026.09.03,12:30,1,-89400000000.0,-73300000000.0
 Final Services PMI,USD,2026.09.03,13:45,1,56.8,56.8
 ISM Services PMI,USD,2026.09.03,14:00,2,54.2,54.1
-Natural Gas Storage,USD,2026.09.03,14:30,1,0,15000000000.0
+Natural Gas Storage,USD,2026.09.03,14:30,1,30000000000.0,15000000000.0
 FOMC Member Hammack Speaks,USD,2026.09.03,19:00,1,0,0
 FOMC Member Goolsbee Speaks,USD,2026.09.03,19:05,1,0,0
 Household Spending y/y,JPY,2026.09.03,23:30,1,-1.6,-3.3
