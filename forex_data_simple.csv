@@ -39,6 +39,7 @@ Core CPI Flash Estimate y/y,EUR,2026.09.01,09:00,2,2.5,2.5
 CPI Flash Estimate y/y,EUR,2026.09.01,09:00,2,3.3,2.9
 Italian Prelim CPI m/m,EUR,2026.09.01,09:00,1,0.5,0.2
 Unemployment Rate,EUR,2026.09.01,09:00,1,6.3,6.3
+German Buba President Nagel Speaks,EUR,2026.09.01,12:30,1,0,0
 FOMC Member Barr Speaks,USD,2026.09.01,13:05,1,0,0
 Manufacturing PMI,CAD,2026.09.01,13:30,1,0,53.5
 Final Manufacturing PMI,USD,2026.09.01,13:45,1,53.3,53.2
@@ -46,14 +47,13 @@ ISM Manufacturing PMI,USD,2026.09.01,14:00,3,55.2,55.6
 ISM Manufacturing Prices,USD,2026.09.01,14:00,2,70.5,71.1
 JOLTS Job Openings,USD,2026.09.01,14:00,2,7330000.0,7360000.0
 Construction Spending m/m,USD,2026.09.01,14:00,1,0.0,-0.1
-RCM/TIPP Economic Optimism,USD,2026.09.01,14:10,1,46.2,45.1
+RCM/TIPP Economic Optimism,USD,2026.09.01,14:04,1,46.2,45.1
 Omdia Total Vehicle Sales,USD,2026.09.01,14:15,1,16300000.0,16300000.0
-GDT Price Index,NZD,2026.09.01,14:50,1,0,2.3
 G20 Meetings,All,2026.09.01,15:15,1,0,0
+GDT Price Index,NZD,2026.09.01,15:25,1,0,2.3
 API Weekly Statistical Bulletin,USD,2026.09.01,20:30,1,0,0
 Building Consents m/m,NZD,2026.09.01,22:45,1,0,-3.6
 Monetary Base y/y,JPY,2026.09.01,23:50,1,-13.5,-13.8
-German Buba President Nagel Speaks,EUR,2026.09.02,00:30,1,0,0
 GDP q/q,AUD,2026.09.02,01:30,3,0.3,0.3
 Official Cash Rate,NZD,2026.09.02,02:00,3,2.75,2.50
 RBNZ Monetary Policy Statement,NZD,2026.09.02,02:00,3,0,0
@@ -66,7 +66,7 @@ BOC Rate Statement,CAD,2026.09.02,13:45,3,0,0
 Overnight Rate,CAD,2026.09.02,13:45,3,2.25,2.25
 Factory Orders m/m,USD,2026.09.02,14:00,1,0.7,-0.3
 BOC Press Conference,CAD,2026.09.02,14:30,3,0,0
-Crude Oil Inventories,USD,2026.09.02,14:30,1,0,100000.0
+Crude Oil Inventories,USD,2026.09.02,14:30,1,0.0,100000.0
 Beige Book,USD,2026.09.02,18:00,1,0,0
 RBNZ Gov Breman Speaks,NZD,2026.09.02,20:10,2,0,0
 Overseas Trade Index q/q,NZD,2026.09.02,22:45,1,-2.2,-2.0
