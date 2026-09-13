@@ -14,6 +14,7 @@ Common CPI y/y,CAD,2026.09.14,12:30,2,2.7,2.7
 Core CPI m/m,CAD,2026.09.14,12:30,1,0.2,0.2
 Manufacturing Sales m/m,CAD,2026.09.14,12:30,1,-0.2,0.1
 CB Leading Index m/m,GBP,2026.09.14,13:30,1,0,-0.4
+ECB President Lagarde Speaks,EUR,2026.09.14,15:15,2,0,0
 New Home Prices m/m,CNY,2026.09.15,01:30,1,0,-0.18
 Fixed Asset Investment ytd/y,CNY,2026.09.15,02:00,1,-7.0,-6.7
 Industrial Production y/y,CNY,2026.09.15,02:00,1,4.8,4.5
@@ -58,7 +59,7 @@ Business Inventories m/m,USD,2026.09.16,14:00,1,0.3,0.0
 NAHB Housing Market Index,USD,2026.09.16,14:00,1,34,35
 Crude Oil Inventories,USD,2026.09.16,14:30,1,0,-400000.0
 BOC Summary of Deliberations,CAD,2026.09.16,17:30,1,0,0
-Federal Funds Rate,USD,2026.09.16,18:00,3,3.75,3.75
+Federal Funds Rate,USD,2026.09.16,18:00,3,4.00,3.75
 FOMC Economic Projections,USD,2026.09.16,18:00,3,0,0
 FOMC Statement,USD,2026.09.16,18:00,3,0,0
 FOMC Press Conference,USD,2026.09.16,18:30,3,0,0
@@ -92,7 +93,12 @@ BOJ Press Conference,JPY,2026.09.18,05:30,3,0,0
 German PPI m/m,EUR,2026.09.18,06:00,1,0.6,1.1
 Retail Sales m/m,GBP,2026.09.18,06:00,2,-0.2,-0.5
 Current Account,EUR,2026.09.18,08:00,1,30700000000.0,35100000000.0
+Eurogroup Meetings,EUR,2026.09.18,10:15,1,0,0
+ECOFIN Meetings,EUR,2026.09.18,10:15,1,0,0
+ECB President Lagarde Speaks,EUR,2026.09.18,10:30,2,0,0
 Capacity Utilization Rate,USD,2026.09.18,13:15,1,76.4,76.3
 Industrial Production m/m,USD,2026.09.18,13:15,1,0.1,0.2
 FOMC Member Bowman Speaks,USD,2026.09.18,13:30,1,0,0
 CB Leading Index m/m,USD,2026.09.18,14:00,1,0.2,0.2
+FOMC Member Schmid Speaks,USD,2026.09.18,15:45,1,0,0
+ECOFIN Meetings,EUR,2026.09.19,10:15,1,0,0
