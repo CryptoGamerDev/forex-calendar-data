@@ -16,48 +16,49 @@ Manufacturing Sales m/m,CAD,2026.09.14,12:30,1,-0.2,0.1
 CB Leading Index m/m,GBP,2026.09.14,13:30,1,0,-0.4
 ECB President Lagarde Speaks,EUR,2026.09.14,15:15,2,0,0
 New Home Prices m/m,CNY,2026.09.15,01:30,1,0,-0.18
-Fixed Asset Investment ytd/y,CNY,2026.09.15,02:00,1,-7.0,-6.7
+Fixed Asset Investment ytd/y,CNY,2026.09.15,02:00,1,-7.1,-6.7
 Industrial Production y/y,CNY,2026.09.15,02:00,1,4.8,4.5
 NBS Press Conference,CNY,2026.09.15,02:00,1,0,0
-Retail Sales y/y,CNY,2026.09.15,02:00,1,0.8,0.6
+Retail Sales y/y,CNY,2026.09.15,02:00,1,0.7,0.6
 Unemployment Rate,CNY,2026.09.15,02:00,1,5.2,5.2
 Tertiary Industry Activity m/m,JPY,2026.09.15,04:30,1,0.3,-0.2
 German WPI m/m,EUR,2026.09.15,06:00,1,0.1,0.2
 Claimant Count Change,GBP,2026.09.15,06:00,3,8300.0,-11000.0
 Average Earnings Index 3m/y,GBP,2026.09.15,06:00,2,3.9,4.1
-Unemployment Rate,GBP,2026.09.15,06:00,1,4.9,4.9
+Unemployment Rate,GBP,2026.09.15,06:00,1,5.0,4.9
 Foreign Direct Investment ytd/y,CNY,2026.09.15,06:02,1,0,-6.2
 French Final CPI m/m,EUR,2026.09.15,06:45,1,0.7,0.7
 Italian Trade Balance,EUR,2026.09.15,08:00,1,4770000000.0,4230000000.0000005
 Trade Balance,EUR,2026.09.15,09:00,1,3700000000.0,1800000000.0
-German ZEW Economic Sentiment,EUR,2026.09.15,09:00,1,42.7,34.2
-ZEW Economic Sentiment,EUR,2026.09.15,09:00,1,39.9,31.4
+German ZEW Economic Sentiment,EUR,2026.09.15,09:00,1,39.8,34.2
+ZEW Economic Sentiment,EUR,2026.09.15,09:00,1,39.2,31.4
 ADP Weekly Employment Change,USD,2026.09.15,12:15,1,0,12000.0
 Wholesale Sales m/m,CAD,2026.09.15,12:30,1,-0.5,2.8
-Empire State Manufacturing Index,USD,2026.09.15,12:30,1,14.1,20.6
+Empire State Manufacturing Index,USD,2026.09.15,12:30,1,14.8,20.6
 GDT Price Index,NZD,2026.09.15,14:50,1,0,0.9
 API Weekly Statistical Bulletin,USD,2026.09.15,20:30,1,0,0
 Westpac Consumer Sentiment,NZD,2026.09.15,21:00,1,0,80.4
-Current Account,NZD,2026.09.15,22:45,1,-2370000000.0,-1010000000.0
-Core Machinery Orders m/m,JPY,2026.09.15,23:50,1,-1.1,9.7
-Trade Balance,JPY,2026.09.15,23:50,1,-0.98T,-0.69T
+Current Account,NZD,2026.09.15,22:45,1,-2570000000.0,-1010000000.0
+Core Machinery Orders m/m,JPY,2026.09.15,23:50,1,-1.2,9.7
+Trade Balance,JPY,2026.09.15,23:50,1,-1.00T,-0.69T
 MI Leading Index m/m,AUD,2026.09.16,00:30,1,0,0.0
 CPI y/y,GBP,2026.09.16,06:00,3,3.1,2.9
 Core CPI y/y,GBP,2026.09.16,06:00,1,2.6,2.6
-PPI Input m/m,GBP,2026.09.16,06:00,1,-0.6,-1.7
-PPI Output m/m,GBP,2026.09.16,06:00,1,0.1,0.2
+PPI Input m/m,GBP,2026.09.16,06:00,1,0.6,-1.7
+PPI Output m/m,GBP,2026.09.16,06:00,1,0.5,0.2
 RPI y/y,GBP,2026.09.16,06:00,1,3.5,3.2
 HPI y/y,GBP,2026.09.16,08:30,1,2.1,2.0
-Industrial Production m/m,EUR,2026.09.16,09:00,1,-0.5,0.0
+Industrial Production m/m,EUR,2026.09.16,09:00,1,-0.2,0.0
 German 30-y Bond Auction,EUR,2026.09.16,09:34,1,0,3.65
-Housing Starts,CAD,2026.09.16,12:15,1,239000.0,229000.0
-Building Permits m/m,CAD,2026.09.16,12:30,1,-5.8,18.5
+Housing Starts,CAD,2026.09.16,12:15,1,243000.0,229000.0
+Building Permits m/m,CAD,2026.09.16,12:30,1,-4.5,18.5
 Core Retail Sales m/m,USD,2026.09.16,12:30,2,0.5,-0.3
 Retail Sales m/m,USD,2026.09.16,12:30,2,0.8,-0.6
-Import Prices m/m,USD,2026.09.16,12:30,1,0.0,-0.4
-Business Inventories m/m,USD,2026.09.16,14:00,1,0.3,0.0
+Import Prices m/m,USD,2026.09.16,12:30,1,0.4,-0.4
+Business Inventories m/m,USD,2026.09.16,14:00,1,0.6,0.0
 NAHB Housing Market Index,USD,2026.09.16,14:00,1,34,35
 Crude Oil Inventories,USD,2026.09.16,14:30,1,0,-400000.0
+German Buba President Nagel Speaks,EUR,2026.09.16,16:00,1,0,0
 BOC Summary of Deliberations,CAD,2026.09.16,17:30,1,0,0
 Federal Funds Rate,USD,2026.09.16,18:00,3,4.00,3.75
 FOMC Economic Projections,USD,2026.09.16,18:00,3,0,0
@@ -73,17 +74,17 @@ Monetary Policy Summary,GBP,2026.09.17,11:00,3,0,0
 MPC Official Bank Rate Votes,GBP,2026.09.17,11:00,3,3-0-6,3-0-6
 Official Bank Rate,GBP,2026.09.17,11:00,3,3.75,3.75
 Foreign Securities Purchases,CAD,2026.09.17,12:30,1,28640000000.0,40830000000.0
-IPPI m/m,CAD,2026.09.17,12:30,1,0.3,0.6
-RMPI m/m,CAD,2026.09.17,12:30,1,-0.8,-2.2
-Philly Fed Manufacturing Index,USD,2026.09.17,12:30,2,28.9,47.4
-Unemployment Claims,USD,2026.09.17,12:30,2,209000.0,206000.0
+IPPI m/m,CAD,2026.09.17,12:30,1,0.0,0.6
+RMPI m/m,CAD,2026.09.17,12:30,1,0.7,-2.2
+Philly Fed Manufacturing Index,USD,2026.09.17,12:30,2,31.3,47.4
+Unemployment Claims,USD,2026.09.17,12:30,2,208000.0,206000.0
 Building Permits,USD,2026.09.17,12:30,1,1400000.0,1440000.0
-Housing Starts,USD,2026.09.17,12:30,1,1320000.0,1240000.0
-Pending Home Sales m/m,USD,2026.09.17,14:00,1,0.3,-2.3
+Housing Starts,USD,2026.09.17,12:30,1,1310000.0,1240000.0
+Pending Home Sales m/m,USD,2026.09.17,14:00,1,-0.2,-2.3
 CB Leading Index m/m,AUD,2026.09.17,14:30,1,0,0.3
 Natural Gas Storage,USD,2026.09.17,14:30,1,0,40000000000.0
 FPI m/m,NZD,2026.09.17,22:45,1,0,0.1
-Trade Balance,NZD,2026.09.17,22:45,1,-1275000000.0,-1949000000.0
+Trade Balance,NZD,2026.09.17,22:45,1,-1775000000.0,-1949000000.0
 GfK Consumer Confidence,GBP,2026.09.17,23:01,1,-16,-14
 RBA Gov Bullock Speaks,AUD,2026.09.17,23:30,2,0,0
 National Core CPI y/y,JPY,2026.09.17,23:30,1,1.8,1.8
@@ -97,8 +98,8 @@ Eurogroup Meetings,EUR,2026.09.18,10:15,1,0,0
 ECOFIN Meetings,EUR,2026.09.18,10:15,1,0,0
 ECB President Lagarde Speaks,EUR,2026.09.18,10:30,2,0,0
 Capacity Utilization Rate,USD,2026.09.18,13:15,1,76.4,76.3
-Industrial Production m/m,USD,2026.09.18,13:15,1,0.1,0.2
+Industrial Production m/m,USD,2026.09.18,13:15,1,0.3,0.2
 FOMC Member Bowman Speaks,USD,2026.09.18,13:30,1,0,0
-CB Leading Index m/m,USD,2026.09.18,14:00,1,0.2,0.2
+CB Leading Index m/m,USD,2026.09.18,14:00,1,0.1,0.2
 FOMC Member Schmid Speaks,USD,2026.09.18,15:45,1,0,0
 ECOFIN Meetings,EUR,2026.09.19,10:15,1,0,0
