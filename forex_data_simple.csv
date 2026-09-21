@@ -9,13 +9,13 @@ BOC Gov Macklem Speaks,CAD,2026.09.21,15:05,2,0,0
 RBA Assist Gov Hunter Speaks,AUD,2026.09.21,19:00,1,0,0
 Bank Holiday,JPY,2026.09.21,23:00,0,0,0
 RBA Gov Bullock Speaks,AUD,2026.09.22,03:10,3,0,0
-Public Sector Net Borrowing,GBP,2026.09.22,06:00,1,15400000000.0,1800000000.0
+Public Sector Net Borrowing,GBP,2026.09.22,06:00,1,15200000000.0,1800000000.0
 German Buba President Nagel Speaks,EUR,2026.09.22,08:30,1,0,0
-CBI Industrial Order Expectations,GBP,2026.09.22,10:00,1,-34,-25
+CBI Industrial Order Expectations,GBP,2026.09.22,10:00,1,-33,-25
 ECB President Lagarde Speaks,EUR,2026.09.22,11:00,2,0,0
 ADP Weekly Employment Change,USD,2026.09.22,12:15,1,0,16300.0
 Consumer Confidence,EUR,2026.09.22,14:00,1,-16,-16
-Richmond Manufacturing Index,USD,2026.09.22,14:00,1,5,4
+Richmond Manufacturing Index,USD,2026.09.22,14:00,1,2,4
 FOMC Member Williams Speaks,USD,2026.09.22,14:05,1,0,0
 FOMC Member Jefferson Speaks,USD,2026.09.22,14:20,1,0,0
 FOMC Member Barkin Speaks,USD,2026.09.22,17:00,1,0,0
@@ -25,53 +25,54 @@ Flash Manufacturing PMI,AUD,2026.09.22,23:00,1,0,52.0
 Flash Services PMI,AUD,2026.09.22,23:00,1,0,52.9
 Bank Holiday,JPY,2026.09.22,23:00,0,0,0
 French Flash Manufacturing PMI,EUR,2026.09.23,07:15,2,50.9,51.5
-French Flash Services PMI,EUR,2026.09.23,07:15,2,48.4,48.4
-German Flash Manufacturing PMI,EUR,2026.09.23,07:30,2,54.0,54.1
+French Flash Services PMI,EUR,2026.09.23,07:15,2,48.3,48.4
+German Flash Manufacturing PMI,EUR,2026.09.23,07:30,2,54.1,54.1
 German Flash Services PMI,EUR,2026.09.23,07:30,2,49.9,48.5
 Flash Manufacturing PMI,EUR,2026.09.23,08:00,1,52.6,52.8
 Flash Services PMI,EUR,2026.09.23,08:00,1,51.4,51.7
-Flash Manufacturing PMI,GBP,2026.09.23,08:30,2,51.4,51.5
+Flash Manufacturing PMI,GBP,2026.09.23,08:30,2,51.5,51.5
 Flash Services PMI,GBP,2026.09.23,08:30,2,52.0,52.8
 German 30-y Bond Auction,EUR,2026.09.23,09:34,1,0,3.90
-Flash Manufacturing PMI,USD,2026.09.23,13:45,1,53.4,53.2
-Flash Services PMI,USD,2026.09.23,13:45,1,56.0,56.8
+Flash Manufacturing PMI,USD,2026.09.23,13:45,1,53.6,53.2
+Flash Services PMI,USD,2026.09.23,13:45,1,55.8,56.8
 FOMC Member Barr Speaks,USD,2026.09.23,14:05,1,0,0
-Crude Oil Inventories,USD,2026.09.23,14:30,1,0,-600000.0
+Crude Oil Inventories,USD,2026.09.23,14:30,1,-600000.0,-600000.0
 Flash Manufacturing PMI,JPY,2026.09.24,00:30,1,55.0,55.1
 NAB Quarterly Business Confidence,AUD,2026.09.24,00:35,1,0,-19
-Employment Change,AUD,2026.09.24,01:30,3,20900.0,-15800.0
+Employment Change,AUD,2026.09.24,01:30,3,22500.0,-15800.0
 Unemployment Rate,AUD,2026.09.24,01:30,3,4.5,4.5
 SNB Monetary Policy Assessment,CHF,2026.09.24,07:30,3,0,0
 SNB Policy Rate,CHF,2026.09.24,07:30,3,0.00,0.00
 SNB Press Conference,CHF,2026.09.24,08:00,3,0,0
 ECB Economic Bulletin,EUR,2026.09.24,08:00,1,0,0
-German ifo Business Climate,EUR,2026.09.24,08:00,1,89.0,88.8
+German ifo Business Climate,EUR,2026.09.24,08:00,1,89.1,88.8
 FOMC Member Williams Speaks,USD,2026.09.24,08:10,1,0,0
 MPC Member Dhingra Speaks,GBP,2026.09.24,09:30,1,0,0
-CBI Realized Sales,GBP,2026.09.24,10:00,1,-50,-48
+CBI Realized Sales,GBP,2026.09.24,10:00,1,-42,-48
 Core Retail Sales m/m,CAD,2026.09.24,12:30,2,-0.5,0.5
 Retail Sales m/m,CAD,2026.09.24,12:30,2,-0.8,0.6
 Unemployment Claims,USD,2026.09.24,12:30,2,201000.0,196000.0
-Current Account,USD,2026.09.24,12:30,1,-259000000000.0,-227000000000.0
+Current Account,USD,2026.09.24,12:30,1,-258000000000.0,-227000000000.0
+FOMC Member Barkin Speaks,USD,2026.09.24,12:30,1,0,0
 FOMC Member Hammack Speaks,USD,2026.09.24,12:50,1,0,0
 CB Leading Index m/m,CNY,2026.09.24,13:00,1,0,-0.3
 Belgian NBB Business Climate,EUR,2026.09.24,13:00,1,-13.5,-13.2
 MPC Member Breeden Speaks,GBP,2026.09.24,13:30,1,0,0
 MPC Member Lombardelli Speaks,GBP,2026.09.24,14:00,1,0,0
-New Home Sales,USD,2026.09.24,14:00,1,619000.0,607000.0
+New Home Sales,USD,2026.09.24,14:00,1,615000.0,607000.0
 FOMC Member Paulson Speaks,USD,2026.09.24,14:10,1,0,0
-Natural Gas Storage,USD,2026.09.24,14:30,1,0,44000000000.0
+Natural Gas Storage,USD,2026.09.24,14:30,1,52000000000.0,44000000000.0
 GfK Consumer Confidence,GBP,2026.09.24,23:01,1,-16,-14
 Bank Holiday,CNY,2026.09.24,23:01,0,0,0
-BOJ Core CPI y/y,JPY,2026.09.25,05:00,1,0,1.6
+BOJ Core CPI y/y,JPY,2026.09.25,05:00,1,1.5,1.6
 German GfK Consumer Climate,EUR,2026.09.25,06:00,1,-27.1,-26.6
 M3 Money Supply y/y,EUR,2026.09.25,08:00,1,3.5,3.4
 Private Loans y/y,EUR,2026.09.25,08:00,1,3.2,3.1
 BOE Gov Bailey Speaks,GBP,2026.09.25,09:15,3,0,0
 FOMC Member Williams Speaks,USD,2026.09.25,09:15,1,0,0
-Core Durable Goods Orders m/m,USD,2026.09.25,12:30,1,0.5,0.4
+Core Durable Goods Orders m/m,USD,2026.09.25,12:30,1,0.6,0.4
 Durable Goods Orders m/m,USD,2026.09.25,12:30,1,-0.3,1.1
-Revised UoM Consumer Sentiment,USD,2026.09.25,14:00,2,47.5,47.8
+Revised UoM Consumer Sentiment,USD,2026.09.25,14:00,2,47.4,47.8
 Revised UoM Inflation Expectations,USD,2026.09.25,14:00,2,0,4.6
 FOMC Member Hammack Speaks,USD,2026.09.25,18:00,1,0,0
 Daylight Saving Time Shift,NZD,2026.09.26,14:00,0,0,0
