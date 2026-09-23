@@ -37,7 +37,8 @@ German 30-y Bond Auction,EUR,2026.09.23,09:34,1,0,3.90
 Flash Manufacturing PMI,USD,2026.09.23,13:45,1,53.6,53.2
 Flash Services PMI,USD,2026.09.23,13:45,1,55.8,56.8
 FOMC Member Barr Speaks,USD,2026.09.23,14:05,1,0,0
-Crude Oil Inventories,USD,2026.09.23,14:30,1,-600000.0,-600000.0
+Crude Oil Inventories,USD,2026.09.23,14:30,1,-700000.0,-600000.0
+FOMC Member Goolsbee Speaks,USD,2026.09.23,16:00,1,0,0
 Flash Manufacturing PMI,JPY,2026.09.24,00:30,1,55.0,55.1
 NAB Quarterly Business Confidence,AUD,2026.09.24,00:35,1,0,-19
 Employment Change,AUD,2026.09.24,01:30,3,22500.0,-15800.0
@@ -62,7 +63,7 @@ MPC Member Breeden Speaks,GBP,2026.09.24,13:30,1,0,0
 MPC Member Lombardelli Speaks,GBP,2026.09.24,14:00,1,0,0
 New Home Sales,USD,2026.09.24,14:00,1,615000.0,607000.0
 FOMC Member Paulson Speaks,USD,2026.09.24,14:10,1,0,0
-Natural Gas Storage,USD,2026.09.24,14:30,1,52000000000.0,44000000000.0
+Natural Gas Storage,USD,2026.09.24,14:30,1,50000000000.0,44000000000.0
 GfK Consumer Confidence,GBP,2026.09.24,23:01,1,-16,-14
 Bank Holiday,CNY,2026.09.24,23:01,0,0,0
 BOJ Core CPI y/y,JPY,2026.09.25,05:00,1,1.5,1.6
@@ -73,6 +74,7 @@ BOE Gov Bailey Speaks,GBP,2026.09.25,09:15,3,0,0
 FOMC Member Williams Speaks,USD,2026.09.25,09:15,1,0,0
 Core Durable Goods Orders m/m,USD,2026.09.25,12:30,1,0.6,0.4
 Durable Goods Orders m/m,USD,2026.09.25,12:30,1,-0.3,1.1
+FOMC Member Schmid Speaks,USD,2026.09.25,13:20,1,0,0
 Revised UoM Consumer Sentiment,USD,2026.09.25,14:00,2,47.4,47.8
 Revised UoM Inflation Expectations,USD,2026.09.25,14:00,2,0,4.6
 FOMC Member Hammack Speaks,USD,2026.09.25,18:00,1,0,0
