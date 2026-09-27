@@ -1,83 +1,142 @@
 Title,Country,Date,Time24h,Importance,Forecast,Previous
-Bank Holiday,JPY,2026.09.20,23:00,0,0,0
-Rightmove HPI m/m,GBP,2026.09.20,23:01,1,0,-2.0
-Credit Card Spending y/y,NZD,2026.09.21,03:00,1,0,5.3
-German Buba Monthly Report,EUR,2026.09.21,10:00,1,0,0
-FOMC Member Goolsbee Speaks,USD,2026.09.21,10:30,1,0,0
-ECB President Lagarde Speaks,EUR,2026.09.21,15:00,2,0,0
-BOC Gov Macklem Speaks,CAD,2026.09.21,15:05,2,0,0
-RBA Assist Gov Hunter Speaks,AUD,2026.09.21,19:00,1,0,0
-Bank Holiday,JPY,2026.09.21,23:00,0,0,0
-RBA Gov Bullock Speaks,AUD,2026.09.22,03:10,3,0,0
-Public Sector Net Borrowing,GBP,2026.09.22,06:00,1,15200000000.0,1800000000.0
-German Buba President Nagel Speaks,EUR,2026.09.22,08:30,1,0,0
-CBI Industrial Order Expectations,GBP,2026.09.22,10:00,1,-33,-25
-ECB President Lagarde Speaks,EUR,2026.09.22,11:00,2,0,0
-ADP Weekly Employment Change,USD,2026.09.22,12:15,1,0,16300.0
-President Trump Speaks,USD,2026.09.22,13:55,2,0,0
-Consumer Confidence,EUR,2026.09.22,14:00,1,-16,-16
-Richmond Manufacturing Index,USD,2026.09.22,14:00,1,2,4
-FOMC Member Williams Speaks,USD,2026.09.22,14:05,1,0,0
-FOMC Member Jefferson Speaks,USD,2026.09.22,14:20,1,0,0
-FOMC Member Barkin Speaks,USD,2026.09.22,17:00,1,0,0
-German Buba President Nagel Speaks,EUR,2026.09.22,19:30,1,0,0
-API Weekly Statistical Bulletin,USD,2026.09.22,20:30,1,0,0
-Flash Manufacturing PMI,AUD,2026.09.22,23:00,1,0,52.0
-Flash Services PMI,AUD,2026.09.22,23:00,1,0,52.9
-Bank Holiday,JPY,2026.09.22,23:00,0,0,0
-French Flash Manufacturing PMI,EUR,2026.09.23,07:15,2,50.9,51.5
-French Flash Services PMI,EUR,2026.09.23,07:15,2,48.3,48.4
-German Flash Manufacturing PMI,EUR,2026.09.23,07:30,2,54.1,54.1
-German Flash Services PMI,EUR,2026.09.23,07:30,2,49.9,48.5
-Flash Manufacturing PMI,EUR,2026.09.23,08:00,1,52.6,52.8
-Flash Services PMI,EUR,2026.09.23,08:00,1,51.4,51.7
-Flash Manufacturing PMI,GBP,2026.09.23,08:30,2,51.5,51.5
-Flash Services PMI,GBP,2026.09.23,08:30,2,52.0,52.8
-German 30-y Bond Auction,EUR,2026.09.23,09:35,1,0,3.90
-Flash Manufacturing PMI,USD,2026.09.23,13:45,1,53.6,53.2
-Flash Services PMI,USD,2026.09.23,13:45,1,55.8,56.8
-FOMC Member Barr Speaks,USD,2026.09.23,14:05,1,0,0
-Crude Oil Inventories,USD,2026.09.23,14:30,1,-700000.0,-600000.0
-FOMC Member Goolsbee Speaks,USD,2026.09.23,16:00,1,0,0
-Flash Manufacturing PMI,JPY,2026.09.24,00:30,1,55.0,55.1
-Employment Change,AUD,2026.09.24,01:30,3,21500.0,-15800.0
-Unemployment Rate,AUD,2026.09.24,01:30,3,4.5,4.5
-NAB Quarterly Business Confidence,AUD,2026.09.24,01:30,1,0,-19
-SNB Monetary Policy Assessment,CHF,2026.09.24,07:30,3,0,0
-SNB Policy Rate,CHF,2026.09.24,07:30,3,0.00,0.00
-SNB Press Conference,CHF,2026.09.24,08:00,3,0,0
-ECB Economic Bulletin,EUR,2026.09.24,08:00,1,0,0
-German ifo Business Climate,EUR,2026.09.24,08:00,1,89.1,88.8
-FOMC Member Williams Speaks,USD,2026.09.24,08:10,1,0,0
-MPC Member Dhingra Speaks,GBP,2026.09.24,09:30,1,0,0
-CBI Realized Sales,GBP,2026.09.24,10:00,1,-42,-48
-Core Retail Sales m/m,CAD,2026.09.24,12:30,2,-0.5,0.5
-Retail Sales m/m,CAD,2026.09.24,12:30,2,-0.8,0.6
-Unemployment Claims,USD,2026.09.24,12:30,2,201000.0,196000.0
-Current Account,USD,2026.09.24,12:30,1,-258000000000.0,-227000000000.0
-FOMC Member Barkin Speaks,USD,2026.09.24,12:30,1,0,0
-FOMC Member Hammack Speaks,USD,2026.09.24,12:50,1,0,0
-CB Leading Index m/m,CNY,2026.09.24,13:00,1,0,-0.3
-Belgian NBB Business Climate,EUR,2026.09.24,13:00,1,-13.5,-13.2
-MPC Member Breeden Speaks,GBP,2026.09.24,13:30,1,0,0
-MPC Member Lombardelli Speaks,GBP,2026.09.24,14:00,1,0,0
-New Home Sales,USD,2026.09.24,14:00,1,615000.0,607000.0
-FOMC Member Paulson Speaks,USD,2026.09.24,14:10,1,0,0
-President Trump Speaks,USD,2026.09.24,14:15,2,0,0
-Natural Gas Storage,USD,2026.09.24,14:30,1,50000000000.0,44000000000.0
-GfK Consumer Confidence,GBP,2026.09.24,23:01,1,-16,-14
-Bank Holiday,CNY,2026.09.24,23:01,0,0,0
-President Trump Speaks,USD,2026.09.24,23:55,2,0,0
-BOJ Core CPI y/y,JPY,2026.09.25,05:00,1,1.5,1.6
-German GfK Consumer Climate,EUR,2026.09.25,06:00,1,-27.1,-26.6
-M3 Money Supply y/y,EUR,2026.09.25,08:00,1,3.5,3.4
-Private Loans y/y,EUR,2026.09.25,08:00,1,3.2,3.1
-BOE Gov Bailey Speaks,GBP,2026.09.25,09:15,3,0,0
-FOMC Member Williams Speaks,USD,2026.09.25,09:15,1,0,0
-Core Durable Goods Orders m/m,USD,2026.09.25,12:30,1,0.6,0.4
-Durable Goods Orders m/m,USD,2026.09.25,12:30,1,-0.3,1.1
-FOMC Member Schmid Speaks,USD,2026.09.25,13:20,1,0,0
-Revised UoM Consumer Sentiment,USD,2026.09.25,14:00,2,47.4,47.8
-Revised UoM Inflation Expectations,USD,2026.09.25,14:00,2,0,4.6
-FOMC Member Hammack Speaks,USD,2026.09.25,18:00,1,0,0
-Daylight Saving Time Shift,NZD,2026.09.26,14:00,0,0,0
+Monetary Policy Meeting Minutes,JPY,2026.09.27,23:50,1,0,0
+SPPI y/y,JPY,2026.09.27,23:50,1,3.6,3.6
+MPC Member Ramsden Speaks,GBP,2026.09.28,10:00,1,0,0
+FOMC Member Bowman Speaks,USD,2026.09.28,12:15,1,0,0
+ECB President Lagarde Speaks,EUR,2026.09.28,13:30,2,0,0
+FOMC Member Cook Speaks,USD,2026.09.28,17:25,1,0,0
+FOMC Member Barkin Speaks,USD,2026.09.28,17:30,1,0,0
+BRC Shop Price Index y/y,GBP,2026.09.28,23:01,1,1.5,1.5
+Household Spending m/m,AUD,2026.09.29,01:30,1,0.4,1.1
+Cash Rate,AUD,2026.09.29,04:30,3,4.60,4.35
+RBA Rate Statement,AUD,2026.09.29,04:30,3,0,0
+RBA Press Conference,AUD,2026.09.29,05:30,2,0,0
+KOF Economic Barometer,CHF,2026.09.29,07:00,1,106.0,106.7
+Spanish Flash CPI y/y,EUR,2026.09.29,07:00,1,4.7,4.3
+M4 Money Supply m/m,GBP,2026.09.29,08:30,1,0.1,-0.3
+Mortgage Approvals,GBP,2026.09.29,08:30,1,57000.0,56000.0
+Net Lending to Individuals m/m,GBP,2026.09.29,08:30,1,6200000000.0,6300000000.0
+Italian 10-y Bond Auction,EUR,2026.09.29,09:33,1,0,4.10
+10-y Bond Auction,GBP,2026.09.29,09:33,1,0,5.16
+German Buba President Nagel Speaks,EUR,2026.09.29,10:00,1,0,0
+ECB President Lagarde Speaks,EUR,2026.09.29,11:00,2,0,0
+GDP m/m,CAD,2026.09.29,12:30,2,0.1,0.3
+HPI m/m,USD,2026.09.29,13:00,1,0.1,0.0
+S&P/CS Composite-20 HPI y/y,USD,2026.09.29,13:00,1,2.2,2.1
+CB Consumer Confidence,USD,2026.09.29,14:00,2,90.1,89.4
+JOLTS Job Openings,USD,2026.09.29,14:00,2,7230000.0,7270000.0
+MPC Member Mann Speaks,GBP,2026.09.29,15:00,1,0,0
+FOMC Member Bowman Speaks,USD,2026.09.29,15:00,1,0,0
+MPC Member Taylor Speaks,GBP,2026.09.29,15:30,1,0,0
+FOMC Member Barr Speaks,USD,2026.09.29,16:40,1,0,0
+FOMC Member Goolsbee Speaks,USD,2026.09.29,17:00,1,0,0
+Gov Council Member Gravelle Speaks,CAD,2026.09.29,17:20,1,0,0
+FOMC Member Musalem Speaks,USD,2026.09.29,17:30,1,0,0
+FOMC Member Williams Speaks,USD,2026.09.29,18:00,1,0,0
+FOMC Member Waller Speaks,USD,2026.09.29,19:00,1,0,0
+API Weekly Statistical Bulletin,USD,2026.09.29,20:30,1,0,0
+Prelim Industrial Production m/m,JPY,2026.09.29,23:50,1,1.2,0.1
+Retail Sales y/y,JPY,2026.09.29,23:50,1,3.2,4.0
+ANZ Business Confidence,NZD,2026.09.30,00:00,1,0,53.7
+CPI m/m,AUD,2026.09.30,01:30,3,0.5,1.0
+CPI y/y,AUD,2026.09.30,01:30,3,4.1,3.5
+Trimmed Mean CPI m/m,AUD,2026.09.30,01:30,3,0.3,0.5
+Building Approvals m/m,AUD,2026.09.30,01:30,1,-0.9,-3.6
+Private Sector Credit m/m,AUD,2026.09.30,01:30,1,0.5,0.6
+Manufacturing PMI,CNY,2026.09.30,01:30,1,50.1,49.8
+Non-Manufacturing PMI,CNY,2026.09.30,01:30,1,49.3,49.0
+RatingDog Manufacturing PMI,CNY,2026.09.30,01:45,1,51.7,51.5
+RatingDog Services PMI,CNY,2026.09.30,01:45,1,51.2,51.4
+Housing Starts y/y,JPY,2026.09.30,05:00,1,6.8,8.2
+German Import Prices m/m,EUR,2026.09.30,06:00,1,0.1,0.2
+German Retail Sales m/m,EUR,2026.09.30,06:00,1,1.4,-3.4
+Current Account,GBP,2026.09.30,06:00,1,-25600000000.0,-22100000000.0
+Final GDP q/q,GBP,2026.09.30,06:00,1,0.4,0.4
+Revised Business Investment q/q,GBP,2026.09.30,06:00,1,1.7,1.7
+German Prelim CPI m/m,EUR,2026.09.30,06:29,2,0.5,0.2
+French Consumer Spending m/m,EUR,2026.09.30,06:45,1,0.0,0.5
+French Prelim CPI m/m,EUR,2026.09.30,06:45,1,-0.5,0.7
+German Unemployment Change,EUR,2026.09.30,07:55,1,2000.0,4000.0
+UBS Economic Expectations,CHF,2026.09.30,08:00,1,0,12.1
+Italian Prelim CPI m/m,EUR,2026.09.30,09:00,1,0.0,0.5
+FPC Meeting Minutes,GBP,2026.09.30,09:30,1,0,0
+FPC Statement,GBP,2026.09.30,09:30,1,0,0
+German 10-y Bond Auction,EUR,2026.09.30,09:42,1,0,3.39
+Bank Holiday,CAD,2026.09.30,12:00,0,0,0
+ADP Non-Farm Employment Change,USD,2026.09.30,12:15,2,70000.0,38000.0
+Core PCE Price Index m/m,USD,2026.09.30,12:30,3,0.3,0.2
+Final GDP q/q,USD,2026.09.30,12:30,3,1.5,1.5
+Final GDP Price Index q/q,USD,2026.09.30,12:30,2,6.4,6.4
+Goods Trade Balance,USD,2026.09.30,12:30,1,-113800000000.0,-118800000000.0
+Personal Income m/m,USD,2026.09.30,12:30,1,0.5,0.4
+Personal Spending m/m,USD,2026.09.30,12:30,1,1.0,0.2
+Prelim Wholesale Inventories m/m,USD,2026.09.30,12:30,1,1.1,1.3
+SNB Quarterly Bulletin,CHF,2026.09.30,13:00,1,0,0
+Chicago PMI,USD,2026.09.30,13:45,1,51.3,47.1
+Crude Oil Inventories,USD,2026.09.30,14:30,1,0,3000000.0
+Gov Board Member Tschudin Speaks,CHF,2026.09.30,15:00,1,0,0
+FOMC Member Barkin Speaks,USD,2026.09.30,17:30,1,0,0
+FOMC Member Cook Speaks,USD,2026.09.30,19:25,1,0,0
+FOMC Member Goolsbee Speaks,USD,2026.09.30,21:10,1,0,0
+Building Consents m/m,NZD,2026.09.30,21:45,1,0,-4.3
+FOMC Member Kashkari Speaks,USD,2026.09.30,22:00,1,0,0
+Bank Holiday,CNY,2026.09.30,23:01,0,0,0
+BOJ Summary of Opinions,JPY,2026.09.30,23:50,1,0,0
+Tankan Manufacturing Index,JPY,2026.09.30,23:50,1,25,22
+Tankan Non-Manufacturing Index,JPY,2026.09.30,23:50,1,36,37
+Final Manufacturing PMI,JPY,2026.10.01,00:30,1,54.1,54.1
+Goods Trade Balance,AUD,2026.10.01,01:30,1,2100000000.0,1920000000.0
+RBA Financial Stability Review,AUD,2026.10.01,01:30,1,0,0
+Nationwide HPI m/m,GBP,2026.10.01,06:00,1,0.2,0.2
+Commodity Prices y/y,AUD,2026.10.01,06:30,1,0,15.5
+CPI m/m,CHF,2026.10.01,06:30,2,0.0,0.4
+Retail Sales y/y,CHF,2026.10.01,06:30,1,2.2,2.3
+Spanish Manufacturing PMI,EUR,2026.10.01,07:15,1,50.2,49.5
+Manufacturing PMI,CHF,2026.10.01,07:30,1,56.0,57.1
+Italian Manufacturing PMI,EUR,2026.10.01,07:45,1,49.9,49.6
+French Final Manufacturing PMI,EUR,2026.10.01,07:50,1,50.3,50.3
+German Final Manufacturing PMI,EUR,2026.10.01,07:55,1,53.8,53.8
+Final Manufacturing PMI,EUR,2026.10.01,08:00,1,52.7,52.7
+Italian Monthly Unemployment Rate,EUR,2026.10.01,08:00,1,5.7,5.8
+BOE Gov Bailey Speaks,GBP,2026.10.01,08:00,2,0,0
+Final Manufacturing PMI,GBP,2026.10.01,08:30,1,52.0,52.0
+Unemployment Rate,EUR,2026.10.01,09:00,1,6.4,6.4
+Spanish 10-y Bond Auction,EUR,2026.10.01,09:03,1,0,3.96
+French 10-y Bond Auction,EUR,2026.10.01,09:18,1,0,4.23
+Challenger Job Cuts y/y,USD,2026.10.01,09:30,1,0,-38.5
+German Buba President Nagel Speaks,EUR,2026.10.01,10:35,1,0,0
+MPC Member Mann Speaks,GBP,2026.10.01,12:00,1,0,0
+Unemployment Claims,USD,2026.10.01,12:30,2,199000.0,197000.0
+FOMC Member Barkin Speaks,USD,2026.10.01,13:05,1,0,0
+FOMC Member Collins Speaks,USD,2026.10.01,13:05,1,0,0
+FOMC Member Schmid Speaks,USD,2026.10.01,13:05,1,0,0
+Manufacturing PMI,CAD,2026.10.01,13:30,1,0,53.0
+ECB President Lagarde Speaks,EUR,2026.10.01,13:30,2,0,0
+Final Manufacturing PMI,USD,2026.10.01,13:45,1,57.0,57.0
+FOMC Member Waller Speaks,USD,2026.10.01,14:00,2,0,0
+ISM Manufacturing PMI,USD,2026.10.01,14:00,2,55.0,54.6
+Construction Spending m/m,USD,2026.10.01,14:00,1,0.1,-0.5
+ISM Manufacturing Prices,USD,2026.10.01,14:00,1,72.0,71.1
+Omdia Total Vehicle Sales,USD,2026.10.01,14:15,1,16500000.0,16800000.0
+Natural Gas Storage,USD,2026.10.01,14:30,1,0,53000000000.0
+SNB Chairman Schlegel Speaks,CHF,2026.10.01,15:30,2,0,0
+FOMC Member Jefferson Speaks,USD,2026.10.01,17:30,1,0,0
+FOMC Member Bowman Speaks,USD,2026.10.01,19:00,1,0,0
+Gov Council Member Rogers Speaks,CAD,2026.10.01,19:05,1,0,0
+FOMC Member Cook Speaks,USD,2026.10.01,19:30,1,0,0
+FOMC Member Logan Speaks,USD,2026.10.01,22:45,1,0,0
+Bank Holiday,CNY,2026.10.01,23:01,0,0,0
+Tokyo Core CPI y/y,JPY,2026.10.01,23:30,2,2.4,1.8
+Unemployment Rate,JPY,2026.10.01,23:30,1,2.4,2.4
+Monetary Base y/y,JPY,2026.10.01,23:50,1,-16.3,-15.7
+Spanish Unemployment Change,EUR,2026.10.02,07:00,1,17600.0,44400.0
+Italian Retail Sales m/m,EUR,2026.10.02,08:00,1,-0.1,-0.4
+Core CPI Flash Estimate y/y,EUR,2026.10.02,09:00,2,2.5,2.4
+CPI Flash Estimate y/y,EUR,2026.10.02,09:00,2,3.7,3.3
+Average Hourly Earnings m/m,USD,2026.10.02,12:30,3,0.3,0.3
+Non-Farm Employment Change,USD,2026.10.02,12:30,3,98000.0,162000.0
+Unemployment Rate,USD,2026.10.02,12:30,3,4.1,4.1
+Factory Orders m/m,USD,2026.10.02,14:00,1,-0.1,0.9
+FOMC Member Logan Speaks,USD,2026.10.02,14:00,1,0,0
+German Buba President Nagel Speaks,EUR,2026.10.02,19:35,1,0,0
+Daylight Saving Time Shift,AUD,2026.10.03,16:00,0,0,0
