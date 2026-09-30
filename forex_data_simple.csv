@@ -56,7 +56,7 @@ Revised Business Investment q/q,GBP,2026.09.30,06:00,1,1.7,1.7
 German Prelim CPI m/m,EUR,2026.09.30,06:29,2,0.5,0.2
 French Consumer Spending m/m,EUR,2026.09.30,06:45,1,0.0,0.5
 French Prelim CPI m/m,EUR,2026.09.30,06:45,1,-0.5,0.7
-German Unemployment Change,EUR,2026.09.30,07:55,1,0.0,4000.0
+German Unemployment Change,EUR,2026.09.30,07:55,1,1000.0,4000.0
 UBS Economic Expectations,CHF,2026.09.30,08:00,1,0,12.1
 Italian Prelim CPI m/m,EUR,2026.09.30,09:00,1,0.2,0.5
 FPC Meeting Minutes,GBP,2026.09.30,09:30,1,0,0
@@ -74,9 +74,10 @@ Prelim Wholesale Inventories m/m,USD,2026.09.30,12:30,1,0.5,1.3
 SNB Quarterly Bulletin,CHF,2026.09.30,13:00,1,0,0
 Chicago PMI,USD,2026.09.30,13:45,1,51.2,47.1
 Gov Board Member Tschudin Speaks,CHF,2026.09.30,14:30,1,0,0
-Crude Oil Inventories,USD,2026.09.30,14:30,1,-1900000.0,3000000.0
+Crude Oil Inventories,USD,2026.09.30,14:30,1,-700000.0,3000000.0
 FOMC Member Barkin Speaks,USD,2026.09.30,17:30,1,0,0
 FOMC Member Cook Speaks,USD,2026.09.30,19:25,1,0,0
+President Trump Speaks,USD,2026.09.30,19:30,2,0,0
 FOMC Member Goolsbee Speaks,USD,2026.09.30,21:10,1,0,0
 Building Consents m/m,NZD,2026.09.30,21:45,1,0,-4.3
 FOMC Member Kashkari Speaks,USD,2026.09.30,22:00,1,0,0
@@ -92,7 +93,7 @@ Commodity Prices y/y,AUD,2026.10.01,06:30,1,0,15.5
 CPI m/m,CHF,2026.10.01,06:30,2,0.0,0.4
 Retail Sales y/y,CHF,2026.10.01,06:30,1,2.1,2.3
 Spanish Manufacturing PMI,EUR,2026.10.01,07:15,1,50.2,49.5
-Manufacturing PMI,CHF,2026.10.01,07:30,1,56.4,57.1
+Manufacturing PMI,CHF,2026.10.01,07:30,1,56.3,57.1
 Italian Manufacturing PMI,EUR,2026.10.01,07:45,1,50.1,49.6
 French Final Manufacturing PMI,EUR,2026.10.01,07:50,1,50.3,50.3
 German Final Manufacturing PMI,EUR,2026.10.01,07:55,1,53.8,53.8
@@ -118,7 +119,7 @@ ISM Manufacturing PMI,USD,2026.10.01,14:00,2,54.8,54.6
 Construction Spending m/m,USD,2026.10.01,14:00,1,0.0,-0.5
 ISM Manufacturing Prices,USD,2026.10.01,14:00,1,72.9,71.1
 Omdia Total Vehicle Sales,USD,2026.10.01,14:15,1,16300000.0,16800000.0
-Natural Gas Storage,USD,2026.10.01,14:30,1,0,53000000000.0
+Natural Gas Storage,USD,2026.10.01,14:30,1,63000000000.0,53000000000.0
 SNB Chairman Schlegel Speaks,CHF,2026.10.01,15:30,2,0,0
 FOMC Member Jefferson Speaks,USD,2026.10.01,17:30,1,0,0
 FOMC Member Bowman Speaks,USD,2026.10.01,19:00,1,0,0
