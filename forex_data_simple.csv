@@ -21,7 +21,7 @@ Bank Holiday,CNY,2026.10.05,23:01,0,0,0
 Westpac Consumer Sentiment,AUD,2026.10.05,23:30,1,0,-5.2
 ANZ Job Advertisements m/m,AUD,2026.10.06,00:30,1,0,2.5
 10-y Bond Auction,JPY,2026.10.06,03:35,1,0,3.00
-German Factory Orders m/m,EUR,2026.10.06,06:00,1,-1.0,2.5
+German Factory Orders m/m,EUR,2026.10.06,06:00,1,-0.9,2.5
 BOJ Gov Ueda Speaks,JPY,2026.10.06,06:35,3,0,0
 French Gov Budget Balance,EUR,2026.10.06,06:45,1,0,-145900000000.0
 French Industrial Production m/m,EUR,2026.10.06,06:45,1,0.2,-0.4
@@ -29,15 +29,16 @@ Unemployment Rate,CHF,2026.10.06,07:00,1,3.1,3.1
 Construction PMI,GBP,2026.10.06,08:30,1,45.0,44.3
 MPC Member Mann Speaks,GBP,2026.10.06,08:30,1,0,0
 Housing Equity Withdrawal q/q,GBP,2026.10.06,08:30,1,-11900000000.0,-12600000000.0
-Retail Sales m/m,EUR,2026.10.06,09:00,1,0.3,-0.6
+Retail Sales m/m,EUR,2026.10.06,09:00,1,0.2,-0.6
 ADP Weekly Employment Change,USD,2026.10.06,12:15,1,0,0
 ADP Weekly Employment Change,USD,2026.10.06,12:16,1,0,20000.0
-Trade Balance,CAD,2026.10.06,12:30,1,1300000000.0,800000000.0
-Trade Balance,USD,2026.10.06,12:30,1,-95200000000.0,-88600000000.0
+Trade Balance,CAD,2026.10.06,12:30,1,1500000000.0,800000000.0
+Trade Balance,USD,2026.10.06,12:30,1,-100800000000.0,-88600000000.0
 Ivey PMI,CAD,2026.10.06,14:00,2,65.2,64.3
 RCM/TIPP Economic Optimism,USD,2026.10.06,14:10,1,44.5,45.6
 FOMC Member Bowman Speaks,USD,2026.10.06,14:45,1,0,0
 GDT Price Index,NZD,2026.10.06,14:50,1,0,-1.1
+FOMC Member Schmid Speaks,USD,2026.10.06,17:15,1,0,0
 API Weekly Statistical Bulletin,USD,2026.10.06,20:30,1,0,0
 Bank Holiday,CNY,2026.10.06,23:01,0,0,0
 Average Cash Earnings y/y,JPY,2026.10.06,23:30,1,3.7,4.7
@@ -58,10 +59,12 @@ Economy Watchers Sentiment,JPY,2026.10.08,05:00,1,46.6,46.4
 German Trade Balance,EUR,2026.10.08,06:00,1,18900000000.0,21300000000.0
 Gov Board Member Martin Speaks,CHF,2026.10.08,08:05,1,0,0
 BOE Credit Conditions Survey,GBP,2026.10.08,08:30,1,0,0
+FOMC Member Waller Speaks,USD,2026.10.08,08:30,2,0,0
 MPC Member Greene Speaks,GBP,2026.10.08,09:15,1,0,0
 Eurogroup Meetings,EUR,2026.10.08,09:15,1,0,0
 MPC Member Pill Speaks,GBP,2026.10.08,10:30,1,0,0
 ECB Monetary Policy Meeting Accounts,EUR,2026.10.08,11:30,1,0,0
+BOE Gov Bailey Speaks,GBP,2026.10.08,12:15,3,0,0
 Unemployment Claims,USD,2026.10.08,12:30,2,200000.0,197000.0
 MPC Member Lombardelli Speaks,GBP,2026.10.08,13:00,1,0,0
 Final Wholesale Inventories m/m,USD,2026.10.08,14:00,1,0.7,0.7
