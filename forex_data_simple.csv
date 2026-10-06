@@ -42,7 +42,7 @@ FOMC Member Schmid Speaks,USD,2026.10.06,17:15,1,0,0
 API Weekly Statistical Bulletin,USD,2026.10.06,20:30,1,0,0
 Bank Holiday,CNY,2026.10.06,23:01,0,0,0
 Average Cash Earnings y/y,JPY,2026.10.06,23:30,1,3.7,4.7
-Leading Indicators,JPY,2026.10.07,05:00,1,118.1,117.9
+Leading Indicators,JPY,2026.10.07,05:00,1,118.3,117.9
 German Industrial Production m/m,EUR,2026.10.07,06:00,1,0.5,-1.1
 Lloyds HPI m/m,GBP,2026.10.07,06:00,1,0.2,-0.2
 French Trade Balance,EUR,2026.10.07,06:45,1,-6500000000.0,-6700000000.0
@@ -50,12 +50,12 @@ Foreign Currency Reserves,CHF,2026.10.07,07:00,1,0,770000000000.0
 Crude Oil Inventories,USD,2026.10.07,14:30,1,0,900000.0
 10-y Bond Auction,USD,2026.10.07,17:01,1,0,4.83
 FOMC Meeting Minutes,USD,2026.10.07,18:00,3,0,0
-Consumer Credit m/m,USD,2026.10.07,19:00,1,15400000000.0,18100000000.0
+Consumer Credit m/m,USD,2026.10.07,19:00,1,14400000000.0,18100000000.0
 RICS House Price Balance,GBP,2026.10.07,23:01,1,-30,-28
-Current Account,JPY,2026.10.07,23:50,1,2.10T,2.52T
+Current Account,JPY,2026.10.07,23:50,1,2.13T,2.52T
 MI Inflation Expectations,AUD,2026.10.08,00:00,1,0,4.9
 30-y Bond Auction,JPY,2026.10.08,03:35,1,0,4.08
-Economy Watchers Sentiment,JPY,2026.10.08,05:00,1,46.6,46.4
+Economy Watchers Sentiment,JPY,2026.10.08,05:00,1,46.7,46.4
 German Trade Balance,EUR,2026.10.08,06:00,1,18900000000.0,21300000000.0
 Gov Board Member Martin Speaks,CHF,2026.10.08,08:05,1,0,0
 BOE Credit Conditions Survey,GBP,2026.10.08,08:30,1,0,0
@@ -76,7 +76,7 @@ Prelim Machine Tool Orders y/y,JPY,2026.10.09,06:00,1,0,64.7
 SECO Consumer Climate,CHF,2026.10.09,07:00,1,-32,-33
 Italian Industrial Production m/m,EUR,2026.10.09,08:00,1,0.0,0.7
 ECOFIN Meetings,EUR,2026.10.09,09:15,1,0,0
-Employment Change,CAD,2026.10.09,12:30,3,9000.0,-41700.0
+Employment Change,CAD,2026.10.09,12:30,3,6200.0,-41700.0
 Unemployment Rate,CAD,2026.10.09,12:30,3,6.5,6.4
 Prelim UoM Consumer Sentiment,USD,2026.10.09,14:00,2,47.6,47.8
 Prelim UoM Inflation Expectations,USD,2026.10.09,14:00,2,0,4.6
