@@ -47,16 +47,16 @@ German Industrial Production m/m,EUR,2026.10.07,06:00,1,0.5,-1.1
 Lloyds HPI m/m,GBP,2026.10.07,06:00,1,0.0,-0.2
 French Trade Balance,EUR,2026.10.07,06:45,1,-6500000000.0,-6700000000.0
 Foreign Currency Reserves,CHF,2026.10.07,07:00,1,0,770000000000.0
-Crude Oil Inventories,USD,2026.10.07,14:30,1,2100000.0,900000.0
+Crude Oil Inventories,USD,2026.10.07,14:30,1,1900000.0,900000.0
 10-y Bond Auction,USD,2026.10.07,17:01,1,0,4.83
 FOMC Meeting Minutes,USD,2026.10.07,18:00,3,0,0
-Consumer Credit m/m,USD,2026.10.07,19:00,1,14400000000.0,18100000000.0
+Consumer Credit m/m,USD,2026.10.07,19:00,1,14500000000.0,18100000000.0
 RICS House Price Balance,GBP,2026.10.07,23:01,1,-30,-28
-Current Account,JPY,2026.10.07,23:50,1,2.13T,2.52T
+Current Account,JPY,2026.10.07,23:50,1,2.14T,2.52T
 MI Inflation Expectations,AUD,2026.10.08,00:00,1,0,4.9
 30-y Bond Auction,JPY,2026.10.08,03:35,1,0,4.08
 Economy Watchers Sentiment,JPY,2026.10.08,05:00,1,46.7,46.4
-German Trade Balance,EUR,2026.10.08,06:00,1,18900000000.0,21300000000.0
+German Trade Balance,EUR,2026.10.08,06:00,1,19000000000.0,21300000000.0
 Gov Board Member Martin Speaks,CHF,2026.10.08,08:05,1,0,0
 BOE Credit Conditions Survey,GBP,2026.10.08,08:30,1,0,0
 FOMC Member Waller Speaks,USD,2026.10.08,08:30,2,0,0
@@ -68,7 +68,7 @@ BOE Gov Bailey Speaks,GBP,2026.10.08,12:15,3,0,0
 Unemployment Claims,USD,2026.10.08,12:30,2,200000.0,197000.0
 MPC Member Lombardelli Speaks,GBP,2026.10.08,13:00,1,0,0
 Final Wholesale Inventories m/m,USD,2026.10.08,14:00,1,0.7,0.7
-Natural Gas Storage,USD,2026.10.08,14:30,1,0,64000000000.0
+Natural Gas Storage,USD,2026.10.08,14:30,1,79000000000.0,64000000000.0
 30-y Bond Auction,USD,2026.10.08,17:01,1,0,5.31
 FOMC Member Musalem Speaks,USD,2026.10.08,17:40,1,0,0
 Household Spending y/y,JPY,2026.10.08,23:30,1,-3.5,-3.6
@@ -76,8 +76,8 @@ Prelim Machine Tool Orders y/y,JPY,2026.10.09,06:00,1,0,64.7
 SECO Consumer Climate,CHF,2026.10.09,07:00,1,-32,-33
 Italian Industrial Production m/m,EUR,2026.10.09,08:00,1,0.0,0.7
 ECOFIN Meetings,EUR,2026.10.09,09:15,1,0,0
-Employment Change,CAD,2026.10.09,12:30,3,6200.0,-41700.0
+Employment Change,CAD,2026.10.09,12:30,3,6300.0,-41700.0
 Unemployment Rate,CAD,2026.10.09,12:30,3,6.5,6.4
-Prelim UoM Consumer Sentiment,USD,2026.10.09,14:00,2,47.6,47.8
+Prelim UoM Consumer Sentiment,USD,2026.10.09,14:00,2,47.5,47.8
 Prelim UoM Inflation Expectations,USD,2026.10.09,14:00,2,0,4.6
 FOMC Member Collins Speaks,USD,2026.10.09,20:00,1,0,0
