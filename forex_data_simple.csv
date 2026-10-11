@@ -1,84 +1,110 @@
 Title,Country,Date,Time24h,Importance,Forecast,Previous
-OPEC-JMMC Meetings,All,2026.10.04,09:15,2,0,0
-Bank Holiday,AUD,2026.10.04,20:00,0,0,0
-Bank Holiday,CNY,2026.10.04,23:01,0,0,0
-MI Inflation Gauge m/m,AUD,2026.10.05,00:00,1,0,0.5
-ANZ Commodity Prices m/m,NZD,2026.10.05,00:00,1,0,-0.4
-Consumer Confidence,JPY,2026.10.05,05:00,1,35.3,35.5
-Spanish Services PMI,EUR,2026.10.05,07:15,1,57.1,57.8
-German Buba President Nagel Speaks,EUR,2026.10.05,07:45,1,0,0
-Italian Services PMI,EUR,2026.10.05,07:45,1,54.6,55.2
-French Final Services PMI,EUR,2026.10.05,07:50,1,51.4,51.4
-German Final Services PMI,EUR,2026.10.05,07:55,1,52.9,52.9
-Final Services PMI,EUR,2026.10.05,08:00,1,53.0,53.0
-Sentix Investor Confidence,EUR,2026.10.05,08:30,1,4.5,5.1
-Final Services PMI,GBP,2026.10.05,08:30,1,51.7,51.7
-PPI m/m,EUR,2026.10.05,09:00,1,1.9,1.6
-Final Services PMI,USD,2026.10.05,13:45,1,58.7,58.7
-ISM Services PMI,USD,2026.10.05,14:00,2,55.1,55.4
-NZIER Business Confidence,NZD,2026.10.05,21:00,1,0,8
-Bank Holiday,CNY,2026.10.05,23:01,0,0,0
-Westpac Consumer Sentiment,AUD,2026.10.05,23:30,1,0,-5.2
-ANZ Job Advertisements m/m,AUD,2026.10.06,00:30,1,0,2.5
-10-y Bond Auction,JPY,2026.10.06,03:35,1,0,3.00
-German Factory Orders m/m,EUR,2026.10.06,06:00,1,-0.9,2.5
-BOJ Gov Ueda Speaks,JPY,2026.10.06,06:35,3,0,0
-French Gov Budget Balance,EUR,2026.10.06,06:45,1,0,-145900000000.0
-French Industrial Production m/m,EUR,2026.10.06,06:45,1,0.2,-0.4
-Unemployment Rate,CHF,2026.10.06,07:00,1,3.1,3.1
-Construction PMI,GBP,2026.10.06,08:30,1,45.0,44.3
-Housing Equity Withdrawal q/q,GBP,2026.10.06,08:30,1,-11900000000.0,-12600000000.0
-MPC Member Mann Speaks,GBP,2026.10.06,08:30,1,0,0
-Retail Sales m/m,EUR,2026.10.06,09:00,1,0.2,-0.6
-ADP Weekly Employment Change,USD,2026.10.06,12:14,1,0,20000.0
-ADP Weekly Employment Change,USD,2026.10.06,12:15,1,0,22500.0
-Trade Balance,CAD,2026.10.06,12:30,1,1500000000.0,800000000.0
-Trade Balance,USD,2026.10.06,12:30,1,-100800000000.0,-88600000000.0
-Ivey PMI,CAD,2026.10.06,14:00,2,65.2,64.3
-RCM/TIPP Economic Optimism,USD,2026.10.06,14:01,1,44.5,45.6
-FOMC Member Bowman Speaks,USD,2026.10.06,14:45,1,0,0
-GDT Price Index,NZD,2026.10.06,15:46,1,0,-1.1
-FOMC Member Schmid Speaks,USD,2026.10.06,17:15,1,0,0
-API Weekly Statistical Bulletin,USD,2026.10.06,20:30,1,0,0
-Bank Holiday,CNY,2026.10.06,23:01,0,0,0
-Average Cash Earnings y/y,JPY,2026.10.06,23:30,1,3.7,4.7
-Leading Indicators,JPY,2026.10.07,05:00,1,118.1,117.9
-German Industrial Production m/m,EUR,2026.10.07,06:00,1,0.5,-1.1
-Lloyds HPI m/m,GBP,2026.10.07,06:00,1,0.0,-0.2
-French Trade Balance,EUR,2026.10.07,06:45,1,-6500000000.0,-6700000000.0
-Foreign Currency Reserves,CHF,2026.10.07,07:00,1,0,770000000000.0
-Crude Oil Inventories,USD,2026.10.07,14:30,1,1900000.0,900000.0
-President Trump Speaks,USD,2026.10.07,17:00,2,0,0
-10-y Bond Auction,USD,2026.10.07,17:01,1,0,4.83
-FOMC Meeting Minutes,USD,2026.10.07,18:00,3,0,0
-Consumer Credit m/m,USD,2026.10.07,19:00,1,14500000000.0,18100000000.0
-RICS House Price Balance,GBP,2026.10.07,23:01,1,-30,-28
-Current Account,JPY,2026.10.07,23:50,1,2.14T,2.52T
-MI Inflation Expectations,AUD,2026.10.08,00:00,1,0,4.9
-30-y Bond Auction,JPY,2026.10.08,03:35,1,0,4.08
-Economy Watchers Sentiment,JPY,2026.10.08,05:00,1,46.7,46.4
-German Trade Balance,EUR,2026.10.08,06:00,1,19000000000.0,21300000000.0
-Gov Board Member Martin Speaks,CHF,2026.10.08,08:05,1,0,0
-BOE Credit Conditions Survey,GBP,2026.10.08,08:30,1,0,0
-FOMC Member Waller Speaks,USD,2026.10.08,08:30,2,0,0
-MPC Member Pill Speaks,GBP,2026.10.08,09:00,1,0,0
-MPC Member Greene Speaks,GBP,2026.10.08,09:15,1,0,0
-Eurogroup Meetings,EUR,2026.10.08,09:15,1,0,0
-ECB Monetary Policy Meeting Accounts,EUR,2026.10.08,11:30,1,0,0
-BOE Gov Bailey Speaks,GBP,2026.10.08,12:15,3,0,0
-Unemployment Claims,USD,2026.10.08,12:30,2,200000.0,197000.0
-MPC Member Lombardelli Speaks,GBP,2026.10.08,13:00,1,0,0
-Final Wholesale Inventories m/m,USD,2026.10.08,14:00,1,0.7,0.7
-Natural Gas Storage,USD,2026.10.08,14:30,1,79000000000.0,64000000000.0
-30-y Bond Auction,USD,2026.10.08,17:01,1,0,5.31
-FOMC Member Musalem Speaks,USD,2026.10.08,17:40,1,0,0
-Household Spending y/y,JPY,2026.10.08,23:30,1,-3.5,-3.6
-Prelim Machine Tool Orders y/y,JPY,2026.10.09,06:00,1,0,64.7
-SECO Consumer Climate,CHF,2026.10.09,07:00,1,-32,-33
-Italian Industrial Production m/m,EUR,2026.10.09,08:00,1,0.0,0.7
-ECOFIN Meetings,EUR,2026.10.09,09:15,1,0,0
-Employment Change,CAD,2026.10.09,12:30,3,6100.0,-41700.0
-Unemployment Rate,CAD,2026.10.09,12:30,3,6.5,6.4
-Prelim UoM Consumer Sentiment,USD,2026.10.09,14:00,2,47.5,47.8
-Prelim UoM Inflation Expectations,USD,2026.10.09,14:00,2,0,4.6
-FOMC Member Collins Speaks,USD,2026.10.09,20:00,1,0,0
+Bank Holiday,JPY,2026.10.11,23:00,0,0,0
+MPC Member Breeden Speaks,GBP,2026.10.12,09:30,1,0,0
+Bank Holiday,USD,2026.10.12,11:00,0,0,0
+Bank Holiday,CAD,2026.10.12,12:00,0,0,0
+MPC Member Mann Speaks,GBP,2026.10.12,12:50,1,0,0
+IMF Meetings,All,2026.10.12,14:15,1,0,0
+FOMC Member Hammack Speaks,USD,2026.10.12,16:10,1,0,0
+BRC Retail Sales Monitor y/y,GBP,2026.10.12,23:01,1,0.8,0.5
+Bank Lending y/y,JPY,2026.10.12,23:50,1,5.5,5.4
+PPI y/y,JPY,2026.10.12,23:50,1,7.6,7.6
+Monetary Policy Meeting Minutes,AUD,2026.10.13,00:30,1,0,0
+NAB Business Confidence,AUD,2026.10.13,00:30,1,0,-8
+MPC Member Greene Speaks,GBP,2026.10.13,03:00,1,0,0
+German Final CPI m/m,EUR,2026.10.13,06:00,1,0.6,0.6
+FOMC Member Waller Speaks,USD,2026.10.13,07:45,1,0,0
+M2 Money Supply y/y,CNY,2026.10.13,08:03,1,7.5,7.5
+New Loans,CNY,2026.10.13,08:03,1,300000000000.0,60000000000.0
+NFIB Small Business Index,USD,2026.10.13,10:00,1,98.0,98.7
+ADP Weekly Employment Change,USD,2026.10.13,12:15,1,0,23800.0
+Existing Home Sales,USD,2026.10.13,14:00,1,3960000.0,3980000.0
+IMF Meetings,All,2026.10.13,14:15,1,0,0
+CB Leading Index m/m,AUD,2026.10.13,14:30,1,0,0.5
+MPC Member Dhingra Speaks,GBP,2026.10.13,16:00,1,0,0
+FOMC Member Barkin Speaks,USD,2026.10.13,17:00,1,0,0
+FOMC Member Collins Speaks,USD,2026.10.13,20:00,1,0,0
+Visitor Arrivals m/m,NZD,2026.10.13,21:45,1,0,0.5
+MI Leading Index m/m,AUD,2026.10.13,23:30,1,0,0.0
+M2 Money Stock y/y,JPY,2026.10.13,23:50,1,2.1,2.0
+CPI y/y,CNY,2026.10.14,01:30,1,1.0,0.8
+PPI y/y,CNY,2026.10.14,01:30,1,4.5,3.8
+Trade Balance,CNY,2026.10.14,02:03,1,805000000000.0,809000000000.0
+USD-Denominated Trade Balance,CNY,2026.10.14,02:04,1,118100000000.0,119100000000.0
+ECB President Lagarde Speaks,EUR,2026.10.14,02:10,2,0,0
+MPC Member Breeden Speaks,GBP,2026.10.14,03:30,1,0,0
+BOE Gov Bailey Speaks,GBP,2026.10.14,05:30,2,0,0
+German WPI m/m,EUR,2026.10.14,06:00,1,0.7,0.9
+MPC Member Pill Speaks,GBP,2026.10.14,06:00,1,0,0
+BOC Gov Macklem Speaks,CAD,2026.10.14,06:05,2,0,0
+ECB President Lagarde Speaks,EUR,2026.10.14,08:30,2,0,0
+German 30-y Bond Auction,EUR,2026.10.14,09:34,1,0,3.80
+FOMC Member Bowman Speaks,USD,2026.10.14,09:40,1,0,0
+Building Permits m/m,CAD,2026.10.14,12:30,1,3.1,-17.3
+Core CPI m/m,USD,2026.10.14,12:30,3,0.2,0.3
+Core CPI y/y,USD,2026.10.14,12:30,3,2.5,2.4
+CPI m/m,USD,2026.10.14,12:30,3,0.6,0.4
+CPI y/y,USD,2026.10.14,12:30,3,3.6,3.4
+CB Leading Index m/m,GBP,2026.10.14,13:30,1,0,-0.1
+IMF Meetings,All,2026.10.14,14:15,1,0,0
+FOMC Member Barkin Speaks,USD,2026.10.14,17:30,1,0,0
+Beige Book,USD,2026.10.14,18:00,1,0,0
+API Weekly Statistical Bulletin,USD,2026.10.14,20:30,1,0,0
+Core Machinery Orders m/m,JPY,2026.10.14,23:50,1,2.5,-3.7
+Employment Change,AUD,2026.10.15,00:30,3,20000.0,39500.0
+Unemployment Rate,AUD,2026.10.15,00:30,3,4.6,4.6
+FOMC Member Bowman Speaks,USD,2026.10.15,02:55,1,0,0
+MPC Member Pill Speaks,GBP,2026.10.15,03:35,1,0,0
+RBA Annual Report,AUD,2026.10.15,04:25,1,0,0
+SNB Chairman Schlegel Speaks,CHF,2026.10.15,04:30,2,0,0
+Revised Industrial Production m/m,JPY,2026.10.15,04:30,1,-1.7,-1.7
+GDP m/m,GBP,2026.10.15,06:00,3,-0.1,0.4
+Construction Output m/m,GBP,2026.10.15,06:00,1,0.0,0.1
+Goods Trade Balance,GBP,2026.10.15,06:00,1,-21800000000.0,-21000000000.0
+Index of Services 3m/3m,GBP,2026.10.15,06:00,1,0.7,0.6
+Industrial Production m/m,GBP,2026.10.15,06:00,1,-0.1,0.2
+Manufacturing Production m/m,GBP,2026.10.15,06:00,1,0.1,0.9
+PPI m/m,CHF,2026.10.15,06:30,1,0.5,0.7
+French Final CPI m/m,EUR,2026.10.15,06:45,1,-0.3,-0.3
+MPC Member Greene Speaks,GBP,2026.10.15,06:45,1,0,0
+BOE Gov Bailey Speaks,GBP,2026.10.15,07:30,2,0,0
+MPC Member Breeden Speaks,GBP,2026.10.15,08:45,1,0,0
+Gov Council Member Rogers Speaks,CAD,2026.10.15,09:00,1,0,0
+Industrial Production m/m,EUR,2026.10.15,09:00,1,0.1,-0.1
+Manufacturing Sales m/m,CAD,2026.10.15,12:30,1,1.1,-0.4
+Wholesale Sales m/m,CAD,2026.10.15,12:30,1,-1.4,0.3
+Core PPI m/m,USD,2026.10.15,12:30,3,0.3,0.2
+Core Retail Sales m/m,USD,2026.10.15,12:30,3,0.5,1.4
+PPI m/m,USD,2026.10.15,12:30,3,0.5,0.4
+Retail Sales m/m,USD,2026.10.15,12:30,3,0.3,1.2
+Philly Fed Manufacturing Index,USD,2026.10.15,12:30,2,26.5,37.8
+Unemployment Claims,USD,2026.10.15,12:30,2,195000.0,197000.0
+Empire State Manufacturing Index,USD,2026.10.15,12:30,1,3.2,7.6
+Business Inventories m/m,USD,2026.10.15,14:00,1,0.4,0.8
+IMF Meetings,All,2026.10.15,14:15,1,0,0
+Natural Gas Storage,USD,2026.10.15,14:30,1,0,85000000000.0
+Crude Oil Inventories,USD,2026.10.15,16:00,1,0,-3200000.0
+FOMC Member Hammack Speaks,USD,2026.10.15,20:30,1,0,0
+BusinessNZ Manufacturing Index,NZD,2026.10.15,21:30,1,0,53.1
+FPI m/m,NZD,2026.10.15,21:45,1,0,0.3
+BOE Gov Bailey Speaks,GBP,2026.10.16,02:00,3,0,0
+German Buba President Nagel Speaks,EUR,2026.10.16,02:30,1,0,0
+Fed Chairman Warsh Speaks,USD,2026.10.16,03:30,3,0,0
+BOC Gov Macklem Speaks,CAD,2026.10.16,04:15,2,0,0
+Final Core CPI y/y,EUR,2026.10.16,09:00,1,2.5,2.5
+Final CPI y/y,EUR,2026.10.16,09:00,1,3.8,3.8
+Trade Balance,EUR,2026.10.16,09:00,1,4500000000.0,5000000000.0
+Italian Trade Balance,EUR,2026.10.16,10:00,1,7500000000.0,8240000000.0
+Gov Council Member Alexopoulos Speaks,CAD,2026.10.16,12:00,1,0,0
+Housing Starts,CAD,2026.10.16,12:15,1,230000.0,229000.0
+Foreign Securities Purchases,CAD,2026.10.16,12:30,1,0,20650000000.0
+Import Prices m/m,USD,2026.10.16,12:30,1,0.6,0.7
+Capacity Utilization Rate,USD,2026.10.16,13:15,1,76.5,76.3
+Industrial Production m/m,USD,2026.10.16,13:15,1,0.4,0.0
+IMF Meetings,All,2026.10.16,14:15,1,0,0
+Federal Budget Balance,USD,2026.10.16,18:00,1,75300000000.0,-166800000000.0
+TIC Long-Term Purchases,USD,2026.10.16,20:00,1,125700000000.0,-27900000000.0
+German Buba President Nagel Speaks,EUR,2026.10.17,04:45,1,0,0
+BOE Gov Bailey Speaks,GBP,2026.10.17,06:45,2,0,0
+IMF Meetings,All,2026.10.17,14:15,1,0,0
+RBA Assist Gov Kent Speaks,AUD,2026.10.18,00:00,1,0,0
