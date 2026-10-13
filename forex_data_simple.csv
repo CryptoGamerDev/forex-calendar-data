@@ -14,8 +14,6 @@ NAB Business Confidence,AUD,2026.10.13,00:30,1,0,-8
 MPC Member Greene Speaks,GBP,2026.10.13,03:00,1,0,0
 German Final CPI m/m,EUR,2026.10.13,06:00,1,0.6,0.6
 FOMC Member Waller Speaks,USD,2026.10.13,07:45,1,0,0
-M2 Money Supply y/y,CNY,2026.10.13,08:03,1,7.4,7.5
-New Loans,CNY,2026.10.13,08:03,1,1025000000000.0,60000000000.0
 NFIB Small Business Index,USD,2026.10.13,10:00,1,98.1,98.7
 ADP Weekly Employment Change,USD,2026.10.13,12:15,1,0,23800.0
 Existing Home Sales,USD,2026.10.13,14:00,1,3950000.0,3980000.0
@@ -36,9 +34,12 @@ BOE Gov Bailey Speaks,GBP,2026.10.14,05:30,2,0,0
 German WPI m/m,EUR,2026.10.14,06:00,1,0.6,0.9
 MPC Member Pill Speaks,GBP,2026.10.14,06:00,1,0,0
 BOC Gov Macklem Speaks,CAD,2026.10.14,06:05,2,0,0
+M2 Money Supply y/y,CNY,2026.10.14,08:03,1,7.4,7.5
+New Loans,CNY,2026.10.14,08:03,1,1025000000000.0,60000000000.0
 ECB President Lagarde Speaks,EUR,2026.10.14,08:30,2,0,0
 German 30-y Bond Auction,EUR,2026.10.14,09:34,1,0,3.80
 FOMC Member Bowman Speaks,USD,2026.10.14,09:40,1,0,0
+EU Economic Summit,EUR,2026.10.14,10:15,2,0,0
 Building Permits m/m,CAD,2026.10.14,12:30,1,2.9,-17.3
 Core CPI m/m,USD,2026.10.14,12:30,3,0.2,0.3
 Core CPI y/y,USD,2026.10.14,12:30,3,2.5,2.4
@@ -70,6 +71,7 @@ BOE Gov Bailey Speaks,GBP,2026.10.15,07:30,2,0,0
 MPC Member Breeden Speaks,GBP,2026.10.15,08:45,1,0,0
 Gov Council Member Rogers Speaks,CAD,2026.10.15,09:00,1,0,0
 Industrial Production m/m,EUR,2026.10.15,09:00,1,0.0,-0.1
+EU Economic Summit,EUR,2026.10.15,10:15,2,0,0
 Manufacturing Sales m/m,CAD,2026.10.15,12:30,1,1.1,-0.4
 Wholesale Sales m/m,CAD,2026.10.15,12:30,1,-1.5,0.3
 Core PPI m/m,USD,2026.10.15,12:30,3,0.3,0.2
