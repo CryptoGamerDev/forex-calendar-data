@@ -34,9 +34,9 @@ BOE Gov Bailey Speaks,GBP,2026.10.14,05:30,2,0,0
 German WPI m/m,EUR,2026.10.14,06:00,1,0.6,0.9
 MPC Member Pill Speaks,GBP,2026.10.14,06:00,1,0,0
 BOC Gov Macklem Speaks,CAD,2026.10.14,06:05,2,0,0
-M2 Money Supply y/y,CNY,2026.10.14,08:03,1,7.4,7.5
-New Loans,CNY,2026.10.14,08:03,1,1025000000000.0,60000000000.0
 ECB President Lagarde Speaks,EUR,2026.10.14,08:30,2,0,0
+M2 Money Supply y/y,CNY,2026.10.14,09:03,1,7.4,7.5
+New Loans,CNY,2026.10.14,09:03,1,1025000000000.0,60000000000.0
 German 30-y Bond Auction,EUR,2026.10.14,09:34,1,0,3.80
 FOMC Member Bowman Speaks,USD,2026.10.14,09:40,1,0,0
 EU Economic Summit,EUR,2026.10.14,10:15,2,0,0
@@ -99,7 +99,7 @@ Trade Balance,EUR,2026.10.16,09:00,1,4500000000.0,5000000000.0
 Italian Trade Balance,EUR,2026.10.16,10:00,1,7500000000.0,8240000000.0
 Gov Council Member Alexopoulos Speaks,CAD,2026.10.16,12:00,1,0,0
 Housing Starts,CAD,2026.10.16,12:15,1,234000.0,229000.0
-Foreign Securities Purchases,CAD,2026.10.16,12:30,1,0,20650000000.0
+Foreign Securities Purchases,CAD,2026.10.16,12:30,1,23590000000.0,20650000000.0
 Import Prices m/m,USD,2026.10.16,12:30,1,0.9,0.7
 Capacity Utilization Rate,USD,2026.10.16,13:15,1,76.5,76.3
 Industrial Production m/m,USD,2026.10.16,13:15,1,0.4,0.0
